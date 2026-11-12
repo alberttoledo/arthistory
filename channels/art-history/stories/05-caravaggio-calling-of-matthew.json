@@ -8,9 +8,52 @@
  "mediaDir": "assets/caravaggio/video/web",
  "rollout": {
   "carousel": "carousel",
-  "film": "film"
+  "film": "film",
+  "teaser": "teaser"
  },
  "pieces": [
+  {
+   "id": "teaser",
+   "role": "teaser",
+   "title": "Caravaggio talking head",
+   "takes": [
+    {
+     "id": "raw-v1",
+     "file": "assets/caravaggio/teaser/teaser_v1.mp4",
+     "label": "Talking head, raw Seedance output (480p)",
+     "width": 480,
+     "height": 854,
+     "seconds": 10.1,
+     "source": "Downloads: hf_20261112_160757_c90f73fd-3224-4817-92c7-12e283cf3bb0.mp4",
+     "generated": "2026-11-12 19:07",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/caravaggio/teaser/source_square.png",
+      "assets/caravaggio/portraits/caravaggio_portrait_9x16.png"
+     ],
+     "prompt": "SCENE CONTEXT\nA living Baroque portrait in photoreal detail. The painter Caravaggio, in a dark green coat with a wide white collar and holding a thin paintbrush, stands against a warm mottled brown studio backdrop in hard chiaroscuro light. He speaks three short lines directly to the viewer, leans slowly toward the lens during the second, so more of his face sinks into shadow, and ends holding his stare.\n\nACTIVE REFERENCES\n<<<image_1>>>: man in his late 30s, tousled thick dark brown hair falling over his forehead, heavy dark brows, wide intense dark brown eyes, moustache and pointed dark chin beard, ruddy weathered skin with stubble. Dark bottle-green wool coat, wide white linen collar open at the throat. His right hand (frame left) holds a thin wooden paintbrush on an upward diagonal, its tip pointing up toward frame left. Warm mottled brown backdrop, lighter behind his head at right, darker at left and top. Photoreal skin, hair and fabric. Voice: low, rough male baritone, English with a strong Italian accent, measured and quietly dangerous, never loud. 100% matches the reference.\n\nFIRST FRAME / BLOCKING\nExactly <<<image_1>>>: head and chest, body turned slightly toward frame right, head nearly frontal, face in the upper third of the frame, gaze straight into camera.\n\nFORMAT MODE\nOne continuous shot, the camera does not cut on its own.\n\nOPTICS\nMCU at 29° portrait compression for the whole shot, no drift.\n\nCAMERA\nLocked off at eye level, face in sharp focus throughout. All movement comes from him.\n\nACTION\n0.0s to 0.8s: he holds still, takes one short breath through the nose, eyes on the lens.\n0.8s to 3.0s: he speaks, low and even: \"Every painter in Rome painted the light.\"\n3.0s to 3.6s: silence. He begins a slow lean toward the lens, about 4 cm, chin dipping slightly.\n3.6s to 6.8s: still leaning, he speaks quieter, with a small pause after \"dark\": \"I painted the dark, and let the light find you.\" As he leans, the shadow on the right side of his face (frame right) widens until only his left cheek, the bridge of his nose and his eyes stay in the light.\n6.8s to 7.4s: silence. He stops the lean and holds.\n7.4s to 9.0s: he speaks, almost a whisper, an invitation: \"Tomorrow, step inside.\"\n9.0s to 10.0s: he holds the stare into the lens, lips closed, perfectly still; the brush tilts very slightly in his fingers.\n\nPERFORMANCE\nIntense and controlled, no smiling. Clear, accurate lip-sync with small, natural jaw movement, every word visibly shaped by the lips; beard and moustache move with the mouth. Brow slightly lowered, eyes unblinking during the lines, one slow blink in the 6.8s pause. Wet catch-light in both eyes, kept in the lit eye even in the deepest shadow. Breathing visible in the chest and shoulders. Hair moves only with his head. The brush stays in his right hand, fingers natural, five fingers.\n\nLIGHTING\nOne hard warm key light from upper frame left at 3200K, Caravaggesque chiaroscuro. Deep soft shadow on the right side of his face and body; the backdrop falls off into darkness at the top and left. The light source does not move or change; the shadow grows only because he moves into it. Exposure constant for the whole shot.\n\nAUDIO\nHis voice only, close-miked and dry, over a quiet room tone. Each line is quieter and closer than the one before.\n\nSTYLE\nA Baroque painting brought to life as photoreal cinema: tenebrism, warm browns, bottle green, bone white and deep black, rich skin tones, fine film grain, shallow depth of field on the backdrop.\n\nPOSITIVE LOCKS\nFace, hair, moustache, chin beard, green coat, white collar, brush, hand and backdrop stay identical throughout. He keeps his pose and position; the lean is small and slow. The brush stays in his right hand (frame left) on its upward diagonal. His gaze stays on the lens for the whole shot. The light source stays fixed in place.",
+     "settings": "Seedance 2.5 on Higgsfield, 10 s, 9:16, 480p, audio on, seed 563846383; inputs: image. Higgsfield job c90f73fd-3224-4817-92c7-12e283cf3bb0."
+    },
+    {
+     "id": "captioned-v1",
+     "file": "assets/caravaggio/teaser/renders/teaser_v1_captioned.mp4",
+     "label": "Captioned edit, 1080p",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 10.0,
+     "derivedFrom": "raw-v1",
+     "process": "Remotion captions (assets/caravaggio/teaser/captions.json)",
+     "tool": "Remotion",
+     "refs": [],
+     "final": true,
+     "confirmed": false
+    }
+   ],
+   "stills": [
+    "assets/caravaggio/portraits/caravaggio_portrait_9x16.png"
+   ],
+   "note": "A second version (v2, 17:04, Higgsfield job d19a85b1) was generated but not downloaded. Notes in assets/caravaggio/teaser/prompts.md."
+  },
   {
    "id": "film",
    "role": "film",

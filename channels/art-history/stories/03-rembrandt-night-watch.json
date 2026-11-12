@@ -8,9 +8,52 @@
  "mediaDir": "assets/nightwatch/video/web",
  "rollout": {
   "carousel": "carousel",
-  "film": "film"
+  "film": "film",
+  "teaser": "teaser"
  },
  "pieces": [
+  {
+   "id": "teaser",
+   "role": "teaser",
+   "title": "Rembrandt talking head",
+   "takes": [
+    {
+     "id": "raw-v1",
+     "file": "assets/rembrandt/teaser/teaser_v1.mp4",
+     "label": "Talking head, raw Seedance output (480p)",
+     "width": 480,
+     "height": 854,
+     "seconds": 10.1,
+     "source": "Downloads: hf_20261112_171036_e93fdebc-7735-418c-ad29-d3d7e4ca69bf.mp4",
+     "generated": "2026-11-12 20:10",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/rembrandt/teaser/first_frame_9x16.webp",
+      "assets/rembrandt/portraits/rembrandt_portrait_9x16.png"
+     ],
+     "prompt": "SCENE CONTEXT\nA living oil-painted self-portrait. An old painter in a black beret and a dark brown coat, his body turned toward frame left and his head turned back to the viewer, stands against a dark warm-brown background in low, warm light. He speaks two short lines directly to the viewer, leans slowly toward the lens between them, and ends holding his stare.\n\nACTIVE REFERENCES\n<<<image_1>>>: man in his early 50s with a broad, heavy, weathered face: deeply furrowed forehead with horizontal creases, heavy brows drawn slightly together, puffy lower eyelids, dark brown eyes, broad bulbous nose, ruddy cheeks, a small grey moustache and a small tuft of grey beard under the lower lip, slightly pursed lips. Bushy curly grey hair bulges out from under the beret on both sides, fuller on frame right. Soft black beret with a thin gold band at the front edge. Dark brown-black coat with a high collar, a thin white shirt edge at the collar on frame right. A warm brown fur-lined cloak edge runs down frame left, and his hands are clasped together at the lower left of the frame, in warm light. Rendered as thick Rembrandt oil paint, heavy impasto on the face, visible brushstrokes on every surface including his skin. Voice: low, worn, slightly hoarse older male baritone, English with a soft Dutch accent, slow and tired, quietly bitter, never loud. 100% matches the reference.\n\nFIRST FRAME / BLOCKING\nExactly <<<image_1>>>: half-length figure, body turned three-quarters toward frame left, head turned back toward the lens, face in the upper third of the frame, gaze straight into camera, hands clasped at lower left.\n\nFORMAT MODE\nOne continuous shot, the camera does not cut on its own.\n\nOPTICS\nMedium shot at 29° portrait compression for the whole shot, no drift.\n\nCAMERA\nLocked off at eye level, face in sharp focus throughout. All movement comes from him.\n\nACTION\n0.0s to 0.8s: he takes one slow breath through the nose, shoulders rising and settling, eyes on the lens.\n0.8s to 4.6s: he speaks, with a short pause after each of the first two words: \"Knives. Acid. People keep attacking my painting.\" On \"Knives\" his eyes narrow; on \"Acid\" his brows lift and his eyes widen in disbelief; on \"attacking my painting\" his face sours, and his hands come apart and one opens in a small, exasperated gesture before settling. He finishes speaking by 4.6s.\n4.6s to 5.8s: silence. He exhales through the nose, shakes his head slightly, then leans toward the lens, chin dipping so the beret lowers a little; his eyes come back to the lens.\n5.8s to 8.4s: he speaks, quieter, almost confidential, a dry challenge with the hint of a knowing smile: \"Tomorrow, see what they were afraid of.\" He finishes speaking by 8.4s.\n8.4s to 10.0s: silent, he holds the stare into the lens, lips closed; one eyebrow rises slightly and the corner of his mouth tightens; his hands settle back together.\n\nPERFORMANCE\nA live, expressive performance: weariness, disbelief, wounded pride and a dry, defiant humour, all readable on his face. Brows, eyes, cheeks and mouth move freely with the words. Clear, accurate lip-sync with natural jaw movement, every word visibly shaped by the lips. Natural blinks, wet catch-light in both eyes. Breathing visible in the chest and shoulders. His hands move naturally as he talks; the coat creases and shifts with his shoulders and arms, the fur edge moves with the cloak, his curls move with his head. He moves like living paint: the impasto on his face, the beret and the coat travels with every movement and keeps its texture.\n\nLIGHTING\nLow, warm light from upper frame left at 3200K. Strong warm light on his forehead, nose and the left side of his face, soft shadow on his right cheek and under the beret; the hands catch the same warm light. As he leans in, the beret shadow deepens slightly across his brow. The background stays dark warm brown, a little lighter behind his head. Exposure constant for the whole shot.\n\nAUDIO\nHis voice only, close-miked and dry, over a quiet room tone. The second line is slightly softer and closer than the first.\n\nSTYLE\nA Rembrandt self-portrait come to life: thick impasto on the face, loose dark brushwork in the coat and background, matte canvas with fine craquelure, the palette of deep brown, black, ochre, warm flesh and grey. Every frame keeps exactly the finish of <<<image_1>>> and reads as oil on canvas.\n\nPOSITIVE LOCKS\nSame man, beret, gold band, grey hair, coat, collar, fur cloak and background throughout. He stays in the same place in the frame, body turned toward frame left. Hands have five natural fingers each whenever they move. He looks into the lens for every spoken line. Oil-paint texture on every frame, start to finish.",
+     "settings": "Seedance 2.5 on Higgsfield, 10 s, 9:16, 480p, audio on, seed 178201579; inputs: start image. Higgsfield job e93fdebc-7735-418c-ad29-d3d7e4ca69bf."
+    },
+    {
+     "id": "captioned-v1",
+     "file": "assets/rembrandt/teaser/renders/teaser_v1_captioned.mp4",
+     "label": "Captioned edit, 1080p",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 10.0,
+     "derivedFrom": "raw-v1",
+     "process": "Remotion captions (assets/rembrandt/teaser/captions.json)",
+     "tool": "Remotion",
+     "refs": [],
+     "final": true,
+     "confirmed": false
+    }
+   ],
+   "stills": [
+    "assets/rembrandt/portraits/rembrandt_portrait_9x16.png"
+   ],
+   "note": "Script: “Knives. Acid. People keep attacking my painting.” / “Tomorrow, see what they were afraid of.” Notes in assets/rembrandt/teaser/prompts.md."
+  },
   {
    "id": "film",
    "role": "film",

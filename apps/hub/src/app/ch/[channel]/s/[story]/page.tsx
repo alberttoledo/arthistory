@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { TakeCard } from "@/components/TakeCard";
 import { StatusChip } from "@/components/StatusChip";
-import { asset, getCarousel, getChannels, getStory, mediaUrl } from "@/lib/data";
+import { asset, getCarousel, getChannels, getStory, mediaUrl, refFile } from "@/lib/data";
 import type { Piece } from "@/lib/schema";
 import { finalTake, pieceStatus } from "@/lib/status";
 import { fmtLong } from "@/lib/time";
@@ -65,6 +65,13 @@ export default async function StoryPage({ params }: { params: Promise<{ channel:
               ) : <p className="notice">Final take chosen, but its web copy isn't built yet. Run <code>npm run media -w @cf/hub</code> on the Mac that has the raw file.</p>;
             })()}
             {!car && !fin && piece.takes.length > 0 && <p className="notice">No final take yet. The drafts are listed below.</p>}
+
+            {piece.stills.length > 0 && (
+              <div className="stills">{piece.stills.map((st) => {
+                const u = mediaUrl(s, refFile(st));
+                return <figure key={st}>{u ? <a href={u} target="_blank" rel="noopener"><img src={u} alt="" loading="lazy" /></a> : <span>not built</span>}<figcaption className="mono small">{st.split("/").pop()}</figcaption></figure>;
+              })}</div>
+            )}
 
             {piece.takes.length > 0 && (
               <details className="takes" open={!fin}>

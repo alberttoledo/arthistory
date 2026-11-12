@@ -21,6 +21,12 @@ for (const ch of fs.readdirSync(path.join(root, "channels"))) {
     const story = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
     const out = path.join(root, story.mediaDir);
     fs.mkdirSync(path.join(out, "refs"), { recursive: true });
+    for (const piece of story.pieces) for (const still of piece.stills ?? []) {
+      const src = path.join(root, still);
+      if (!fs.existsSync(src)) { console.warn(`missing still: ${still}`); missing++; continue; }
+      const dst = path.join(out, "refs", path.basename(still).replace(/\.[^.]+$/, "") + ".jpg");
+      if (!fresh(dst, src)) { ff(["-i", src, "-vf", "scale='min(800,iw)':-2", "-frames:v", "1", "-q:v", "3", dst]); made++; }
+    }
     for (const piece of story.pieces) for (const take of piece.takes ?? []) {
       const raw = path.join(root, take.file);
       if (!fs.existsSync(raw)) { console.warn(`missing raw: ${take.file}`); missing++; continue; }

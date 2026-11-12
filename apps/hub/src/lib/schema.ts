@@ -35,6 +35,8 @@ export const PieceSchema = z.object({
   /** Carousel pieces: slug under channels/<channel>/carousels/. */
   carousel: z.string().optional(),
   status: z.enum(["draft", "final"]).optional(),
+  /** Still images (portraits, first frames) shown with the piece; repo-relative paths. */
+  stills: z.array(z.string()).default([]),
   note: z.string().optional(),
 });
 

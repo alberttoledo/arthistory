@@ -8,9 +8,77 @@
  "mediaDir": "assets/athens/video/web",
  "rollout": {
   "carousel": "carousel",
-  "film": "film"
+  "film": "film",
+  "teaser": "teaser"
  },
  "pieces": [
+  {
+   "id": "teaser",
+   "role": "teaser",
+   "title": "Raphael-circle talking head",
+   "takes": [
+    {
+     "id": "raw-v1",
+     "file": "assets/athens/teaser/teaser_v1.mp4",
+     "label": "Talking head, raw Seedance output (480p)",
+     "width": 480,
+     "height": 854,
+     "seconds": 10.1,
+     "source": "Downloads: hf_20261112_144213_447e3d2a-751e-4d1b-ba54-31408a9550db.mp4",
+     "generated": "2026-11-12 17:42",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/athens/teaser/first_frame_9x16.webp",
+      "assets/athens/portraits/raphael_circle_portrait_9x16.png"
+     ],
+     "prompt": "SCENE CONTEXT\nA living oil-painted Renaissance portrait. A young man in a black beret and a red pleated overgarment stands behind a carpet-covered ledge, between two dark red-veined marble columns, in front of a flat grey wall. He speaks two short lines directly to the viewer, leans in a little between them, and ends holding his stare.\n\nACTIVE REFERENCES\n<<<image_1>>>: young man in his mid-20s, long pale face, long straight nose, heavy-lidded hazel-brown eyes, small closed knowing smile, shoulder-length straight auburn-red hair, soft black wool beret tilted slightly to frame right. Red pleated overgarment gathered at a thin white collar, worn over a black doublet with full black sleeves and a red embroidered cuff on the left wrist. His right hand (frame left) loosely holds a folded white letter; his left hand rests flat on the carpet, a thin gold ring on the ring finger. Red-and-black patterned carpet over the ledge. Dark marble columns with gilded bases at both edges. Rendered as smooth Renaissance oil paint with fine glazes and soft modelling on every surface, including his skin. Voice: warm, soft, young male tenor with a light Italian accent, unhurried and a little amused. 100% matches the reference.\n\nFIRST FRAME / BLOCKING\nExactly <<<image_1>>>: half-length figure, body angled slightly toward frame left, head nearly frontal, face in the upper third of the frame, gaze straight into camera.\n\nFORMAT MODE\nOne continuous shot, the camera does not cut on its own.\n\nOPTICS\nMedium shot at 29° portrait compression for the whole shot, no drift.\n\nCAMERA\nLocked off at eye level, face in sharp focus throughout. All movement comes from him.\n\nACTION\n0.0s to 1.5s — he holds still, takes one slow breath, blinks once slowly; his fingers shift slightly on the letter.\n1.5s to 4.5s — he speaks, calm and dry, at an unhurried pace, with a small pause between the two sentences: \"Plato points up. Aristotle points down.\"\n4.5s to 6.5s — silence. He leans slowly toward the lens by about 3 cm, chin dipping slightly; his eyes stay locked on the lens; the hand on the carpet stays flat.\n6.5s to 8.5s — he speaks, quieter, almost a dare: \"Tomorrow, you pick a side.\"\n8.5s to 10.0s — he holds the stare into the lens, lips closed, perfectly still; the corners of his small smile deepen very slightly.\n\nPERFORMANCE\nRestraint and quiet confidence. Clear, accurate lip-sync with small, natural jaw movement, every word visibly shaped by the lips. Brow relaxed and level. Wet catch-light in both eyes. Breathing visible in the chest and shoulders. Hair moves only with his head. He moves like living paint: the glazes and soft modelling on his face, beret and red garment travel with every movement and keep their texture.\n\nLIGHTING\nSoft, even daylight from frame left at 5000K. Warm light on the left side of his face, gentle shadow along his right cheek and under the beret; as he leans in, the beret shadow deepens slightly across his brow. Flat, even light on the grey wall. Exposure constant for the whole shot.\n\nAUDIO\nHis voice only, close-miked and dry, over a quiet stone-room tone. The second line is slightly softer and closer than the first.\n\nSTYLE\nA Renaissance portrait come to life: smooth oil glazes, fine craquelure, matte panel surface, the muted palette of grey wall, deep red, black, auburn and gold. Every frame reads as oil on wood panel.\n\nPOSITIVE LOCKS\nBeret, hair, red garment, black sleeves, embroidered cuff, letter, gold ring, carpet, columns and wall stay identical throughout. He keeps his pose and position; the lean is small and slow. The letter stays in his right hand and the left hand stays flat on the carpet. His gaze stays on the lens from 1.5s to the end. Oil-paint texture on every frame, start to finish.",
+     "settings": "Seedance 2.5 on Higgsfield, 10 s, 9:16, 480p, audio on, seed 528917154; inputs: image. Higgsfield job 447e3d2a-751e-4d1b-ba54-31408a9550db."
+    },
+    {
+     "id": "upscale-1080",
+     "file": "assets/athens/teaser/teaser_v1_1080p.mp4",
+     "label": "Talking head, 1080p upscale",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 10.1,
+     "derivedFrom": "raw-v1",
+     "tool": "Topaz Video on Higgsfield",
+     "process": "Topaz upscale 480p → 1080×1920 (prob-4)",
+     "source": "Higgsfield job bbcfd75c",
+     "refs": []
+    },
+    {
+     "id": "captioned-v1",
+     "file": "assets/athens/teaser/renders/teaser_v1_captioned.mp4",
+     "label": "Captioned edit (from 480p)",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 10.0,
+     "derivedFrom": "raw-v1",
+     "process": "Remotion captions (assets/athens/teaser/captions.json)",
+     "tool": "Remotion",
+     "refs": []
+    },
+    {
+     "id": "captioned-1080",
+     "file": "assets/athens/teaser/renders/teaser_v1_1080p_captioned.mp4",
+     "label": "Captioned edit (from 1080p upscale)",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 10.0,
+     "derivedFrom": "upscale-1080",
+     "process": "Remotion captions (assets/athens/teaser/captions.json)",
+     "tool": "Remotion",
+     "refs": [],
+     "final": true,
+     "confirmed": false
+    }
+   ],
+   "stills": [
+    "assets/athens/portraits/raphael_circle_portrait_9x16.png"
+   ],
+   "note": "Speaker: Renaissance portrait of a young man in red, Raphael circle (attribution unconfirmed). An earlier attempt (14:28, job 02e57a3d) was not downloaded. Notes in assets/athens/teaser/prompts.md."
+  },
   {
    "id": "film",
    "role": "film",
@@ -30,7 +98,8 @@
      "refs": [
       "assets/athens/athens_first_frame_ai_1080.png"
      ],
-     "note": "Prompt and settings not recorded."
+     "prompt": "Create a 20-second vertical 9:16 cinematic loop using <<<image_1>>> as the exact opening frame: Raphael's School of Athens — a vast sunlit marble hall of coffered vaults and receding arches, with Plato and Aristotle at the top of a broad flight of steps among ancient philosophers.\n\nThe painting comes alive: the philosophers move naturally while the camera flies through the hall as if it were a real three-dimensional space, in one continuous take along a single winding path; the camera does not cut on its own. It turns to look where it is travelling, so the hall is seen from new angles. Things grow larger only because the camera physically moves closer, with real parallax. Close details flow naturally into wider views.\n\n0s to 2s: The exact opening frame. The camera glides forward and down toward Heraclitus's white marble block in the left foreground.\n2s to 4.5s: It reaches the small black inkwell on top of the block and curls around it, close, as Heraclitus, dark-haired and bearded in a plum-pink shirt, dips his pen.\n4.5s to 7s: The camera skims left along the top of the block at hand height, passing in front of Heraclitus — his writing hand, the sheet of paper, his bowed bearded face just above the frame.\n7s to 9.5s: It swings around beside the man in the orange robe and blue shawl at the left edge, close past the book he is writing in on his raised knee.\n9.5s to 12.5s: The camera turns and climbs diagonally over the crowd on the left of the landing, heads and coloured robes passing below, toward the centre.\n12.5s to 15s: It arrives very close to Plato's raised right index finger, his white beard and rose-red robe just beside it, Aristotle in blue beyond. Plato holds still, calm, his eyes on Aristotle.\n15s to 17.5s: The camera tilts up and rises straight up where the finger points, past the coffered barrel vault and up through the round drum with its tall windows, into a hemispherical coffered dome like the Pantheon's, rings of square coffers sliding past, toward a perfectly circular open oculus at the very top of the dome, a bright disc of blue sky ringed by a smooth stone rim, a shaft of sunlight falling down through it. Below, everyone settles back into the exact poses of the painting.\n17.5s to 20s: It rises up through the circular oculus into open blue sky; a sunlit white cloud drifts across the lens and fills the frame with soft white light, which clears into the exact opening composition of <<<image_1>>>, every figure in their original pose.\n\nWarm, soft daylight through the arches, honey-white marble, deep blue sky, rich reds, blues and ochres in the robes. Fine dust and motes in the sunlight at several depths drift past the lens at different speeds. Shallow depth of field on close details, with soft bokeh behind. Smooth, unhurried, floating motion with gentle speed changes, never stopping. Calm expressions; hands move naturally with five fingers each. Rich, crisp texture in every robe, marble surface and face, matching the painting's colours and the identity of every figure.\n\n<the airy echo of a great stone hall> <the scratch of a pen> <a soft rush of wind in the open sky> (a faint, slow string drone). No voices.",
+     "settings": "Seedance 2.5 on Higgsfield, 20 s, 9:16, 480p, audio on, seed 2019019189; inputs: start image, end image. Higgsfield job 09bf1948-b723-479a-8942-6fcbab5d7c13."
     },
     {
      "id": "take-b",
@@ -45,7 +114,8 @@
      "refs": [
       "assets/athens/athens_first_frame_ai_1080.png"
      ],
-     "note": "Prompt and settings not recorded."
+     "prompt": "Create a 20-second vertical 9:16 cinematic loop using <<<image_1>>> as the exact opening frame: Raphael's School of Athens — a vast sunlit marble hall of coffered vaults and receding arches, with Plato and Aristotle at the top of a broad flight of steps among ancient philosophers.\n\nThe painting comes alive: the philosophers move naturally while the camera flies through the hall as if it were a real three-dimensional space, in one continuous take along a single winding path; the camera does not cut on its own. The camera is always moving, from the first frame to the last, like a slow drone gliding on one smooth curved track: it may slow down to linger on a detail, but it keeps drifting forward the whole time and never stops or holds still. Every change of direction is a long, gentle curve; it eases from one detail to the next with no sharp turns or snaps. It turns to look where it is travelling, so the hall is seen from new angles. Things grow larger only because the camera physically moves closer, with real parallax. Close details flow naturally into wider views.\n\n0s to 2s: The exact opening frame. The camera glides forward and down toward Heraclitus's white marble block in the left foreground.\n2s to 4.5s: Without stopping, it drifts around the small, plain black ink pot, no larger than a fist, on top of the block in a slow curve, as Heraclitus, dark-haired and bearded in a plum-pink shirt, dips his pen.\n4.5s to 7s: The camera keeps gliding left along the top of the block at hand height, passing in front of Heraclitus — his writing hand, the sheet of paper, his bowed bearded face just above the frame — then curves gently left.\n7s to 9.5s: It flows on around the man in the orange robe and blue shawl at the left edge, drifting close past the book he is writing in on his raised knee.\n9.5s to 12.5s: The camera curves smoothly upward and climbs diagonally over the crowd on the left of the landing, heads and coloured robes passing below, toward Plato at the centre.\n12.5s to 15s: The camera slows and glides in very close to Plato's raised right index finger until it fills much of the frame in sharp focus — fingertip, knuckles and skin texture crisp — with Plato's white beard and face soft and out of focus behind it, his eyes turned upward toward his finger. Still drifting slowly closer, the camera keeps moving and begins to rise along the finger.\n15s to 17.5s: Gathering speed again, it tilts up and rises straight up where the finger points, past the coffered barrel vault and up through the round drum with its tall windows, into a hemispherical coffered dome like the Pantheon's, rings of square coffers sliding past, toward a perfectly circular opening at the very top of the dome, ringed by a smooth stone rim. Inside the circle, where the sky would be, the whole painting appears: the full opening composition of <<<image_1>>>, glowing softly in daylight. Below, everyone settles back into the exact poses of the painting.\n17.5s to 20s: The camera keeps rising smoothly toward the circle; the painting inside it grows larger and larger, the stone rim and the coffers sliding outward past the edges of the frame, until the picture fills the whole frame and becomes the exact opening composition of <<<image_1>>>, every figure in their original pose, the camera still gently gliding forward as it arrives.\n\nWarm, soft daylight through the arches, honey-white marble, deep blue sky, rich reds, blues and ochres in the robes. Fine dust and motes in the sunlight at several depths drift past the lens at different speeds. Shallow depth of field on close details, with soft bokeh behind. Smooth, unhurried, floating motion with gentle speed changes, never stopping. Calm expressions; hands move naturally with five fingers each. Rich, crisp texture in every robe, marble surface and face, matching the painting's colours and the identity of every figure.\n\n<the airy echo of a great stone hall> <the scratch of a pen> (a faint, slow string drone). No voices.",
+     "settings": "Seedance 2.5 on Higgsfield, 20 s, 9:16, 480p, audio on, seed 504067225; inputs: start image, end image. Higgsfield job 96e99e63-2022-49d5-8296-d09b316197cd."
     },
     {
      "id": "take-c",
@@ -60,9 +130,97 @@
      "refs": [
       "assets/athens/athens_first_frame_ai_1080.png"
      ],
-     "note": "Prompt and settings not recorded."
+     "prompt": "Create a 20-second vertical 9:16 cinematic loop using <<<image_1>>> as the exact opening frame: Raphael's School of Athens — a vast sunlit marble hall of coffered vaults and receding arches, with Plato and Aristotle at the top of a broad flight of steps among ancient philosophers.\n\nThe painting comes alive: the philosophers move naturally while the camera flies through the hall as if it were a real three-dimensional space, in one continuous take along a single winding path; the camera does not cut on its own. It turns to look where it is travelling, so the hall is seen from new angles, always keeping the horizon level and upright. The camera never comes to a full stop: it may slow down to linger on a detail, but it keeps moving gently the whole time. Things grow larger only because the camera physically moves closer, with real parallax. Close details flow naturally into wider views.\n\n0s to 2s: The exact opening frame. The camera glides forward and down toward Heraclitus's white marble block in the left foreground.\n2s to 4.5s: It reaches the small black inkwell on top of the block and slowly curls around it, close, as Heraclitus, dark-haired and bearded in a plum-pink shirt, dips his pen into the ink.\n4.5s to 7s: The camera skims left along the top of the block at hand height, passing in front of Heraclitus — his writing hand, the sheet of paper, his bowed bearded face just above the frame.\n7s to 9.5s: It swings around beside the man in the orange robe and blue shawl at the left edge, close past the book he is writing in on his raised knee.\n9.5s to 12.5s: The camera turns and climbs diagonally over the crowd on the left of the landing, heads and coloured robes passing below, toward the centre.\n12.5s to 15s: The camera slows and glides in very close to Plato's raised right index finger until it fills much of the frame in sharp focus — fingertip, knuckles and skin texture crisp — with Plato's white beard and face soft and out of focus behind it, his eyes turned upward toward his finger. Still drifting slowly closer, it begins to rise along the finger.\n15s to 17.5s: It tilts up and rises straight up where the finger points, leaving the finger behind as it drops away below the frame, past the coffered barrel vault and up through the round drum with its tall windows, into a hemispherical coffered dome like the Pantheon's, rings of square coffers sliding past, toward a perfectly circular opening at the very top of the dome, ringed by a smooth stone rim. Inside the circle, where the sky would be, the whole painting appears: the full opening composition of <<<image_1>>>, glowing softly in daylight. Below, everyone settles back into the exact poses of the painting.\n17.5s to 20s: The camera keeps rising smoothly toward the circle; the painting inside it grows larger and larger, the stone rim and the coffers sliding outward past the edges of the frame, until the picture fills the whole frame and becomes the exact opening composition of <<<image_1>>>, every figure in their original pose.\n\nWarm, soft daylight through the arches, honey-white marble, deep blue sky, rich reds, blues and ochres in the robes. Fine dust and motes in the sunlight at several depths drift past the lens at different speeds. Shallow depth of field on close details, with soft bokeh behind. Smooth, unhurried, floating motion with gentle speed changes, never stopping. Calm expressions; hands move naturally with five fingers each. Rich, crisp texture in every robe, marble surface and face, matching the painting's colours and the identity of every figure.\n\n<the airy echo of a great stone hall> <the scratch of a pen> (a faint, slow string drone). No voices.",
+     "settings": "Seedance 2.5 on Higgsfield, 20 s, 9:16, 480p, audio on, seed 418146548; inputs: start image, end image. Higgsfield job 36bb69e9-43a3-4b7c-9228-ef632273ce84."
+    },
+    {
+     "id": "take-d",
+     "file": "assets/athens/video/athens_loop_20261112-143040_720p.mp4",
+     "label": "step-inside loop take D, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "source": "Downloads: hf_20261112_143040_4256df91-5e30-49e1-a6c0-1550d681c9fe.mp4",
+     "generated": "2026-11-12 17:30",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [],
+     "prompt": "Create a 20-second vertical 9:16 cinematic loop using <<<image_1>>> as the exact opening frame: Raphael's School of Athens — a vast sunlit marble hall of coffered vaults and receding arches, with Plato and Aristotle at the top of a broad flight of steps among ancient philosophers.\n\nThe painting comes alive: the philosophers move naturally while the camera flies through the hall as if it were a real three-dimensional space, in one continuous take along a single winding path; the camera does not cut on its own. The camera's viewing direction changes along the path: it turns its heading to face where it is travelling, like a camera flying freely through the hall, so the space is seen from many angles — along the marble block, across the crowd, up toward the central pair, straight up into the dome — not only from the front like a viewer of the painting. It turns smoothly, always keeping the horizon level and upright. The camera never comes to a full stop: it may slow down to linger on a detail, but it keeps moving gently the whole time. Things grow larger only because the camera physically moves closer, with real parallax. Close details flow naturally into wider views.\n\n0s to 2s: The exact opening frame. The camera glides forward and down toward Heraclitus's white marble block in the left foreground.\n2s to 4.5s: It reaches the small black inkwell on top of the block and slowly curls around it, close, as Heraclitus, dark-haired and bearded in a plum-pink shirt, dips his pen into the ink.\n4.5s to 7s: The camera turns to face along the top of the block and skims left at hand height, passing in front of Heraclitus — his writing hand, the sheet of paper, his bowed bearded face just above the frame — the block's edge stretching ahead.\n7s to 9.5s: It swings around beside the man in the orange robe and blue shawl at the left edge, seeing him from his side, close past the book he is writing in on his raised knee.\n9.5s to 12.5s: The camera turns right to face the centre and climbs diagonally over the crowd on the left of the landing, heads and coloured robes passing below, looking ahead toward Plato in his rose-red robe at the centre.\n12.5s to 15s: The camera slows and glides in very close to Plato's raised right index finger — Plato on the left of the central pair, white-bearded in a rose-red robe — until the finger fills much of the frame in sharp focus, fingertip, knuckles and skin texture crisp, with his white beard and face soft and out of focus behind it, his eyes turned upward toward his finger. Aristotle, brown-bearded in blue, stands soft beyond him on the right. Still drifting slowly closer, the camera begins to rise along Plato's finger, turning to look up along it.\n15s to 17.5s: Now facing straight up, it rises where the finger points, leaving the finger behind as it drops away below the frame, past the coffered barrel vault and up through the round drum with its tall windows, into a hemispherical coffered dome like the Pantheon's, rings of square coffers sliding past, toward a perfectly circular opening at the very top of the dome, ringed by a smooth stone rim. Inside the circle, where the sky would be, the whole painting appears: the full opening composition of <<<image_1>>>, glowing softly in daylight. Below, everyone settles back into the exact poses of the painting.\n17.5s to 20s: The camera keeps rising smoothly toward the circle; the painting inside it grows larger and larger, the stone rim and the coffers sliding outward past the edges of the frame, until the picture fills the whole frame and becomes the exact opening composition of <<<image_1>>>, every figure in their original pose.\n\nWarm, soft daylight through the arches, honey-white marble, deep blue sky, rich reds, blues and ochres in the robes. Fine dust and motes in the sunlight at several depths drift past the lens at different speeds. Shallow depth of field on close details, with soft bokeh behind. Smooth, unhurried, floating motion with gentle speed changes, never stopping. Calm expressions; hands move naturally with five fingers each. Plato and Aristotle stay two distinct people throughout: Plato white-bearded in rose-red, Aristotle brown-bearded in blue. Rich, crisp texture in every robe, marble surface and face, matching the painting's colours and the identity of every figure.\n\n<the airy echo of a great stone hall> <the scratch of a pen> (a faint, slow string drone). No voices.",
+     "settings": "Seedance 2.5 on Higgsfield, 20 s, 9:16, 720p, audio on, seed 808996433; inputs: start image, end image. Higgsfield job 4256df91-5e30-49e1-a6c0-1550d681c9fe."
+    },
+    {
+     "id": "take-e",
+     "file": "assets/athens/video/athens_loop_20261112-144919_480p.mp4",
+     "label": "step-inside loop take E, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "source": "Downloads: hf_20261112_144919_52855e41-2c11-4943-9f12-c44c40bf3491.mp4",
+     "generated": "2026-11-12 17:49",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [],
+     "prompt": "Create a 20-second vertical 9:16 cinematic loop using <<<image_1>>> as the exact opening frame: Raphael's School of Athens — a vast sunlit marble hall of coffered vaults and receding arches, with Plato and Aristotle at the top of a broad flight of steps among ancient philosophers, a polished marble floor in the foreground.\n\nThe painting comes alive: the philosophers move naturally while the camera flies through the hall as if it were a real three-dimensional space, in one continuous take along a single winding path; the camera does not cut on its own. The camera's viewing direction changes along the path: it turns its heading to face where it is travelling, like a camera flying freely through the hall, so the space is seen from many angles — across the floor, up the steps, through the crowd on the right, down toward the floor again — not only from the front like a viewer of the painting. It turns smoothly, always keeping the horizon level and upright. The camera never comes to a full stop: it may slow down to linger on a detail, but it keeps moving gently the whole time. Things grow larger only because the camera physically moves closer, with real parallax. Close details flow naturally into wider views.\n\n0s to 2s: The exact opening frame. The camera glides forward low over the polished floor and the inlaid rose-pink and grey marble pattern, heading toward the right side of the steps.\n2s to 5s: It rises up the steps and passes close beside Diogenes, bald and bearded in a pale blue cloak, sprawled across the steps; he lifts his sheet of paper and reads, the paper passing beside the lens.\n5s to 7.5s: The camera turns right past the figure with braided fair hair in a cream robe with green sleeves, walking down the steps on the right, passing close by their shoulder.\n7.5s to 10s: It turns left to face the centre and climbs into the group on the right of the landing, sweeping past the broad back of the bald man in the long orange robe, the listening crowd turning as one mass behind him.\n10s to 13.5s: The camera slows and glides in close beside Aristotle from his right — Aristotle on the right of the central pair, brown-haired and brown-bearded, in a blue mantle over a brown tunic, his book on his left thigh — as he holds his right palm flat and forward, facing down. His palm passes close in sharp focus, then his calm face in profile, his eyes on Plato. Plato, white-bearded in a rose-red robe, stands soft beyond him on the left, his finger raised.\n13.5s to 17s: Following the downward line of Aristotle's palm, the camera turns to face down and descends the steps to the polished floor in front. Behind it, everyone settles back into the exact poses of the painting. The camera eases low over the gleaming floor. On its polished surface, the full opening composition of <<<image_1>>> is reflected.\n17s to 20s: The camera moves into the reflection until it fills the frame, the floor's surface flattening, and becomes the exact opening composition of <<<image_1>>>, landing precisely on the end frame <<<image_2>>>, every figure in their original pose.\n\nWarm, soft daylight through the arches, honey-white marble, deep blue sky, rich reds, blues and ochres in the robes. Fine dust and motes in the sunlight at several depths drift past the lens at different speeds. Shallow depth of field on close details, with soft bokeh behind. Smooth, unhurried, floating motion with gentle speed changes, never stopping. Calm expressions; hands move naturally with five fingers each. Plato and Aristotle stay two distinct people throughout: Plato white-bearded in rose-red, Aristotle brown-bearded in blue. Rich, crisp texture in every robe, marble surface and face, matching the painting's colours and the identity of every figure.\n\n<the airy echo of a great stone hall> <soft footsteps on marble> <the rustle of paper> (a faint, slow string drone). No voices.",
+     "settings": "Seedance 2.5 on Higgsfield, 20 s, 9:16, 480p, audio on, seed 1539884312; inputs: start image, end image. Higgsfield job 52855e41-2c11-4943-9f12-c44c40bf3491."
+    },
+    {
+     "id": "take-f",
+     "file": "assets/athens/video/athens_loop_20261112-160138_480p.mp4",
+     "label": "step-inside loop take F, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "source": "Downloads: hf_20261112_160138_ddb83c24-6052-4706-8a6b-d510f43d1185.mp4",
+     "generated": "2026-11-12 19:01",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [],
+     "prompt": "Create a 20-second vertical 9:16 cinematic loop using <<<image_1>>> as the exact opening frame: Raphael's School of Athens — a vast sunlit marble hall of coffered vaults and receding arches, with Plato and Aristotle at the top of a broad flight of steps among ancient philosophers, and Diogenes sprawled across the steps below them.\n\nThe painting comes alive: the philosophers move naturally while the camera flies through the hall as if it were a real three-dimensional space, in one continuous take along a single winding path; the camera does not cut on its own. The camera's viewing direction changes along the path: it turns its heading to face where it is travelling, like a camera flying freely and closely around the figures, so they are seen from many angles, not only from the front like a viewer of the painting. It turns smoothly, always keeping the horizon level and upright. The camera never comes to a full stop: it may slow down to linger on a detail, but it keeps moving gently the whole time. Things grow larger only because the camera physically moves closer, with real parallax. Close details flow naturally into wider views.\n\n0s to 2s: The exact opening frame. The camera glides forward and down toward Diogenes on the steps just right of centre.\n2s to 5s: It reaches Diogenes, bald with a short grey beard, in a pale blue cloak, sprawled across the steps, and curls closely around behind his neck and over his shoulder to the sheet of paper he holds and reads, the handwriting on the page passing close by.\n5s to 8.5s: The camera turns up toward the young dark-haired men standing just to the right of Aristotle and passes close in front of their faces as they listen, all looking left toward Aristotle — one with raised brows, one with a faint smile, one frowning in thought.\n8.5s to 11.5s: It curls closely around behind the neck of Aristotle — on the right of the central pair, brown-haired and brown-bearded, in a blue mantle over a brown tunic, his book on his left thigh, his face turned left toward Plato — and comes round over his right shoulder. Plato, white-bearded in a rose-red robe, stands on the left, his finger raised, his eyes on Aristotle.\n11.5s to 14s: The camera glides along the top of Aristotle's outstretched right forearm toward his hand, held flat with the palm facing down, which comes into sharp focus — knuckles and skin texture crisp — with the steps below soft and out of focus.\n14s to 17s: From his downturned palm, the camera descends straight down the steps to the small gold metal bowl on the step beside Diogenes, holding a little clear, still water. Behind it, everyone settles back into the exact poses of the painting. The camera eases close above the bowl. On the still, gleaming surface of the water, the full opening composition of <<<image_1>>> is reflected.\n17s to 20s: The camera keeps moving gently down into the reflection until it fills the frame, the water's surface flattening, and becomes the exact opening composition of <<<image_1>>>, landing precisely on the end frame <<<image_2>>>, every figure in their original pose.\n\nWarm, soft daylight through the arches, honey-white marble, deep blue sky, rich reds, blues and ochres in the robes. Fine dust and motes in the sunlight at several depths drift past the lens at different speeds. Shallow depth of field on close details, with soft bokeh behind. Smooth, unhurried, floating motion with gentle speed changes, never stopping. Calm, natural faces with clear features; hands move naturally with five fingers each. Plato and Aristotle stay two distinct people throughout: Plato white-bearded in rose-red on the left, Aristotle brown-bearded in blue on the right, facing each other. Rich, crisp texture in every robe, marble surface and face, matching the painting's colours and the identity of every figure.\n\n<the airy echo of a great stone hall> <the rustle of paper> (a faint, slow string drone). No voices.",
+     "settings": "Seedance 2.5 on Higgsfield, 20 s, 9:16, 480p, audio on, seed 1438982643; inputs: start image, end image. Higgsfield job ddb83c24-6052-4706-8a6b-d510f43d1185."
+    },
+    {
+     "id": "take-g",
+     "file": "assets/athens/video/athens_loop_20261112-160146_720p.mp4",
+     "label": "step-inside loop take G, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "source": "Downloads: hf_20261112_160146_f439fdb5-9632-49f3-8f26-a991cdd6ce7e.mp4",
+     "generated": "2026-11-12 19:01",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [],
+     "prompt": "Create a 20-second vertical 9:16 cinematic loop using <<<image_1>>> as the exact opening frame: Raphael's School of Athens — a vast sunlit marble hall of coffered vaults and receding arches, with Plato and Aristotle at the top of a broad flight of steps among ancient philosophers, and Diogenes sprawled across the steps below them.\n\nThe painting comes alive: the philosophers move naturally while the camera flies through the hall as if it were a real three-dimensional space, in one continuous take along a single winding path; the camera does not cut on its own. The camera's viewing direction changes along the path: it turns its heading to face where it is travelling, like a camera flying freely and closely around the figures, so they are seen from many angles, not only from the front like a viewer of the painting. It turns smoothly, always keeping the horizon level and upright. The camera never comes to a full stop: it may slow down to linger on a detail, but it keeps moving gently the whole time. Things grow larger only because the camera physically moves closer, with real parallax. Close details flow naturally into wider views.\n\n0s to 2s: The exact opening frame. The camera glides forward and down toward Diogenes on the steps just right of centre.\n2s to 5s: It reaches Diogenes, bald with a short grey beard, in a pale blue cloak, sprawled across the steps, and curls closely around behind his neck and over his shoulder to the sheet of paper he holds and reads, the handwriting on the page passing close by.\n5s to 8.5s: The camera turns up toward the young dark-haired men standing just to the right of Aristotle and passes close in front of their faces as they listen, all looking left toward Aristotle — one with raised brows, one with a faint smile, one frowning in thought.\n8.5s to 11.5s: It curls closely around behind the neck of Aristotle — on the right of the central pair, brown-haired and brown-bearded, in a blue mantle over a brown tunic, his book on his left thigh, his face turned left toward Plato — and comes round over his right shoulder. Plato, white-bearded in a rose-red robe, stands on the left, his finger raised, his eyes on Aristotle.\n11.5s to 14s: The camera glides along the top of Aristotle's outstretched right forearm toward his hand, held flat with the palm facing down, which comes into sharp focus — knuckles and skin texture crisp — with the steps below soft and out of focus.\n14s to 17s: From his downturned palm, the camera descends straight down the steps to the small gold metal bowl on the step beside Diogenes, holding a little clear, still water. Behind it, everyone settles back into the exact poses of the painting. The camera eases close above the bowl. On the still, gleaming surface of the water, the full opening composition of <<<image_1>>> is reflected.\n17s to 20s: The camera keeps moving gently down into the reflection until it fills the frame, the water's surface flattening, and becomes the exact opening composition of <<<image_1>>>, landing precisely on the end frame <<<image_2>>>, every figure in their original pose.\n\nWarm, soft daylight through the arches, honey-white marble, deep blue sky, rich reds, blues and ochres in the robes. Fine dust and motes in the sunlight at several depths drift past the lens at different speeds. Shallow depth of field on close details, with soft bokeh behind. Smooth, unhurried, floating motion with gentle speed changes, never stopping. Calm, natural faces with clear features; hands move naturally with five fingers each. Plato and Aristotle stay two distinct people throughout: Plato white-bearded in rose-red on the left, Aristotle brown-bearded in blue on the right, facing each other. Rich, crisp texture in every robe, marble surface and face, matching the painting's colours and the identity of every figure.\n\n<the airy echo of a great stone hall> <the rustle of paper> (a faint, slow string drone). No voices.",
+     "settings": "Seedance 2.5 on Higgsfield, 20 s, 9:16, 720p, audio on, seed 763015006; inputs: start image, end image. Higgsfield job f439fdb5-9632-49f3-8f26-a991cdd6ce7e."
+    },
+    {
+     "id": "take-h",
+     "file": "assets/athens/video/athens_loop_20261112-162337_1080p.mp4",
+     "label": "take D, 1080p upscale",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 19.9,
+     "source": "Downloads: hf_20261112_162337_c641cbba-0196-4110-881f-1bf551199cd4.mp4",
+     "derivedFrom": "take-d",
+     "process": "1080p upscale (tool not recorded)",
+     "refs": []
+    },
+    {
+     "id": "take-i",
+     "file": "assets/athens/video/athens_loop_20261112-164158_1080p.mp4",
+     "label": "take G, 1080p upscale",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 19.9,
+     "source": "Downloads: hf_20261112_164158_a97b735f-3e8b-4b55-833a-ce77ec7bd738.mp4",
+     "derivedFrom": "take-g",
+     "process": "1080p upscale (tool not recorded)",
+     "refs": [],
+     "final": true,
+     "confirmed": false
     }
-   ]
+   ],
+   "stills": [
+    "assets/athens/frames/athens_hall_9x16.png",
+    "assets/athens/frames/athens_hall_corrected_9x16.png"
+   ],
+   "note": "Two 1080p upscales: take H (from D) and take I (from G). I picked the later one, take I, as final; unconfirmed."
   },
   {
    "id": "carousel",

@@ -8,9 +8,20 @@
  "mediaDir": "assets/arnolfini/video/web",
  "rollout": {
   "carousel": "carousel",
-  "film": "film"
+  "film": "film",
+  "teaser": "teaser"
  },
  "pieces": [
+  {
+   "id": "teaser",
+   "role": "teaser",
+   "title": "Van Eyck talking head",
+   "takes": [],
+   "stills": [
+    "assets/arnolfini/portraits/van_eyck_portrait_9x16.png"
+   ],
+   "note": "First frame ready (after the Man in a Red Turban, 1433). The video has not been generated yet."
+  },
   {
    "id": "film",
    "role": "film",

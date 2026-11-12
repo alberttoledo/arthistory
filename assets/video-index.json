@@ -262,5 +262,126 @@
   "note": "Leonardo da Vinci talking head, 480p",
   "source": "~/Downloads/hf_20261112_121111_2c6e77d2-1c90-452b-817e-3caebad217ed.mp4",
   "bytes": 8181169
+ },
+ {
+  "painting": "hopper",
+  "format": "loop",
+  "file": "assets/hopper/video/hopper_loop_20261112-130235_480p.mp4",
+  "width": 480,
+  "height": 854,
+  "seconds": 20.1,
+  "note": "Nighthawks step-inside loop take C, 480p",
+  "source": "~/Downloads/hf_20261112_130235_e793fca5-fece-4b38-a45e-2db0189c62e5.mp4",
+  "bytes": 12216334
+ },
+ {
+  "painting": "hopper",
+  "format": "loop",
+  "file": "assets/hopper/video/hopper_loop_20261112-165033_1080p.mp4",
+  "width": 1080,
+  "height": 1920,
+  "seconds": 19.9,
+  "note": "Nighthawks loop B, 1080p upscale",
+  "source": "~/Downloads/hf_20261112_165033_1103093c-0eb5-4aa2-8c6e-ecd44bdce9a9.mp4",
+  "bytes": 32805567
+ },
+ {
+  "painting": "athens",
+  "format": "loop",
+  "file": "assets/athens/video/athens_loop_20261112-143040_720p.mp4",
+  "width": 720,
+  "height": 1280,
+  "seconds": 20.1,
+  "note": "School of Athens loop take D, 720p",
+  "source": "~/Downloads/hf_20261112_143040_4256df91-5e30-49e1-a6c0-1550d681c9fe.mp4",
+  "bytes": 26156462
+ },
+ {
+  "painting": "athens",
+  "format": "loop",
+  "file": "assets/athens/video/athens_loop_20261112-144919_480p.mp4",
+  "width": 480,
+  "height": 854,
+  "seconds": 20.1,
+  "note": "School of Athens loop take E, 480p",
+  "source": "~/Downloads/hf_20261112_144919_52855e41-2c11-4943-9f12-c44c40bf3491.mp4",
+  "bytes": 9794952
+ },
+ {
+  "painting": "athens",
+  "format": "loop",
+  "file": "assets/athens/video/athens_loop_20261112-160138_480p.mp4",
+  "width": 480,
+  "height": 854,
+  "seconds": 20.1,
+  "note": "School of Athens loop take F, 480p",
+  "source": "~/Downloads/hf_20261112_160138_ddb83c24-6052-4706-8a6b-d510f43d1185.mp4",
+  "bytes": 15018977
+ },
+ {
+  "painting": "athens",
+  "format": "loop",
+  "file": "assets/athens/video/athens_loop_20261112-160146_720p.mp4",
+  "width": 720,
+  "height": 1280,
+  "seconds": 20.1,
+  "note": "School of Athens loop take G, 720p",
+  "source": "~/Downloads/hf_20261112_160146_f439fdb5-9632-49f3-8f26-a991cdd6ce7e.mp4",
+  "bytes": 28947980
+ },
+ {
+  "painting": "athens",
+  "format": "loop",
+  "file": "assets/athens/video/athens_loop_20261112-162337_1080p.mp4",
+  "width": 1080,
+  "height": 1920,
+  "seconds": 19.9,
+  "note": "School of Athens loop take D, 1080p upscale",
+  "source": "~/Downloads/hf_20261112_162337_c641cbba-0196-4110-881f-1bf551199cd4.mp4",
+  "bytes": 33924295
+ },
+ {
+  "painting": "athens",
+  "format": "loop",
+  "file": "assets/athens/video/athens_loop_20261112-164158_1080p.mp4",
+  "width": 1080,
+  "height": 1920,
+  "seconds": 19.9,
+  "note": "School of Athens loop take G, 1080p upscale",
+  "source": "~/Downloads/hf_20261112_164158_a97b735f-3e8b-4b55-833a-ce77ec7bd738.mp4",
+  "bytes": 39578732
+ },
+ {
+  "painting": "athens",
+  "format": "talking-head",
+  "file": "assets/athens/teaser/teaser_v1.mp4",
+  "width": 480,
+  "height": 854,
+  "seconds": 10.1,
+  "note": "Raphael-circle talking head, 480p",
+  "source": "~/Downloads/hf_20261112_144213_447e3d2a-751e-4d1b-ba54-31408a9550db.mp4",
+  "bytes": 2449080
+ },
+ {
+  "painting": "caravaggio",
+  "format": "talking-head",
+  "file": "assets/caravaggio/teaser/teaser_v1.mp4",
+  "width": 480,
+  "height": 854,
+  "seconds": 10.1,
+  "note": "Caravaggio talking head, 480p",
+  "source": "~/Downloads/hf_20261112_160757_c90f73fd-3224-4817-92c7-12e283cf3bb0.mp4",
+  "bytes": 3250102
+ },
+ {
+  "painting": "rembrandt",
+  "format": "talking-head",
+  "file": "assets/rembrandt/teaser/teaser_v1.mp4",
+  "width": 480,
+  "height": 854,
+  "seconds": 10.1,
+  "note": "Rembrandt talking head, 480p",
+  "source": "~/Downloads/hf_20261112_171036_e93fdebc-7735-418c-ad29-d3d7e4ca69bf.mp4",
+  "bytes": 2667313
  }
 ]

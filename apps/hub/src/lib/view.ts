@@ -1,5 +1,5 @@
 import type { Piece, Role } from "./schema";
-import { asset, getCarousel, mediaUrl, type StoryWithMedia } from "./data";
+import { asset, getCarousel, mediaUrl, refFile, type StoryWithMedia } from "./data";
 import { finalTake } from "./status";
 
 export const ROLE_LABEL: Record<Role, string> = { teaser: "Teaser", film: "Film", carousel: "Carousel" };
@@ -13,5 +13,6 @@ export function pieceThumb(s: StoryWithMedia, p?: Piece): string | null {
   const fin = finalTake(p);
   if (fin) return mediaUrl(s, `${fin.id}.jpg`) ?? mediaUrl(s, `${fin.id}.thumb.jpg`);
   const last = [...p.takes].reverse().find((t) => mediaUrl(s, `${t.id}.thumb.jpg`));
-  return last ? mediaUrl(s, `${last.id}.thumb.jpg`) : null;
+  if (last) return mediaUrl(s, `${last.id}.thumb.jpg`);
+  return p.stills[0] ? mediaUrl(s, refFile(p.stills[0])) : null;
 }
