@@ -1,0 +1,172 @@
+{
+  "scenes": [
+    {
+      "beat": 0,
+      "visual": {
+        "type": "image",
+        "asset": "deck",
+        "fit": "cover",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.45,
+          "zoom": 1.05
+        }
+      },
+      "overlay": {
+        "text": "Atlantic Ocean, 1872",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 1,
+      "visual": {
+        "type": "image",
+        "asset": "painting",
+        "fit": "contain",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.1
+        }
+      },
+      "transition": "flash",
+      "overlay": {
+        "text": "The Mary Celeste",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 1,
+      "visual": {
+        "type": "image",
+        "asset": "briggs",
+        "fit": "contain",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.12
+        }
+      },
+      "at": 0.55,
+      "transition": "cut",
+      "overlay": {
+        "text": "Capt. Benjamin Briggs",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 2,
+      "visual": {
+        "type": "image",
+        "asset": "engraving",
+        "fit": "contain",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.0
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.15
+        }
+      },
+      "transition": "flash",
+      "overlay": {
+        "text": "December 4, 1872",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 3,
+      "visual": {
+        "type": "list",
+        "title": "Found on board",
+        "items": [
+          "Cargo: almost untouched",
+          "Six months of food",
+          "Fresh water",
+          "Crew's belongings"
+        ]
+      },
+      "transition": "cut"
+    },
+    {
+      "beat": 4,
+      "visual": {
+        "type": "list",
+        "title": "Missing",
+        "items": [
+          "The lifeboat",
+          "Navigation instruments",
+          "The ship's papers",
+          "Ten people"
+        ]
+      },
+      "transition": "flash"
+    },
+    {
+      "beat": 5,
+      "visual": {
+        "type": "image",
+        "asset": "clipping",
+        "fit": "cover",
+        "from": {
+          "x": 0.5,
+          "y": 0.12,
+          "zoom": 1.25
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1.25
+        }
+      },
+      "transition": "zoom"
+    },
+    {
+      "beat": 6,
+      "visual": {
+        "type": "image",
+        "asset": "painting",
+        "fit": "cover",
+        "from": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.0
+        }
+      },
+      "transition": "flash"
+    },
+    {
+      "beat": 6,
+      "visual": {
+        "type": "title",
+        "kicker": "Case status",
+        "text": "Unsolved"
+      },
+      "at": 0.7,
+      "transition": "cut"
+    }
+  ]
+}

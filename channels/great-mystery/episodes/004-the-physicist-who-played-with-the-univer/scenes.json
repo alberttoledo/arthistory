@@ -1,0 +1,270 @@
+{
+  "scenes": [
+    {
+      "beat": 0,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "portrait",
+        "from": {
+          "x": 0.5,
+          "y": 0.22,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.22,
+          "zoom": 1.15
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "Richard Feynman",
+        "position": "top"
+      },
+      "transition": "iris"
+    },
+    {
+      "beat": 0,
+      "at": 0.55,
+      "visual": {
+        "type": "starfield",
+        "constellation": "orion"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 1,
+      "at": 0,
+      "visual": {
+        "type": "text",
+        "text": "Los Alamos"
+      },
+      "overlay": {
+        "text": "Los Alamos, 1940s",
+        "position": "top"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 1,
+      "at": 0.5,
+      "visual": {
+        "type": "image",
+        "asset": "badge",
+        "from": {
+          "x": 0.53,
+          "y": 0.45,
+          "zoom": 1
+        },
+        "to": {
+          "x": 0.53,
+          "y": 0.45,
+          "zoom": 1.35
+        },
+        "fit": "contain"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 2,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "bongos",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.1
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.4
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 2,
+      "at": 0.45,
+      "visual": {
+        "type": "list",
+        "title": "Just for fun",
+        "items": [
+          "Cracking safes",
+          "Drumming bongos",
+          "Learning to draw",
+          "Reading Maya astronomy"
+        ]
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 3,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "cornell",
+        "from": {
+          "x": 0.3,
+          "y": 0.6,
+          "zoom": 1.35
+        },
+        "to": {
+          "x": 0.65,
+          "y": 0.6,
+          "zoom": 1.2
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "Cornell University",
+        "position": "top"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 4,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "diagram",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "fit": "contain"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 4,
+      "at": 0.4,
+      "visual": {
+        "type": "image",
+        "asset": "portrait",
+        "from": {
+          "x": 0.5,
+          "y": 0.22,
+          "zoom": 1.2
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.22,
+          "zoom": 1.45
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 4,
+      "at": 0.75,
+      "visual": {
+        "type": "title",
+        "kicker": "1965",
+        "text": "Nobel Prize in Physics",
+        "sub": "shared with Schwinger and Tomonaga"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 5,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "diagram",
+        "from": {
+          "x": 0.3,
+          "y": 0.5,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 0.7,
+          "y": 0.5,
+          "zoom": 1.3
+        },
+        "fit": "contain"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 5,
+      "at": 0.5,
+      "visual": {
+        "type": "title",
+        "text": "The pleasure of finding things out"
+      },
+      "transition": "iris"
+    },
+    {
+      "beat": 6,
+      "at": 0,
+      "visual": {
+        "type": "text",
+        "text": "I can live with doubt, and uncertainty, and not knowing.",
+        "attribution": "Richard Feynman, 1981"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 6,
+      "at": 0.55,
+      "visual": {
+        "type": "image",
+        "asset": "portrait",
+        "from": {
+          "x": 0.5,
+          "y": 0.22,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.22,
+          "zoom": 1
+        },
+        "fit": "cover"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 7,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "bongos",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.4
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.05
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 7,
+      "at": 0.45,
+      "visual": {
+        "type": "title",
+        "kicker": "Today",
+        "text": "Take something apart.",
+        "sub": "Just to see how it works."
+      },
+      "transition": "iris"
+    }
+  ]
+}

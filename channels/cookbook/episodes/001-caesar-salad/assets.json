@@ -1,0 +1,22 @@
+{
+  "salad": {
+    "source": "wikimedia:File:Caesar Salad from Tony Roma Restaurant- March 2024 02.jpg",
+    "maxWidth": 2400
+  },
+  "tijuana": {
+    "source": "wikimedia:File:Tijuana in the 1920's.jpg"
+  },
+  "caesars": {
+    "source": "wikimedia:File:Tijuana postcard Caesars-Place-Hotel-Americano-American-Cafe.jpg"
+  },
+  "street": {
+    "source": "wikimedia:File:Tijuana postcard 1920s - Looking East on Second Street.png"
+  },
+  "leaves": {
+    "source": "wikimedia:File:Caesar Salad (9636268217).jpg",
+    "maxWidth": 3000
+  },
+  "hotel": {
+    "source": "wikimedia:File:HotelCaesar.JPG"
+  }
+}

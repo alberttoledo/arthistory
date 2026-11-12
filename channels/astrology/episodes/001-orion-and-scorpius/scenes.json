@@ -1,0 +1,132 @@
+{
+  "scenes": [
+    {
+      "beat": 0,
+      "visual": {
+        "type": "starfield",
+        "constellation": "orion"
+      },
+      "overlay": {
+        "text": "Orion",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 0,
+      "visual": {
+        "type": "starfield",
+        "constellation": "scorpius"
+      },
+      "at": 0.45,
+      "transition": "blur",
+      "overlay": {
+        "text": "Scorpius",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 1,
+      "visual": {
+        "type": "image",
+        "asset": "orion",
+        "fit": "cover",
+        "from": {
+          "x": 0.4,
+          "y": 0.35,
+          "zoom": 1.25
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1.05
+        }
+      },
+      "transition": "blur"
+    },
+    {
+      "beat": 2,
+      "visual": {
+        "type": "image",
+        "asset": "scorpio",
+        "fit": "cover",
+        "from": {
+          "x": 0.5,
+          "y": 0.3,
+          "zoom": 1.05
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.6,
+          "zoom": 1.2
+        }
+      },
+      "transition": "crossfade",
+      "overlay": {
+        "text": "Gaia's answer",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 3,
+      "visual": {
+        "type": "image",
+        "asset": "sting",
+        "fit": "cover",
+        "from": {
+          "x": 0.4,
+          "y": 0.6,
+          "zoom": 1.0
+        },
+        "to": {
+          "x": 0.35,
+          "y": 0.65,
+          "zoom": 1.3
+        }
+      },
+      "transition": "blur"
+    },
+    {
+      "beat": 4,
+      "visual": {
+        "type": "starfield",
+        "constellation": "scorpius"
+      },
+      "transition": "blur",
+      "overlay": {
+        "text": "Rising in the east",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 4,
+      "visual": {
+        "type": "starfield",
+        "constellation": "orion"
+      },
+      "at": 0.55,
+      "transition": "crossfade",
+      "overlay": {
+        "text": "Setting in the west",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 5,
+      "visual": {
+        "type": "text",
+        "text": "You don't need to be the biggest in the room. You need to be precise.",
+        "attribution": "Scorpio"
+      },
+      "transition": "blur"
+    },
+    {
+      "beat": 6,
+      "visual": {
+        "type": "title",
+        "kicker": "♏︎",
+        "text": "Send this to your Scorpio"
+      },
+      "transition": "crossfade"
+    }
+  ]
+}

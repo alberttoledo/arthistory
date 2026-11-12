@@ -1,0 +1,29 @@
+{
+  "cadencePerWeek": 7,
+  "goals": {
+    "followers": 10000,
+    "views": 1000000,
+    "deadline": "2027-02-03"
+  },
+  "slug": "great-mystery",
+  "name": "The Great Mystery",
+  "handle": "@thegreatmystery",
+  "niche": "The Great Mystery project (thegreatmystery.one): a philosophy of meeting life's great unknown with wonder, joy and curiosity. Living as an explorer and polymath, like Leonardo da Vinci, Anthony Bourdain or Steve Jobs: making things, travelling, learning, diving into life instead of retreating from it, while staying aware of the mystery.",
+  "audience": "Curious 20–40s who want a fuller, more adventurous life: creators, travellers, builders and lifelong learners",
+  "tone": "Calm, spare and wonder-struck. Short declarative sentences. Contemplative but never passive: every piece ends pointing toward doing, making or exploring. No hype, no hustle-speak, no self-help clichés.",
+  "voice": {
+    "provider": "say",
+    "voice": "Reed (English (UK))",
+    "rate": 165
+  },
+  "hashtags": [
+    "thegreatmystery",
+    "curiosity",
+    "polymath",
+    "wonder",
+    "philosophy"
+  ],
+  "assetSources": [
+    "wikimedia"
+  ]
+}

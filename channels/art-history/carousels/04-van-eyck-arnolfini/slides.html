@@ -1,0 +1,112 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
+<style>
+  /* 03 who — two tall portraits */
+  .who .split { height: 700px; }
+  .who .split img { object-position: 50% 20%; }
+  /* 04 not pregnant — paper slide with a tilted torn scrap */
+  .preg .torn { right: 70px; top: 150px; width: 470px; height: 760px; transform: rotate(3deg); }
+  .preg .torn.small { right: auto; left: 470px; top: 690px; width: 300px; height: 250px; transform: rotate(-5deg); z-index: 36; }
+  .preg .block { top: 190px; left: var(--pad); right: auto; width: 420px; }
+  .preg .block .h-m { font-size: 82px; }
+  /* 05 candle */
+  .candle .crop { height: 820px; }
+  .candle .crop img { object-position: 50% 30%; }
+  /* 06 strip */
+  .objs .strip { height: 720px; }
+  .objs .block { bottom: 118px; }
+  .objs .legend li { font-size: 28px; }
+  /* 07 loupe */
+  .lp .mini { position: absolute; left: var(--pad); top: 190px; width: 380px; height: 520px; }
+  .lp .mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .lp .block { bottom: 120px; }
+  /* 08 timeline */
+  .tl .bgimg { position: absolute; right: -120px; top: 120px; width: 620px; height: 1130px; object-fit: cover; opacity: .22; filter: grayscale(.3); }
+  .tl .bgfade { position: absolute; inset: 0; background: linear-gradient(90deg, var(--ink) 45%, transparent); }
+  .tl .timeline { gap: 38px; }
+  .tl .timeline .y { font-size: 58px; }
+  .tl .timeline .d { font-size: 31px; max-width: 760px; }
+  /* 09 twist — paper */
+  .twist .sig { position: absolute; left: 60px; right: 60px; top: 175px; height: 350px; }
+  .twist .sig img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .twist .torn.a { left: 90px; top: 610px; width: 350px; height: 440px; transform: rotate(-4deg); }
+  .twist .torn.b { left: 340px; top: 700px; width: 310px; height: 370px; transform: rotate(5deg); }
+  .twist .block { left: 690px; right: var(--pad); top: 640px; }
+  .twist .h-s { font-size: 54px; }
+  .twist .copy { font-size: 28px; }
+  .cta .block { top: 290px; right: 560px; }
+</style></head>
+<body data-no="04" data-title="The Arnolfini Portrait">
+
+<!-- 01 COVER -->
+<section class="slide s-cover shade-top shade-bottom">
+  <img class="bleed" src="img/cover_mirror.jpg">
+  <div class="block bottom"><div class="kicker">Jan van Eyck · 1434</div><h1 class="h-xl">Someone else is in this <em>room</em>.</h1><p class="lede">Two of them. Look in the mirror.</p><div class="rule"></div><span class="swipe">Swipe</span></div>
+</section>
+
+<!-- 02 PLATE -->
+<section class="slide s-plate">
+  <div class="frame" style="left:262px;right:262px;height:760px"><img src="img/full.jpg"></div>
+  <div class="label"><div class="t">The Arnolfini Portrait</div><div class="a">Jan van Eyck, 1434<br>Oil on oak</div><div class="m">82.2 × 60 cm<br>The National Gallery, London</div></div>
+</section>
+
+<!-- 03 WHO -->
+<section class="slide who">
+  <div class="split"><figure><img src="img/man.jpg"><figcaption>Him</figcaption></figure><figure><img src="img/woman.jpg"><figcaption>Her</figcaption></figure></div>
+  <div class="block bottom"><div class="kicker">Bruges, 1434</div><h2 class="h-m">A merchant, and a <em>mystery</em>.</h2><p class="copy">He's probably Giovanni Arnolfini, an Italian trader in Bruges. Her name? Lost. And it's not a wedding scene, whatever you were told.</p></div>
+</section>
+
+<!-- 04 NOT PREGNANT (paper) -->
+<section class="slide paper preg">
+  <div class="torn"><img src="img/dress.jpg" style="object-position:50% 40%"><span class="tag">Wool, fur, metres of green</span></div>
+  <div class="block"><div class="kicker" style="color:var(--oxblood)">Look again</div><h2 class="h-m">She's <em>not</em> pregnant.</h2><p class="copy" style="font-size:31px">The National Gallery says so plainly. She's hoisting a heavy, fashionable gown, the way rich women did. Painters dressed virgin saints the same way.</p></div>
+</section>
+
+<!-- 05 CANDLE -->
+<section class="slide s-detail candle">
+  <div class="crop"><img src="img/candle.jpg"><div class="marker" style="left:444px;top:105px;width:100px;height:235px;border-radius:50px"><b>1</b></div></div>
+  <div class="block"><div class="kicker">Broad daylight</div><h2 class="h-m">So why is one candle <em>lit</em>?</h2><p class="copy">Only one flame burns, on his side. Historian Margaret Koster reads it as a memorial. His first wife, Costanza, had died by 1433.</p></div>
+</section>
+
+<!-- 06 STRIP -->
+<section class="slide objs">
+  <div class="strip"><figure><img src="img/oranges.jpg" style="object-position:50% 70%"><figcaption>1</figcaption></figure><figure><img src="img/pattens.jpg"><figcaption>2</figcaption></figure><figure><img src="img/dog.jpg" style="object-position:50% 45%"><figcaption>3</figcaption></figure></div>
+  <div class="block"><div class="kicker">Read the room</div><h2 class="h-s" style="margin:14px 0 30px">Every object <em>whispers</em>.</h2><ol class="legend"><li><b style="color:var(--gold);font-weight:500">Oranges.</b> Imported, and wildly expensive.</li><li><b style="color:var(--gold);font-weight:500">Pattens.</b> His muddy overshoes, kicked off.</li><li><b style="color:var(--gold);font-weight:500">The dog.</b> Faithfulness, or just a pet.</li></ol></div>
+</section>
+
+<!-- 07 LOUPE -->
+<section class="slide lp">
+  <div class="mini hair"><img src="img/full.jpg"></div>
+  <div class="marker" style="left:254px;top:324px;width:44px;height:44px"></div>
+  <div class="leader" style="left:298px;top:349px;width:172px;transform:rotate(10deg)"></div>
+  <div class="loupe" style="left:468px;top:160px;width:540px;height:540px"><img src="img/mirror_glass.jpg"></div>
+  <div class="block"><div class="kicker">The convex mirror</div><h2 class="h-m">Two visitors in the <em>doorway</em>.</h2><p class="copy">The couple, from behind. Then two men walking in, one in blue, one in red. The frame holds ten tiny scenes of Christ's Passion.</p></div>
+</section>
+
+<!-- 08 TIMELINE -->
+<section class="slide tl">
+  <img class="bgimg" src="img/full.jpg"><div class="bgfade"></div>
+  <div class="block top" style="top:150px"><div class="kicker">Its journey</div><h2 class="h-m" style="margin-bottom:46px">Bruges to <em>London</em>.</h2>
+  <ul class="timeline">
+    <li><div class="y">1434</div><div class="d">Painted in Bruges. Infrared shows he kept moving faces, hands and feet.</div></li>
+    <li><div class="y">1516</div><div class="d">In Margaret of Austria's Habsburg collection.</div></li>
+    <li><div class="y">1558</div><div class="d">Passes to Philip II of Spain.</div></li>
+    <li><div class="y">1813?</div><div class="d">Leaves Spain in the Napoleonic wars. A British officer turns up with it.</div></li>
+    <li><div class="y">1842</div><div class="d">The National Gallery buys it. Price: 600 guineas.</div></li>
+  </ul></div>
+</section>
+
+<!-- 09 TWIST (paper) -->
+<section class="slide paper twist">
+  <div class="sig hair"><img src="img/signature.jpg"></div>
+  <div class="torn a"><img src="img/visitors.jpg"><span class="tag">The mirror</span></div>
+  <div class="torn b"><img src="img/vaneyck_selfportrait.jpg" style="object-position:50% 30%"><span class="tag">Self-portrait? 1433</span></div>
+  <div class="block"><div class="kicker" style="color:var(--oxblood)">Johannes de eyck fuit hic</div><h2 class="h-s" style="margin-top:18px">“Jan van Eyck <em>was here</em>.”</h2><p class="copy" style="margin-top:20px">Not “made this.” Was here. If the man in red is him, he stood in the doorway. Exactly where you're standing now.</p></div>
+</section>
+
+<!-- 10 CTA -->
+<section class="slide s-cta cta">
+  <div class="phone"><img src="img/first_frame.jpg"><div class="play"></div></div>
+  <div class="block"><div class="kicker">The film</div><h2 class="h-l">Now step <em>inside</em>.</h2><p class="copy" style="margin-top:24px">Walk past the dog, into the mirror. Watch the film on our page.</p><div class="actions"><span>Save</span><span>Share</span></div></div>
+</section>
+
+<script src="../_brand/brand.js"></script></body></html>

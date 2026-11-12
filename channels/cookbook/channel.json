@@ -1,0 +1,28 @@
+{
+  "cadencePerWeek": 7,
+  "goals": {
+    "followers": 10000,
+    "views": 1000000,
+    "deadline": "2027-02-03"
+  },
+  "slug": "cookbook",
+  "name": "Cookbook",
+  "handle": "@thecookbook",
+  "niche": "Recipes with a story: historic dishes, origins and one-pan classics",
+  "audience": "Home cooks 22–50 who love food history",
+  "tone": "Cozy, generous, a little cheeky",
+  "voice": {
+    "provider": "say",
+    "voice": "Karen",
+    "rate": 178
+  },
+  "hashtags": [
+    "recipe",
+    "foodhistory",
+    "cooking",
+    "homecooking"
+  ],
+  "assetSources": [
+    "wikimedia"
+  ]
+}

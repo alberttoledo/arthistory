@@ -1,0 +1,22 @@
+{
+  "portrait": {
+    "source": "wikimedia:File:Richard Feynman 1988.png",
+    "maxWidth": 3000
+  },
+  "badge": {
+    "source": "wikimedia:File:Richard Feynman's badge photo from Los Alamos National Laboratory.jpg",
+    "maxWidth": 3000
+  },
+  "bongos": {
+    "source": "wikimedia:File:Bongo.jpg",
+    "maxWidth": 3000
+  },
+  "cornell": {
+    "source": "wikimedia:File:Cornell University - Arts Quadrangle (1949).jpg",
+    "maxWidth": 3000
+  },
+  "diagram": {
+    "source": "wikimedia:File:Loop-diagram.png",
+    "maxWidth": 3000
+  }
+}

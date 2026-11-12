@@ -1,0 +1,175 @@
+{
+  "scenes": [
+    {
+      "beat": 0,
+      "visual": {
+        "type": "image",
+        "asset": "salad",
+        "fit": "cover",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.05
+        }
+      },
+      "overlay": {
+        "text": "Not Roman",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 1,
+      "visual": {
+        "type": "image",
+        "asset": "tijuana",
+        "fit": "cover",
+        "from": {
+          "x": 0.3,
+          "y": 0.5,
+          "zoom": 1.0
+        },
+        "to": {
+          "x": 0.7,
+          "y": 0.5,
+          "zoom": 1.05
+        }
+      },
+      "transition": "wipe",
+      "overlay": {
+        "text": "Tijuana, 1920s",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 2,
+      "visual": {
+        "type": "image",
+        "asset": "street",
+        "fit": "contain",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.12
+        }
+      },
+      "transition": "wipe"
+    },
+    {
+      "beat": 2,
+      "visual": {
+        "type": "image",
+        "asset": "caesars",
+        "fit": "cover",
+        "from": {
+          "x": 0.75,
+          "y": 0.5,
+          "zoom": 1.0
+        },
+        "to": {
+          "x": 0.55,
+          "y": 0.5,
+          "zoom": 1.1
+        }
+      },
+      "at": 0.5,
+      "transition": "zoom",
+      "overlay": {
+        "text": "Caesar's Place",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 3,
+      "visual": {
+        "type": "title",
+        "kicker": "July 4, 1924",
+        "text": "Made with what was left",
+        "sub": "and tossed at the table"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 4,
+      "visual": {
+        "type": "list",
+        "title": "The original",
+        "items": [
+          "Whole romaine leaves",
+          "Garlic and olive oil",
+          "Lemon",
+          "Worcestershire sauce",
+          "A coddled egg",
+          "Parmesan",
+          "Croutons"
+        ]
+      },
+      "transition": "wipe"
+    },
+    {
+      "beat": 5,
+      "visual": {
+        "type": "image",
+        "asset": "leaves",
+        "fit": "cover",
+        "from": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1.0
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.55,
+          "zoom": 1.3
+        }
+      },
+      "transition": "zoom",
+      "overlay": {
+        "text": "Eat with your fingers",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 6,
+      "visual": {
+        "type": "image",
+        "asset": "hotel",
+        "fit": "contain",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.1
+        }
+      },
+      "transition": "wipe",
+      "overlay": {
+        "text": "Hotel Caesar's, today",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 6,
+      "visual": {
+        "type": "title",
+        "kicker": "Where does it come from?",
+        "text": "Thank Tijuana"
+      },
+      "transition": "wipe",
+      "at": 0.55
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Story Carousels</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0d0b09; --bg-2: #17130f; --bg-3: #211b15; --fg: #f3ead8; --fg-2: #c9bea8; --muted: #8a7f6c;
+  --gold: #d4af37; --line: rgba(212,175,55,.28); --line-2: rgba(243,234,216,.12);
+  --display: 'Cormorant Garamond', Georgia, serif; --body: 'Newsreader', Georgia, serif; --mono: 'IBM Plex Mono', ui-monospace, monospace;
+  color-scheme: dark;
+}
+:root[data-theme="light"] { --bg: #f3ead8; --bg-2: #ebe0c9; --bg-3: #e1d4b9; --fg: #17130f; --fg-2: #3d342a; --muted: #6f6453; --gold: #8f6b12; --line: rgba(143,107,18,.35); --line-2: rgba(23,19,15,.12); color-scheme: light; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg: #f3ead8; --bg-2: #ebe0c9; --bg-3: #e1d4b9; --fg: #17130f; --fg-2: #3d342a; --muted: #6f6453; --gold: #8f6b12; --line: rgba(143,107,18,.35); --line-2: rgba(23,19,15,.12); color-scheme: light; } }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--bg); }
+body { background: var(--bg); color: var(--fg); font: 400 17px/1.5 var(--body); -webkit-font-smoothing: antialiased; min-height: 100vh; }
+a { color: var(--gold); }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+.wrap { max-width: 1320px; margin: 0 auto; padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px)); }
+.mono { font: 500 12px/1.4 var(--mono); letter-spacing: .16em; text-transform: uppercase; }
+
+/* masthead */
+header.mast { border-bottom: 1px solid var(--line); }
+header.mast .wrap { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding-top: 44px; padding-bottom: 28px; flex-wrap: wrap; }
+.mast h1 { font: 500 clamp(44px, 7vw, 84px)/.9 var(--display); letter-spacing: -.02em; }
+.mast h1 em { color: var(--gold); }
+.mast .sub { color: var(--muted); margin-top: 14px; }
+.tabs { display: flex; gap: 4px; border: 1px solid var(--line); padding: 4px; }
+.tabs button { padding: 10px 16px; color: var(--muted); }
+.tabs button[aria-pressed="true"] { background: var(--gold); color: var(--bg); }
+.theme { padding: 10px 12px; border: 1px solid var(--line); color: var(--muted); }
+
+/* gallery */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 36px 28px; padding: 44px 0 80px; }
+.card { text-align: left; display: block; }
+.card .img { aspect-ratio: 4/5; overflow: hidden; outline: 1px solid var(--line); outline-offset: 6px; background: var(--bg-2); }
+.card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .6s cubic-bezier(.2,.7,.2,1); }
+.card:hover img, .card:focus-visible img { transform: scale(1.04); }
+.card .no { color: var(--gold); margin-top: 20px; }
+.card h2 { font: 500 28px/1.05 var(--display); margin-top: 6px; }
+.card p { color: var(--muted); font-size: 15px; margin-top: 4px; }
+
+/* viewer */
+.viewer { padding: 32px 0 80px; }
+.back { color: var(--muted); padding: 8px 0; }
+.back:hover { color: var(--gold); }
+.vgrid { display: grid; grid-template-columns: minmax(0, 470px) minmax(0, 1fr); gap: 56px; margin-top: 18px; align-items: start; }
+.phone { background: var(--bg-2); border: 1px solid var(--line-2); border-radius: 28px; padding: 14px 0 18px; position: sticky; top: 20px; }
+.phone .top { display: flex; align-items: center; gap: 10px; padding: 0 16px 12px; font: 500 14px/1 var(--body); }
+.avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--gold); color: #0d0b09; display: grid; place-items: center; font: 600 15px/1 var(--display); }
+.track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; aspect-ratio: 4/5; background: #000; }
+.track::-webkit-scrollbar { display: none; }
+.track img { flex: 0 0 100%; width: 100%; height: 100%; object-fit: cover; scroll-snap-align: center; -webkit-user-drag: none; -webkit-touch-callout: default; }
+.stage { position: relative; }
+.arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 34px; height: 34px; border-radius: 50%; background: rgba(243,234,216,.9); color: #0d0b09; font: 500 18px/34px var(--mono); text-align: center; opacity: .9; }
+.arrow.l { left: 10px; } .arrow.r { right: 10px; }
+.arrow[disabled] { opacity: 0; pointer-events: none; }
+.count { position: absolute; top: 12px; right: 12px; background: rgba(13,11,9,.7); color: #f3ead8; padding: 5px 10px; border-radius: 12px; font: 500 12px/1 var(--mono); }
+.pips { display: flex; justify-content: center; gap: 5px; padding: 12px 0 6px; }
+.pips i { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); opacity: .45; }
+.pips i.on { background: var(--gold); opacity: 1; }
+.phone .cap { padding: 6px 16px 0; font-size: 14px; color: var(--fg-2); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.phone .cap b { color: var(--fg); }
+
+.info .no { color: var(--gold); }
+.info { min-width: 0; }
+.info h2 { font: 500 clamp(40px, 5vw, 64px)/.95 var(--display); letter-spacing: -.015em; margin: 10px 0 12px; }
+.info .meta { color: var(--muted); }
+.info .hook { font: italic 500 28px/1.2 var(--display); color: var(--fg); margin: 26px 0; padding-left: 20px; border-left: 2px solid var(--gold); }
+.section { border-top: 1px solid var(--line-2); padding: 22px 0; }
+.section h3 { display: flex; justify-content: space-between; align-items: center; color: var(--muted); margin-bottom: 12px; }
+.copybtn { color: var(--gold); border: 1px solid var(--line); padding: 6px 10px; }
+.copybtn.ok { background: var(--gold); color: var(--bg); }
+.save { display: grid; gap: 10px; }
+.save .btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.save button { padding: 12px 14px; border: 1px solid var(--gold); color: var(--gold); }
+.save button.primary { background: var(--gold); color: var(--bg); }
+.save button:disabled { opacity: .5; cursor: wait; }
+.save button:focus-visible, .copybtn:focus-visible, .tabs button:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+.save .status { font: 500 12px/1.5 var(--mono); letter-spacing: .08em; color: var(--fg-2); min-height: 18px; }
+.save .hint { font-size: 14px; color: var(--muted); }
+.row .zip { margin-left: auto; padding: 8px 12px; border: 1px solid var(--line); color: var(--gold); }
+.caption { white-space: pre-wrap; color: var(--fg-2); }
+.tags { color: var(--gold); font: 400 14px/1.7 var(--mono); }
+.strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px; }
+.strip button { aspect-ratio: 4/5; overflow: hidden; outline: 1px solid var(--line-2); position: relative; }
+.strip button.on { outline: 2px solid var(--gold); outline-offset: 2px; }
+.strip img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.strip span { position: absolute; left: 4px; bottom: 4px; background: rgba(13,11,9,.75); color: #f3ead8; font: 500 10px/1 var(--mono); padding: 3px 4px; }
+.slidelist { list-style: none; display: grid; gap: 8px; font-size: 15px; }
+.slidelist li { display: grid; grid-template-columns: 34px 90px 1fr; gap: 10px; color: var(--fg-2); }
+.slidelist .n { color: var(--gold); font: 500 12px/1.9 var(--mono); }
+.slidelist .t { color: var(--muted); font: 500 11px/2 var(--mono); text-transform: uppercase; letter-spacing: .1em; }
+details summary { cursor: pointer; color: var(--muted); }
+.md { font-size: 15px; color: var(--fg-2); margin-top: 12px; overflow-wrap: anywhere; }
+.md h4 { font: 600 20px/1.2 var(--display); color: var(--fg); margin: 16px 0 6px; }
+.md li { margin-left: 18px; }
+.notes { color: var(--fg-2); font-size: 15px; }
+
+/* wall */
+.wall { padding: 36px 0 80px; display: grid; gap: 44px; }
+.row h2 { font: 500 30px/1 var(--display); display: flex; gap: 14px; align-items: baseline; margin-bottom: 14px; }
+.row h2 .mono { color: var(--gold); }
+.row h2 button { font: inherit; }
+.row h2 button:hover { color: var(--gold); }
+.rowtrack { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 10px; }
+.rowtrack img { height: 260px; aspect-ratio: 4/5; object-fit: cover; flex: none; }
+.empty { padding: 80px 0; color: var(--muted); }
+
+/* hold-to-save list */
+.holdlist { display: grid; gap: 14px; margin-top: 14px; }
+.holdlist img { width: 100%; max-width: 100%; display: block; -webkit-touch-callout: default; outline: 1px solid var(--line-2); }
+.notice { border: 1px solid var(--line); padding: 14px 16px; font-size: 15px; color: var(--fg-2); }
+.notice b { color: var(--fg); }
+
+/* brand guide */
+.brand { padding: 40px 0 90px; display: grid; gap: 64px; }
+.brand h2.bh { font: 500 clamp(34px, 5vw, 52px)/1 var(--display); letter-spacing: -.01em; }
+.brand h2.bh em { color: var(--gold); }
+.brand .intro { max-width: 68ch; color: var(--fg-2); font-size: 18px; margin-top: 14px; }
+.bsec { display: grid; gap: 22px; }
+.bsec > header { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); padding-bottom: 12px; flex-wrap: wrap; }
+.bsec > header h3 { font: 500 30px/1.1 var(--display); }
+.bsec > header .mono { color: var(--muted); }
+.themes { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.theme-card { padding: 24px; display: grid; gap: 16px; min-width: 0; outline: 1px solid var(--line-2); }
+.theme-card .tname { font: 500 12px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; }
+.theme-card .demo-h { font: 500 40px/1 'Cormorant Garamond', Georgia, serif; }
+.theme-card .demo-c { font: 400 16px/1.45 'Newsreader', Georgia, serif; }
+.sw-list { display: grid; gap: 10px; }
+.sw { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+.sw i { width: 44px; height: 44px; display: block; outline: 1px solid rgba(128,128,128,.35); }
+.sw .n { font: 500 13px/1.2 var(--mono); letter-spacing: .06em; }
+.sw .u { font-size: 13px; line-height: 1.35; opacity: .8; }
+.sw button { font: 500 12px/1 var(--mono); padding: 7px 9px; border: 1px solid currentColor; opacity: .85; }
+.specimens { display: grid; gap: 0; }
+.spec { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--line-2); align-items: baseline; }
+.spec .meta { font: 500 12px/1.6 var(--mono); letter-spacing: .08em; color: var(--muted); text-transform: uppercase; }
+.spec .meta b { color: var(--gold); font-weight: 500; display: block; }
+.spec .s { min-width: 0; overflow-wrap: anywhere; }
+.families { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+.fam { padding: 20px; outline: 1px solid var(--line-2); display: grid; gap: 8px; }
+.fam .big { font-size: 64px; line-height: 1; }
+.fam .role { font: 500 12px/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+.layoutgrid { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 40px; align-items: start; }
+.canvas { position: relative; width: 100%; max-width: 300px; aspect-ratio: 4/5; background: #0d0b09; outline: 1px solid var(--line); overflow: hidden; }
+.canvas .zone { position: absolute; background: rgba(122,35,24,.45); }
+.canvas .safe { position: absolute; border: 1px dashed #d4af37; }
+.canvas .lbl { position: absolute; font: 500 9px/1 var(--mono); letter-spacing: .1em; color: #f3ead8; text-transform: uppercase; }
+.rules { display: grid; gap: 10px; padding-left: 20px; color: var(--fg-2); max-width: 70ch; }
+.rules b { color: var(--fg); font-weight: 500; }
+.structure { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
+.structure figure { display: grid; gap: 6px; }
+.structure img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; outline: 1px solid var(--line-2); }
+.structure figcaption { font: 500 11px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.structure figcaption b { color: var(--gold); font-weight: 500; }
+.hooks { width: 100%; border-collapse: collapse; font-size: 16px; }
+.hooks td, .hooks th { text-align: left; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--line-2); vertical-align: top; }
+.hooks th { font: 500 11px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.hooks td.h { font: 500 22px/1.15 'Cormorant Garamond', Georgia, serif; }
+.tablewrap { overflow-x: auto; }
+@media (max-width: 860px) {
+  .spec { grid-template-columns: 1fr; gap: 6px; }
+  .layoutgrid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 860px) {
+  .wrap { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .vgrid { grid-template-columns: 1fr; gap: 32px; }
+  .phone { position: static; }
+  .rowtrack img { height: 200px; }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 16px; }
+  .card h2 { font-size: 22px; }
+}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <div>
+    <div class="mono" style="color:var(--gold)">Art History · Carousel series</div>
+    <h1>Story <em>Carousels</em></h1>
+    <div class="sub mono" id="sub"></div>
+  </div>
+  <div style="display:flex;gap:10px;align-items:center">
+    <div class="tabs mono" role="group" aria-label="View">
+      <button data-view="gallery" aria-pressed="true">Gallery</button>
+      <button data-view="wall" aria-pressed="false">Wall</button>
+      <button data-view="brand" aria-pressed="false">Brand</button>
+    </div>
+    <button class="theme mono" id="theme" aria-label="Toggle theme">◐</button>
+  </div>
+</div></header>
+<main class="wrap" id="main"></main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="manifest.js"></script>
+<script>
+const DATA = (window.CAROUSELS || []).sort((a, b) => String(a.no).localeCompare(String(b.no)));
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const main = $('#main');
+let view = 'gallery';
+
+$('#sub').textContent = `${DATA.length} paintings · ${DATA.reduce((a, c) => a + c.renders.length, 0)} slides · 1080 × 1350`;
+document.querySelectorAll('.tabs button').forEach(b => b.onclick = () => { location.hash = b.dataset.view === 'gallery' ? '' : b.dataset.view; });
+$('#theme').onclick = () => {
+  const r = document.documentElement, dark = getComputedStyle(r).getPropertyValue('--bg').trim() === '#0d0b09';
+  r.dataset.theme = dark ? 'light' : 'dark';
+  try { localStorage.setItem('cf-theme', r.dataset.theme); } catch (e) {}
+};
+try { const t = localStorage.getItem('cf-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+
+function md(s) {
+  const lines = esc(s).split('\n'); let out = '';
+  for (let l of lines) {
+    l = l.replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+         .replace(/(^|[\s(])(https?:\/\/[^\s)<]+)/g, '$1<a href="$2" target="_blank" rel="noopener">$2</a>')
+         .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+    if (/^#{1,6}\s/.test(l)) out += `<h4>${l.replace(/^#+\s/, '')}</h4>`;
+    else if (/^\s*[-*]\s/.test(l)) out += `<li>${l.replace(/^\s*[-*]\s/, '')}</li>`;
+    else if (l.trim()) out += `<p>${l}</p>`;
+  }
+  return out;
+}
+
+function gallery() {
+  if (!DATA.length) { main.innerHTML = '<p class="empty mono">No carousels yet — run build-index.mjs</p>'; return; }
+  main.innerHTML = `<div class="grid">${DATA.map(c => `
+    <a class="card" href="#${esc(c.slug)}">
+      <div class="img"><img src="${esc(c.renders[0])}" alt="${esc(c.title)} cover" loading="lazy"></div>
+      <div class="no mono">No. ${esc(c.no)} · ${c.renders.length} slides</div>
+      <h2>${esc(c.title)}</h2>
+      <p>${esc(c.artist)}, ${esc(c.year)}</p>
+    </a>`).join('')}</div>`;
+}
+
+function wall() {
+  main.innerHTML = `<div class="wall">${DATA.map(c => `
+    <section class="row"><h2><span class="mono">No. ${esc(c.no)}</span><a href="#${esc(c.slug)}" style="color:inherit;text-decoration:none">${esc(c.title)}</a><button class="zip mono" data-zip="${esc(c.slug)}">Download .zip</button></h2>
+    <div class="rowtrack">${c.renders.map((r, i) => `<img src="${esc(r)}" alt="${esc(c.title)} slide ${i + 1}" loading="lazy">`).join('')}</div></section>`).join('')}</div>`;
+  main.querySelectorAll('[data-zip]').forEach(b => b.onclick = async () => {
+    const c = DATA.find(x => x.slug === b.dataset.zip), t = b.textContent;
+    b.disabled = true; b.textContent = 'Zipping…';
+    try { b.textContent = await saveZip(c); } catch (e) { b.textContent = errText(e); }
+    setTimeout(() => { b.textContent = t; b.disabled = false; }, 2600);
+  });
+}
+
+function viewer(c) {
+  const slides = c.slides || [];
+  main.innerHTML = `<div class="viewer">
+    <a class="back mono" href="#" style="text-decoration:none">← All carousels</a>
+    <div class="vgrid">
+      <div class="phone">
+        <div class="top"><div class="avatar">A</div><b>arthistory</b><span style="color:var(--muted);margin-left:auto" class="mono">Carousel</span></div>
+        <div class="stage">
+          <div class="track" id="track">${c.renders.map((r, i) => `<img src="${esc(r)}" alt="${esc(slides[i]?.alt || `Slide ${i + 1}`)}" draggable="false">`).join('')}</div>
+          <button class="arrow l" id="prev" aria-label="Previous slide">‹</button>
+          <button class="arrow r" id="next" aria-label="Next slide">›</button>
+          <div class="count" id="count"></div>
+        </div>
+        <div class="pips" id="pips">${c.renders.map(() => '<i></i>').join('')}</div>
+        <div class="cap"><b>arthistory</b> ${esc(c.caption)}</div>
+      </div>
+      <div class="info">
+        <div class="no mono">No. ${esc(c.no)} · ${esc(c.videoFormat || '')}</div>
+        <h2>${esc(c.title)}</h2>
+        <div class="meta">${esc(c.artist)} · ${esc(c.year)} · ${esc(c.museum)}</div>
+        ${c.hook ? `<div class="hook">${esc(c.hook)}</div>` : ''}
+        <div class="section save"><h3 class="mono">Save to your phone</h3>
+          <div class="btns mono">
+            <button class="primary" id="sv-all">Download all ${c.renders.length} (.zip)</button>
+            <button id="sv-one">Save this slide</button>
+            <button id="sv-seq">Save one by one</button>
+            <button id="sv-hold">Press-and-hold list</button>
+          </div>
+          <div class="status" id="sv-status" role="status" aria-live="polite"></div>
+          <p class="hint">On iPhone: open the zip in the Files app, open the folder, tap ⋯ → Select All, then Share → Save Images. Download buttons only work for people signed in to the page owner's Claude organization. Anyone else can tap <b>Press-and-hold list</b>, then press and hold each slide → Save to Photos.</p>
+          <div class="holdlist" id="holdlist" hidden>${c.renders.map((r, i) => `<img src="${esc(r)}" alt="${esc(c.title)}, slide ${i + 1} of ${c.renders.length}">`).join('')}</div>
+        </div>
+        <div class="section"><h3 class="mono">Slides <span>${c.renders.length}</span></h3>
+          <div class="strip" id="strip">${c.renders.map((r, i) => `<button data-i="${i}" aria-label="Go to slide ${i + 1}"><img src="${esc(r)}" alt=""><span>${String(i + 1).padStart(2, '0')}</span></button>`).join('')}</div>
+        </div>
+        <div class="section"><h3 class="mono">Caption <button class="copybtn mono" data-copy="cap">Copy</button></h3><div class="caption">${esc(c.caption)}</div></div>
+        <div class="section"><h3 class="mono">Hashtags <button class="copybtn mono" data-copy="tags">Copy</button></h3><div class="tags">${(c.hashtags || []).map(h => '#' + esc(String(h).replace(/^#/, ''))).join(' ')}</div></div>
+        ${slides.length ? `<div class="section"><h3 class="mono">Running order</h3><ol class="slidelist">${slides.map(s => `<li><span class="n">${String(s.n).padStart(2, '0')}</span><span class="t">${esc(s.type)}</span><span>${esc(s.headline)}</span></li>`).join('')}</ol></div>` : ''}
+        ${c.notes ? `<div class="section"><h3 class="mono">Notes</h3><p class="notes">${esc(c.notes)}</p></div>` : ''}
+        ${c.sources ? `<div class="section"><details><summary class="mono">Sources & image licences</summary><div class="md">${md(c.sources)}</div></details></div>` : ''}
+      </div>
+    </div></div>`;
+  const track = $('#track'), n = c.renders.length;
+  const cur = () => Math.round(track.scrollLeft / track.clientWidth);
+  const go = i => track.scrollTo({ left: Math.max(0, Math.min(n - 1, i)) * track.clientWidth, behavior: 'smooth' });
+  const sync = () => {
+    const i = cur();
+    $('#count').textContent = `${i + 1} / ${n}`;
+    [...$('#pips').children].forEach((p, j) => p.classList.toggle('on', j === i));
+    [...$('#strip').children].forEach((p, j) => p.classList.toggle('on', j === i));
+    $('#prev').disabled = i === 0; $('#next').disabled = i === n - 1;
+  };
+  track.addEventListener('scroll', () => requestAnimationFrame(sync)); sync();
+  $('#prev').onclick = () => go(cur() - 1); $('#next').onclick = () => go(cur() + 1);
+  $('#strip').onclick = e => { const b = e.target.closest('button'); if (b) go(+b.dataset.i); };
+  // drag to swipe with a mouse
+  let x0 = null; track.onpointerdown = e => { if (e.pointerType === 'mouse') x0 = e.clientX; };
+  window.onpointerup = e => { if (x0 !== null) { const d = e.clientX - x0; if (Math.abs(d) > 40) go(cur() + (d < 0 ? 1 : -1)); x0 = null; } };
+  document.onkeydown = e => { if (e.key === 'ArrowRight') go(cur() + 1); if (e.key === 'ArrowLeft') go(cur() - 1); if (e.key === 'Escape') location.hash = ''; };
+  const st = $('#sv-status'), say = t => { st.textContent = t; };
+  const busy = (on) => ['#sv-all', '#sv-one', '#sv-seq'].forEach(id => $(id).disabled = on);
+  $('#sv-hold').onclick = () => { const h = $('#holdlist'); h.hidden = !h.hidden; $('#sv-hold').textContent = h.hidden ? 'Press-and-hold list' : 'Hide list'; if (!h.hidden) { say('Press and hold each slide below → Save to Photos. They are in order, 01 to ' + n + '.'); h.scrollIntoView({ behavior: 'smooth', block: 'start' }); } };
+  $('#sv-all').onclick = async () => { busy(true); say('Building the zip…'); try { say(await saveZip(c)); } catch (e) { say(errText(e)); } busy(false); };
+  $('#sv-one').onclick = async () => { const i = cur(); busy(true); try { await saveFile(fileName(c, i), await getBlob(c.renders[i])); say(`Slide ${i + 1} saved.`); } catch (e) { say(errText(e)); } busy(false); };
+  $('#sv-seq').onclick = async () => {
+    busy(true);
+    for (let i = 0; i < n; i++) {
+      say(`Slide ${i + 1} of ${n}: confirm the save…`);
+      try { await saveFile(fileName(c, i), await getBlob(c.renders[i])); }
+      catch (e) { if (e && e.code === 'rate_limited') { await new Promise(r => setTimeout(r, 1500)); i--; continue; } say(i ? `Saved ${i} of ${n}. ${errText(e)}` : errText(e)); busy(false); return; }
+    }
+    say(`All ${n} slides saved.`); busy(false);
+  };
+  main.querySelectorAll('[data-copy]').forEach(b => b.onclick = async () => {
+    const text = b.dataset.copy === 'cap' ? c.caption : (c.hashtags || []).map(h => '#' + String(h).replace(/^#/, '')).join(' ');
+    try { await navigator.clipboard.writeText(text); b.textContent = 'Copied'; b.classList.add('ok'); setTimeout(() => { b.textContent = 'Copy'; b.classList.remove('ok'); }, 1400); } catch (e) { b.textContent = 'Select & copy'; }
+  });
+}
+
+/* ---------- saving ---------- */
+const dlP = window.claude?.use ? window.claude.use('downloads').catch(() => null) : Promise.resolve(null);
+const fileName = (c, i) => `${c.slug}-${String(i + 1).padStart(2, '0')}.jpg`;
+const getBlob = async url => { const r = await fetch(url); if (!r.ok) throw { code: 'fetch', message: url }; return r.blob(); };
+async function saveFile(filename, data) {
+  const dl = await dlP;
+  if (dl) return dl.save({ filename, data });
+  // outside claude.ai (local file / plain website): ordinary browser download
+  const a = document.createElement('a'); a.href = URL.createObjectURL(data instanceof Blob ? data : new Blob([data]));
+  a.download = filename; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  return { status: 'saved' };
+}
+async function saveZip(c) {
+  if (!window.JSZip) throw { code: 'nozip' };
+  const zip = new JSZip(), dir = zip.folder(c.slug);
+  const blobs = await Promise.all(c.renders.map(getBlob));
+  blobs.forEach((b, i) => dir.file(fileName(c, i), b));
+  const tags = (c.hashtags || []).map(h => '#' + String(h).replace(/^#/, '')).join(' ');
+  dir.file('caption.txt', `${c.caption || ''}\n\n${tags}\n`);
+  const blob = await zip.generateAsync({ type: 'blob', compression: 'STORE' });
+  await saveFile(`${c.slug}.zip`, blob);
+  return `Zip saved: ${c.renders.length} slides + caption.txt.`;
+}
+function errText(e) {
+  const code = e && e.code;
+  if (code === 'declined') return 'Save cancelled.';
+  if (code === 'rate_limited') return 'Another save is still open. Finish it, then try again.';
+  if (code === 'fetch') return 'Could not load a slide image. Reload the page and try again.';
+  if (code === 'nozip') return 'The zip tool did not load. Use “Save one by one” instead.';
+  if (code === 'not_granted' || code === 'unavailable' || code === 'capability_disabled') return 'Downloads here are limited to the page owner\u2019s Claude organization. Tap “Press-and-hold list” and press and hold each slide → Save to Photos.';
+  return 'Saving is not available in this view. Tap “Press-and-hold list” and press and hold each slide → Save to Photos.';
+}
+
+/* ---------- brand guide ---------- */
+const BRAND = {
+  themes: [
+    { id: 'gallery', name: 'Gallery', note: 'Default for every slide.', bg: '#0d0b09', fg: '#f3ead8', em: '#d4af37', tokens: [
+      ['ground', '#0d0b09', 'Slide background'], ['ground-raised', '#17130f', 'Panels, tag plates, phone frame'], ['text', '#f3ead8', 'Headlines and copy (17:1)'],
+      ['text-muted', '#8a7f6c', 'Captions, label metadata (4.8:1)'], ['accent', '#d4af37', 'The <em> word, kickers, dates (9:1)'], ['gilt', '#d4af37', 'Frames, rings, loupes, leader lines'],
+      ['gilt-dim', '#8f7426', 'Timeline spine, quiet rules'], ['oxblood', '#7a2318', 'The twist, at most once a slide'], ['on-gilt', '#0d0b09', 'Text on gold buttons and badges'] ] },
+    { id: 'paper', name: 'Paper', note: 'One or two slides per carousel: quote, timeline, the "look again" beat.', bg: '#f3ead8', fg: '#0d0b09', em: '#7a2318', tokens: [
+      ['ground', '#f3ead8', 'Slide background'], ['ground-raised', '#e6dac2', 'Raised panels'], ['text', '#0d0b09', 'Headlines and copy (17:1)'],
+      ['text-muted', '#6f6453', 'Captions (5:1). Not #8a7f6c: too faint on cream'], ['accent', '#7a2318', 'The <em> word, kickers, dates (8:1)'], ['gilt', '#d4af37', 'Frame lines only, never text (1.9:1)'] ] }
+  ],
+  fams: [
+    ['Cormorant Garamond', 'Display', 'Hooks, headlines, quotes, numbers', "'Cormorant Garamond', Georgia, serif", 'Aa'],
+    ['Newsreader', 'Body', 'Story copy, ledes, captions', "'Newsreader', Georgia, serif", 'Aa'],
+    ['IBM Plex Mono', 'Labels', 'Kickers, header, footer, tags (uppercase)', "'IBM Plex Mono', monospace", 'AA']
+  ],
+  styles: [
+    ['hero', 'Cormorant 500 · 132px · lh .9', "500 132px/.9 'Cormorant Garamond'", 'Its famous name is a <em>mistake</em>.', 'Cover hook only'],
+    ['headline-m', 'Cormorant 500 · 70px · lh 1', "500 70px/1 'Cormorant Garamond'", 'She isn’t a guest. She’s a <em>logo</em>.', 'Story slides, 9 words max'],
+    ['headline-s', 'Cormorant 600 · 46px · lh 1.08', "600 46px/1.08 'Cormorant Garamond'", 'Four people, all <em>alone</em> together.', 'Dense slides'],
+    ['quote', 'Cormorant italic 500 · 74px', "italic 500 74px/1.06 'Cormorant Garamond'", 'One of you shall betray me.', 'Real, sourced quotes only'],
+    ['numeral', 'Cormorant 500 · 330px · lh .8', "500 330px/.8 'Cormorant Garamond'", '<span style="color:var(--gold)">1797</span>', 'One giant number on a fact slide'],
+    ['lede', 'Newsreader 400 · 38px · lh 1.38', "400 38px/1.38 'Newsreader'", 'And three of its people are missing.', 'The line under the cover hook'],
+    ['copy', 'Newsreader 400 · 33px · lh 1.45', "400 33px/1.45 'Newsreader'", 'Light falls on the captain’s open hand, and its shadow lands on his lieutenant’s coat.', '45 words max per slide'],
+    ['caption', 'Newsreader italic · 25px', "italic 400 25px/1.35 'Newsreader'", 'Early copy, attributed to Gerrit Lundens', 'Under images, in text-muted'],
+    ['kicker', 'Plex Mono 500 · 22px · +.22em', "500 22px/1.3 'IBM Plex Mono'", '<span style="letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">The glowing girl</span>', 'Above every headline, accent'],
+    ['chrome', 'Plex Mono 500 · 19px · +.18em', "500 19px/1 'IBM Plex Mono'", '<span style="letter-spacing:.18em;text-transform:uppercase"><span style="color:var(--gold)">No. 03</span> — The Night Watch &nbsp; 03 / 10</span>', 'Header and footer, automatic']
+  ],
+  structure: [['01', 'Cover', 'Hook on a tight detail crop'], ['02', 'Plate', 'Whole painting + museum label'], ['03–08', 'Story', 'One idea per slide: loupe, strip, quote or timeline'], ['09', 'Look again', 'The twist or payoff'], ['10', 'Watch the film', 'Our film’s first frame, Save / Share']]
+};
+function brand() {
+  const ex = DATA.find(c => c.slug.startsWith('03')) || DATA[0];
+  const pick = i => ex ? esc(ex.renders[Math.min(i, ex.renders.length - 1)]) : '';
+  const scale = px => `max(12px, min(${(px * 0.5).toFixed(0)}px, ${Math.min(px * 0.5 / 4, 14).toFixed(1)}vw))`;
+  main.innerHTML = `<div class="brand">
+    <div>
+      <div class="mono" style="color:var(--gold)">Brand guide</div>
+      <h2 class="bh" style="margin-top:10px">A museum <em>after hours</em>.</h2>
+      <p class="intro">Gallery-black walls, cream wall-label type, gilt frames, and a docent leaning in to tell you a secret. Everything below is what the carousels use. Slide sizes are canvas pixels on the 1080 × 1350 slide.</p>
+    </div>
+
+    <section class="bsec"><header><h3>Colour</h3><span class="mono">Two slide themes</span></header>
+      <div class="themes">${BRAND.themes.map(t => `
+        <div class="theme-card" style="background:${t.bg};color:${t.fg}">
+          <div class="tname" style="color:${t.em}">${t.name}</div>
+          <div class="demo-h">Someone else is in this <em style="color:${t.em}">room</em>.</div>
+          <div class="demo-c">${esc(t.note)}</div>
+          <div class="sw-list">${t.tokens.map(([n, v, u]) => `
+            <div class="sw"><i style="background:${v}"></i><div style="min-width:0"><div class="n">${n} · ${v}</div><div class="u">${esc(u)}</div></div><button data-hex="${v}" aria-label="Copy ${v}">Copy</button></div>`).join('')}
+          </div>
+        </div>`).join('')}
+      </div>
+    </section>
+
+    <section class="bsec"><header><h3>Typography</h3><span class="mono">Google Fonts · free licence</span></header>
+      <div class="families">${BRAND.fams.map(([f, r, u, stack, g]) => `
+        <div class="fam"><div class="role">${r}</div><div class="big" style="font-family:${stack}">${g}</div><div style="font:500 22px/1.2 ${stack}">${f}</div><div style="color:var(--muted);font-size:14px">${u}</div></div>`).join('')}
+      </div>
+      <div class="specimens">${BRAND.styles.map(([n, spec, font, sample, use]) => {
+        const px = +font.match(/(\d+)px/)[1];
+        return `<div class="spec"><div class="meta"><b>${n}</b>${spec}<br>${use}</div>
+          <div class="s" style="font:${font.replace(/\d+px/, scale(px))}, Georgia, serif">${sample.replace(/<em>/g, '<em style="color:var(--gold)">')}</div></div>`; }).join('')}
+      </div>
+      <p class="mono" style="color:var(--muted)">Specimens shown at half size.</p>
+    </section>
+
+    <section class="bsec"><header><h3>Layout</h3><span class="mono">1080 × 1350 · Instagram 4:5</span></header>
+      <div class="layoutgrid">
+        <div class="canvas" aria-label="Slide safe zones diagram">
+          <div class="zone" style="left:0;right:0;top:0;height:8.9%"></div>
+          <div class="zone" style="left:0;right:0;bottom:0;height:8.1%"></div>
+          <div class="safe" style="left:7.8%;right:7.8%;top:8.9%;bottom:8.1%"></div>
+          <div class="lbl" style="left:7.8%;top:3.5%">Header · 120px</div>
+          <div class="lbl" style="left:7.8%;bottom:3%">Footer · 110px</div>
+          <div class="lbl" style="left:10%;top:48%;color:#d4af37">Text lives here</div>
+          <div class="lbl" style="left:1%;top:60%;writing-mode:vertical-rl">84px</div>
+        </div>
+        <ul class="rules">
+          <li><b>Margins:</b> text stays 84px from each side, below the 120px header zone and above the 110px footer zone.</li>
+          <li><b>Chrome on every slide:</b> “No. 0X — Title” and “03 / 10” at the top; @arthistory and progress dots at the bottom. It's added automatically.</li>
+          <li><b>Text over photos</b> sits at the bottom on a black shade so it stays readable. Never centre body copy.</li>
+          <li><b>Square corners</b> everywhere. Circles only for markers, loupes and numbered badges. The CTA phone is the only rounded rectangle (46px).</li>
+          <li><b>Texture:</b> film grain (14%) and a soft vignette over every slide.</li>
+          <li><b>Mix it up:</b> no slide type twice in a row; one or two paper slides per carousel.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bsec"><header><h3>The 10-slide story</h3><span class="mono">Example: ${ex ? esc(ex.title) : ''}</span></header>
+      <div class="structure">
+        ${[[0, BRAND.structure[0]], [1, BRAND.structure[1]], [4, BRAND.structure[2]], [8, BRAND.structure[3]], [9, BRAND.structure[4]]].map(([i, [n, t, d]]) => `
+          <figure><img src="${pick(i)}" alt="${t} slide example" loading="lazy"><figcaption><b>${n} ${t}</b><br>${d}</figcaption></figure>`).join('')}
+      </div>
+      <p style="color:var(--fg-2);max-width:70ch">Every carousel uses at least one loupe (a ringed detail joined to a big circular close-up), one strip or cut-up collage, and one quote, fact or timeline.</p>
+    </section>
+
+    <section class="bsec"><header><h3>Voice</h3><span class="mono">A docent whispering a secret</span></header>
+      <ul class="rules">
+        <li><b>Hooks make people curious; they never summarise.</b> 4–8 words on the cover, 9 words max for any headline.</li>
+        <li><b>45 words max</b> of body copy per slide. One idea per slide. Short sentences.</li>
+        <li><b>One emphasised word</b> per headline, in italic gold (oxblood on paper).</li>
+        <li><b>Every headline gets a kicker:</b> 2–4 uppercase words above it.</li>
+        <li><b>Facts must be true.</b> Hedge contested claims (“historians think…”). Never invent a quote.</li>
+        <li><b>Images:</b> the painting itself, cropped hard; supporting images only from public-domain or CC sources, logged in sources.md. No AI images except our film's first frame on the last slide.</li>
+        <li>“We” for the channel, “you” for the reader. No emoji on slides.</li>
+      </ul>
+      <div class="tablewrap"><table class="hooks"><thead><tr><th>No.</th><th>Painting</th><th>Hook</th></tr></thead><tbody>
+        ${DATA.map(c => `<tr><td class="mono" style="color:var(--gold)">${esc(c.no)}</td><td>${esc(c.title)}</td><td class="h">${esc((c.slides && c.slides[0] && c.slides[0].headline) || c.hook || '')}</td></tr>`).join('')}
+      </tbody></table></div>
+    </section>
+  </div>`;
+  main.querySelectorAll('[data-hex]').forEach(b => b.onclick = async () => {
+    try { await navigator.clipboard.writeText(b.dataset.hex); b.textContent = 'Copied'; } catch (e) { b.textContent = b.dataset.hex; }
+    setTimeout(() => { b.textContent = 'Copy'; }, 1200);
+  });
+}
+
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  const c = DATA.find(x => x.slug === h);
+  view = (h === 'wall' || h === 'brand') ? h : 'gallery';
+  document.querySelectorAll('.tabs button').forEach(b => b.setAttribute('aria-pressed', String(!c && b.dataset.view === view)));
+  document.onkeydown = null;
+  if (c) viewer(c); else if (view === 'wall') wall(); else if (view === 'brand') brand(); else gallery();
+  window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', route); route();
+</script>
+</body>
+</html>

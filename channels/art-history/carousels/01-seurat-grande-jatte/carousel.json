@@ -1,0 +1,25 @@
+{
+  "slug": "01-seurat-grande-jatte",
+  "no": "01",
+  "title": "La Grande Jatte",
+  "artist": "Georges Seurat",
+  "year": "1884–86 (border 1888–89)",
+  "museum": "Art Institute of Chicago",
+  "videoFormat": "Zoom Into… reel (episode 001-seurat-monkey)",
+  "hook": "Everyone in this park is hiding something.",
+  "caption": "Everyone in this park is hiding something.\n\nSeurat was 24 when he started A Sunday on La Grande Jatte, and he spent two years on it: oil sketches on the island, shadowy crayon drawings, a full dress rehearsal. Then came the dots, the 1886 scandal at the last Impressionist show, a border he painted on later… and a sunny yellow that has been quietly turning brown ever since.\n\nOh, and that monkey on a leash? Many historians think it's a joke.\n\nSwipe through, then watch the reel to find it yourself. Save this for your next visit to Chicago.",
+  "hashtags": ["#arthistory", "#seurat", "#lagrandejatte", "#pointillism", "#neoimpressionism", "#artinstituteofchicago", "#painting", "#hiddendetails", "#museum", "#sundayintheparkwithgeorge", "#arttok", "#arthistorynerd"],
+  "slides": [
+    {"n": 1, "type": "cover", "headline": "Everyone in this park is hiding something.", "alt": "Close crop of the top-hatted couple with a black parasol on the right of Seurat's painting."},
+    {"n": 2, "type": "plate", "headline": "A Sunday on La Grande Jatte — 1884", "alt": "The whole painting in a gold frame with its museum label."},
+    {"n": 3, "type": "fact", "headline": "A young man with a method.", "alt": "Period photograph of Georges Seurat as a torn paper scrap beside a giant gold 24."},
+    {"n": 4, "type": "strip", "headline": "He rehearsed it dozens of times.", "alt": "Three tall panels: an oil sketch of the riverbank, a conté crayon drawing of a seated woman, and the Met's near-final study."},
+    {"n": 5, "type": "detail", "headline": "Who gets the lawn?", "alt": "Paper slide: lower-left of the painting, rings on a man in a top hat and a reclining rower in a sleeveless vest."},
+    {"n": 6, "type": "loupe", "headline": "Not strokes. Dots.", "alt": "Small full painting with a gold ring and leader line to a big circular zoom showing individual dots of colour."},
+    {"n": 7, "type": "collage", "headline": "A rod. A monkey. A wink.", "alt": "Two torn scraps: the woman fishing at the water's edge and the monkey on a leash."},
+    {"n": 8, "type": "timeline", "headline": "From scandal to Broadway.", "alt": "Timeline 1886, 1888–89, 1924, 1984 beside a narrow crop of the painted dotted border."},
+    {"n": 9, "type": "twist", "headline": "The sunlight is fading.", "alt": "Close crop of the sunlit yellow lawn with parasols and a top hat."},
+    {"n": 10, "type": "cta", "headline": "Now find the monkey.", "alt": "Phone frame showing a vertical crop of the woman with the red parasol and the girl in white, with a play button."}
+  ],
+  "notes": "No AI first frame exists for this episode, so the CTA phone uses a vertical painting crop (img/phone.jpg). No quote slide: the popular Seurat 'I apply my method' line has shaky sourcing, so the slide uses facts only. Study count hedged as 'dozens'. AIC IIIF images were blocked by a bot check, so studies come from Wikimedia Commons (Met CC0, NGA PD, AIC drawing via Google Art Project PD)."
+}

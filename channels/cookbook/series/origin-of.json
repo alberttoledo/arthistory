@@ -1,0 +1,13 @@
+{
+  "id": "origin-of",
+  "name": "Where Does It Come From?",
+  "premise": "The surprising origin of a familiar food",
+  "hookFormula": "[Food] isn't from where you think.",
+  "structure": [
+    "hook",
+    "myth",
+    "real origin",
+    "how it spread"
+  ],
+  "targetSeconds": 35
+}

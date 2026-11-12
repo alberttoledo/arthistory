@@ -1,0 +1,336 @@
+{
+  "scenes": [
+    {
+      "beat": 0,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "obama_bourdain",
+        "from": {
+          "x": 0.6,
+          "y": 0.5,
+          "zoom": 1.05
+        },
+        "to": {
+          "x": 0.6,
+          "y": 0.5,
+          "zoom": 1.35
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "Anthony Bourdain",
+        "position": "top"
+      }
+    },
+    {
+      "beat": 0,
+      "at": 0.55,
+      "visual": {
+        "type": "image",
+        "asset": "hanoi_street",
+        "from": {
+          "x": 0.4,
+          "y": 0.6,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 0.4,
+          "y": 0.6,
+          "zoom": 1.1
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 1,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "kitchen",
+        "from": {
+          "x": 0.3,
+          "y": 0.6,
+          "zoom": 1.2
+        },
+        "to": {
+          "x": 0.6,
+          "y": 0.6,
+          "zoom": 1.2
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "New York kitchens",
+        "position": "top"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 1,
+      "at": 0.5,
+      "visual": {
+        "type": "image",
+        "asset": "kitchen",
+        "from": {
+          "x": 0.65,
+          "y": 0.6,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.65,
+          "y": 0.6,
+          "zoom": 1.1
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "Kitchen Confidential, 2000",
+        "position": "top"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 2,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "world_map",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.4
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1
+        },
+        "fit": "contain"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 2,
+      "at": 0.5,
+      "visual": {
+        "type": "image",
+        "asset": "night_market",
+        "from": {
+          "x": 0.3,
+          "y": 0.55,
+          "zoom": 1.15
+        },
+        "to": {
+          "x": 0.65,
+          "y": 0.55,
+          "zoom": 1.25
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 3,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "hanoi_street",
+        "from": {
+          "x": 0.7,
+          "y": 0.6,
+          "zoom": 1.25
+        },
+        "to": {
+          "x": 0.35,
+          "y": 0.6,
+          "zoom": 1.25
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "Vietnam",
+        "position": "top"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 3,
+      "at": 0.5,
+      "visual": {
+        "type": "image",
+        "asset": "night_market",
+        "from": {
+          "x": 0.55,
+          "y": 0.55,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.55,
+          "y": 0.55,
+          "zoom": 1.15
+        },
+        "fit": "cover"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 4,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "obama_bourdain",
+        "from": {
+          "x": 0.6,
+          "y": 0.5,
+          "zoom": 1.1
+        },
+        "to": {
+          "x": 0.6,
+          "y": 0.5,
+          "zoom": 1.45
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "Hanoi, May 2016",
+        "position": "top"
+      },
+      "transition": "iris"
+    },
+    {
+      "beat": 4,
+      "at": 0.4,
+      "visual": {
+        "type": "image",
+        "asset": "bun_cha",
+        "from": {
+          "x": 0.6,
+          "y": 0.45,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.6,
+          "y": 0.45,
+          "zoom": 1.15
+        },
+        "fit": "cover"
+      },
+      "overlay": {
+        "text": "Bún chả",
+        "position": "top"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 4,
+      "at": 0.75,
+      "visual": {
+        "type": "title",
+        "kicker": "The bill",
+        "text": "About $6",
+        "sub": "Noodles and beer, with a president"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 5,
+      "at": 0,
+      "visual": {
+        "type": "starfield",
+        "constellation": "orion"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 5,
+      "at": 0.5,
+      "visual": {
+        "type": "image",
+        "asset": "hanoi_street",
+        "from": {
+          "x": 0.4,
+          "y": 0.6,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.4,
+          "y": 0.6,
+          "zoom": 1
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 6,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "bun_cha",
+        "from": {
+          "x": 0.6,
+          "y": 0.45,
+          "zoom": 1.2
+        },
+        "to": {
+          "x": 0.6,
+          "y": 0.45,
+          "zoom": 1.3
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 6,
+      "at": 0.5,
+      "visual": {
+        "type": "image",
+        "asset": "night_market",
+        "from": {
+          "x": 0.55,
+          "y": 0.55,
+          "zoom": 1.3
+        },
+        "to": {
+          "x": 0.55,
+          "y": 0.55,
+          "zoom": 1.1
+        },
+        "fit": "cover"
+      },
+      "transition": "crossfade"
+    },
+    {
+      "beat": 7,
+      "at": 0,
+      "visual": {
+        "type": "image",
+        "asset": "world_map",
+        "from": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.5
+        },
+        "to": {
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.05
+        },
+        "fit": "contain"
+      },
+      "transition": "zoom-out"
+    },
+    {
+      "beat": 7,
+      "at": 0.5,
+      "visual": {
+        "type": "text",
+        "text": "Sit down. Eat what's offered. Then stay a while."
+      },
+      "transition": "iris"
+    }
+  ]
+}

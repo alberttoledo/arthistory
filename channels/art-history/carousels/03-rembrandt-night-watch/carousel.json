@@ -1,0 +1,25 @@
+{
+  "slug": "03-rembrandt-night-watch",
+  "no": "03",
+  "title": "The Night Watch",
+  "artist": "Rembrandt van Rijn",
+  "year": "1642",
+  "museum": "Rijksmuseum, Amsterdam",
+  "videoFormat": "painting-flythrough-loop (step inside the painting)",
+  "hook": "Its famous name is a mistake.",
+  "caption": "Its famous name is a mistake. 🌙❌\n\nRembrandt never called it the Night Watch. The name first shows up in 1797, after layers of darkened varnish had buried his light. Then look closer: a glowing girl who is really a logo, an eye under a beret that may be Rembrandt himself, and three figures sliced off in 1715 so it would fit a wall. It survived knives, acid and a war spent rolled up in a cave.\n\nSwipe for the secrets, then watch the reel and step inside the painting. Save this for your next trip to Amsterdam.",
+  "hashtags": ["#TheNightWatch", "#Rembrandt", "#Rijksmuseum", "#ArtHistory", "#DutchGoldenAge", "#Amsterdam", "#OldMasters", "#HiddenDetails", "#ArtSecrets", "#PaintingDetails", "#MuseumLovers"],
+  "slides": [
+    {"n": 1, "type": "cover", "headline": "Its famous name is a mistake.", "alt": "Close-up of the glowing girl in a gold headband from Rembrandt's Night Watch."},
+    {"n": 2, "type": "plate", "headline": "The Night Watch", "alt": "The whole Night Watch in a gold frame with a museum label: Rembrandt, 1642, oil on canvas, 379.5 x 453.5 cm, Rijksmuseum."},
+    {"n": 3, "type": "fact", "headline": "1797: the first time anyone wrote 'Night Watch'", "alt": "The year 1797 in large gold numerals over a darkened view of the painting."},
+    {"n": 4, "type": "quote", "headline": "I would have preferred him to put more light into it.", "alt": "Quote by Samuel van Hoogstraten, Rembrandt's former pupil, 1678, on a cream card."},
+    {"n": 5, "type": "loupe", "headline": "She isn't a guest. She's a logo.", "alt": "Small view of the painting with a gold ring on the girl, linked to a large circular zoom of her and the chicken claws at her waist."},
+    {"n": 6, "type": "detail", "headline": "Someone is peeking at you.", "alt": "Close-up of a single eye under a beret, squeezed between two guardsmen, marked with a gold ring."},
+    {"n": 7, "type": "split", "headline": "They cut it to fit.", "alt": "The early Lundens copy showing the full composition, with the strip cut away in 1715 shaded and a torn scrap enlarging the lost figures."},
+    {"n": 8, "type": "collage-timeline", "headline": "Knifed, hidden, survived.", "alt": "Torn photo scraps of the 1975 knife damage and the rolled-up painting in its crate in 1945, beside a timeline of 1911, 1939, 1975 and 1990."},
+    {"n": 9, "type": "twist", "headline": "His hand casts a shadow.", "alt": "Detail of the captain's open hand and the lieutenant's gold coat, with a ring on the hand's shadow."},
+    {"n": 10, "type": "cta", "headline": "Now step inside.", "alt": "Phone showing the first frame of our step-inside film, with Watch the film, Save and Share buttons."}
+  ],
+  "notes": "Cover hook teases the misnomer; slide 3 pays it off (name first recorded 1797, varnish cleaned in the 1940s). Day-vs-night kept hedged ('brought the light back'), since the Rijksmuseum director has said only that it is not certain it is a night scene. Self-portrait is hedged ('historians think it may be'). Slide 9's ring marks the hand's shadow on the lieutenant's coat, placed by eye. The lost-strip line on slide 7 is drawn at about 11% of the copy's width (64.4 cm of about 525 cm), so it is approximate. CTA phone uses assets/nightwatch/nightwatch_first_frame_ai.png."
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "04-van-eyck-arnolfini",
+  "no": "04",
+  "title": "The Arnolfini Portrait",
+  "artist": "Jan van Eyck",
+  "year": "1434",
+  "museum": "The National Gallery, London",
+  "videoFormat": "painting-flythrough-loop (step inside the painting)",
+  "hook": "Someone else is in this room.",
+  "caption": "Someone else is in this room. Look in the mirror.\n\nJan van Eyck painted a merchant and his wife in Bruges in 1434, then hid two visitors in a convex mirror no bigger than your palm. One wears red. Above it, he wrote on the wall like graffiti: \"Jan van Eyck was here.\"\n\nOne lit candle in daylight. Oranges worth a fortune. Kicked-off shoes. And no, she's not pregnant.\n\nSwipe to read the room, then watch the reel and step inside the painting yourself. Save this for your next National Gallery visit.",
+  "hashtags": ["#arthistory", "#janvaneyck", "#arnolfiniportrait", "#nationalgallery", "#flemishart", "#earlynetherlandish", "#renaissanceart", "#hiddendetails", "#oilpainting", "#museumlovers", "#paintingdetails"],
+  "slides": [
+    {"n": 1, "type": "cover", "headline": "Someone else is in this room.", "alt": "Close-up of the convex mirror and Van Eyck's signature on the back wall of the Arnolfini Portrait."},
+    {"n": 2, "type": "plate", "headline": "The Arnolfini Portrait", "alt": "The whole painting in a gold frame: a man in a black hat and fur cloak holds the hand of a woman in a green gown in a Bruges bedroom."},
+    {"n": 3, "type": "split", "headline": "A merchant, and a mystery.", "alt": "Side-by-side crops of the man's pale face under his huge hat and the woman's face under a white linen headdress."},
+    {"n": 4, "type": "paper-torn", "headline": "She's not pregnant.", "alt": "Torn paper scrap showing the woman gathering up the folds of her green fur-lined gown in front of her waist."},
+    {"n": 5, "type": "detail", "headline": "So why is one candle lit?", "alt": "The brass chandelier with a single lit candle, circled in gold, the other holders empty."},
+    {"n": 6, "type": "strip", "headline": "Every object whispers.", "alt": "Three tall crops: oranges on the windowsill and chest, wooden pattens on the floorboards, and the small shaggy dog."},
+    {"n": 7, "type": "loupe", "headline": "Two visitors in the doorway.", "alt": "Small view of the painting with a gold ring on the mirror, leading to a large circular zoom showing the couple from behind and two figures in blue and red in the doorway."},
+    {"n": 8, "type": "timeline", "headline": "Bruges to London.", "alt": "Timeline: 1434 painted in Bruges, 1516 Margaret of Austria, 1558 Philip II, 1813 leaves Spain, 1842 bought by the National Gallery for 600 guineas."},
+    {"n": 9, "type": "twist-paper", "headline": "\"Jan van Eyck was here.\"", "alt": "The Latin signature 'Johannes de eyck fuit hic 1434' above two paper scraps: the visitors in the mirror and Van Eyck's Man in a Red Turban."},
+    {"n": 10, "type": "cta", "headline": "Now step inside.", "alt": "Phone frame showing the first frame of our step-inside-the-painting film, with Save and Share buttons."}
+  ],
+  "notes": "Hedged: man in red = Van Eyck (NG asks it as a question); Man in a Red Turban as self-portrait (traditional, unproven); candle-as-memorial is Margaret Koster's theory; 1813 Vitoria/Joseph Bonaparte route unconfirmed, so slide says 'a British officer turns up with it'. Infrared claim follows Billinge & Campbell 1995 abstract (faces, hands, feet). Not used: the Passion roundel sides (only the count of ten is on slide 7), her red slippers."
+}

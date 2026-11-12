@@ -1,0 +1,150 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
+<style>
+  /* 03 — fact on paper with a torn self-portrait */
+  .s-26 .num { position: absolute; left: var(--pad); top: 200px; z-index: 35; font-size: 400px; }
+  .s-26 .unit { position: absolute; left: calc(var(--pad) + 10px); top: 560px; z-index: 35; }
+  .s-26 .torn { right: 96px; top: 176px; width: 420px; height: 580px; transform: rotate(3deg); }
+  .s-26 .block { top: 790px; }
+  /* 04 — split, a little shorter to leave room for copy */
+  .s-twins .split { height: 640px; }
+  /* 06 — cartoon vs fresco, stacked */
+  .stack { position: absolute; left: var(--pad); right: var(--pad); top: 150px; display: grid; gap: 22px; }
+  .stack figure { position: relative; height: 362px; overflow: hidden; box-shadow: 0 20px 50px rgba(70,50,20,.35); }
+  .stack img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .stack figcaption { position: absolute; left: 0; bottom: 0; padding: 12px 16px; background: var(--ink); font: 500 17px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
+  .stack .ring { position: absolute; border: 3px dashed var(--oxblood); border-radius: 50%; }
+  /* 08 — strip */
+  .s-who .strip { height: 640px; }
+  .s-who .legend li { font-size: 28px; }
+  /* 09 — loupe */
+  .mini { position: absolute; left: var(--pad); top: 168px; width: 480px; height: 372px; z-index: 34; }
+  .mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  /* 01 — deeper shade so type holds over the bright steps */
+  .s-cover.shade-bottom::after { height: 900px; background: linear-gradient(transparent, rgba(13,11,9,.78) 38%, rgba(13,11,9,.95) 70%); }
+  .s-cover .kicker, .s-cover .h-xl { text-shadow: 0 2px 24px rgba(0,0,0,.6); }
+</style>
+</head>
+<body data-no="06" data-title="The School of Athens">
+
+<!-- 01 COVER -->
+<section class="slide s-cover shade-top shade-bottom">
+  <img class="bleed" src="img/cover.jpg" style="object-position:50% 0%">
+  <div class="block bottom">
+    <div class="kicker">Raphael · 1509–11</div>
+    <h1 class="h-xl">Ancient Athens. <em>Famous</em> faces.</h1>
+    <p class="lede">Raphael hid Rome's stars among the sages.</p>
+    <div class="rule"></div><span class="swipe">Swipe</span>
+  </div>
+</section>
+
+<!-- 02 PLATE -->
+<section class="slide s-plate">
+  <div class="frame" style="height:708px"><img src="img/full.jpg"></div>
+  <div class="label">
+    <div class="t">The School of Athens</div>
+    <div class="a">Raphael (Raffaello Sanzio)<br>Fresco, 1509–11</div>
+    <div class="m">c. 500 × 770 cm<br>Stanza della Segnatura, Vatican</div>
+  </div>
+</section>
+
+<!-- 03 FACT (paper) -->
+<section class="slide paper s-fact s-26">
+  <div class="num">26</div>
+  <div class="unit">years old.</div>
+  <div class="torn"><img src="img/raphael_uffizi.jpg" style="object-position:50% 20%"><span class="tag">Raphael, self-portrait · c. 1506</span></div>
+  <div class="block">
+    <div class="rule" style="margin:0 0 30px;background:var(--oxblood)"></div><div class="kicker" style="color:var(--oxblood)">The new boy in Rome</div>
+    <p class="copy" style="margin-top:22px">That's roughly how old Raphael was when Pope Julius II handed him the walls of a private room in the Vatican. Nearby, <b>Michelangelo</b> was up a scaffold, painting the Sistine ceiling.</p>
+  </div>
+</section>
+
+<!-- 04 SPLIT Plato / Leonardo -->
+<section class="slide s-twins">
+  <div class="split">
+    <figure><img src="img/leonardo.jpg"><figcaption>Leonardo · red chalk</figcaption></figure>
+    <figure><img src="img/plato.jpg" style="object-position:50% 20%"><figcaption>Plato · 1509–11</figcaption></figure>
+  </div>
+  <div class="block bottom">
+    <div class="kicker">The centre</div>
+    <h2 class="h-m">Plato wears <em>Leonardo's</em> face.</h2>
+    <p class="copy">Plato points up, to ideas. Aristotle's palm presses down, to this world. Historians think Raphael gave Plato the old master's beard.</p>
+  </div>
+</section>
+
+<!-- 05 DETAIL Heraclitus -->
+<section class="slide s-detail">
+  <div class="crop"><img src="img/heraclitus.jpg" style="object-position:50% 20%"></div>
+  <div class="block">
+    <div class="kicker">Detail · the loner</div>
+    <h2 class="h-m">The brooder is <em>Michelangelo</em>.</h2>
+    <p class="copy">Heraclitus sits apart, chin on fist, in stonecutter's boots. He is widely read as Raphael's portrait of his great rival.</p>
+  </div>
+</section>
+
+<!-- 06 CARTOON vs FRESCO (paper) -->
+<section class="slide paper">
+  <div class="stack">
+    <figure><img src="img/cartoon_gap.jpg"><figcaption>The cartoon · Ambrosiana, Milan</figcaption>
+      <div class="ring" style="left:250px;top:120px;width:300px;height:220px"></div></figure>
+    <figure><img src="img/fresco_gap.jpg"><figcaption>The fresco · Vatican</figcaption></figure>
+  </div>
+  <div class="block bottom">
+    <h2 class="h-m">He wasn't in the <em>plan</em>.</h2>
+    <p class="copy">Raphael's full-size drawing has an empty step. The plaster suggests Heraclitus was the last figure painted, in 1511. Many think it was a tribute after seeing the Sistine ceiling.</p>
+  </div>
+</section>
+
+<!-- 07 DETAIL Euclid / Bramante -->
+<section class="slide s-detail">
+  <div class="crop"><img src="img/euclid.jpg"><div class="marker" style="left:520px;top:282px;width:210px;height:210px"><b>1</b></div></div>
+  <div class="block">
+    <div class="kicker">Detail · the architect</div>
+    <h2 class="h-m">Euclid is the Pope's <em>architect</em>.</h2>
+    <p class="copy">Bent over a slate with a compass: Bramante, says tradition. He was designing the new St Peter's, and the vaulted hall above echoes it.</p>
+  </div>
+</section>
+
+<!-- 08 STRIP who's who -->
+<section class="slide s-who">
+  <div class="strip">
+    <figure><img src="img/strip_socrates.jpg"><figcaption>1</figcaption></figure>
+    <figure><img src="img/strip_pythagoras.jpg"><figcaption>2</figcaption></figure>
+    <figure><img src="img/strip_diogenes.jpg"><figcaption>3</figcaption></figure>
+    <figure><img src="img/strip_woman.jpg"><figcaption>4</figcaption></figure>
+  </div>
+  <div class="block bottom">
+    <h2 class="h-s" style="margin-bottom:26px">More <em>regulars</em> on the steps</h2>
+    <ol class="legend">
+      <li>Socrates, counting arguments on his fingers</li>
+      <li>Pythagoras, writing in a book</li>
+      <li>Diogenes, sprawled across the steps</li>
+      <li>The figure in white. Hypatia? No one knows.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- 09 LOUPE Raphael -->
+<section class="slide">
+  <div class="mini hair"><img src="img/full.jpg"></div>
+  <div class="marker" style="left:500px;top:350px;width:34px;height:34px"></div>
+  <div class="leader" style="left:517px;top:367px;width:363px;transform:rotate(48.8deg)"></div>
+  <div class="loupe" style="left:516px;top:400px;width:480px;height:480px"><img src="img/raphael_loupe.jpg"></div>
+  <div class="block bottom">
+    <div class="kicker">Look again</div>
+    <h2 class="h-m">One man is <em>looking</em> at you.</h2>
+    <p class="copy">Far right, black beret, eyes on ours. It's Raphael himself, standing beside a fellow painter. He signed this wall with his face.</p>
+  </div>
+</section>
+
+<!-- 10 CTA -->
+<section class="slide s-cta">
+  <div class="phone"><img src="img/first_frame.jpg"><div class="play"></div></div>
+  <div class="block" style="top:330px;right:560px">
+    <div class="kicker">The film</div>
+    <h2 class="h-l">Now step <em>inside</em>.</h2>
+    <p class="copy" style="margin-top:24px">Walk up the steps, past Plato and Aristotle. Watch the film on our page.</p>
+    <div class="actions"><span>Save</span><span>Share</span></div>
+  </div>
+</section>
+
+<script src="../_brand/brand.js"></script></body></html>

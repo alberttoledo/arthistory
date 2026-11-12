@@ -1,0 +1,27 @@
+{
+  "wreck": {
+    "source": "wikimedia:File:BostonMolassesDisaster.jpg",
+    "maxWidth": 3000
+  },
+  "tank": {
+    "source": "wikimedia:File:North End molasses tank.jpg"
+  },
+  "eltrain": {
+    "source": "wikimedia:File:Boston 1919 molasses disaster - el train structure.jpg"
+  },
+  "map": {
+    "source": "wikimedia:File:Boston molasses area map.png"
+  },
+  "post": {
+    "source": "wikimedia:File:Boston post-January 16, 1919,.jpg"
+  },
+  "headline": {
+    "source": "wikimedia:File:Boston post-January 16, 1919,.jpg",
+    "crop": {
+      "x": 0,
+      "y": 0.0,
+      "w": 1,
+      "h": 0.3
+    }
+  }
+}

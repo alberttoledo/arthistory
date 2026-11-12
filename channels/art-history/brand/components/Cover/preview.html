@@ -1,0 +1,22 @@
+<!-- @dsCard height=320 -->
+<div style="position:relative;width:960px;height:320px;background:var(--ground);overflow:hidden">
+<svg width="960" height="320" viewBox="0 0 960 320" style="position:absolute;inset:0">
+<!-- blocks: gilt slab 168x320, oxblood 112x112, text (cream) band 168x84, gilt-dim 84x84; sides are spacing steps (84 margin-outer, 112 = 84+28) -->
+<!-- arrangement: one tall gilt slab with satellites, bleeding off top and bottom, square corners (radius-none) -->
+<!-- pattern: editorial serif, gilt frames, "borders not shadows" -> a gilt frame outline (two hairline rectangles, outline offset 14) around the slab, plus three hairline rules -->
+<!-- steps/radii: margin-outer 84, gap-m 24, rule-gap 34, radius-none 0, frame offset 14 -->
+<style>.g{fill:var(--gilt)}.o{fill:var(--oxblood)}.c{fill:var(--text)}.gd{fill:var(--gilt-dim)}.ln{stroke:var(--gilt);stroke-width:1.5;fill:none}</style>
+<rect class="g" x="620" y="0" width="168" height="320"/>
+<rect class="ln" x="606" y="-14" width="196" height="348"/>
+<rect class="o" x="812" y="58" width="112" height="112"/>
+<rect class="c" x="500" y="202" width="120" height="84"/>
+<rect class="gd" x="812" y="194" width="84" height="84"/>
+<line class="ln" x1="500" y1="34" x2="606" y2="34"/>
+<line class="ln" x1="500" y1="58" x2="606" y2="58"/>
+<line class="ln" x1="802" y1="296" x2="960" y2="296"/>
+</svg>
+<div style="position:absolute;left:48px;bottom:44px;width:440px">
+<div style="font:500 112px/.95 var(--font-display);color:var(--text);letter-spacing:-.02em">Art<br>History</div>
+<div style="font:400 14px/1.4 var(--font-body);color:var(--text-muted);margin-top:16px">Hidden details and human stories inside famous paintings.</div>
+</div>
+</div>

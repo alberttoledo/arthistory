@@ -1,0 +1,22 @@
+{
+  "portrait": {
+    "source": "wikimedia:File:Leonardo da Vinci - presumed self-portrait - lossless.png",
+    "maxWidth": 3000
+  },
+  "codex": {
+    "source": "wikimedia:File:Vinci - Hammer 2A m.jpg",
+    "maxWidth": 3000
+  },
+  "flight": {
+    "source": "wikimedia:File:Leonardo da vinci, Drawing of a flying machine.jpg",
+    "maxWidth": 3000
+  },
+  "adoration": {
+    "source": "wikimedia:File:Leonardo da Vinci - Adorazione dei Magi - Google Art Project.jpg",
+    "maxWidth": 3000
+  },
+  "monalisa": {
+    "source": "wikimedia:File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+    "maxWidth": 3000
+  }
+}

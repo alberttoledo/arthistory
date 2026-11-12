@@ -1,0 +1,26 @@
+{
+  "obama_bourdain": {
+    "source": "wikimedia:File:President Barack Obama with Anthony Bourdain at Bún cha Huong Lien Restaurant in Hanoi, Vietnam.jpg",
+    "maxWidth": 3000
+  },
+  "hanoi_street": {
+    "source": "wikimedia:File:Street Food vendors Soft crab Hanoi Vietnam.jpg",
+    "maxWidth": 3000
+  },
+  "bun_cha": {
+    "source": "wikimedia:File:Bún chả Thụy Khuê.jpg",
+    "maxWidth": 3000
+  },
+  "kitchen": {
+    "source": "wikimedia:File:Flambéing pork in the kitchen of a restaurant in Canada.jpg",
+    "maxWidth": 3000
+  },
+  "world_map": {
+    "source": "wikimedia:File:1570 Typus Ortelius mr.jpg",
+    "maxWidth": 3000
+  },
+  "night_market": {
+    "source": "wikimedia:File:ElFnarSnails.jpg",
+    "maxWidth": 3000
+  }
+}

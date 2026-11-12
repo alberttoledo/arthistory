@@ -1,0 +1,13 @@
+{
+  "id": "field-notes",
+  "name": "Field Notes",
+  "premise": "One short contemplation on the mystery of existence, then one small invitation to act",
+  "hookFormula": "You will never know [a great unknown]. Good.",
+  "structure": [
+    "the unknown, stated plainly",
+    "why it's a gift, not a threat",
+    "a concrete image",
+    "one thing to go do"
+  ],
+  "targetSeconds": 35
+}

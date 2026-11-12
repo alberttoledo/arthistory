@@ -1,0 +1,147 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
+<style>
+  /* 03 — portrait scrap + giant age */
+  .age { position: absolute; z-index: 35; right: var(--pad); top: 150px; text-align: right; }
+  .age .num { font: 500 400px/.8 var(--display); letter-spacing: -.04em; color: var(--gold); }
+  .age .unit { font: italic 500 52px/1 var(--display); margin-top: 40px; }
+  /* 06 — loupe over the plate */
+  .mini { position: absolute; left: var(--pad); top: 160px; width: 912px; height: 607px; }
+  .mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  /* 07 — two torn scraps */
+  .torn.r1 { transform: rotate(-4deg); }
+  .torn.r2 { transform: rotate(3.5deg); }
+  /* 08 — timeline + border sliver */
+  .sliver { position: absolute; z-index: 34; right: var(--pad); top: 190px; width: 130px; height: 700px; }
+  .sliver img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .sliver .cap { position: absolute; right: 0; top: 844px; width: 200px; text-align: right; font: 500 15px/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+  .timeline { gap: 56px; }
+  .timeline .d { font-size: 31px; }
+  .s-cover.shade-bottom::after { height: 860px; background: linear-gradient(transparent, rgba(13,11,9,.78) 38%, rgba(13,11,9,.95) 70%); }
+  /* 05 — paper plate */
+  .paper .frame { outline-color: var(--gold-dim); box-shadow: 0 30px 60px rgba(60,40,10,.35); }
+  .paper .marker { box-shadow: 0 0 0 2px rgba(0,0,0,.25); }
+</style></head>
+<body data-no="01" data-title="La Grande Jatte">
+
+<!-- 01 COVER -->
+<section class="slide s-cover shade-top shade-bottom">
+  <img class="bleed" src="img/cover.jpg" style="object-position:50% 20%">
+  <div class="block bottom">
+    <div class="kicker">Seurat · 1884–86</div>
+    <h1 class="h-xl">Everyone in this park is <em>hiding</em> something.</h1>
+    <p class="lede">A monkey, a pun, a scandal, a fading colour.</p>
+    <div class="rule"></div><span class="swipe">Swipe</span>
+  </div>
+</section>
+
+<!-- 02 PLATE -->
+<section class="slide s-plate">
+  <div class="frame" style="height:607px;top:230px"><img src="img/full.jpg"></div>
+  <div class="label">
+    <div class="t">A Sunday on La Grande Jatte — 1884</div>
+    <div class="a">Georges Seurat<br>1884–86, border 1888–89</div>
+    <div class="m">Oil on canvas · 207.5 × 308.1 cm<br>Art Institute of Chicago</div>
+  </div>
+</section>
+
+<!-- 03 WHO -->
+<section class="slide">
+  <div class="torn r1" style="left:84px;top:170px;width:470px;height:690px;transform:rotate(-3deg)"><img src="img/seurat1888.jpg" style="object-position:50% 35%"><span class="tag">Georges Seurat, c. 1888</span></div>
+  <div class="age"><div class="num">24</div><div class="unit">years old</div></div>
+  <div class="block bottom">
+    <div class="kicker">The painter</div>
+    <h2 class="h-m">A young man with a <em>method</em>.</h2>
+    <p class="copy">Seurat began this canvas in May 1884. Quiet, secretive, hooked on the science of colour. He gave it two years of his life — and he died at just 31.</p>
+  </div>
+</section>
+
+<!-- 04 STRIP: the rehearsals -->
+<section class="slide">
+  <div class="strip" style="height:780px">
+    <figure><img src="img/nga_study.jpg" style="object-position:28% 60%"><figcaption>1</figcaption></figure>
+    <figure><img src="img/seated.jpg" style="object-position:50% 40%"><figcaption>2</figcaption></figure>
+    <figure><img src="img/met_study.jpg" style="object-position:62% 50%"><figcaption>3</figcaption></figure>
+  </div>
+  <div class="block bottom">
+    <h2 class="h-s" style="margin-bottom:28px">He rehearsed it <em>dozens</em> of times.</h2>
+    <ol class="legend">
+      <li>Small oil sketches made on the island itself</li>
+      <li>Crayon drawings that turn people into shadows</li>
+      <li>A near-final dress rehearsal on canvas</li>
+    </ol>
+  </div>
+</section>
+
+<!-- 05 PAPER: class -->
+<section class="slide paper">
+  <div class="frame" style="position:absolute;left:84px;right:84px;top:170px;height:640px"><img src="img/class.jpg"></div>
+  <div class="marker" style="left:422px;top:232px;width:150px;height:150px"><b>1</b></div>
+  <div class="marker" style="left:497px;top:478px;width:140px;height:140px"><b>2</b></div>
+  <div class="block bottom">
+    <div class="kicker" style="color:var(--oxblood)">Sunday, 1884</div>
+    <h2 class="h-m">Who gets the <em>lawn</em>?</h2>
+    <p class="copy">La Grande Jatte was where Paris spent its day off. A gentleman in a top hat (1). A rower in a sleeveless vest, pipe in hand (2). Side by side on one lawn — and nobody talks.</p>
+  </div>
+</section>
+
+<!-- 06 LOUPE: the dots -->
+<section class="slide">
+  <div class="mini hair"><img src="img/full.jpg"></div>
+  <div class="marker" style="left:500px;top:360px;width:100px;height:100px"></div>
+  <div class="leader" style="left:549px;top:459px;width:346px;transform:rotate(65.8deg)"></div>
+  <div class="loupe" style="left:550px;top:760px;width:440px;height:440px"><img src="img/dots.jpg" style="object-position:50% 45%"></div>
+  <div class="block" style="top:820px;right:auto;width:440px">
+    <div class="kicker">Look closer</div>
+    <h2 class="h-s" style="margin-top:16px">Not strokes. <em>Dots</em>.</h2>
+    <p class="copy" style="font-size:29px;margin-top:20px">Pure colour, dot beside dot. Your eye does the mixing. In 1886 the critic Félix Fénéon gave it a name: Neo-Impressionism.</p>
+  </div>
+</section>
+
+<!-- 07 COLLAGE: the jokes -->
+<section class="slide">
+  <div class="torn r1" style="left:84px;top:175px;width:420px;height:580px"><img src="img/fisher.jpg" style="object-position:50% 40%"><span class="tag">Pêcher · pécher</span></div>
+  <div class="torn r2" style="left:560px;top:215px;width:420px;height:580px"><img src="img/monkey.jpg" style="object-position:50% 72%"><span class="tag">Singesse</span></div>
+  <div class="block bottom">
+    <div class="kicker">Hidden jokes</div>
+    <h2 class="h-m">A rod. A <em>monkey</em>. A wink.</h2>
+    <p class="copy"><b>Singesse</b>, a female monkey, was slang for a kept woman. <b>Pêcher</b>, to fish, sounds like <b>pécher</b>, to sin. Many historians think Seurat was teasing his Sunday crowd.</p>
+  </div>
+</section>
+
+<!-- 08 TIMELINE -->
+<section class="slide">
+  <div class="sliver hair" style="height:820px"><img src="img/border.jpg"><div class="cap">The dotted border, 1888–89</div></div>
+  <div class="block top" style="right:300px">
+    <div class="kicker">What happened next</div>
+    <h2 class="h-m" style="margin:18px 0 50px">From scandal to <em>Broadway</em>.</h2>
+    <ul class="timeline">
+      <li><div class="y">1886</div><div class="d">The last Impressionist show. Monet and Renoir stay away; the dots get a room of their own.</div></li>
+      <li><div class="y">1888–89</div><div class="d">Seurat returns and paints a border of dots.</div></li>
+      <li><div class="y">1924</div><div class="d">The Art Institute of Chicago buys it.</div></li>
+      <li><div class="y">1984</div><div class="d">Sondheim makes it a musical: <i>Sunday in the Park with&nbsp;George</i>.</div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- 09 TWIST -->
+<section class="slide s-detail">
+  <div class="crop"><img src="img/grass.jpg"></div>
+  <div class="block">
+    <div class="kicker">Look again</div>
+    <h2 class="h-m">The sunlight is <em>fading</em>.</h2>
+    <p class="copy">For his brightest highlights Seurat used zinc yellow. It began turning brown in his own lifetime. The lawn you see is dimmer than the one he painted.</p>
+  </div>
+</section>
+
+<!-- 10 CTA -->
+<section class="slide s-cta">
+  <div class="phone"><img src="img/phone.jpg"><div class="play"></div></div>
+  <div class="block" style="top:300px;right:560px">
+    <div class="kicker">The film</div>
+    <h2 class="h-l">Now find the <em>monkey</em>.</h2>
+    <p class="copy" style="margin-top:24px">Watch the reel — then save this for your next museum day.</p>
+    <div class="actions"><span>Watch</span><span>Save</span><span>Share</span></div>
+  </div>
+</section>
+
+<script src="../_brand/brand.js"></script></body></html>

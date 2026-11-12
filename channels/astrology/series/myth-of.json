@@ -1,0 +1,13 @@
+{
+  "id": "myth-of",
+  "name": "The Myth Behind",
+  "premise": "The Greek / ancient story behind a constellation",
+  "hookFormula": "The stars of [sign] are a [tragic story].",
+  "structure": [
+    "hook over constellation",
+    "the myth",
+    "how it became stars",
+    "what it means for the sign"
+  ],
+  "targetSeconds": 45
+}

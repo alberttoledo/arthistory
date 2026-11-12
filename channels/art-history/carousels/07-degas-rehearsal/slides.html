@@ -1,0 +1,102 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
+<style>
+/* 03 — loupe on the violinist */
+.s-loupe .mini { position:absolute; left:var(--pad); top:170px; width:520px; height:398px; }
+.s-loupe .mini img { width:100%; height:100%; object-fit:cover; display:block; }
+.s-loupe .loupe { left:560px; top:300px; width:440px; height:440px; }
+/* 05 — paper: the men in the wings */
+.s-wings .torn { right:70px; top:150px; width:330px; height:520px; transform:rotate(3.5deg); }
+.s-wings .block.top { right:440px; top:170px; }
+.s-wings .num { font:500 250px/.8 var(--display); letter-spacing:-.04em; color:var(--oxblood); }
+.s-wings .unit { font:italic 500 46px/1.1 var(--display); max-width:780px; margin-top:64px; }
+/* 06 — studio */
+.s-studio .frame { position:absolute; left:var(--pad); right:var(--pad); top:165px; height:590px; }
+.s-studio .caption { position:absolute; left:var(--pad); top:790px; margin:0; }
+/* 07 — quote over tulle */
+.s-quote .ghost { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.3; filter:grayscale(.3); }
+.s-quote blockquote { font-size:80px; }
+/* 08 — paper timeline + Little Dancer */
+.s-time .torn { right:64px; top:190px; width:330px; height:620px; transform:rotate(-3deg); }
+.s-time .torn img { object-position:50% 20%; }
+.s-time .block.top { right:440px; }
+.s-time .timeline { margin-top:40px; gap:30px; }
+.s-time .timeline .d { font-size:28px; }
+.slide.paper .timeline li::before { background:var(--paper); }
+/* 09 — twist split */
+.s-twist .split { height:700px; grid-template-columns:1fr 1fr; }
+/* 10 — CTA */
+.s-cta .block { top:330px; right:560px; }
+</style></head>
+<body data-no="07" data-title="The Rehearsal">
+
+<!-- 01 COVER -->
+<section class="slide s-cover shade-top shade-bottom">
+  <img class="bleed" src="img/cover.jpg" style="object-position:50% 30%">
+  <div class="block bottom"><div class="kicker">Degas · c. 1873–78</div><h1 class="h-xl">He <em>erased</em> part of this room.</h1><p class="lede">A whole stairwell, painted out. Here's what he kept.</p><div class="rule"></div><span class="swipe">Swipe</span></div>
+</section>
+
+<!-- 02 PLATE -->
+<section class="slide s-plate">
+  <div class="frame" style="height:697px"><img src="img/full.jpg"></div>
+  <div class="label"><div class="t">The Rehearsal</div><div class="a">Edgar Degas<br>Oil on canvas, c. 1873–78</div><div class="m">47.2 × 61.5 cm<br>Harvard Art Museums / Fogg</div></div>
+</section>
+
+<!-- 03 LOUPE: the violinist -->
+<section class="slide s-loupe">
+  <div class="mini hair"><img src="img/full.jpg"></div>
+  <div class="marker" style="left:71px;top:297px;width:110px;height:110px"></div>
+  <div class="leader" style="left:181px;top:352px;width:415px;transform:rotate(23.9deg)"></div>
+  <div class="loupe"><img src="img/violinist_head.jpg"></div>
+  <div class="block bottom"><div class="kicker">Detail 01 · The only man here</div><h2 class="h-m">No orchestra. Just one <em>fiddle</em>.</h2><p class="copy">Rehearsals were kept in time by a lone violinist. Degas shoves him into the corner, cut by the frame. The light goes to the girls instead.</p></div>
+</section>
+
+<!-- 04 STRIP: the petits rats -->
+<section class="slide">
+  <div class="strip" style="height:700px"><figure><img src="img/p_barre.jpg"><figcaption>1</figcaption></figure><figure><img src="img/p_clasp.jpg"><figcaption>2</figcaption></figure><figure><img src="img/p_whisper.jpg"><figcaption>3</figcaption></figure></div>
+  <div class="block bottom"><div class="kicker">The petits rats</div><p class="copy" style="margin:16px 0 26px">Opéra pupils, mostly poor, who started at seven or eight.</p><ol class="legend"><li>Stretching at the barre</li><li>Waiting, hands folded</li><li>Whispering, backs to us</li></ol></div>
+</section>
+
+<!-- 05 PAPER: the abonnés -->
+<section class="slide paper s-wings">
+  <div class="torn"><img src="img/p_front.jpg" style="object-position:50% 15%"><span class="tag">Fogg · detail</span></div>
+  <div class="block top"><div class="kicker" style="color:var(--oxblood)">Behind the curtain</div><h2 class="h-m">The men in the <em>wings</em>.</h2><p class="copy">Rich subscribers, the abonnés, bought access backstage. Historians describe many of them preying on the young dancers.</p></div>
+  <div class="block bottom"><div class="num">1885</div><div class="unit">The year Degas could finally afford a subscription himself.</div></div>
+</section>
+
+<!-- 06 STUDIO -->
+<section class="slide s-studio">
+  <div class="frame"><img src="img/met_dancing_class.jpg"></div>
+  <p class="caption"><span class="mono">Compare</span>The Dancing Class, c. 1870 · The Met</p>
+  <div class="block bottom"><div class="kicker">The secret</div><h2 class="h-m">No backstage pass. So they came <em>to him</em>.</h2><p class="copy">Early on, his dancers posed in his studio. Rooms like ours were assembled from drawings, models and memory.</p></div>
+</section>
+
+<!-- 07 QUOTE -->
+<section class="slide s-quote">
+  <img class="ghost" src="img/p_front.jpg">
+  <div class="block center"><div class="qmark">“</div><blockquote>A world of pink and white, of female flesh in lawn and gauze.</blockquote><cite>Edmond de Goncourt · Journal, 1874<br>after visiting Degas's studio</cite></div>
+</section>
+
+<!-- 08 PAPER TIMELINE + LITTLE DANCER -->
+<section class="slide paper s-time">
+  <div class="torn"><img src="img/little_dancer.jpg"><span class="tag">Little Dancer · NGA</span></div>
+  <div class="block top"><div class="kicker" style="color:var(--oxblood)">Meanwhile</div><h2 class="h-m">His <em>eyes</em> were already failing.</h2>
+  <ul class="timeline">
+    <li><div class="y">1870</div><div class="d">Defending Paris in the war, he finds his sight going.</div></li>
+    <li><div class="y">1874</div><div class="d">He shows at the first Impressionist exhibition.</div></li>
+    <li><div class="y">1881</div><div class="d">A wax petit rat in a real tutu and real hair. Critics recoil.</div></li>
+  </ul></div>
+</section>
+
+<!-- 09 TWIST -->
+<section class="slide s-twist">
+  <div class="split"><figure><img src="img/left_half.jpg" style="object-position:30% 50%"><figcaption>Fogg · stair gone</figcaption></figure><figure><img src="img/burrell_stair.jpg" style="object-position:50% 0%"><figcaption>Glasgow · c. 1874</figcaption></figure></div>
+  <div class="block bottom"><div class="kicker">Look again</div><h2 class="h-m">The stair he <em>erased</em>.</h2><p class="copy">Harvard says Degas painted out a stairwell here. In his Glasgow version it survives: a spiral stair, legs descending, sliced by the frame like a snapshot.</p></div>
+</section>
+
+<!-- 10 CTA -->
+<section class="slide s-cta">
+  <div class="phone"><img src="img/first_frame.jpg"><div class="play"></div></div>
+  <div class="block"><div class="kicker">The film</div><h2 class="h-l">Now step <em>inside</em>.</h2><p class="copy" style="margin-top:24px">We flew a camera through this rehearsal room. Watch the film.</p><div class="actions"><span>Save</span><span>Share</span></div></div>
+</section>
+
+<script src="../_brand/brand.js"></script></body></html>

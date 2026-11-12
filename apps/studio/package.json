@@ -1,0 +1,15 @@
+{
+  "name": "@cf/studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 4321",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@remotion/player": "^4.0.540",
+    "next": "^16.4.4",
+    "server-only": "^0.0.1"
+  }
+}

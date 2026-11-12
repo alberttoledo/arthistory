@@ -1,0 +1,14 @@
+{
+  "id": "recipes-from-history",
+  "name": "Recipes From History",
+  "premise": "A dish from a specific era and the story behind it",
+  "hookFormula": "This is what [famous person] ate for [occasion].",
+  "structure": [
+    "hook",
+    "origin story",
+    "ingredients card",
+    "method in 3 steps",
+    "taste verdict"
+  ],
+  "targetSeconds": 45
+}

@@ -1,0 +1,21 @@
+{
+  "id": "001-mary-celeste",
+  "channel": "great-mystery",
+  "series": "unsolved-60",
+  "title": "The ship that sailed with no one aboard",
+  "status": "idea",
+  "scheduledFor": null,
+  "postedAt": null,
+  "caption": "December 1872: the Mary Celeste is found drifting near the Azores. Cargo intact, six months of food, belongings untouched. The lifeboat and all ten people: gone. What do you think happened? 👇",
+  "hashtags": [
+    "maryceleste",
+    "unsolvedmysteries",
+    "ghostship",
+    "maritimehistory"
+  ],
+  "tags": {
+    "hookType": "cold-open"
+  },
+  "notes": "Off-brand: made before the channel was redefined around The Great Mystery project. Delete this folder or keep it for reference.",
+  "metrics": []
+}

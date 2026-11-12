@@ -1,0 +1,17 @@
+{
+  "scenes": [
+    { "beat": 0, "visual": { "type": "image", "asset": "monkey", "from": { "x": 0.42, "y": 0.75, "zoom": 1.3 }, "to": { "x": 0.45, "y": 0.72, "zoom": 1.05 } },
+      "overlay": { "text": "Hidden in plain sight", "position": "top" } },
+    { "beat": 1, "transition": "zoom", "visual": { "type": "image", "asset": "full", "fit": "contain", "from": { "x": 0.5, "y": 0.5, "zoom": 1 }, "to": { "x": 0.5, "y": 0.5, "zoom": 1.08 } },
+      "overlay": { "text": "Georges Seurat · 1884–86", "position": "top" } },
+    { "beat": 1, "at": 0.55, "transition": "crossfade", "visual": { "type": "image", "asset": "full", "from": { "x": 0.15, "y": 0.5, "zoom": 1 }, "to": { "x": 0.45, "y": 0.5, "zoom": 1 } } },
+    { "beat": 2, "transition": "zoom", "visual": { "type": "image", "asset": "dots", "from": { "x": 0.5, "y": 0.5, "zoom": 1 }, "to": { "x": 0.5, "y": 0.5, "zoom": 1.35 } } },
+    { "beat": 3, "transition": "whip", "visual": { "type": "image", "asset": "couple", "from": { "x": 0.5, "y": 0.3, "zoom": 1 }, "to": { "x": 0.5, "y": 0.6, "zoom": 1.05 } } },
+    { "beat": 3, "at": 0.6, "transition": "zoom", "visual": { "type": "image", "asset": "monkey", "from": { "x": 0.5, "y": 0.7, "zoom": 1 }, "to": { "x": 0.5, "y": 0.72, "zoom": 1.4 } } },
+    { "beat": 4, "transition": "blur", "visual": { "type": "text", "text": "singesse (n.) — a female monkey. Also: a kept woman.", "attribution": "Paris slang, 1880s" } },
+    { "beat": 5, "transition": "whip", "visual": { "type": "image", "asset": "fisher", "from": { "x": 0.45, "y": 0.45, "zoom": 1 }, "to": { "x": 0.42, "y": 0.45, "zoom": 1.25 } },
+      "overlay": { "text": "pêcher · pécher", "position": "top" } },
+    { "beat": 6, "transition": "zoom", "visual": { "type": "image", "asset": "full", "fit": "contain", "from": { "x": 0.5, "y": 0.5, "zoom": 1.6 }, "to": { "x": 0.5, "y": 0.5, "zoom": 1 } },
+      "overlay": { "text": "Look again", "position": "top" } }
+  ]
+}

@@ -1,0 +1,27 @@
+.channel-head { border-radius: var(--r-md); padding: 34px 34px 28px; display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; flex-wrap: wrap; margin-bottom: 28px; }
+.channel-head h1 { font-size: 60px; font-weight: 400; font-stretch: normal; line-height: 1; }
+.channel-head p { margin-top: 10px; opacity: .8; max-width: 52ch; }
+.channel-facts { display: flex; gap: 28px; margin: 0; }
+.channel-facts dt { font-size: 12px; opacity: .65; }
+.channel-facts dd { margin: 2px 0 0; font-size: 20px; font-weight: 700; font-stretch: 110%; }
+.channel-grid { display: grid; grid-template-columns: 1fr minmax(320px, 400px); gap: 32px; align-items: start; }
+.series { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
+.structure { margin: 0; padding-left: 18px; }
+.mood-grid { columns: 4 160px; column-gap: 8px; }
+.mood-grid img { width: 100%; display: block; margin-bottom: 8px; border-radius: 6px; break-inside: avoid; }
+.drop { border: 1.5px dashed var(--line); border-radius: var(--r-md); padding: 22px; text-align: center; color: var(--ink-2); }
+.drop.over { border-color: var(--focus); background: #eaf0ff; }
+.swatches { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.swatches label { align-items: flex-start; }
+dialog { border: 1px solid var(--line); border-radius: var(--r-md); padding: 22px; width: min(460px, 92vw); background: var(--panel); color: var(--ink); }
+dialog::backdrop { background: rgba(24, 32, 46, .35); }
+@media (max-width: 1100px) { .channel-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .channel-head h1 { font-size: 42px; } .channel-head { padding: 22px; } }
+.style-grid { display: grid; grid-template-columns: minmax(260px, 340px) 1fr; gap: 28px; align-items: start; }
+.style-preview { position: sticky; top: 24px; }
+.save-bar { position: sticky; bottom: 0; background: var(--paper); padding: 12px 0; border-top: 1px solid var(--line); }
+.refs { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+.ref { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: var(--r-md); overflow: hidden; }
+.ref img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; background: var(--line-soft); }
+.ref figcaption { padding: 10px; }
+@media (max-width: 900px) { .style-grid { grid-template-columns: 1fr; } .style-preview { position: static; max-width: 320px; } }

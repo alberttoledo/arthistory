@@ -1,0 +1,12 @@
+# Sources: 04 The Arnolfini Portrait
+
+## Facts
+- National Gallery, "The Arnolfini Portrait" (NG186): oil on oak, 82.2 × 60 cm; signature "Johannes de eyck fuit hic 1434"; mirror with two men in the doorway (the page asks whether one could be Van Eyck); ten Passion roundels on the frame; one lit candle; oranges as an expensive luxury; discarded pattens; dog; "She is not pregnant, though she might look it"; no longer read as a marriage ceremony; sitter most likely Giovanni di Nicolao Arnolfini; provenance Diego de Guevara → Margaret of Austria (1516 inventory) → Mary of Hungary → Philip II → left Spain in the Peninsular War → James Hay (Vitoria route unconfirmed) → bought 1842. https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait
+- Wikipedia, "Arnolfini Portrait": 1530 Mary of Hungary, 1558 Philip II, 1816 Hay offers it to the Prince Regent, bought 1842 (Wikipedia says £600; the NG page says 600 guineas, which we use); Margaret Koster's memorial theory (lit candle on his side; first wife Costanza Trenta dead by Feb 1433); pregnancy-as-fashion; dog/oranges readings. https://en.wikipedia.org/wiki/Arnolfini_Portrait
+- Billinge, R. & Campbell, L. (1995), "The Infra-red Reflectograms of Jan van Eyck's Portrait of Giovanni(?) Arnolfini and his Wife", National Gallery Technical Bulletin 16: "numerous changes to the faces and to the positions of hands and feet". https://www.nationalgallery.org.uk/research/research-resources/technical-bulletin/the-infra-red-reflectograms-of-jan-van-eycks-portrait-of-giovanni-arnolfini-and-his-wife-giovanna-cenami
+- Man in a Red Turban (NG222), dated 21 October 1433, traditionally thought a self-portrait: https://www.nationalgallery.org.uk/paintings/jan-van-eyck-portrait-of-a-man-self-portrait
+
+## Images
+- `assets/sources/arnolfini_4386.jpg` (our scan of the public-domain painting, National Gallery NG186; Wikimedia Commons public domain) → img/cover_mirror, full, mirror_glass, man, woman, dress, candle, oranges, pattens, dog, signature, hands, visitors (crops made with PIL).
+- `assets/arnolfini/arnolfini_first_frame_ai_1080.png` (our own video first frame) → img/first_frame.jpg.
+- Jan van Eyck, Portrait of a Man (Self Portrait?), 1433, National Gallery. Wikimedia Commons, **Public domain**: https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man_by_Jan_van_Eyck-small.jpg → img/_raw/vaneyck_man_turban.jpg → img/vaneyck_selfportrait.jpg

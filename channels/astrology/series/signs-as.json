@@ -1,0 +1,12 @@
+{
+  "id": "signs-as",
+  "name": "The Signs As…",
+  "premise": "Each sign as a myth, archetype or object",
+  "hookFormula": "Your sign is secretly [archetype].",
+  "structure": [
+    "hook",
+    "sign by sign (fast)",
+    "send to a friend CTA"
+  ],
+  "targetSeconds": 35
+}

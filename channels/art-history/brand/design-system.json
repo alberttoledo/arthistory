@@ -1,0 +1,121 @@
+{
+ "v": 3,
+ "layout": "files",
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-12T15:10:00Z"
+ },
+ "title": "Art History",
+ "namespace": "ArtHistory",
+ "libraries": [],
+ "sections": {},
+ "groups": [
+  "Covers",
+  "Painting crops"
+ ],
+ "assetGroups": {
+  "Covers": {
+   "name": "Covers",
+   "tile": "m",
+   "order": [
+    "cover-01-seurat-grande-jatte.jpg",
+    "cover-02-hopper-nighthawks.jpg",
+    "cover-03-rembrandt-night-watch.jpg",
+    "cover-04-van-eyck-arnolfini.jpg",
+    "cover-05-caravaggio-calling-of-matthew.jpg",
+    "cover-06-raphael-school-of-athens.jpg",
+    "cover-07-degas-rehearsal.jpg",
+    "cover-08-leonardo-last-supper.jpg"
+   ],
+   "files": {
+    "cover-01-seurat-grande-jatte.jpg": {
+     "name": "cover-01-seurat-grande-jatte.jpg",
+     "blob": "2bc1c909539b25b1a0202aaba6ca6e52",
+     "size": 337282,
+     "type": "image/jpeg"
+    },
+    "cover-02-hopper-nighthawks.jpg": {
+     "name": "cover-02-hopper-nighthawks.jpg",
+     "blob": "846a07ae22dae64f6888f3598fdb3ccd",
+     "size": 157300,
+     "type": "image/jpeg"
+    },
+    "cover-03-rembrandt-night-watch.jpg": {
+     "name": "cover-03-rembrandt-night-watch.jpg",
+     "blob": "563d2f4bd37094f75e13fc940eab79d2",
+     "size": 254681,
+     "type": "image/jpeg"
+    },
+    "cover-04-van-eyck-arnolfini.jpg": {
+     "name": "cover-04-van-eyck-arnolfini.jpg",
+     "blob": "acc2f21af1c3f6e71af7d9cdda7956f9",
+     "size": 184808,
+     "type": "image/jpeg"
+    },
+    "cover-05-caravaggio-calling-of-matthew.jpg": {
+     "name": "cover-05-caravaggio-calling-of-matthew.jpg",
+     "blob": "474a8ffe35b6524b2eddf4d017679985",
+     "size": 187352,
+     "type": "image/jpeg"
+    },
+    "cover-06-raphael-school-of-athens.jpg": {
+     "name": "cover-06-raphael-school-of-athens.jpg",
+     "blob": "689c551643099699b5a475e3d0d52e44",
+     "size": 206608,
+     "type": "image/jpeg"
+    },
+    "cover-07-degas-rehearsal.jpg": {
+     "name": "cover-07-degas-rehearsal.jpg",
+     "blob": "23f75d5679d0baba0d4b49571d90a2a3",
+     "size": 179862,
+     "type": "image/jpeg"
+    },
+    "cover-08-leonardo-last-supper.jpg": {
+     "name": "cover-08-leonardo-last-supper.jpg",
+     "blob": "8f97f4e88eb07aac209ca984d34b5429",
+     "size": 252113,
+     "type": "image/jpeg"
+    }
+   }
+  },
+  "Painting crops": {
+   "name": "Painting crops",
+   "tile": "m",
+   "order": [
+    "crop-nightwatch-full.jpg",
+    "crop-nightwatch-girl.jpg",
+    "crop-arnolfini-mirror.jpg"
+   ],
+   "files": {
+    "crop-nightwatch-full.jpg": {
+     "name": "crop-nightwatch-full.jpg",
+     "blob": "1199759cfbc8171325fa290437396b4c",
+     "size": 141966,
+     "type": "image/jpeg"
+    },
+    "crop-nightwatch-girl.jpg": {
+     "name": "crop-nightwatch-girl.jpg",
+     "blob": "59673d46eb600abd3ce614dbeea1106f",
+     "size": 137990,
+     "type": "image/jpeg"
+    },
+    "crop-arnolfini-mirror.jpg": {
+     "name": "crop-arnolfini-mirror.jpg",
+     "blob": "9a13e1da3a6b80e094e49ffa54a10189",
+     "size": 256022,
+     "type": "image/jpeg"
+    }
+   }
+  }
+ },
+ "blobs": {},
+ "docs": {
+  "sections": []
+ },
+ "lastChange": {
+  "by": "Albert Toledo",
+  "at": "2026-11-12T15:10:00Z",
+  "via": "Claude Code",
+  "note": "First version, built from the carousel kit (brand.css, brand.js, BRIEF.md)."
+ }
+}

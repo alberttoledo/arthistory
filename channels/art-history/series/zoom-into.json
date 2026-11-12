@@ -1,0 +1,15 @@
+{
+  "id": "zoom-into",
+  "name": "Zoom Into…",
+  "premise": "One painting, one hidden detail most people miss",
+  "hookFormula": "There's a [surprising thing] hiding in this painting.",
+  "structure": [
+    "hook on full painting",
+    "context in one line",
+    "zoom to detail",
+    "why it's there",
+    "twist / meaning",
+    "loop back to full painting"
+  ],
+  "targetSeconds": 40
+}

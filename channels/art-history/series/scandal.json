@@ -1,0 +1,14 @@
+{
+  "id": "scandal",
+  "name": "Art Scandals",
+  "premise": "The drama, theft or outrage behind a masterpiece",
+  "hookFormula": "This painting got [artist] [punished].",
+  "structure": [
+    "hook",
+    "setup",
+    "the scandal",
+    "consequence",
+    "where it is now"
+  ],
+  "targetSeconds": 45
+}

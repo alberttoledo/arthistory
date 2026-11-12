@@ -1,0 +1,50 @@
+{
+  "moodboardVersion": null,
+  "palette": {
+    "bg": "#0f2a2b",
+    "fg": "#f4efe6",
+    "accent": "#ff9466",
+    "muted": "#7fa3a0"
+  },
+  "fonts": {
+    "display": "Syne",
+    "body": "Inter"
+  },
+  "captions": {
+    "position": "bottom",
+    "wordsPerChunk": 3,
+    "uppercase": false,
+    "size": 66,
+    "highlight": "color",
+    "animation": "rise"
+  },
+  "motion": {
+    "intensity": 0.3,
+    "transitions": [
+      "crossfade",
+      "zoom-out",
+      "iris"
+    ],
+    "transitionFrames": 18
+  },
+  "texture": {
+    "grain": 0.1,
+    "vignette": 0.45,
+    "tint": null
+  },
+  "progressBar": false,
+  "brief": {
+    "visual": "Spare and luminous. Deep night-sea teal, warm parchment text and one sunrise-coral accent. Moon, star and boat as recurring motifs. Notebook pages, sketches, old maps, workshops, kitchens, roads and coastlines: the evidence of people engaging with life. Lots of negative space.",
+    "motion": "Slow, breathing camera moves with gentle parallax depth. Dust floating in the light, soft warm light leaks. Calm crossfades, slow zoom-outs and the occasional iris reveal. Never frantic: the pace of someone looking closely."
+  },
+  "effects": {
+    "motionBlur": 0.3,
+    "depth": 0.55,
+    "particles": "dust",
+    "particleAmount": 0.35,
+    "lightLeaks": 0.25,
+    "chromaticAberration": 0,
+    "glow": 0.15,
+    "shake": 0.1
+  }
+}

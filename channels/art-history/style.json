@@ -1,0 +1,35 @@
+{
+  "moodboardVersion": null,
+  "palette": {
+    "bg": "#0d0b09",
+    "fg": "#f3ead8",
+    "accent": "#d4af37",
+    "muted": "#8a7f6c"
+  },
+  "fonts": {
+    "display": "Playfair Display",
+    "body": "Libre Baskerville"
+  },
+  "captions": {
+    "position": "bottom",
+    "wordsPerChunk": 3,
+    "uppercase": false,
+    "size": 66,
+    "highlight": "color"
+  },
+  "motion": {
+    "intensity": 0.4,
+    "transitions": [
+      "crossfade",
+      "zoom",
+      "blur"
+    ],
+    "transitionFrames": 14
+  },
+  "texture": {
+    "grain": 0.12,
+    "vignette": 0.55,
+    "tint": null
+  },
+  "progressBar": true
+}

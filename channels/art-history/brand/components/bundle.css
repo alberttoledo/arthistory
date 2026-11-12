@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@500&display=swap');
+/* Art History slide parts. Sizes are canvas px on the 1080 x 1350 slide. */
+.ah-panel { position: relative; width: 1080px; overflow: hidden; background: var(--ground); color: var(--text); font-family: var(--font-body); box-sizing: border-box; padding: 56px var(--margin-outer); }
+.ah-panel *, .ah-panel *::before, .ah-panel *::after { box-sizing: border-box; margin: 0; }
+.ah-kicker { font: 500 22px/1.3 var(--font-mono); letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
+.ah-hero { font: 500 132px/.9 var(--font-display); letter-spacing: -.02em; margin-top: 20px; }
+.ah-h-m { font: 500 70px/1 var(--font-display); letter-spacing: -.01em; margin-top: 20px; }
+.ah-hero em, .ah-h-m em { font-style: italic; color: var(--accent); }
+.ah-lede { font: 400 38px/1.38 var(--font-body); margin-top: 28px; }
+.ah-copy { font: 400 33px/1.45 var(--font-body); margin-top: 24px; max-width: 900px; }
+.ah-copy b { font-weight: 500; color: var(--accent); }
+.ah-rule { width: 120px; height: 2px; background: var(--gilt); margin: var(--rule-gap) 0; }
+.ah-swipe { font: 500 20px/1 var(--font-mono); letter-spacing: .2em; text-transform: uppercase; color: var(--gilt); display: inline-flex; align-items: center; gap: 14px; }
+.ah-swipe::after { content: ''; width: 64px; height: 1px; background: var(--gilt); }
+.ah-chrome { display: flex; justify-content: space-between; align-items: center; font: 500 19px/1 var(--font-mono); letter-spacing: .18em; text-transform: uppercase; color: var(--text); }
+.ah-chrome .no { color: var(--accent); }
+.ah-chrome .sep { display: inline-block; width: 34px; height: 1px; background: currentColor; opacity: .5; vertical-align: middle; margin: 0 14px; }
+.ah-dots { display: flex; gap: 9px; align-items: center; }
+.ah-dots i { width: 7px; height: 7px; border-radius: var(--radius-disc); background: currentColor; opacity: .28; }
+.ah-dots i.on { width: 26px; border-radius: var(--radius-tag); background: var(--gilt); opacity: 1; }
+.ah-frame { outline: 2px solid var(--gilt); outline-offset: 14px; box-shadow: var(--shadow-frame); }
+.ah-frame img { display: block; width: 100%; }
+.ah-label { display: grid; grid-template-columns: 1fr auto; gap: 8px 40px; align-items: end; }
+.ah-label .t { grid-column: 1 / -1; font: italic 500 54px/1 var(--font-display); }
+.ah-label .a { font: 400 30px/1.3 var(--font-body); }
+.ah-label .m { font: 500 18px/1.6 var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--text-muted); text-align: right; }
+.ah-marker { position: absolute; border: 3px solid var(--gilt); border-radius: var(--radius-disc); }
+.ah-marker b, .ah-badge { position: absolute; top: -22px; right: -22px; width: 46px; height: 46px; border-radius: var(--radius-disc); background: var(--gilt); color: var(--on-gilt); font: 600 22px/46px var(--font-mono); text-align: center; }
+.ah-loupe { position: absolute; border-radius: var(--radius-disc); overflow: hidden; border: 4px solid var(--gilt); box-shadow: var(--shadow-loupe); }
+.ah-loupe img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ah-leader { position: absolute; height: 2px; background: var(--gilt); transform-origin: 0 50%; }
+.ah-leader::before, .ah-leader::after { content: ''; position: absolute; top: -5px; width: 12px; height: 12px; border-radius: var(--radius-disc); background: var(--gilt); }
+.ah-leader::before { left: -6px; } .ah-leader::after { right: -6px; }
+.ah-timeline { list-style: none; padding: 0 0 0 46px; border-left: 2px solid var(--gilt-dim); display: grid; gap: var(--gap-l); }
+.ah-timeline li { position: relative; }
+.ah-timeline li::before { content: ''; position: absolute; left: -57px; top: 14px; width: 20px; height: 20px; border-radius: var(--radius-disc); background: var(--ground); border: 3px solid var(--gilt); }
+.ah-timeline .y { font: 600 50px/1 var(--font-display); color: var(--accent); }
+.ah-timeline .d { font: 400 30px/1.38 var(--font-body); margin-top: 6px; }
+.ah-qmark { font: 600 300px/.6 var(--font-display); color: var(--accent); height: 130px; }
+.ah-quote { font: italic 500 74px/1.06 var(--font-display); letter-spacing: -.01em; }
+.ah-cite { display: block; margin-top: 40px; font: 500 21px/1.5 var(--font-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+.ah-phone { width: 380px; height: 676px; border-radius: var(--radius-phone); overflow: hidden; border: 3px solid var(--gilt); position: relative; background: var(--ground-raised); }
+.ah-phone img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ah-play { position: absolute; left: 50%; top: 50%; width: 110px; height: 110px; margin: -55px; border-radius: var(--radius-disc); background: rgba(13,11,9,.55); border: 2px solid var(--gilt); }
+.ah-play::after { content: ''; position: absolute; left: 42px; top: 33px; border-left: 36px solid var(--gilt); border-top: 22px solid transparent; border-bottom: 22px solid transparent; }
+.ah-actions { display: flex; gap: 18px; margin-top: 40px; }
+.ah-actions span { font: 500 19px/1 var(--font-mono); letter-spacing: .16em; text-transform: uppercase; padding: 18px 22px; border: 1px solid var(--gilt); color: var(--accent); }
+.ah-actions span:first-child { background: var(--gilt); color: var(--on-gilt); }
+.ah-tag { position: absolute; left: 0; bottom: 0; padding: 12px 16px; background: var(--ground); color: var(--accent); font: 500 17px/1 var(--font-mono); letter-spacing: .16em; text-transform: uppercase; }

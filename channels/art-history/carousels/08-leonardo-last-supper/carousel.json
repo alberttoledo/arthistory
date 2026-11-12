@@ -1,0 +1,25 @@
+{
+  "slug": "08-leonardo-last-supper",
+  "no": "08",
+  "title": "The Last Supper",
+  "artist": "Leonardo da Vinci",
+  "year": "c. 1495–98",
+  "museum": "Refectory of Santa Maria delle Grazie (Cenacolo Vinciano), Milan",
+  "videoFormat": "Step-inside-the-painting flythrough loop (9:16, 20s): along the table to Jesus, down into the wine glass, reflection loops to the start",
+  "hook": "There's a nail hole in his head.",
+  "caption": "There's a nail hole in his head.\n\nLeonardo built the whole room of The Last Supper around one point: Christ's right temple. Every beam and wall runs there, and restorers found a tiny nail hole on the spot. The wall itself barely survived. He skipped true fresco, so it was decaying in his lifetime. Friars cut a door through Jesus's feet. French troops stabled horses in the hall. A 1943 bomb brought the roof down around it.\n\nSwipe for the four groups of three, Judas in shadow, and who's really beside Jesus. Then watch the reel: we walk the table and dive into his wine.\n\nSave this for your Milan trip.",
+  "hashtags": ["#leonardodavinci", "#thelastsupper", "#arthistory", "#renaissance", "#milan", "#cenacolovinciano", "#santamariadellegrazie", "#perspective", "#hiddendetails", "#italianrenaissance", "#davincicode", "#arttok"],
+  "slides": [
+    {"n": 1, "type": "cover", "headline": "There's a nail hole in his head.", "alt": "Close crop of Christ's face and shoulders in the Last Supper, flaking paint, a window of blue landscape behind him."},
+    {"n": 2, "type": "plate", "headline": "The Last Supper", "alt": "The whole mural in a gold frame: thirteen figures behind a long white table in a coffered hall, a bricked-up doorway cut into the bottom centre."},
+    {"n": 3, "type": "quote", "headline": "One of you shall betray me.", "alt": "Cream paper slide with Leonardo's red-chalk sketch of the apostles at table as a torn scrap, above the Gospel line in large italics."},
+    {"n": 4, "type": "strip", "headline": "Twelve men in fours of three.", "alt": "Four stacked horizontal crops of the apostle groups, numbered 1 to 4, each with names and a one-line description."},
+    {"n": 5, "type": "detail", "headline": "The only face in shadow.", "alt": "Close crop of Judas in dark profile beside Peter and John, a gold ring around his fist holding a small bag, with Leonardo's red-chalk head of Judas pinned at right."},
+    {"n": 6, "type": "loupe", "headline": "Every line runs to his head.", "alt": "The upper mural with gold lines drawn along the ceiling beams and wall hangings, all converging on a small ring at Christ's head."},
+    {"n": 7, "type": "split", "headline": "A door ate his feet.", "alt": "Side by side: the original today, with a plain doorway where Christ's feet were, and Giampietrino's early copy showing his sandalled feet under the table."},
+    {"n": 8, "type": "timeline", "headline": "It should not still be here.", "alt": "Cream paper timeline (1517, 1796, 1943, 1978–99) beside a torn photo of the bombed refectory in 1943 and a close-up of flaking paint."},
+    {"n": 9, "type": "twist", "headline": "That's not Mary Magdalene.", "alt": "Close crop of the young, beardless John leaning toward Peter, with Christ's red sleeve at the right edge."},
+    {"n": 10, "type": "cta", "headline": "Now pull up a chair.", "alt": "Phone frame with the first frame of our film, Jesus at the table, plus a gold circular zoom on the glass of wine near his hand in the mural."}
+  ],
+  "notes": "Main image: 9600px post-restoration image from Commons (the door area is filled flat in that file). Nail hole: reported in Italian and secondary sources (arte.it etc.), not a museum page; copy says 'likely tied strings'. Vanishing point is described as Christ's right temple in some sources and 'right cheek'/head in others; the SVG lines are drawn by eye through real orthogonals (ceiling beams, hanging tops) and are illustrative. Salt cellar is only mentioned via the Giampietrino copy. 1796: French troops used the refectory as a stable (plus armoury per Wikipedia); stone-throwing anecdotes left out. 1517 decay: Wikipedia main/conservation articles, no primary source checked. The glass in the CTA loupe is the small tumbler by Christ's left hand. Royal Collection quote is from the RCT catalogue entry for RCIN 912547."
+}

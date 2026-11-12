@@ -1,0 +1,25 @@
+{
+  "slug": "07-degas-rehearsal",
+  "no": "07",
+  "title": "The Rehearsal",
+  "artist": "Edgar Degas",
+  "year": "c. 1873–1878",
+  "museum": "Harvard Art Museums / Fogg Museum (1951.47)",
+  "videoFormat": "painting-flythrough-loop (step inside the painting)",
+  "hook": "He erased part of this room.",
+  "caption": "He erased part of this room.\n\nDegas's The Rehearsal (c. 1873–78) hangs at Harvard. Look close and you'll find a lone violinist shoved into the corner, the 'petits rats' of the Paris Opéra at the barre, and a ghost: Harvard says Degas later painted out a whole stairwell. In his Glasgow version, that spiral stair survives, dancers' legs coming down it, cut off by the frame.\n\nHe wasn't backstage when he painted this. His dancers came to his studio to pose. And the men who were backstage? That's slide 5.\n\nSwipe to the end, then watch the reel: we flew a camera straight into the room. Save this for your next museum visit.",
+  "hashtags": ["#Degas", "#EdgarDegas", "#TheRehearsal", "#ArtHistory", "#Impressionism", "#Ballet", "#ParisOpera", "#HarvardArtMuseums", "#FoggMuseum", "#PaintingDetails", "#StepInsideThePainting"],
+  "slides": [
+    {"n": 1, "type": "cover", "headline": "He erased part of this room.", "alt": "Close crop of young ballerinas in white tutus at the barre, arms extended, in Degas's The Rehearsal."},
+    {"n": 2, "type": "plate", "headline": "The Rehearsal — Edgar Degas, c. 1873–78", "alt": "The whole painting in a gilt frame: a bright rehearsal room with tall windows, dancers at the barre, a violinist seated at left."},
+    {"n": 3, "type": "loupe", "headline": "No orchestra. Just one fiddle.", "alt": "Small full painting with a gold ring on the violinist at the left edge, magnified in a large circular loupe."},
+    {"n": 4, "type": "strip", "headline": "The petits rats", "alt": "Three tall cut-outs of dancers: one stretching at the barre, one waiting with hands folded, two whispering with their backs turned."},
+    {"n": 5, "type": "fact", "headline": "The men in the wings.", "alt": "Cream paper slide with a torn scrap showing a dancer with a pink sash, and the year 1885 in large red numerals."},
+    {"n": 6, "type": "split", "headline": "No backstage pass. So they came to him.", "alt": "Degas's earlier The Dancing Class (c. 1870, the Met): dancers, a mirror and a violinist in a small room."},
+    {"n": 7, "type": "quote", "headline": "A world of pink and white, of female flesh in lawn and gauze.", "alt": "Pull quote by Edmond de Goncourt over a faint image of tulle."},
+    {"n": 8, "type": "timeline", "headline": "His eyes were already failing.", "alt": "Timeline 1870, 1874, 1881 beside a torn-paper photo of the Little Dancer Aged Fourteen sculpture."},
+    {"n": 9, "type": "twist", "headline": "The stair he erased.", "alt": "Side by side: dancers in the Harvard painting, and the spiral staircase with dancers' legs descending in Degas's Glasgow version."},
+    {"n": 10, "type": "cta", "headline": "Now step inside.", "alt": "Phone mockup showing the first frame of our fly-through film of the rehearsal room, with Save and Share buttons."}
+  ],
+  "notes": "IMPORTANT: assets/degas/degas_rehearsal_fogg_full.jpg is the Harvard/Fogg painting (1951.47, 47.2 x 61.5 cm; aspect matches). assets/sources/degas_rehearsal_1878_2000.jpg is a DIFFERENT work: the Frick Collection's The Rehearsal (1878–79), bearded violinist foreground — not used. Several suggested angles (spiral staircase with legs, ballet master/Perrot, woman adjusting a dress) belong to the Burrell Collection (Glasgow) version, c. 1874, not the Fogg one; the Fogg canvas has no staircase, ballet master or dresser. Harvard's own text says Degas later reworked the Fogg picture, removing a stairwell — so the staircase became the twist, illustrated with the Glasgow version. Harvard images: museum permits noncommercial/educational use; the painting scan is our own asset. Unverified Degas 'ashamed' letter quote deliberately not used."
+}

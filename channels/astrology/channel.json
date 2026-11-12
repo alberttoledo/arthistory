@@ -1,0 +1,29 @@
+{
+  "cadencePerWeek": 7,
+  "goals": {
+    "followers": 10000,
+    "views": 1000000,
+    "deadline": "2027-02-03"
+  },
+  "slug": "astrology",
+  "name": "Astrology",
+  "handle": "@astrology",
+  "niche": "Zodiac signs, the myths behind constellations, and weekly transits",
+  "audience": "Astrology-curious 18–35, mostly women",
+  "tone": "Intimate, mystical, affirming",
+  "voice": {
+    "provider": "say",
+    "voice": "Moira",
+    "rate": 168
+  },
+  "hashtags": [
+    "astrology",
+    "zodiac",
+    "horoscope",
+    "zodiacsigns"
+  ],
+  "assetSources": [
+    "procedural",
+    "wikimedia"
+  ]
+}

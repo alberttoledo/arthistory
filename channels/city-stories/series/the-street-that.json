@@ -1,0 +1,14 @@
+{
+  "id": "the-street-that",
+  "name": "The Street That…",
+  "premise": "One street, one wild fact that changed the city",
+  "hookFormula": "This street [did something impossible].",
+  "structure": [
+    "hook over street",
+    "then-vs-now",
+    "the event",
+    "proof",
+    "visit tip"
+  ],
+  "targetSeconds": 40
+}

@@ -1,0 +1,195 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
+<style>
+  /* one-off layouts for No. 08 */
+  .s-cover .bleed { object-position: 50% 20%; }
+  .s-cover.shade-bottom::after { height: 820px; background: linear-gradient(transparent, rgba(13,11,9,.75) 40%, rgba(13,11,9,.95) 72%); }
+  .s-cover .kicker, .s-cover .h-xl { text-shadow: 0 2px 24px rgba(0,0,0,.6); }
+
+  /* 02 plate: wide mural, so sit it higher and add a one-line intro */
+  .s-plate .frame { top: 300px; }
+  .plate-note { position: absolute; left: var(--pad); right: var(--pad); top: 836px; z-index: 35; max-width: 860px; }
+  .plate-intro { position: absolute; left: var(--pad); right: var(--pad); top: 196px; z-index: 35; }
+
+  /* 03 quote on paper with a torn sketch */
+  .s-quote .torn { left: 96px; top: 170px; width: 700px; height: 520px; transform: rotate(-2.5deg); }
+  .s-quote .torn img { object-position: 50% 30%; }
+  .s-quote .block { top: 760px; }
+  .s-quote .qmark { height: 110px; font-size: 280px; }
+  .s-quote blockquote { font-size: 82px; }
+  .s-quote .aside { font: italic 400 30px/1.4 var(--body); color: #5a4f3f; margin-top: 30px; max-width: 860px; }
+
+  /* 04 the four triads, stacked rows */
+  .triads { position: absolute; left: var(--pad); right: var(--pad); top: 336px; display: grid; gap: 18px; z-index: 35; }
+  .triads .row { display: grid; grid-template-columns: 470px 1fr; gap: 34px; align-items: center; height: 206px; }
+  .triads figure { position: relative; height: 206px; overflow: hidden; outline: 1px solid rgba(212,175,55,.45); outline-offset: 6px; }
+  .triads img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .triads figcaption { position: absolute; top: 10px; left: 10px; width: 40px; height: 40px; border-radius: 50%; background: var(--gold); color: var(--ink); font: 600 19px/40px var(--mono); text-align: center; }
+  .triads .who { font: 500 17px/1.3 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+  .triads .what { font: 400 30px/1.35 var(--body); margin-top: 8px; }
+
+  /* 05 Judas */
+  .judas-crop { position: absolute; left: 0; right: 0; top: 0; height: 900px; }
+  .judas-crop img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .judas-crop::after { content: ''; position: absolute; inset: auto 0 0 0; height: 200px; background: linear-gradient(transparent, var(--ink)); }
+  .s-judas .torn { right: 64px; top: 430px; width: 300px; height: 370px; transform: rotate(3deg); padding-bottom: 56px; }
+  .s-judas .torn img { object-position: 50% 40%; }
+
+  /* 06 perspective */
+  .persp { position: absolute; left: 0; right: 0; top: 140px; height: 720px; }
+  .persp img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .persp svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .persp::after { content: ''; position: absolute; inset: auto 0 0 0; height: 160px; background: linear-gradient(transparent, var(--ink)); }
+  .vp-tag { position: absolute; z-index: 36; left: 584px; top: 382px; font: 500 16px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ink); background: var(--gold); padding: 8px 10px; }
+
+  /* 07 door split */
+  .s-door .split { height: 640px; }
+  .s-door .split figure:first-child img { object-position: 50% 0%; }
+
+  /* 08 timeline on paper */
+  .slide.paper .timeline .d { color: var(--ink); font-size: 27px; }
+  .slide.paper .timeline .y { color: var(--oxblood); font-size: 44px; }
+  .slide.paper .timeline { border-left-color: var(--gold-dim); gap: 30px; }
+  .slide.paper .timeline li::before { background: var(--paper); border-color: var(--oxblood); top: 10px; }
+  .s-scars .torn.t1 { right: 70px; top: 360px; width: 400px; height: 330px; transform: rotate(3deg); padding-bottom: 56px; }
+  .s-scars .torn.t2 { right: 120px; top: 760px; width: 330px; height: 300px; transform: rotate(-3.5deg); padding-bottom: 56px; }
+
+  /* 09 John */
+  .s-john .bleed { object-position: 40% 15%; }
+  .s-john.shade-bottom::after { height: 760px; background: linear-gradient(transparent, rgba(13,11,9,.8) 38%, rgba(13,11,9,.95) 70%); }
+
+  /* 10 CTA */
+  .s-cta .actions { flex-wrap: wrap; max-width: 420px; }
+  .s-cta .actions span:first-child { white-space: nowrap; flex-basis: 100%; text-align: center; }
+  .glass { position: absolute; z-index: 38; left: 470px; top: 800px; width: 250px; height: 250px; }
+  .glass-tag { position: absolute; z-index: 38; left: 474px; top: 1072px; font: 500 15px/1.3 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+</style></head>
+<body data-no="08" data-title="The Last Supper">
+
+<!-- 01 COVER -->
+<section class="slide s-cover shade-top shade-bottom">
+  <img class="bleed" src="img/cover.jpg">
+  <div class="block bottom">
+    <div class="kicker">Leonardo · c. 1495–98</div>
+    <h1 class="h-xl">There's a <em>nail hole</em> in his head.</h1>
+    <p class="lede">Leonardo put it there. The whole room hangs on it.</p>
+    <div class="rule"></div><span class="swipe">Swipe</span>
+  </div>
+</section>
+
+<!-- 02 PLATE -->
+<section class="slide s-plate">
+  <div class="plate-intro"><div class="kicker">Painted on a dining-hall wall</div></div>
+  <div class="frame" style="height:456px"><img src="img/full.jpg"></div>
+  <p class="copy plate-note">About 4.6 metres tall and 8.8 wide. The friars of Santa Maria delle Grazie ate their meals beneath it.</p>
+  <div class="label">
+    <div class="t">The Last Supper</div>
+    <div class="a">Leonardo da Vinci, c. 1495–98<br>Tempera and oil on dry plaster</div>
+    <div class="m">460 × 880 cm<br>Refectory, Santa Maria<br>delle Grazie, Milan</div>
+  </div>
+</section>
+
+<!-- 03 QUOTE (paper) -->
+<section class="slide paper s-quote">
+  <div class="torn"><img src="img/study_venice.jpg"><span class="tag">Leonardo's sketch · c. 1494–95 · Venice</span></div>
+  <div class="block">
+    <div class="qmark" style="color:var(--oxblood)">“</div>
+    <blockquote>One of you shall <em style="color:var(--oxblood)">betray</em> me.</blockquote>
+    <cite style="color:var(--oxblood)">Jesus · Gospel of John 13:21</cite>
+    <p class="aside">Leonardo paints the second after the words land. Twelve men, twelve reactions, one shockwave.</p>
+  </div>
+</section>
+
+<!-- 04 STRIP: four triads -->
+<section class="slide">
+  <div class="block top"><div class="kicker">Read it left to right</div><h2 class="h-m" style="margin-top:16px">Twelve men in <em>fours of three</em>.</h2></div>
+  <div class="triads">
+    <div class="row"><figure><img src="img/triad1.jpg"><figcaption>1</figcaption></figure><div><div class="who">Bartholomew · James · Andrew</div><p class="what">Up on their feet. Andrew's palms fly open.</p></div></div>
+    <div class="row"><figure><img src="img/triad2.jpg"><figcaption>2</figcaption></figure><div><div class="who">Judas · Peter · John</div><p class="what">Peter lunges, knife in hand. Judas pulls back.</p></div></div>
+    <div class="row"><figure><img src="img/triad3.jpg" style="object-position:50% 30%"><figcaption>3</figcaption></figure><div><div class="who">Thomas · James · Philip</div><p class="what">A finger jabs up. Philip presses his chest.</p></div></div>
+    <div class="row"><figure><img src="img/triad4.jpg" style="object-position:50% 30%"><figcaption>4</figcaption></figure><div><div class="who">Matthew · Thaddeus · Simon</div><p class="what">At the far end, they argue it out.</p></div></div>
+  </div>
+</section>
+
+<!-- 05 JUDAS: detail + chalk study -->
+<section class="slide s-judas shade-top">
+  <div class="judas-crop"><img src="img/judas.jpg"></div>
+  <div class="marker" style="left:480px;top:700px;width:130px;height:130px"><b>1</b></div>
+  <div class="torn"><img src="img/judas_drawing.jpg"><span class="tag">Red chalk study</span></div>
+  <div class="block bottom">
+    <div class="kicker">Group two</div>
+    <h2 class="h-m">The only face in <em>shadow</em>.</h2>
+    <p class="copy">Judas recoils from the light, a small bag in his fist. The silver, perhaps. Yet Leonardo's study is no monster: “mild surprise rather than evil intent,” says the Royal Collection.</p>
+  </div>
+</section>
+
+<!-- 06 PERSPECTIVE -->
+<section class="slide">
+  <div class="persp">
+    <img src="img/persp.jpg">
+    <svg viewBox="0 0 1200 800" preserveAspectRatio="none">
+      <g stroke="#d4af37" stroke-width="2" opacity=".9" fill="none">
+        <line x1="605" y1="378" x2="0" y2="99"/><line x1="605" y1="378" x2="1200" y2="64"/>
+        <line x1="605" y1="378" x2="176" y2="0"/><line x1="605" y1="378" x2="343" y2="0"/>
+        <line x1="605" y1="378" x2="510" y2="0"/><line x1="605" y1="378" x2="676" y2="0"/>
+        <line x1="605" y1="378" x2="851" y2="0"/><line x1="605" y1="378" x2="1026" y2="0"/>
+      </g>
+      <circle cx="605" cy="380" r="7" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+    </svg>
+  </div>
+  <div class="block bottom">
+    <div class="kicker">The vanishing point</div>
+    <h2 class="h-m">Every line runs to his <em>head</em>.</h2>
+    <p class="copy">Ceiling beams, walls, hangings: all converge on Christ's right temple. Restorers found a tiny nail hole there. Leonardo likely tied strings to it to rule the room.</p>
+  </div>
+</section>
+
+<!-- 07 SPLIT: the door -->
+<section class="slide s-door">
+  <div class="split">
+    <figure><img src="img/door_orig.jpg"><figcaption>Milan · today</figcaption></figure>
+    <figure><img src="img/door_copy.jpg"><figcaption>Copy · c. 1520</figcaption></figure>
+  </div>
+  <div class="block bottom">
+    <div class="kicker">1652</div>
+    <h2 class="h-m">A door ate his <em>feet</em>.</h2>
+    <p class="copy">The friars cut a doorway through the wall. A full-size copy by Giampietrino, now with the Royal Academy, still shows the feet and Judas's spilled salt. Restorers leaned on it.</p>
+  </div>
+</section>
+
+<!-- 08 TIMELINE (paper) -->
+<section class="slide paper s-scars">
+  <div class="block top"><div class="kicker" style="color:var(--oxblood)">Its scars</div><h2 class="h-m" style="margin-top:16px">It should not still <em>be here</em>.</h2></div>
+  <div class="torn t1"><img src="img/bomb1943.jpg"><span class="tag">August 1943 · the refectory</span></div>
+  <div class="torn t2"><img src="img/flake.jpg"><span class="tag">Flaking paint, up close</span></div>
+  <div class="block" style="top:380px;right:520px"><ol class="timeline">
+    <li><div class="y">1517</div><div class="d">Not true fresco but paint on dry plaster. It's already decaying, and Leonardo is still alive.</div></li>
+    <li><div class="y">1796</div><div class="d">French troops of Napoleon's campaign use the hall as a stable.</div></li>
+    <li><div class="y">1943</div><div class="d">An Allied bomb brings down the roof. The sandbagged wall stands.</div></li>
+    <li><div class="y">1978–99</div><div class="d">21 years of cleaning strip off centuries of repaint.</div></li>
+  </ol></div>
+</section>
+
+<!-- 09 LOOK AGAIN: John -->
+<section class="slide s-john shade-top shade-bottom">
+  <img class="bleed" src="img/john.jpg">
+  <div class="block bottom">
+    <div class="kicker">Look again</div>
+    <h2 class="h-m">That's not Mary <em>Magdalene</em>.</h2>
+    <p class="copy">The Da Vinci Code made it a theory. Art historians see John, the youngest disciple, painted young and beardless as tradition had it, tipping toward Peter's whisper.</p>
+  </div>
+</section>
+
+<!-- 10 CTA -->
+<section class="slide s-cta">
+  <div class="phone"><img src="img/first_frame.jpg"><div class="play"></div></div>
+  <div class="loupe glass"><img src="img/glass_loupe.jpg"></div>
+  <div class="glass-tag">The glass, in the mural</div>
+  <div class="block" style="top:270px;right:560px">
+    <div class="kicker">The film</div>
+    <h2 class="h-l">Now pull up a <em>chair</em>.</h2>
+    <p class="copy" style="margin-top:24px;max-width:420px">We walk the table to Jesus, then dive into his wine glass.</p>
+    <div class="actions"><span>Watch the film</span><span>Save</span><span>Share</span></div>
+  </div>
+</section>
+
+<script src="../_brand/brand.js"></script></body></html>

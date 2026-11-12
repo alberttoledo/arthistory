@@ -1,0 +1,34 @@
+{
+  "moodboardVersion": null,
+  "palette": {
+    "bg": "#0b0a1f",
+    "fg": "#ece6ff",
+    "accent": "#e8c66a",
+    "muted": "#5a4f8a"
+  },
+  "fonts": {
+    "display": "Cinzel",
+    "body": "Space Grotesk"
+  },
+  "captions": {
+    "position": "bottom",
+    "wordsPerChunk": 3,
+    "uppercase": false,
+    "size": 70,
+    "highlight": "color"
+  },
+  "motion": {
+    "intensity": 0.3,
+    "transitions": [
+      "blur",
+      "crossfade"
+    ],
+    "transitionFrames": 18
+  },
+  "texture": {
+    "grain": 0.08,
+    "vignette": 0.5,
+    "tint": "#3b2a7a"
+  },
+  "progressBar": false
+}

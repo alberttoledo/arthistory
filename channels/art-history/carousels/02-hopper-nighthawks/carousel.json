@@ -1,0 +1,25 @@
+{
+  "slug": "02-hopper-nighthawks",
+  "no": "02",
+  "title": "Nighthawks",
+  "artist": "Edward Hopper",
+  "year": "1942",
+  "museum": "Art Institute of Chicago",
+  "videoFormat": "Photoreal cinematic story film built from the painting's four characters, plus a step-inside flythrough",
+  "hook": "The painter is in here. Twice.",
+  "caption": "The painter is in this painting. Twice.\n\nHopper finished Nighthawks on January 21, 1942, about six weeks after Pearl Harbor. Swipe for the details: a diner with no way in, a five-cent cigar sign, the notes where his wife Jo turned the customers into \"night hawks\", and the line she wrote the next day that explains who really posed at that counter.\n\nThe Art Institute of Chicago bought it within four months for $3,000. Now it's one of the most parodied paintings in the world.\n\nSave this for your next visit to Chicago, then watch the reel: we brought all four of them to life.",
+  "hashtags": ["#Nighthawks", "#EdwardHopper", "#ArtHistory", "#ArtInstituteOfChicago", "#AmericanArt", "#Hopper", "#PaintingStory", "#MuseumSecrets", "#ArtTok", "#1940s", "#NewYorkHistory"],
+  "slides": [
+    {"n": 1, "type": "cover", "headline": "The painter is in here. Twice.", "alt": "Close crop of the man in the fedora and the red-haired woman in a red blouse at the diner counter in Nighthawks."},
+    {"n": 2, "type": "plate", "headline": "Nighthawks", "alt": "The whole painting in a gilt frame: a glowing corner diner at night on an empty street, with a museum label."},
+    {"n": 3, "type": "timeline", "headline": "Painted as the lights went down.", "alt": "Timeline from Pearl Harbor to the 1942 sale and later parodies, over a 1942 photo of Times Square during the wartime dimout."},
+    {"n": 4, "type": "paper photo + quote", "headline": "A real corner, made bigger.", "alt": "Berenice Abbott's 1935 photo of Jefferson Market Court and the Sixth Avenue El in Greenwich Village, with Hopper's words about a restaurant on Greenwich Avenue."},
+    {"n": 5, "type": "loupe", "headline": "Now try to find the door.", "alt": "Small view of the whole painting with a gold ring on the orange door at the back of the diner, magnified in a large circular loupe."},
+    {"n": 6, "type": "strip", "headline": "Four people, all alone together.", "alt": "Four tall slices of the painting: the man in the fedora, the woman in red, the counterman in white, and the lone man seen from behind."},
+    {"n": 7, "type": "quote", "headline": "Man night hawk (beak) in dark suit, steel grey hat…", "alt": "Quote from Jo Hopper's record-book notes beside a torn scrap showing the fedora man's sharp profile."},
+    {"n": 8, "type": "detail", "headline": "No name. Just a 5¢ cigar.", "alt": "Detail of the Phillies cigar sign above the diner, with the words Only 5¢ marked by a gold box."},
+    {"n": 9, "type": "split twist", "headline": "They're a married couple.", "alt": "Side-by-side crops of the fedora man labelled Edward and the woman in red labelled Jo."},
+    {"n": 10, "type": "cta", "headline": "Now step inside.", "alt": "A phone frame showing a still from our photoreal film: the man in the fedora at the diner counter, the couple behind him."}
+  ],
+  "notes": "CTA phone uses assets/hopper/nighthawks_shot10_start_1080.png (photoreal film still), not the flythrough frame. Painting is likely still in copyright in some places (Hopper d. 1967), so we use only our existing scan and crops of it, and no other Hopper works. Period photos are PD (OWI/LoC, WPA/NYPL via Wikimedia Commons). The 'two men' Hopper posed for is from Jo's letter; we don't say which figures, though 'the two men' most naturally means the two male customers. Slide 3 dimout photo is Sept 1942, after the painting; copy is framed as the year's mood, not the painting's source."
+}

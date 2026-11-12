@@ -1,0 +1,28 @@
+{
+  "cadencePerWeek": 7,
+  "goals": {
+    "followers": 10000,
+    "views": 1000000,
+    "deadline": "2027-02-03"
+  },
+  "slug": "city-stories",
+  "name": "City Stories",
+  "handle": "@citystories",
+  "niche": "Surprising histories of streets, buildings and neighborhoods",
+  "audience": "Travelers and urban nerds, 20–45",
+  "tone": "Brisk, wry, tour-guide-who-knows-the-gossip",
+  "voice": {
+    "provider": "say",
+    "voice": "Samantha",
+    "rate": 182
+  },
+  "hashtags": [
+    "citystories",
+    "history",
+    "travel",
+    "urbanhistory"
+  ],
+  "assetSources": [
+    "wikimedia"
+  ]
+}

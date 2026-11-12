@@ -1,0 +1,35 @@
+{
+  "moodboardVersion": null,
+  "palette": {
+    "bg": "#101418",
+    "fg": "#f2efe9",
+    "accent": "#ff6b35",
+    "muted": "#6b7785"
+  },
+  "fonts": {
+    "display": "Bebas Neue",
+    "body": "Oswald"
+  },
+  "captions": {
+    "position": "center",
+    "wordsPerChunk": 2,
+    "uppercase": true,
+    "size": 88,
+    "highlight": "box"
+  },
+  "motion": {
+    "intensity": 0.7,
+    "transitions": [
+      "whip",
+      "zoom",
+      "wipe"
+    ],
+    "transitionFrames": 10
+  },
+  "texture": {
+    "grain": 0.1,
+    "vignette": 0.35,
+    "tint": null
+  },
+  "progressBar": true
+}

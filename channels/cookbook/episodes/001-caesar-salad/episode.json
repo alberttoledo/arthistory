@@ -1,0 +1,21 @@
+{
+  "id": "001-caesar-salad",
+  "channel": "cookbook",
+  "series": "origin-of",
+  "title": "Caesar salad isn't Roman",
+  "status": "rendered",
+  "scheduledFor": null,
+  "postedAt": null,
+  "caption": "The Caesar salad was born in Tijuana, Mexico, in the 1920s, when Prohibition sent Americans across the border to eat and drink. The original: whole romaine leaves, no chicken, no anchovies, eaten with your fingers. 🥗 Which food origin should we do next?",
+  "hashtags": [
+    "caesarsalad",
+    "foodhistory",
+    "tijuana",
+    "saladrecipe"
+  ],
+  "tags": {
+    "hookType": "myth-bust"
+  },
+  "notes": "Pilot episode.",
+  "metrics": []
+}

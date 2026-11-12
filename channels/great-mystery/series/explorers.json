@@ -1,0 +1,14 @@
+{
+  "id": "explorers",
+  "name": "Explorers of the Mystery",
+  "premise": "Portraits of people who never solved the mystery of life and dove into it anyway: Leonardo, Bourdain, Jobs, Feynman, Humboldt, Ada Lovelace",
+  "hookFormula": "[Person] never figured out the meaning of life. So they [did something extraordinary] instead.",
+  "structure": [
+    "hook: the person facing the unknown",
+    "how they engaged: making, travelling, asking",
+    "one specific, vivid detail",
+    "the idea we can borrow",
+    "invitation to do something today"
+  ],
+  "targetSeconds": 50
+}

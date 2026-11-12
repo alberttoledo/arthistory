@@ -1,0 +1,23 @@
+{
+  "painting": {
+    "source": "wikimedia:File:Mary Celeste as Amazon in 1861.jpg"
+  },
+  "deck": {
+    "source": "wikimedia:File:Mary Celeste as Amazon in 1861.jpg",
+    "crop": {
+      "x": 0.25,
+      "y": 0.08,
+      "w": 0.5,
+      "h": 0.7
+    }
+  },
+  "briggs": {
+    "source": "wikimedia:File:Benjamin Briggs captain of Mary Celeste.jpg"
+  },
+  "engraving": {
+    "source": "wikimedia:File:Mary Celeste engraving.jpg"
+  },
+  "clipping": {
+    "source": "wikimedia:File:Mary Celeste NYTimes 1873February26.png"
+  }
+}

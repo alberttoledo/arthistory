@@ -1,0 +1,16 @@
+{
+  "name": "@cf/carousels",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-content.mjs",
+    "dev": "npm run sync && next dev -p 4410",
+    "build": "npm run sync && next build"
+  },
+  "dependencies": {
+    "next": "^16.4.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}

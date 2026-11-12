@@ -1,0 +1,14 @@
+{
+  "id": "why-is-it-shaped",
+  "name": "Why Is It Shaped Like That?",
+  "premise": "The reason behind a strange building, map or layout",
+  "hookFormula": "Ever wonder why [place] looks like this?",
+  "structure": [
+    "hook",
+    "the oddity",
+    "history",
+    "reveal",
+    "today"
+  ],
+  "targetSeconds": 35
+}

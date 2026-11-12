@@ -1,0 +1,13 @@
+{
+  "id": "polymath-practice",
+  "name": "Polymath Practice",
+  "premise": "Practical habits of curious, many-sided lives, drawn from history: notebooks, walks, apprenticeships, travel",
+  "hookFormula": "[Polymath] had a habit you can start tonight.",
+  "structure": [
+    "hook: the habit",
+    "who did it and how",
+    "why it works",
+    "how to start"
+  ],
+  "targetSeconds": 45
+}

@@ -1,0 +1,19 @@
+{
+  "orion": {
+    "source": "wikimedia:File:Sidney Hall - Urania's Mirror - Orion (best currently available version - 2014).jpg"
+  },
+  "scorpio": {
+    "source": "wikimedia:File:Sidney Hall - Urania's Mirror - Scorpio.jpg",
+    "maxWidth": 2494
+  },
+  "sting": {
+    "source": "wikimedia:File:Sidney Hall - Urania's Mirror - Scorpio.jpg",
+    "crop": {
+      "x": 0.05,
+      "y": 0.62,
+      "w": 0.45,
+      "h": 0.36
+    },
+    "maxWidth": 1200
+  }
+}

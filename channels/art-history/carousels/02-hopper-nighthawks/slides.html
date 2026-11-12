@@ -1,0 +1,134 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
+<style>
+  /* 03 — timeline over the 1942 dimout photo */
+  .s-dim .bg { position: absolute; right: 0; top: 0; width: 760px; height: 100%; object-fit: cover; object-position: 70% 50%; opacity: .85; filter: contrast(1.2) brightness(1.15); }
+  .s-dim .bg-shade { position: absolute; inset: 0; background: linear-gradient(90deg, var(--ink) 22%, rgba(13,11,9,.6) 62%, rgba(13,11,9,.05)); z-index: 1; }
+  .s-dim .timeline { margin-top: 56px; gap: 44px; max-width: 780px; }
+  .s-dim .timeline .y { font-size: 56px; }
+  .s-dim .timeline .d { font-size: 33px; }
+  .photo-cred { position: absolute; z-index: 35; right: var(--pad); bottom: 112px; font: 500 15px/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); text-align: right; }
+
+  /* 04 — paper slide with a period photo */
+  .s-place .photo { position: absolute; left: var(--pad); right: var(--pad); top: 160px; height: 560px; }
+  .s-place .photo img { width: 100%; height: 100%; object-fit: cover; display: block; filter: sepia(.25) contrast(1.05); }
+  .s-place .photo-cred { color: var(--ink); opacity: .6; bottom: auto; top: 742px; }
+  .s-place .copy q { font-style: italic; }
+
+  /* 05 — loupe on the only door */
+  .s-door .mini { position: absolute; left: var(--pad); top: 360px; width: 620px; }
+  .s-door .mini img { display: block; width: 100%; }
+  .s-door .loupe { left: 560px; top: 720px; width: 436px; height: 436px; }
+  .s-door .note { position: absolute; z-index: 35; left: var(--pad); top: 760px; width: 430px; }
+  .s-door .note .copy { font-size: 31px; }
+
+  /* 06 — strip of the cast */
+  .s-cast .strip { height: 690px; gap: 14px; }
+  .s-cast .strip img { object-position: 50% 0; }
+  .s-cast .h-s { margin-bottom: 26px; }
+  .s-cast .legend li { font-size: 28px; }
+
+  /* 07 — quote with a torn scrap */
+  .s-quote blockquote { font-size: 84px; max-width: 912px; }
+  .s-quote .torn { right: 84px; bottom: 150px; width: 330px; height: 420px; transform: rotate(4deg); }
+  .s-quote .block.top { top: 190px; }
+  .s-quote .after { position: absolute; z-index: 35; left: var(--pad); bottom: 150px; width: 540px; }
+
+  /* 08 — sign detail */
+  .s-sign .crop { top: 120px; height: 680px; }
+  .s-sign .crop::before { display: none; }
+  .s-sign .crop img { object-position: 50% 0; }
+
+  /* 09 — the twist on paper */
+  .s-twist .split { height: 620px; }
+  .s-twist .split img { object-position: 50% 12%; }
+  .s-twist .split figcaption { background: var(--oxblood); color: var(--paper); }
+  .s-twist .kicker { color: var(--oxblood); }
+
+  /* 10 — cta */
+  .s-cta .phone img { object-position: 30% 50%; }
+</style>
+</head>
+<body data-no="02" data-title="Nighthawks">
+
+<!-- 01 COVER -->
+<section class="slide s-cover shade-top shade-bottom">
+  <img class="bleed" src="img/cover.jpg" style="object-position:50% 30%">
+  <div class="block bottom"><div class="kicker">Edward Hopper · 1942</div><h1 class="h-xl">The painter is in here. <em>Twice.</em></h1><p class="lede">And there's no way in.</p><div class="rule"></div><span class="swipe">Swipe</span></div>
+</section>
+
+<!-- 02 PLATE -->
+<section class="slide s-plate">
+  <div class="block top" style="top:200px"><div class="kicker">The painting</div></div>
+  <div class="frame" style="top:320px;height:498px"><img src="img/full.jpg"></div>
+  <div class="label"><div class="t">Nighthawks</div><div class="a">Edward Hopper<br>Oil on canvas, 1942</div><div class="m">84.1 × 152.4 cm<br>Art Institute of Chicago</div></div>
+</section>
+
+<!-- 03 TIMELINE over the wartime dimout -->
+<section class="slide s-dim">
+  <img class="bg" src="img/dimout.jpg"><div class="bg-shade"></div>
+  <div class="block top" style="top:160px"><div class="kicker">When it was made</div><h2 class="h-m">Painted as the <em>lights</em> went down.</h2>
+    <ol class="timeline">
+      <li><div class="y">Dec 7, 1941</div><div class="d">Pearl Harbor. America goes to war.</div></li>
+      <li><div class="y">Jan 21, 1942</div><div class="d">Hopper finishes his all-night diner.</div></li>
+      <li><div class="y">May 13, 1942</div><div class="d">The Art Institute of Chicago buys it for <b>$3,000</b>.</div></li>
+      <li><div class="y">1984 →</div><div class="d">Helnwein recasts it with Bogart, Monroe, Dean and Elvis. The parodies never stop.</div></li>
+    </ol>
+  </div>
+  <div class="photo-cred" style="left:var(--pad);right:auto;text-align:left;bottom:130px">Photo: Times Square, wartime dimout, 1942<br>Marjory Collins / Library of Congress</div>
+</section>
+
+<!-- 04 PLACE (paper) -->
+<section class="slide paper s-place">
+  <div class="photo hair"><img src="img/greenwich.jpg"></div>
+  <div class="photo-cred">Greenwich Village, 1935 · Berenice Abbott / NYPL</div>
+  <div class="block bottom"><div class="kicker" style="color:var(--oxblood)">Where was it?</div><h2 class="h-m">A real corner, <em>made bigger.</em></h2>
+    <p class="copy">Hopper said it was <q>suggested by a restaurant on Greenwich Avenue where two streets meet.</q> Then he <q>simplified the scene a great deal.</q> Sleuths still argue which corner.</p></div>
+</section>
+
+<!-- 05 LOUPE: the door -->
+<section class="slide s-door">
+  <div class="block top" style="top:150px"><div class="kicker">Look closer</div><h2 class="h-m">Now try to find the <em>door</em>.</h2></div>
+  <div class="mini hair"><img src="img/full.jpg"></div>
+  <div class="marker" style="left:656px;top:476px;width:52px;height:78px;border-radius:26px"></div>
+  <div class="leader" style="left:682px;top:556px;width:176px;transform:rotate(75.9deg)"></div>
+  <div class="loupe"><img src="img/door.jpg"></div>
+  <div class="note"><p class="copy">There isn't one. The museum notes the diner has <b>no entrance</b>. The only door is at the back, by the urns. A wall of glass seals them in, and you out.</p></div>
+</section>
+
+<!-- 06 STRIP: the cast -->
+<section class="slide s-cast">
+  <div class="strip"><figure><img src="img/s_fedora.jpg"><figcaption>1</figcaption></figure><figure><img src="img/s_woman.jpg"><figcaption>2</figcaption></figure><figure><img src="img/s_counter.jpg"><figcaption>3</figcaption></figure><figure><img src="img/s_lone.jpg"><figcaption>4</figcaption></figure></div>
+  <div class="block bottom"><h2 class="h-s">Four people, all <em>alone</em> together.</h2>
+    <ol class="legend"><li>The man in the steel-grey fedora</li><li>The woman in the red blouse</li><li>The counterman in white</li><li>The lone man, back turned to us</li></ol></div>
+</section>
+
+<!-- 07 QUOTE: Jo's record book -->
+<section class="slide s-quote">
+  <div class="block top"><div class="qmark">“</div><blockquote>Man night hawk (beak) in dark suit, steel grey hat…</blockquote><cite>Jo Hopper · the couple's record book, 1942</cite></div>
+  <p class="copy after">Jo logged his pictures in their ledger. Here the customers became <b>night hawks</b>. The title stuck. So did the nose.</p>
+  <div class="torn"><img src="img/ed.jpg" style="object-position:50% 8%"><span class="tag">The “beak”</span></div>
+</section>
+
+<!-- 08 DETAIL: the sign -->
+<section class="slide s-detail s-sign">
+  <div class="crop"><img src="img/sign.jpg"><div class="marker sq" style="left:104px;top:186px;width:220px;height:96px"><b>1</b></div></div>
+  <div class="block"><div class="kicker">Detail 01 · the only sign</div><h2 class="h-m">No name. Just a <em>5¢</em> cigar.</h2>
+    <p class="copy">The diner has no name. Above it, Hopper painted an ad for Phillies, a cheap cigar. Jo's notes: <b>“Phillies 5¢ cigar.”</b> An everyday nickel smoke, glowing over an empty street.</p></div>
+</section>
+
+<!-- 09 TWIST (paper) -->
+<section class="slide paper s-twist">
+  <div class="split"><figure><img src="img/ed.jpg"><figcaption>Edward</figcaption></figure><figure><img src="img/jo.jpg"><figcaption>Jo</figcaption></figure></div>
+  <div class="block bottom"><div class="kicker">Look again</div><h2 class="h-m">They're a <em>married</em> couple.</h2>
+    <p class="copy">Jo wrote: <b>“E. posed for the two men in a mirror and I for the girl.”</b> Hopper, twice. His wife, in red. Painted as strangers.</p></div>
+</section>
+
+<!-- 10 CTA -->
+<section class="slide s-cta">
+  <div class="phone"><img src="img/film.jpg"><div class="play"></div></div>
+  <div class="block" style="top:300px;right:560px"><div class="kicker">The film</div><h2 class="h-l">Now step <em>inside</em>.</h2>
+    <p class="copy" style="margin-top:24px">We brought all four to life. Watch the film on our page.</p>
+    <div class="actions"><span>Watch</span><span>Save</span><span>Share</span></div></div>
+</section>
+
+<script src="../_brand/brand.js"></script></body></html>

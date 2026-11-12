@@ -1,0 +1,29 @@
+{
+  "cadencePerWeek": 7,
+  "goals": {
+    "followers": 10000,
+    "views": 1000000,
+    "deadline": "2027-02-03"
+  },
+  "slug": "art-history",
+  "name": "Art History",
+  "handle": "@arthistory",
+  "niche": "Hidden details and human stories inside famous artworks",
+  "audience": "Curious 18–40s who like museums but not lectures",
+  "tone": "Warm, conspiratorial, like a docent whispering a secret",
+  "voice": {
+    "provider": "say",
+    "voice": "Daniel",
+    "rate": 172
+  },
+  "hashtags": [
+    "arthistory",
+    "painting",
+    "museum",
+    "artlovers"
+  ],
+  "assetSources": [
+    "met",
+    "wikimedia"
+  ]
+}
