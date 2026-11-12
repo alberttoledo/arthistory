@@ -1,0 +1,184 @@
+{
+ "slug": "02-hopper-nighthawks",
+ "no": "02",
+ "title": "Nighthawks",
+ "artist": "Edward Hopper",
+ "year": "1942",
+ "museum": "Art Institute of Chicago",
+ "mediaDir": "assets/hopper/video/web",
+ "rollout": {
+  "carousel": "carousel",
+  "teaser": "teaser",
+  "film": "film"
+ },
+ "pieces": [
+  {
+   "id": "teaser",
+   "role": "teaser",
+   "title": "Hopper talking head",
+   "takes": [
+    {
+     "id": "raw-v1",
+     "file": "assets/hopper/video/hopper_talking-head_20261112-112527_480p.mp4",
+     "label": "Talking head, raw Seedance output (480p)",
+     "width": 480,
+     "height": 854,
+     "seconds": 10.1,
+     "generated": "2026-11-12 11:25",
+     "source": "Downloads: hf_20261112_112527_7f845aa2-dab2-4467-b56d-78f744979462.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "prompt": "SCENE CONTEXT\nA living oil-painted self-portrait. A man in a brown fedora, positioned slightly left of center in front of a pale plaster wall with a tall window frame at right and a warm brown wooden ledge at lower right, speaks two short lines directly to the viewer, leans in a little between them, and ends holding his stare.\n\nACTIVE REFERENCES\n@image1: man in his late 40s, long face, heavy-lidded dark eyes, full reddish lips, brown felt fedora with a dark band, cobalt-blue shirt, dark olive tie, charcoal-black jacket. Rendered as thick oil paint with visible brushstrokes on every surface, including his skin. Voice: low, slow, dry American baritone with a flat upstate New York accent, unhurried. 100% matches the reference.\n\nFIRST FRAME / BLOCKING\nExactly @image1: head and upper chest, body turned three-quarters toward frame right, head turned back toward the lens, face in the upper-middle of the frame, gaze straight into camera.\n\nFORMAT MODE\nOne continuous shot, the camera does not cut on its own.\n\nOPTICS\nMCU at 29° portrait compression for the whole shot, no drift.\n\nCAMERA\nLocked off at eye level, face in sharp focus throughout. All movement comes from him.\n\nACTION\n0.0s to 2.0s — he holds still, takes one slow breath through the nose, blinks once slowly.\n2.0s to 5.0s — he speaks, calm and matter-of-fact, at an unhurried pace: \"You walked past that diner a hundred times.\"\n5.0s to 6.5s — silence. He leans slowly toward the lens by about 3 cm, chin dipping slightly so the hat brim lowers a little; his eyes stay locked on the lens.\n6.5s to 8.5s — he speaks, quieter, almost confidential: \"Tomorrow, you go inside.\"\n8.5s to 10.0s — he holds the stare into the lens, lips closed, perfectly still; one corner of his mouth tightens very slightly.\n\nPERFORMANCE\nRestraint and economy. Clear, accurate lip-sync with small, natural jaw movement, every word visibly shaped by the lips. Brow heavy and level. Wet catch-light in both eyes. Breathing visible in the shoulders. He moves like living paint: the brushstrokes on his face, hat and jacket travel with every movement and keep their texture.\n\nLIGHTING\nSoft, even daylight from frame left at 5200K. Warm light on the left side of his face, gentle shadow on his right cheek and under the hat brim; as he leans in, the brim shadow deepens slightly across his brow. Flat, even light on the wall. Exposure constant for the whole shot.\n\nAUDIO\nHis voice only, close-miked and dry, over a quiet room tone. The second line is slightly softer and closer than the first.\n\nSTYLE\nA painted portrait come to life: thick impasto brush texture, matte canvas, the muted palette of cream plaster, cobalt shirt, charcoal jacket, warm brown felt and brown wood. Every frame reads as oil on canvas.\n\nPOSITIVE LOCKS\nFedora, shirt, tie, jacket, window frame, wooden ledge and wall stay identical throughout. He keeps his three-quarter pose and position; the lean is small and slow. His gaze stays on the lens from 2.0s to the end. Oil-paint texture on every frame, start to finish.",
+     "refs": [
+      "assets/hopper/self_portrait/first_frame_9x16.webp",
+      "assets/hopper/self_portrait/self_portrait_source.jpg"
+     ],
+     "settings": "Seedance 2.5 image-to-video, 10 s, 9:16, 480p. @image1 = first frame (made with Prompt 1 in ChatGPT / Nano Banana Pro from the self-portrait).",
+     "note": "Script: “You walked past that diner a hundred times.” / “Tomorrow, you go inside.” First-frame prompt: Extend this oil painting to a 9:16 vertical canvas. Keep the original painting exactly as it is — same face, hat, blue shirt, dark jacket, window frame on the right, brushwork and colors — and continue it naturally upward and downward. Above the hat: more of the pale cream-grey plaster wall in the same loose, flat brushstrokes. Below: the dark charcoal jacket continues to mid-chest with the lapels and dark tie visible, and the warm brown floorboard band at lower right continues down. The face sits in the upper-middle third of the frame, eyes about 35% down from the top. Clean, high-detail oil-on-canvas surface with visible brush texture, matte finish, even soft daylight from the left, the canvas edge-to-edge with the image only."
+    },
+    {
+     "id": "captioned-v1",
+     "file": "assets/hopper/self_portrait/renders/teaser_v1_captioned.mp4",
+     "label": "Captioned edit, 1080p",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 10.0,
+     "derivedFrom": "raw-v1",
+     "process": "Remotion captions (assets/hopper/self_portrait/captions.json)",
+     "tool": "Remotion",
+     "final": true,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "story-film",
+   "title": "Nighthawks story film",
+   "note": "Shots for the photoreal story film; not edited together yet. Shot prompts follow workspace/output/nighthawks_asset_sheets.md.",
+   "takes": [
+    {
+     "id": "shot-1",
+     "file": "assets/hopper/video/hopper_story-shot_20261111-122829_720p.mp4",
+     "label": "story film shot, landscape 720p",
+     "width": 1280,
+     "height": 720,
+     "seconds": 10.1,
+     "generated": "2026-11-11 12:28",
+     "source": "Downloads: hf_20261111_122829_954034f2-b7b0-496a-a5d0-b176672212c9.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/hopper/nighthawks_3000.jpg"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "shot-2",
+     "file": "assets/hopper/video/hopper_story-shot_20261111-124446_720p.mp4",
+     "label": "story film shot, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 10.1,
+     "generated": "2026-11-11 12:44",
+     "source": "Downloads: hf_20261111_124446_d92d1648-1d40-4904-b71d-053aaec51ec3.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/hopper/nighthawks_3000.jpg"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "shot-3",
+     "file": "assets/hopper/video/hopper_story-shot_20261111-131927_720p.mp4",
+     "label": "story film shot, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 10.1,
+     "generated": "2026-11-11 13:19",
+     "source": "Downloads: hf_20261111_131927_48a1364d-7a22-47bd-ab82-5ae98e6f8b46.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/hopper/nighthawks_3000.jpg"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "shot-4",
+     "file": "assets/hopper/video/hopper_story-shot_20261111-135214_720p.mp4",
+     "label": "story film shot, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 6.1,
+     "generated": "2026-11-11 13:52",
+     "source": "Downloads: hf_20261111_135214_29d1c3e5-7735-415e-8405-c063fd766720.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/hopper/nighthawks_3000.jpg"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "shot-5",
+     "file": "assets/hopper/video/hopper_story-shot_20261111-142610_720p.mp4",
+     "label": "story film shot, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 10.1,
+     "generated": "2026-11-11 14:26",
+     "source": "Downloads: hf_20261111_142610_4e2228c9-5145-429d-9932-48e00c61c957.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/hopper/nighthawks_3000.jpg"
+     ],
+     "note": "Prompt and settings not recorded."
+    }
+   ]
+  },
+  {
+   "id": "loop",
+   "role": "extra",
+   "kind": "loop",
+   "title": "Step-inside loops",
+   "takes": [
+    {
+     "id": "loop-a",
+     "file": "assets/hopper/video/hopper_loop_20261111-161418_720p.mp4",
+     "label": "20s sequence (counter, soda jerk), 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "generated": "2026-11-11 16:14",
+     "source": "Downloads: hf_20261111_161418_06ed6823-b8e9-4d32-8dcf-1204607e1abb.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/hopper/nighthawks_flythrough_first_frame_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "loop-b",
+     "file": "assets/hopper/video/hopper_loop_20261111-164912_720p.mp4",
+     "label": "step-inside loop, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "generated": "2026-11-11 16:49",
+     "source": "Downloads: hf_20261111_164912_67463a3e-1d50-4113-b10b-8d5e39436c2e.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/hopper/nighthawks_flythrough_first_frame_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "02-hopper-nighthawks",
+   "status": "final"
+  }
+ ],
+ "posts": []
+}

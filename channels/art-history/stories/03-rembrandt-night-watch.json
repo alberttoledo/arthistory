@@ -1,0 +1,111 @@
+{
+ "slug": "03-rembrandt-night-watch",
+ "no": "03",
+ "title": "The Night Watch",
+ "artist": "Rembrandt van Rijn",
+ "year": "1642",
+ "museum": "Rijksmuseum, Amsterdam",
+ "mediaDir": "assets/nightwatch/video/web",
+ "rollout": {
+  "carousel": "carousel",
+  "film": "film"
+ },
+ "pieces": [
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "loop",
+   "title": "Step-inside loop (20 s)",
+   "takes": [
+    {
+     "id": "take-a",
+     "file": "assets/nightwatch/video/nightwatch_loop_20261104-145414_720p.mp4",
+     "label": "step-inside loop take A, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "generated": "2026-11-04 14:54",
+     "source": "Downloads: hf_20261104_145414_79b3cb17-7cbe-4b42-8b99-0e56e193b05b.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/nightwatch/nightwatch_first_frame_ai.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "take-b",
+     "file": "assets/nightwatch/video/nightwatch_loop_20261104-150935_720p.mp4",
+     "label": "step-inside loop take B, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "generated": "2026-11-04 15:09",
+     "source": "Downloads: hf_20261104_150935_82eb67a2-6ba7-46a9-92be-20178a0d7f30.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/nightwatch/nightwatch_first_frame_ai.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "take-c",
+     "file": "assets/nightwatch/video/nightwatch_loop_20261104-152330_1080p.mp4",
+     "label": "step-inside loop, 1080 (upscaled)",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 20.0,
+     "generated": "2026-11-04 15:23",
+     "source": "Downloads: hf_20261104_152330_b91b602b-e221-4916-89fe-086ef4f29362.mp4",
+     "tool": "FLUX.3 Upscale on Higgsfield",
+     "refs": [
+      "assets/nightwatch/nightwatch_first_frame_ai.png"
+     ],
+     "note": "Upscale of a 720p take.",
+     "final": true,
+     "confirmed": false,
+     "process": "Upscale to 1080p",
+     "derivedFrom": "take-b"
+    },
+    {
+     "id": "take-d",
+     "file": "assets/nightwatch/video/nightwatch_loop_20261105-101534_1080p.mp4",
+     "label": "step-inside loop v2 (captain path), 1080",
+     "width": 1080,
+     "height": 1922,
+     "seconds": 20.0,
+     "generated": "2026-11-05 10:15",
+     "source": "Downloads: hf_20261105_101534_af003a93-5213-4f66-8177-80d421c0deb3.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/nightwatch/nightwatch_first_frame_ai.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "take-e",
+     "file": "assets/nightwatch/video/nightwatch_loop_20261105-104753_1080p.mp4",
+     "label": "step-inside loop v2 alt, 1080",
+     "width": 1080,
+     "height": 1922,
+     "seconds": 20.0,
+     "generated": "2026-11-05 10:47",
+     "source": "Downloads: hf_20261105_104753_bf6ae40d-ee9d-4e96-a398-fdf284ffdd01.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/nightwatch/nightwatch_first_frame_ai.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "03-rembrandt-night-watch",
+   "status": "final"
+  }
+ ],
+ "posts": [],
+ "note": "Final guess: the Nov 4 1080p upscale. Its parent is probably take B (made 14 minutes earlier). Two later 1080p 'captain path' versions (Nov 5) are candidates too."
+}

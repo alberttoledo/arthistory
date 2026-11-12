@@ -1,0 +1,46 @@
+{
+ "slug": "07-degas-rehearsal",
+ "no": "07",
+ "title": "The Rehearsal",
+ "artist": "Edgar Degas",
+ "year": "c. 1873–1878",
+ "museum": "Harvard Art Museums / Fogg Museum (1951.47)",
+ "mediaDir": "assets/degas/video/web",
+ "rollout": {
+  "carousel": "carousel",
+  "film": "film"
+ },
+ "pieces": [
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "loop",
+   "title": "Step-inside loop (20 s)",
+   "takes": [
+    {
+     "id": "take-a",
+     "file": "assets/degas/video/degas_loop_20261105-114738_480p.mp4",
+     "label": "step-inside loop, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "generated": "2026-11-05 11:47",
+     "source": "Downloads: hf_20261105_114738_dbe9a1ba-2d53-4823-bc3c-94a54f52201c.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/degas/rehearsal_first_frame_ai_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "07-degas-rehearsal",
+   "status": "final"
+  }
+ ],
+ "posts": []
+}

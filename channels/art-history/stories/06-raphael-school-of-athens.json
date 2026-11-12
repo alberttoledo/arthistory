@@ -1,0 +1,76 @@
+{
+ "slug": "06-raphael-school-of-athens",
+ "no": "06",
+ "title": "The School of Athens",
+ "artist": "Raphael (Raffaello Sanzio)",
+ "year": "1509–11",
+ "museum": "Stanza della Segnatura, Vatican Museums",
+ "mediaDir": "assets/athens/video/web",
+ "rollout": {
+  "carousel": "carousel",
+  "film": "film"
+ },
+ "pieces": [
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "loop",
+   "title": "Step-inside loop (20 s)",
+   "takes": [
+    {
+     "id": "take-a",
+     "file": "assets/athens/video/athens_loop_20261112-095656_480p.mp4",
+     "label": "step-inside loop take A, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "generated": "2026-11-12 09:56",
+     "source": "Downloads: hf_20261112_095656_09bf1948-b723-479a-8942-6fcbab5d7c13.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/athens/athens_first_frame_ai_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "take-b",
+     "file": "assets/athens/video/athens_loop_20261112-102827_480p.mp4",
+     "label": "step-inside loop take B, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "generated": "2026-11-12 10:28",
+     "source": "Downloads: hf_20261112_102827_96e99e63-2022-49d5-8296-d09b316197cd.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/athens/athens_first_frame_ai_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "take-c",
+     "file": "assets/athens/video/athens_loop_20261112-110651_480p.mp4",
+     "label": "step-inside loop take C, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "generated": "2026-11-12 11:06",
+     "source": "Downloads: hf_20261112_110651_36bb69e9-43a3-4b7c-9228-ef632273ce84.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/athens/athens_first_frame_ai_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "06-raphael-school-of-athens",
+   "status": "final"
+  }
+ ],
+ "posts": []
+}

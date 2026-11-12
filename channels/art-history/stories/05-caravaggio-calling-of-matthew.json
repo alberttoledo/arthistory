@@ -1,0 +1,61 @@
+{
+ "slug": "05-caravaggio-calling-of-matthew",
+ "no": "05",
+ "title": "The Calling of St Matthew",
+ "artist": "Caravaggio (Michelangelo Merisi)",
+ "year": "1599–1600",
+ "museum": "Contarelli Chapel, San Luigi dei Francesi, Rome",
+ "mediaDir": "assets/caravaggio/video/web",
+ "rollout": {
+  "carousel": "carousel",
+  "film": "film"
+ },
+ "pieces": [
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "loop",
+   "title": "Step-inside loop (20 s)",
+   "takes": [
+    {
+     "id": "take-a",
+     "file": "assets/caravaggio/video/caravaggio_loop_20261105-094820_480p.mp4",
+     "label": "step-inside loop take A, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "generated": "2026-11-05 09:48",
+     "source": "Downloads: hf_20261105_094820_df8dcd90-8897-4321-884f-4e38b510981a.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/caravaggio/calling_first_frame_ai_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "take-b",
+     "file": "assets/caravaggio/video/caravaggio_loop_20261105-111214_480p.mp4",
+     "label": "step-inside loop take B, 480p draft",
+     "width": 480,
+     "height": 854,
+     "seconds": 20.1,
+     "generated": "2026-11-05 11:12",
+     "source": "Downloads: hf_20261105_111214_f58186c5-48c3-45b3-b284-b6ff63cf1b91.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/caravaggio/calling_first_frame_ai_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "05-caravaggio-calling-of-matthew",
+   "status": "final"
+  }
+ ],
+ "posts": []
+}

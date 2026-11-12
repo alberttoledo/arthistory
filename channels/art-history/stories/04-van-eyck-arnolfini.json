@@ -1,0 +1,65 @@
+{
+ "slug": "04-van-eyck-arnolfini",
+ "no": "04",
+ "title": "The Arnolfini Portrait",
+ "artist": "Jan van Eyck",
+ "year": "1434",
+ "museum": "The National Gallery, London",
+ "mediaDir": "assets/arnolfini/video/web",
+ "rollout": {
+  "carousel": "carousel",
+  "film": "film"
+ },
+ "pieces": [
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "loop",
+   "title": "Step-inside loop (20 s)",
+   "takes": [
+    {
+     "id": "take-a",
+     "file": "assets/arnolfini/video/arnolfini_loop_20261104-124745_720p.mp4",
+     "label": "step-inside loop, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "generated": "2026-11-04 12:47",
+     "source": "Downloads: hf_20261104_124745_d282ab8c-a963-4862-9b8e-75f4e70b897e.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [
+      "assets/arnolfini/arnolfini_first_frame_ai_1080.png"
+     ],
+     "note": "Prompt and settings not recorded."
+    },
+    {
+     "id": "take-b",
+     "file": "assets/arnolfini/video/arnolfini_loop_20261105-112622_1080p.mp4",
+     "label": "step-inside loop, 1080 (upscaled)",
+     "width": 1080,
+     "height": 1922,
+     "seconds": 20.0,
+     "generated": "2026-11-05 11:26",
+     "source": "Downloads: hf_20261105_112622_8612c412-6db3-4104-9c1a-e115b28021e1.mp4",
+     "tool": "FLUX.3 Upscale on Higgsfield",
+     "refs": [
+      "assets/arnolfini/arnolfini_first_frame_ai_1080.png"
+     ],
+     "note": "Upscale of a 720p take.",
+     "final": true,
+     "confirmed": false,
+     "process": "Upscale to 1080p",
+     "derivedFrom": "take-a"
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "04-van-eyck-arnolfini",
+   "status": "final"
+  }
+ ],
+ "posts": []
+}

@@ -1,0 +1,100 @@
+{
+ "slug": "08-leonardo-last-supper",
+ "no": "08",
+ "title": "The Last Supper",
+ "artist": "Leonardo da Vinci",
+ "year": "c. 1495–98",
+ "museum": "Refectory of Santa Maria delle Grazie (Cenacolo Vinciano), Milan",
+ "mediaDir": "assets/lastsupper/video/web",
+ "rollout": {
+  "carousel": "carousel",
+  "film": "film",
+  "teaser": "teaser"
+ },
+ "pieces": [
+  {
+   "id": "teaser",
+   "role": "teaser",
+   "title": "Leonardo talking head",
+   "takes": [
+    {
+     "id": "raw-v1",
+     "file": "assets/lastsupper/video/lastsupper_talking-head_20261112-121111_480p.mp4",
+     "label": "Talking head, raw Seedance output (480p)",
+     "width": 480,
+     "height": 854,
+     "seconds": 10.1,
+     "generated": "2026-11-12 12:11",
+     "source": "Downloads: hf_20261112_121111_2c6e77d2-1c90-452b-817e-3caebad217ed.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "refs": [],
+     "note": "Lines: “Bread. Wine. Thirteen men at one table. Tomorrow, …” (see captions.json). Prompt not recorded."
+    },
+    {
+     "id": "captioned-v1",
+     "file": "assets/lastsupper/teaser/renders/teaser_v1_captioned.mp4",
+     "label": "Captioned edit, 1080p",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 10.0,
+     "derivedFrom": "raw-v1",
+     "process": "Remotion captions (assets/lastsupper/teaser/captions.json)",
+     "tool": "Remotion",
+     "final": true,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "loop",
+   "title": "Step-inside loop (20 s)",
+   "takes": [
+    {
+     "id": "take-a",
+     "file": "assets/lastsupper/video/lastsupper_loop_20261104-121706_720p.mp4",
+     "label": "step-inside loop, 720p",
+     "width": 720,
+     "height": 1280,
+     "seconds": 20.1,
+     "generated": "2026-11-04 12:17",
+     "source": "Downloads: hf_20261104_121706_d7ca17be-dc51-4827-8a2a-d8c2e4893312.mp4",
+     "tool": "Seedance 2.5 on Higgsfield",
+     "prompt": "LAST SUPPER — CREATIVE STARTING PROMPT\n\nCreate a 20-second vertical 9:16 painterly cinematic loop using the supplied image as the opening frame.\n\nThe camera gently enters the scene at one end of the table, then travels steadily toward Jesus in the centre. Choose a small number of details along this connected journey: an apostle’s gesture, folded cloth, bread, or the quiet expressions around the table. Let foreground and background separate naturally in three-dimensional space while preserving the image’s painted character.\n\nUse a smooth, unhurried camera move. Close details should flow naturally into wider views, with the table and figures remaining in the same positions throughout. Keep the people’s movements restrained and the mood contemplative.\n\nArriving near Jesus, the camera descends toward the existing glass of wine. The opening composition becomes visible in the wine’s reflection. Move into that reflection until it fills the frame, returning to the exact opening composition for a seamless loop.\n\nKeep the supplied colours, lighting and character identities consistent.",
+     "refs": [
+      "assets/lastsupper/lastsupper_first_frame_ai.png"
+     ],
+     "note": "Starting prompt from Mike Staniforth's Last Supper loop kit. The exact production prompt wasn't recorded."
+    },
+    {
+     "id": "take-b",
+     "file": "assets/lastsupper/video/lastsupper_loop_20261105-121405_1080p.mp4",
+     "label": "step-inside loop, 1080 (upscaled)",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 20.0,
+     "generated": "2026-11-05 12:14",
+     "source": "Downloads: hf_20261105_121405_7ca5559b-9adf-4122-b004-bd6487066dd1.mp4",
+     "tool": "FLUX.3 Upscale on Higgsfield",
+     "refs": [
+      "assets/lastsupper/lastsupper_first_frame_ai.png"
+     ],
+     "note": "Upscale of a 720p take.",
+     "final": true,
+     "confirmed": false,
+     "process": "Upscale to 1080p",
+     "derivedFrom": "take-a"
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "08-leonardo-last-supper",
+   "status": "final"
+  }
+ ],
+ "posts": []
+}

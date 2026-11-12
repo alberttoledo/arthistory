@@ -1,0 +1,44 @@
+{
+ "slug": "01-seurat-grande-jatte",
+ "no": "01",
+ "title": "La Grande Jatte",
+ "artist": "Georges Seurat",
+ "year": "1884–86 (border 1888–89)",
+ "museum": "Art Institute of Chicago",
+ "mediaDir": "assets/seurat/web",
+ "rollout": {
+  "carousel": "carousel",
+  "film": "film"
+ },
+ "pieces": [
+  {
+   "id": "film",
+   "role": "film",
+   "kind": "reel",
+   "title": "Zoom Into… reel (narrated)",
+   "takes": [
+    {
+     "id": "reel-v1",
+     "file": "channels/art-history/episodes/001-seurat-monkey/renders/final.mp4",
+     "label": "Remotion video essay, 44 s, narrated",
+     "width": 1080,
+     "height": 1920,
+     "seconds": 44.3,
+     "tool": "Remotion (packages/video) + macOS say voice",
+     "settings": "Episode 001-seurat-monkey: script.md, scenes.json, assets.json",
+     "final": true,
+     "confirmed": false
+    }
+   ]
+  },
+  {
+   "id": "carousel",
+   "role": "carousel",
+   "title": "Story carousel",
+   "carousel": "01-seurat-grande-jatte",
+   "status": "final"
+  }
+ ],
+ "posts": [],
+ "note": "No talking-head teaser yet."
+}
