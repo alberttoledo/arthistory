@@ -8,6 +8,13 @@
   "slug": "art-history",
   "name": "Art History",
   "handle": "@art.alive.studio",
+  "profile": {
+    "draft": true,
+    "name": "Art Alive Studio",
+    "category": "Art",
+    "bio": ["Step inside the world’s most famous paintings.", "The painter speaks. The painting moves. The story behind it."],
+    "link": ""
+  },
   "niche": "Hidden details and human stories inside famous artworks",
   "audience": "Curious 18–40s who like museums but not lectures",
   "tone": "Warm, conspiratorial, like a docent whispering a secret",

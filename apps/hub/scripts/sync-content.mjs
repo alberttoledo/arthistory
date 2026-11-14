@@ -90,7 +90,7 @@ for (const ch of fs.readdirSync(chDir).sort()) {
     }
     stories.push({ ...story, _file: `channels/${ch}/stories/${f}`, channel: ch, media: files });
   }
-  hub.channels.push({ slug: ch, name: meta.name ?? ch, handle: meta.handle ?? "", timezone: meta.timezone ?? TIMEZONE, stories });
+  hub.channels.push({ slug: ch, name: meta.name ?? ch, handle: meta.handle ?? "", profile: meta.profile ?? null, timezone: meta.timezone ?? TIMEZONE, stories });
 }
 fs.writeFileSync(path.join(app, "src/data/hub.json"), JSON.stringify(hub, null, 1));
 console.log(`hub: ${hub.channels.length} channels, ${hub.channels.reduce((a, c) => a + c.stories.length, 0)} stories`);

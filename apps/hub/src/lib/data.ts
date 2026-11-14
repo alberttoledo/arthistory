@@ -10,11 +10,12 @@ export type Carousel = {
   videoFormat: string; hook: string; caption: string; hashtags: string[]; notes: string;
   slides: Slide[]; renders: string[]; zip: string; sources: string;
 };
-export type Channel = { slug: string; name: string; handle: string; timezone: string; stories: StoryWithMedia[] };
+export type ChannelProfile = { draft?: boolean; name: string; category?: string; bio: string[]; link?: string };
+export type Channel = { slug: string; name: string; handle: string; profile: ChannelProfile | null; timezone: string; stories: StoryWithMedia[] };
 export type StoryWithMedia = Story & { channel: string; media: string[] };
 
 type RawStory = Record<string, unknown> & { _file: string; channel: string; media: string[] };
-type RawChannel = { slug: string; name: string; handle: string; timezone: string; stories: RawStory[] };
+type RawChannel = { slug: string; name: string; handle: string; profile: ChannelProfile | null; timezone: string; stories: RawStory[] };
 
 export const DEFAULT_CHANNEL = "art-history";
 

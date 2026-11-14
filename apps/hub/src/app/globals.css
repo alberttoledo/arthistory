@@ -277,3 +277,79 @@ details summary { cursor: pointer; color: var(--muted); }
 .profiles figure { display: grid; gap: 8px; justify-items: center; }
 .profiles img { width: 100%; aspect-ratio: 1; object-fit: cover; }
 .profiles img.pfp { border-radius: 50%; }
+
+/* --- Instagram profile mock (neutral app UI, not the brand) */
+.pf-page { display: grid; gap: 28px; padding-top: 32px; padding-bottom: 64px; }
+.pf-intro .intro { max-width: 70ch; }
+.pf-layout { display: flex; justify-content: center; }
+.pf-phone { --ig-fg: #f5f5f5; --ig-dim: #a8a8a8; --ig-line: #262626; width: 390px; max-width: 100%; height: min(844px, 82vh); overflow-y: auto; overflow-x: hidden;
+  background: #000; color: var(--ig-fg); border: 10px solid #1c1c1e; border-radius: 48px; box-shadow: 0 0 0 1px #3a3a3c, 0 30px 80px rgba(0,0,0,.6);
+  font: 400 14px/1.35 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; letter-spacing: 0; scrollbar-width: none; }
+.pf-phone::-webkit-scrollbar { display: none; }
+.pf-phone button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.pf-icon { width: 26px; height: 26px; display: inline-grid; place-items: center; flex: none; }
+.pf-icon svg, .pf-tabs svg, .pf-kind svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+.pf-dim { color: var(--ig-dim); }
+.pf-bar { position: sticky; top: 0; z-index: 2; background: #000; display: flex; align-items: center; justify-content: space-between; padding: 22px 14px 10px; }
+.pf-bar-title { font-weight: 700; font-size: 16px; }
+.pf-head { display: flex; align-items: center; gap: 24px; padding: 6px 16px 10px; }
+.pf-ring { display: block; }
+
+.pf-av { display: block; border-radius: 50%; overflow: hidden; background: #262626; flex: none; }
+.pf-av img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pf-stats { flex: 1; display: flex; justify-content: space-around; text-align: center; }
+.pf-stats div { display: grid; }
+.pf-stats b { font-size: 16px; }
+.pf-stats span { font-size: 13px; }
+.pf-bio { display: grid; padding: 0 16px; gap: 1px; }
+.pf-link { color: #e0f1ff; font-weight: 600; }
+.pf-btns { display: flex; gap: 6px; padding: 12px 16px; }
+.pf-btn { flex: 1; text-align: center; padding: 7px 0; border-radius: 8px; background: #262626; font-weight: 600; }
+.pf-btn.primary { background: #0095f6; }
+.pf-highlights { display: flex; gap: 14px; overflow-x: auto; padding: 4px 16px 14px; scrollbar-width: none; }
+.pf-highlights button { display: grid; justify-items: center; gap: 5px; width: 66px; flex: none; font-size: 12px !important; }
+.pf-highlights button > span:last-child { width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center; }
+.pf-hl { width: 62px; height: 62px; border-radius: 50%; border: 1px solid #363636; padding: 2px; }
+.pf-hl img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; display: block; }
+.pf-tabs { display: flex; border-bottom: 1px solid var(--ig-line); position: sticky; top: 56px; background: #000; z-index: 1; }
+.pf-tabs button { flex: 1; display: grid; place-items: center; padding: 10px 0; color: var(--ig-dim); border-bottom: 1px solid transparent !important; margin-bottom: -1px; }
+.pf-tabs button[aria-pressed="true"] { color: var(--ig-fg); border-bottom-color: var(--ig-fg) !important; }
+.pf-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.pf-tile { position: relative; aspect-ratio: 3/4; overflow: hidden; background: #121212; display: block; }
+.pf-tile img, .pf-tile video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pf-kind { position: absolute; top: 6px; right: 6px; color: #fff; filter: drop-shadow(0 0 2px rgba(0,0,0,.8)); }
+.pf-kind svg { width: 18px; height: 18px; }
+.pf-tile.missing { display: grid; place-items: center; border: 1px dashed #3a3a3a; color: #6b6b6b; font: 500 10px/1.5 var(--mono); letter-spacing: .1em; text-transform: uppercase; text-align: center; text-decoration: none; }
+.pf-post-head { display: flex; align-items: center; gap: 10px; padding: 8px 12px; }
+.pf-post-head b { flex: 1; }
+.pf-slides { position: relative; }
+.pf-track { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.pf-track::-webkit-scrollbar { display: none; }
+.pf-track img { flex: none; width: 100%; aspect-ratio: 4/5; object-fit: cover; scroll-snap-align: start; display: block; }
+.pf-count { position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,.65); border-radius: 12px; padding: 3px 9px; font-size: 12px; }
+.pf-nav { position: absolute; top: 50%; translate: 0 -50%; width: 28px; height: 28px; border-radius: 50% !important; background: rgba(255,255,255,.8) !important; color: #000 !important; font-size: 20px !important; line-height: 1; display: grid; place-items: center; }
+.pf-nav.l { left: 10px; } .pf-nav.r { right: 10px; }
+.pf-actions { display: flex; align-items: center; gap: 12px; padding: 10px 12px 6px; position: relative; }
+.pf-actions .pf-icon:last-child { margin-left: auto; }
+.pf-dots { position: absolute; left: 50%; translate: -50% 0; display: flex; gap: 4px; }
+.pf-dots i { width: 6px; height: 6px; border-radius: 50%; background: #555; }
+.pf-dots i.on { background: #0095f6; }
+.pf-caption { padding: 0 12px 24px; }
+.pf-caption p { white-space: pre-line; margin: 0; }
+.pf-caption p.clamp { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pf-caption button { color: var(--ig-dim) !important; }
+.pf-tags { color: #e0f1ff; }
+.pf-reel { position: relative; height: 100%; background: #000; }
+.pf-reel video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pf-reel-back { position: absolute; top: 22px; left: 10px; color: #fff; filter: drop-shadow(0 0 3px rgba(0,0,0,.8)); }
+.pf-reel-meta { position: absolute; left: 12px; bottom: 64px; display: flex; align-items: center; gap: 8px; text-shadow: 0 0 4px rgba(0,0,0,.8); }
+.pf-follow { border: 1px solid rgba(255,255,255,.7); border-radius: 8px; padding: 3px 9px; font-size: 13px; font-weight: 600; }
+.pf-reel-tag { position: absolute; left: 12px; bottom: 44px; color: #ddd; font-size: 10px; text-shadow: 0 0 4px #000; }
+@media (max-width: 480px) {
+  .pf-phone { border: 0; border-radius: 0; box-shadow: none; height: auto; overflow: visible; width: calc(100% + 32px); max-width: none; margin: 0 -16px; }
+  .pf-reel { height: 80vh; }
+}
+.pf-mute { position: absolute; right: 12px; bottom: 44px; font-size: 10px; color: #ddd; background: rgba(0,0,0,.55); padding: 4px 8px; border-radius: 10px; pointer-events: none; }
+.pf-reel video { cursor: pointer; }
+.pf-page > * { min-width: 0; }
+.pf-intro code { overflow-wrap: anywhere; }
