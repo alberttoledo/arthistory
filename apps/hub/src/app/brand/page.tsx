@@ -84,7 +84,7 @@ export default function Brand() {
           </div>
           <ul className="rules">
             <li><b>Margins:</b> text stays 84px from each side, below the 120px header zone and above the 110px footer zone.</li>
-            <li><b>Chrome on every slide:</b> “No. 0X — Title” and “03 / 10” at the top; @arthistory and progress dots at the bottom. It’s added automatically.</li>
+            <li><b>Chrome on every slide:</b> “No. 0X — Title” and “03 / 10” at the top; @art.alive.studio and progress dots at the bottom. It’s added automatically.</li>
             <li><b>Text over photos</b> sits at the bottom on a black shade so it stays readable. Never centre body copy.</li>
             <li><b>Square corners</b> everywhere. Circles only for markers, loupes and numbered badges. The CTA phone is the only rounded rectangle (46px).</li>
             <li><b>Texture:</b> film grain (14%) and a soft vignette over every slide.</li>

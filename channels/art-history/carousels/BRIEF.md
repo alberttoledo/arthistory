@@ -10,7 +10,7 @@ One Instagram carousel per painting we make a video for. It tells the painting's
 
 ## Brand kit (don't edit it; read it fully first)
 - `_brand/brand.css`: tokens, type scale and slide components (cover, plate + museum label, detail, marker, loupe + leader, quote, fact, split, strip + legend, torn scrap, timeline, cta, paper variant).
-- `_brand/brand.js`: adds header ("No. 0X — TITLE  03/10"), footer (@arthistory + progress dots), grain and vignette.
+- `_brand/brand.js`: adds header ("No. 0X — TITLE  03/10"), footer (@art.alive.studio + progress dots), grain and vignette.
 - `_sample/slides.html`: a working example. Copy its structure.
 - Canvas is 1080×1350. Keep text inside the 84px side margins and clear of the header (top 120px) and footer (bottom 110px).
 - You may add a `<style>` block in your `slides.html` for one-off layouts (collages, rotated torn scraps, custom loupe positions, oversized numerals). Stay inside the system: the palette is ink, paper, gold and rare oxblood, with the three brand fonts only. Make it feel art-directed, not like a template: mix dark slides with one or two `paper` slides, vary the layouts and make the crops dramatic.
