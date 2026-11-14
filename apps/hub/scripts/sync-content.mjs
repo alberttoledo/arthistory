@@ -94,3 +94,21 @@ for (const ch of fs.readdirSync(chDir).sort()) {
 }
 fs.writeFileSync(path.join(app, "src/data/hub.json"), JSON.stringify(hub, null, 1));
 console.log(`hub: ${hub.channels.length} channels, ${hub.channels.reduce((a, c) => a + c.stories.length, 0)} stories`);
+
+// --- brand: profile picture (fixed frame, rotating portraits); web copies only
+const prof = path.join(root, "channels/art-history/brand/profile");
+const profPub = path.join(app, "public/brand/profile");
+fs.rmSync(profPub, { recursive: true, force: true });
+let profile = { frame: null, portraits: [] };
+if (fs.existsSync(path.join(prof, "profile.json"))) {
+  const pj = JSON.parse(fs.readFileSync(path.join(prof, "profile.json"), "utf8"));
+  const web = (f) => `${f.replace(/\.[^.]+$/, "")}.jpg`;
+  const ok = (f) => fs.existsSync(path.join(prof, "web", web(f)));
+  fs.cpSync(path.join(prof, "web"), profPub, { recursive: true });
+  profile = {
+    frame: ok(pj.frame) ? `brand/profile/${web(pj.frame)}` : null,
+    portraits: pj.portraits.filter((p) => ok(p.file)).map((p) => ({ ...p, src: `brand/profile/${web(p.file)}` })),
+  };
+}
+fs.writeFileSync(path.join(app, "src/data/profile.json"), JSON.stringify(profile, null, 1));
+console.log(`profile: ${profile.portraits.length} portraits`);

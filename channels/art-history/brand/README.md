@@ -50,6 +50,16 @@ Real hooks from the series:
 - Film grain (`grain-opacity`) and a vignette sit over every slide.
 - Square corners everywhere (`radius-none`). Circles are only for markers, loupes and badges (`radius-disc`); the CTA phone uses `radius-phone`.
 
+## Profile picture
+
+Files: `profile/` (`profile.json` lists the rotation, first = the one up now).
+
+- **Always the same frame:** `profile/frame.png` (1254 × 1254, transparent centre), a round gilt frame with a twisted rope moulding and four acanthus ornaments at 12, 3, 6 and 9 o'clock, on gallery black. Never redraw or swap it.
+- **The painter inside rotates.** It's a photoreal, oil-painted bust of the painter, lit like the old masters, leaning out of the frame towards the viewer. Part of them breaks over the frame: van Eyck's turban, Caravaggio's hand and brush.
+- **The face goes in the centre** with a clear expression (a wink, a stare), so it still reads at Instagram's 110 px circle.
+- **Making a new one:** give the image model `frame.png` plus the painter's own portrait as references. Prompt: "Keep this exact gold frame unchanged, centred on a dark background. Inside it, [painter] as in [their portrait], photoreal oil-painting skin and fabric, leaning out of the frame towards the viewer, [one gesture or expression], with [one prop or garment] breaking over the frame edge. Square, 1:1." Then lay it over `frame.png` and check that the moulding and ornaments match.
+- **Instagram crops it to a circle,** and the side ornaments sit close to that edge. Check the crop before uploading.
+
 ## The 10-slide story
 
 1. **Cover**: a dramatic full-bleed detail crop, hook in `hero`, lede, short gilt rule, "SWIPE".

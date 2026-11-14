@@ -1,6 +1,7 @@
 // The ONLY module that reads hub content. Phase 2 swaps these loaders for Firebase.
 import carouselData from "@/data/carousels.json";
 import hubData from "@/data/hub.json";
+import profileData from "@/data/profile.json";
 import { StorySchema, type Story } from "./schema";
 
 export type Slide = { n: number; type: string; headline: string; alt: string };
@@ -30,6 +31,9 @@ export const getChannels = () => channels;
 export const getChannel = (slug: string) => channels.find((c) => c.slug === slug);
 export const getStories = (channel: string) => getChannel(channel)?.stories ?? [];
 export const getStory = (channel: string, slug: string) => getStories(channel).find((s) => s.slug === slug);
+
+export type ProfilePortrait = { file: string; painter: string; after?: string; story?: string; src: string };
+export const profile = profileData as { frame: string | null; portraits: ProfilePortrait[] };
 
 export const carousels = carouselData as Carousel[];
 export const getCarousel = (slug: string) => carousels.find((c) => c.slug === slug);

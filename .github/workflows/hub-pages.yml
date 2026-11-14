@@ -9,6 +9,7 @@ on:
       - "apps/hub/**"
       - "channels/*/carousels/**"
       - "channels/*/stories/**"
+      - "channels/*/brand/**"
       - "assets/**/web/**"
       - ".github/workflows/hub-pages.yml"
   workflow_dispatch:

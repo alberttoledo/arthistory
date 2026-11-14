@@ -1,0 +1,8 @@
+{
+  "note": "Instagram profile picture for @art.alive.studio: the same gilt round frame every time; the painter inside rotates. Order = rotation order; the first is the one up now.",
+  "frame": "frame.png",
+  "portraits": [
+    { "file": "van-eyck.png", "painter": "Jan van Eyck", "after": "Portrait of a Man (Self Portrait?), 1433", "story": "04-van-eyck-arnolfini" },
+    { "file": "caravaggio.png", "painter": "Caravaggio", "after": "Portrait by Ottavio Leoni, c. 1621", "story": "05-caravaggio-calling-of-matthew" }
+  ]
+}

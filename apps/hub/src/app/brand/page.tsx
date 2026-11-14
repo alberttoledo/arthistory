@@ -1,4 +1,4 @@
-import { asset, carousels } from "@/lib/data";
+import { asset, carousels, profile } from "@/lib/data";
 import { CopyButton } from "@/components/CopyButton";
 
 export const metadata = { title: "Brand" };
@@ -100,6 +100,20 @@ export default function Brand() {
         </div>
         <p className="intro">Every carousel uses at least one loupe (a ringed detail joined to a big circular close-up), one strip or cut-up collage, and one quote, fact or timeline.</p>
       </section>}
+
+      <section className="bsec"><header><h3>Profile picture</h3><span className="mono muted">Same frame, rotating painter</span></header>
+        <ul className="rules">
+          <li><b>Always the same gilt frame</b> (rope moulding, four acanthus ornaments). Never redraw or swap it.</li>
+          <li><b>The painter inside rotates:</b> a photoreal oil-painted bust leaning out towards you, with one thing (a turban, a brush) breaking over the frame.</li>
+          <li><b>Face centred, one clear expression,</b> so it still reads at Instagram&rsquo;s 110 px circle. Check the circle crop before uploading.</li>
+          <li>Make new ones with <code>frame.png</code> plus the painter&rsquo;s portrait as references; the prompt is in <code>channels/art-history/brand/README.md</code>.</li>
+        </ul>
+        <div className="profiles">
+          {profile.frame && <figure><img src={asset(profile.frame)} alt="The gilt round frame, empty" loading="lazy" /><figcaption className="mono small muted">The frame</figcaption></figure>}
+          {profile.portraits.map((p, i) => <figure key={p.file}><img className="pfp" src={asset(p.src)} alt={`${p.painter} in the gilt frame`} loading="lazy" />
+            <figcaption className="mono small">{i === 0 ? <span className="gold">Now · </span> : null}{p.painter}</figcaption></figure>)}
+        </div>
+      </section>
 
       <section className="bsec"><header><h3>Voice</h3><span className="mono muted">A docent whispering a secret</span></header>
         <ul className="rules">

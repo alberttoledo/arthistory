@@ -273,3 +273,7 @@ details summary { cursor: pointer; color: var(--muted); }
 .stills figure { flex: 0 0 120px; display: grid; gap: 4px; margin: 0; }
 .stills img { width: 120px; aspect-ratio: 9/16; object-fit: cover; outline: 1px solid var(--line-2); display: block; }
 .stills figcaption { font-size: 10px; color: var(--muted); overflow-wrap: anywhere; }
+.profiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
+.profiles figure { display: grid; gap: 8px; justify-items: center; }
+.profiles img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.profiles img.pfp { border-radius: 50%; }
