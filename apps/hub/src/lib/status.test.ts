@@ -39,6 +39,10 @@ describe("pieceStatus", () => {
     ] });
     expect(pieceStatus(s2, piece(s2, "film")).state).toBe("published");
   });
+  it("accepts a date-only post when the hour isn't known", () => {
+    const s = story({ posts: [{ piece: "teaser", at: "2026-11-15", status: "published" }] });
+    expect(pieceStatus(s, piece(s, "teaser"))).toMatchObject({ state: "published", at: "2026-11-15" });
+  });
   it("uses the status field for carousels", () => {
     const s = story();
     expect(pieceStatus(s, piece(s, "carousel"))).toMatchObject({ state: "final", confirmed: true });

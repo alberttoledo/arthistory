@@ -22,7 +22,7 @@ export function Calendar({ items }: { items: CalItem[] }) {
   const todayKey = `${today.getFullYear()}-${pad(today.getMonth() + 1)}-${pad(today.getDate())}`;
   const go = (d: number) => setYm(([yy, mm]) => { const t = new Date(Date.UTC(yy, mm + d, 1)); return [t.getUTCFullYear(), t.getUTCMonth()]; });
   const monthItems = items.filter((i) => i.at.startsWith(`${y}-${pad(m + 1)}`)).sort((a, b) => a.at.localeCompare(b.at));
-  const upcoming = items.filter((i) => i.at.slice(0, 10) >= todayKey).sort((a, b) => a.at.localeCompare(b.at)).slice(0, 8);
+  const upcoming = items.filter((i) => i.status === "planned" && i.at.slice(0, 10) >= todayKey).sort((a, b) => a.at.localeCompare(b.at)).slice(0, 8);
 
   const Item = ({ i }: { i: CalItem }) => (
     <Link href={i.href} className={`cal-item role-${i.role}${i.status === "published" ? " is-pub" : ""}`}>

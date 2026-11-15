@@ -1,108 +1,123 @@
 {
- "slug": "08-leonardo-last-supper",
- "no": "08",
- "title": "The Last Supper",
- "artist": "Leonardo da Vinci",
- "year": "c. 1495–98",
- "museum": "Refectory of Santa Maria delle Grazie (Cenacolo Vinciano), Milan",
- "mediaDir": "assets/lastsupper/video/web",
- "rollout": {
-  "carousel": "carousel",
-  "film": "film",
-  "teaser": "teaser"
- },
- "pieces": [
-  {
-   "id": "teaser",
-   "role": "teaser",
-   "title": "Leonardo talking head",
-   "takes": [
+  "slug": "08-leonardo-last-supper",
+  "no": "08",
+  "title": "The Last Supper",
+  "artist": "Leonardo da Vinci",
+  "year": "c. 1495–98",
+  "museum": "Refectory of Santa Maria delle Grazie (Cenacolo Vinciano), Milan",
+  "mediaDir": "assets/lastsupper/video/web",
+  "rollout": {
+    "carousel": "carousel",
+    "film": "film",
+    "teaser": "teaser"
+  },
+  "pieces": [
     {
-     "id": "raw-v1",
-     "file": "assets/lastsupper/video/lastsupper_talking-head_20261112-121111_480p.mp4",
-     "label": "Talking head, raw Seedance output (480p)",
-     "width": 480,
-     "height": 854,
-     "seconds": 10.1,
-     "generated": "2026-11-12 12:11",
-     "source": "Downloads: hf_20261112_121111_2c6e77d2-1c90-452b-817e-3caebad217ed.mp4",
-     "tool": "Seedance 2.5 on Higgsfield",
-     "refs": [
-      "assets/lastsupper/portraits/leonardo_portrait_9x16.png"
-     ],
-     "note": "Lines: “Bread. Wine. Thirteen men at one table. Tomorrow, …” (see captions.json).",
-     "prompt": "SCENE CONTEXT\nA living portrait. Leonardo da Vinci, from the supplied portrait, speaks a short invitation straight to the viewer and leans in toward the lens for the final line. Head-and-shoulders, plain olive-brown background, a single continuous 10-second shot.\n\nACTIVE REFERENCES\n<<<image_1>>>: Leonardo da Vinci, an elderly man with a long, flowing white-grey beard and moustache, a soft black cloth cap with a rolled brim, a dark heavy robe, warm ruddy skin, grey-blue eyes, and a calm, knowing expression. A low, warm male voice with a light Italian accent. 100% matches the reference.\n\nFIRST FRAME / BLOCKING\nThe first frame is <<<image_1>>> exactly: the same framing, head position, cap, beard and textured olive-brown background. His head is turned three-quarters toward camera right, his eyes glance toward camera left, his lips are closed under the moustache, and his shoulders fill the lower frame. Hands stay below the frame edge for the whole shot.\n\nFORMAT MODE\nOne continuous shot; the camera does not cut on its own.\n\nOPTICS\nMCU, 18° natural portrait field of view, rectilinear, held for the whole shot.\n\nCAMERA\nEye level, locked off. A very slow push-in at 0.2 km/h from 0.0s to 8.5s, from the head-and-shoulders framing to a slightly tighter framing of the face and upper beard. From 8.5s the camera holds still while he leans toward it. Focus stays on his eyes and follows them as he comes closer.\n\nACTION\n0.0s to 1.0s: He breathes in gently, a slight lift of the chest under the robe, and his eyes stay glancing toward camera left.\n1.0s to 3.5s: He speaks softly, almost to himself: \"Bread. Wine.\" A brief pause between the two words, his eyes still to the side as if picturing the table.\n3.5s to 5.5s: \"Thirteen men at one table.\" His brows rise slightly on \"thirteen\", and a faint knowing smile starts at the corners of his lips.\n5.5s to 6.0s: His eyes move slowly from camera left to look straight into the lens, holding the viewer's gaze. A small turn of the head toward camera, about 5 degrees.\n6.0s to 8.0s: Looking straight into the lens: \"Tomorrow, you sit with them.\"\n8.0s to 9.0s: Holding eye contact, he leans his upper body slowly forward toward the lens, bending at the waist with his shoulders coming forward. His face grows to fill most of the frame, his beard tips toward the lens, and the cap brim stays at the top edge of the frame.\n9.0s to 10.0s: Close to the lens, his voice drops to a confidential near-whisper, with a slight dip of the chin and the smile completing: \"Come hungry.\" He holds the leaned-in position and eye contact, motionless, to the end.\n\nPERFORMANCE\nRestrained and warm, with amused authority, like a host sharing a secret. The lean-in is slow and deliberate, an intimate confidence and not a lunge. Lip movement is small and natural, and the lips are visible beneath the moustache, synced to each word. The beard hairs shift subtly with the jaw. Eyes are alive and wet, with a soft catch-light that grows brighter as he leans closer, and there are slow natural blinks at 2.5s and 7.0s. The fine lines at the corners of his eyes deepen when he smiles. Breath is visible in the chest between phrases.\n\nPHYSICS\nThe long beard has soft weight; it moves slightly with each word and swings gently forward with the lean. The robe folds compress at the chest as he bends forward. The cap stays firmly on his head. His face sharpens in detail as it nears the lens; the background stays soft behind him.\n\nLIGHTING\nSoft, warm key light from camera left-top, matching the reference: highlights on the forehead, nose and cheek; the right side of the face falls into soft shadow; there's a gentle sheen on the cap's weave. As he leans forward, his face moves slightly deeper into the warm key light. White balance is 4000K. Lighting stays constant for the whole shot.\n\nAUDIO\nQuiet stone-room ambience, with a faint echo of a large refectory hall. Dialogue language: English. Leonardo, in a low, warm voice with a light Italian accent, unhurried and intimate; the last line is closer to the microphone and softer: {Bread. Wine. Thirteen men at one table. Tomorrow, you sit with them. Come hungry.}\n\nSTYLE\nThe supplied hand-coloured engraving brought to life: the same muted olive-brown background texture, the warm flesh tones, the deep blue-black cap and robe, and the fine, linear engraved texture on the beard and fabric, carried through every frame. Gentle depth, fine grain.\n\nOUTPUT SETTINGS\n9:16, 10 seconds, real-time speed, 720p.\n\nPOSITIVE LOCKS\nSame face, beard, cap and background as <<<image_1>>> in every frame, including at the closest point of the lean. He is the only person in frame. The background stays a plain olive-brown texture. Lips move only on the spoken words and rest closed between phrases. Eye contact with the lens from 6.0s to the end. Face proportions stay natural and undistorted as he leans in.",
-     "settings": "Seedance 2.5 on Higgsfield, 10 s, 9:16, 480p, audio on, seed 690816490; inputs: image. Higgsfield job 2c6e77d2-1c90-452b-817e-3caebad217ed."
+      "id": "teaser",
+      "role": "teaser",
+      "title": "Leonardo talking head",
+      "takes": [
+        {
+          "id": "raw-v1",
+          "file": "assets/lastsupper/video/lastsupper_talking-head_20261112-121111_480p.mp4",
+          "label": "Talking head, raw Seedance output (480p)",
+          "width": 480,
+          "height": 854,
+          "seconds": 10.1,
+          "generated": "2026-11-12 12:11",
+          "source": "Downloads: hf_20261112_121111_2c6e77d2-1c90-452b-817e-3caebad217ed.mp4",
+          "tool": "Seedance 2.5 on Higgsfield",
+          "refs": [
+            "assets/lastsupper/portraits/leonardo_portrait_9x16.png"
+          ],
+          "note": "Lines: “Bread. Wine. Thirteen men at one table. Tomorrow, …” (see captions.json).",
+          "prompt": "SCENE CONTEXT\nA living portrait. Leonardo da Vinci, from the supplied portrait, speaks a short invitation straight to the viewer and leans in toward the lens for the final line. Head-and-shoulders, plain olive-brown background, a single continuous 10-second shot.\n\nACTIVE REFERENCES\n<<<image_1>>>: Leonardo da Vinci, an elderly man with a long, flowing white-grey beard and moustache, a soft black cloth cap with a rolled brim, a dark heavy robe, warm ruddy skin, grey-blue eyes, and a calm, knowing expression. A low, warm male voice with a light Italian accent. 100% matches the reference.\n\nFIRST FRAME / BLOCKING\nThe first frame is <<<image_1>>> exactly: the same framing, head position, cap, beard and textured olive-brown background. His head is turned three-quarters toward camera right, his eyes glance toward camera left, his lips are closed under the moustache, and his shoulders fill the lower frame. Hands stay below the frame edge for the whole shot.\n\nFORMAT MODE\nOne continuous shot; the camera does not cut on its own.\n\nOPTICS\nMCU, 18° natural portrait field of view, rectilinear, held for the whole shot.\n\nCAMERA\nEye level, locked off. A very slow push-in at 0.2 km/h from 0.0s to 8.5s, from the head-and-shoulders framing to a slightly tighter framing of the face and upper beard. From 8.5s the camera holds still while he leans toward it. Focus stays on his eyes and follows them as he comes closer.\n\nACTION\n0.0s to 1.0s: He breathes in gently, a slight lift of the chest under the robe, and his eyes stay glancing toward camera left.\n1.0s to 3.5s: He speaks softly, almost to himself: \"Bread. Wine.\" A brief pause between the two words, his eyes still to the side as if picturing the table.\n3.5s to 5.5s: \"Thirteen men at one table.\" His brows rise slightly on \"thirteen\", and a faint knowing smile starts at the corners of his lips.\n5.5s to 6.0s: His eyes move slowly from camera left to look straight into the lens, holding the viewer's gaze. A small turn of the head toward camera, about 5 degrees.\n6.0s to 8.0s: Looking straight into the lens: \"Tomorrow, you sit with them.\"\n8.0s to 9.0s: Holding eye contact, he leans his upper body slowly forward toward the lens, bending at the waist with his shoulders coming forward. His face grows to fill most of the frame, his beard tips toward the lens, and the cap brim stays at the top edge of the frame.\n9.0s to 10.0s: Close to the lens, his voice drops to a confidential near-whisper, with a slight dip of the chin and the smile completing: \"Come hungry.\" He holds the leaned-in position and eye contact, motionless, to the end.\n\nPERFORMANCE\nRestrained and warm, with amused authority, like a host sharing a secret. The lean-in is slow and deliberate, an intimate confidence and not a lunge. Lip movement is small and natural, and the lips are visible beneath the moustache, synced to each word. The beard hairs shift subtly with the jaw. Eyes are alive and wet, with a soft catch-light that grows brighter as he leans closer, and there are slow natural blinks at 2.5s and 7.0s. The fine lines at the corners of his eyes deepen when he smiles. Breath is visible in the chest between phrases.\n\nPHYSICS\nThe long beard has soft weight; it moves slightly with each word and swings gently forward with the lean. The robe folds compress at the chest as he bends forward. The cap stays firmly on his head. His face sharpens in detail as it nears the lens; the background stays soft behind him.\n\nLIGHTING\nSoft, warm key light from camera left-top, matching the reference: highlights on the forehead, nose and cheek; the right side of the face falls into soft shadow; there's a gentle sheen on the cap's weave. As he leans forward, his face moves slightly deeper into the warm key light. White balance is 4000K. Lighting stays constant for the whole shot.\n\nAUDIO\nQuiet stone-room ambience, with a faint echo of a large refectory hall. Dialogue language: English. Leonardo, in a low, warm voice with a light Italian accent, unhurried and intimate; the last line is closer to the microphone and softer: {Bread. Wine. Thirteen men at one table. Tomorrow, you sit with them. Come hungry.}\n\nSTYLE\nThe supplied hand-coloured engraving brought to life: the same muted olive-brown background texture, the warm flesh tones, the deep blue-black cap and robe, and the fine, linear engraved texture on the beard and fabric, carried through every frame. Gentle depth, fine grain.\n\nOUTPUT SETTINGS\n9:16, 10 seconds, real-time speed, 720p.\n\nPOSITIVE LOCKS\nSame face, beard, cap and background as <<<image_1>>> in every frame, including at the closest point of the lean. He is the only person in frame. The background stays a plain olive-brown texture. Lips move only on the spoken words and rest closed between phrases. Eye contact with the lens from 6.0s to the end. Face proportions stay natural and undistorted as he leans in.",
+          "settings": "Seedance 2.5 on Higgsfield, 10 s, 9:16, 480p, audio on, seed 690816490; inputs: image. Higgsfield job 2c6e77d2-1c90-452b-817e-3caebad217ed."
+        },
+        {
+          "id": "captioned-v1",
+          "file": "assets/lastsupper/teaser/renders/teaser_v1_captioned.mp4",
+          "label": "Captioned edit, 1080p",
+          "width": 1080,
+          "height": 1920,
+          "seconds": 10.0,
+          "derivedFrom": "raw-v1",
+          "process": "Remotion captions (assets/lastsupper/teaser/captions.json)",
+          "tool": "Remotion",
+          "final": true,
+          "confirmed": false
+        }
+      ],
+      "stills": [
+        "assets/lastsupper/portraits/leonardo_portrait_9x16.png"
+      ],
+      "note": "A second take (12:22, Higgsfield job a8dd71e6) was generated but not downloaded."
     },
     {
-     "id": "captioned-v1",
-     "file": "assets/lastsupper/teaser/renders/teaser_v1_captioned.mp4",
-     "label": "Captioned edit, 1080p",
-     "width": 1080,
-     "height": 1920,
-     "seconds": 10.0,
-     "derivedFrom": "raw-v1",
-     "process": "Remotion captions (assets/lastsupper/teaser/captions.json)",
-     "tool": "Remotion",
-     "final": true,
-     "confirmed": false
-    }
-   ],
-   "stills": [
-    "assets/lastsupper/portraits/leonardo_portrait_9x16.png"
-   ],
-   "note": "A second take (12:22, Higgsfield job a8dd71e6) was generated but not downloaded."
-  },
-  {
-   "id": "film",
-   "role": "film",
-   "kind": "loop",
-   "title": "Step-inside loop (20 s)",
-   "takes": [
-    {
-     "id": "take-a",
-     "file": "assets/lastsupper/video/lastsupper_loop_20261104-121706_720p.mp4",
-     "label": "step-inside loop, 720p",
-     "width": 720,
-     "height": 1280,
-     "seconds": 20.1,
-     "generated": "2026-11-04 12:17",
-     "source": "Downloads: hf_20261104_121706_d7ca17be-dc51-4827-8a2a-d8c2e4893312.mp4",
-     "tool": "Seedance 2.5 on Higgsfield",
-     "prompt": "LAST SUPPER — CREATIVE STARTING PROMPT\n\nCreate a 20-second vertical 9:16 painterly cinematic loop using the supplied image as the opening frame.\n\nThe camera gently enters the scene at one end of the table, then travels steadily toward Jesus in the centre. Choose a small number of details along this connected journey: an apostle’s gesture, folded cloth, bread, or the quiet expressions around the table. Let foreground and background separate naturally in three-dimensional space while preserving the image’s painted character.\n\nUse a smooth, unhurried camera move. Close details should flow naturally into wider views, with the table and figures remaining in the same positions throughout. Keep the people’s movements restrained and the mood contemplative.\n\nArriving near Jesus, the camera descends toward the existing glass of wine. The opening composition becomes visible in the wine’s reflection. Move into that reflection until it fills the frame, returning to the exact opening composition for a seamless loop.\n\nKeep the supplied colours, lighting and character identities consistent.",
-     "refs": [
-      "assets/lastsupper/lastsupper_first_frame_ai.png"
-     ],
-     "note": "Starting prompt from Mike Staniforth's Last Supper loop kit. The exact production prompt wasn't recorded."
+      "id": "film",
+      "role": "film",
+      "kind": "loop",
+      "title": "Step-inside loop (20 s)",
+      "takes": [
+        {
+          "id": "take-a",
+          "file": "assets/lastsupper/video/lastsupper_loop_20261104-121706_720p.mp4",
+          "label": "step-inside loop, 720p",
+          "width": 720,
+          "height": 1280,
+          "seconds": 20.1,
+          "generated": "2026-11-04 12:17",
+          "source": "Downloads: hf_20261104_121706_d7ca17be-dc51-4827-8a2a-d8c2e4893312.mp4",
+          "tool": "Seedance 2.5 on Higgsfield",
+          "prompt": "LAST SUPPER — CREATIVE STARTING PROMPT\n\nCreate a 20-second vertical 9:16 painterly cinematic loop using the supplied image as the opening frame.\n\nThe camera gently enters the scene at one end of the table, then travels steadily toward Jesus in the centre. Choose a small number of details along this connected journey: an apostle’s gesture, folded cloth, bread, or the quiet expressions around the table. Let foreground and background separate naturally in three-dimensional space while preserving the image’s painted character.\n\nUse a smooth, unhurried camera move. Close details should flow naturally into wider views, with the table and figures remaining in the same positions throughout. Keep the people’s movements restrained and the mood contemplative.\n\nArriving near Jesus, the camera descends toward the existing glass of wine. The opening composition becomes visible in the wine’s reflection. Move into that reflection until it fills the frame, returning to the exact opening composition for a seamless loop.\n\nKeep the supplied colours, lighting and character identities consistent.",
+          "refs": [
+            "assets/lastsupper/lastsupper_first_frame_ai.png"
+          ],
+          "note": "Starting prompt from Mike Staniforth's Last Supper loop kit. The exact production prompt wasn't recorded."
+        },
+        {
+          "id": "take-b",
+          "file": "assets/lastsupper/video/lastsupper_loop_20261105-121405_1080p.mp4",
+          "label": "step-inside loop, 1080 (upscaled)",
+          "width": 1080,
+          "height": 1920,
+          "seconds": 20.0,
+          "generated": "2026-11-05 12:14",
+          "source": "Downloads: hf_20261105_121405_7ca5559b-9adf-4122-b004-bd6487066dd1.mp4",
+          "tool": "FLUX.3 Upscale on Higgsfield",
+          "refs": [
+            "assets/lastsupper/lastsupper_first_frame_ai.png"
+          ],
+          "note": "Upscale of a 720p take.",
+          "final": true,
+          "confirmed": false,
+          "process": "Upscale to 1080p",
+          "derivedFrom": "take-a"
+        }
+      ]
     },
     {
-     "id": "take-b",
-     "file": "assets/lastsupper/video/lastsupper_loop_20261105-121405_1080p.mp4",
-     "label": "step-inside loop, 1080 (upscaled)",
-     "width": 1080,
-     "height": 1920,
-     "seconds": 20.0,
-     "generated": "2026-11-05 12:14",
-     "source": "Downloads: hf_20261105_121405_7ca5559b-9adf-4122-b004-bd6487066dd1.mp4",
-     "tool": "FLUX.3 Upscale on Higgsfield",
-     "refs": [
-      "assets/lastsupper/lastsupper_first_frame_ai.png"
-     ],
-     "note": "Upscale of a 720p take.",
-     "final": true,
-     "confirmed": false,
-     "process": "Upscale to 1080p",
-     "derivedFrom": "take-a"
+      "id": "carousel",
+      "role": "carousel",
+      "title": "Story carousel",
+      "carousel": "08-leonardo-last-supper",
+      "status": "final"
     }
-   ]
-  },
-  {
-   "id": "carousel",
-   "role": "carousel",
-   "title": "Story carousel",
-   "carousel": "08-leonardo-last-supper",
-   "status": "final"
-  }
- ],
- "posts": []
+  ],
+  "posts": [
+    {
+      "piece": "teaser",
+      "platform": "instagram",
+      "at": "2026-11-15",
+      "status": "published",
+      "note": "First post on @art.alive.studio. Posting time and post link not recorded yet."
+    },
+    {
+      "piece": "film",
+      "platform": "instagram",
+      "at": "2026-11-16",
+      "status": "planned",
+      "note": "The fly-through. Time not set yet."
+    }
+  ]
 }

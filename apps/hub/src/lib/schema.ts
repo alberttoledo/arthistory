@@ -1,7 +1,7 @@
 import { z } from "zod";
 
-/** Wall-clock time in the channel's timezone, e.g. "2026-11-20T18:00". Never converted. */
-const WallTime = z.string().regex(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/, "use YYYY-MM-DDTHH:mm");
+/** Wall-clock time in the channel's timezone, e.g. "2026-11-20T18:00", or a bare date when the hour isn't known. Never converted. */
+const WallTime = z.string().regex(/^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2})?$/, "use YYYY-MM-DDTHH:mm or YYYY-MM-DD");
 
 export const TakeSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
