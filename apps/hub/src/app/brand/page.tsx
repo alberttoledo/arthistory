@@ -29,7 +29,7 @@ const STYLES: Style[] = [
   { name: "copy", spec: "Newsreader 400 · 33px · lh 1.45", use: "45 words max per slide", px: 33, css: { fontFamily: B, lineHeight: 1.45 }, sample: <>Light falls on the captain’s open hand, and its shadow lands on his lieutenant’s coat.</> },
   { name: "caption", spec: "Newsreader italic · 25px", use: "Under images, in text-muted", px: 25, css: { fontFamily: B, fontStyle: "italic", color: "var(--muted)" }, sample: <>Early copy, attributed to Gerrit Lundens</> },
   { name: "kicker", spec: "Plex Mono 500 · 22px · +.22em", use: "Above every headline, accent", px: 22, css: { fontFamily: M, fontWeight: 500, letterSpacing: ".22em", textTransform: "uppercase", color: "var(--gold)" }, sample: <>The glowing girl</> },
-  { name: "chrome", spec: "Plex Mono 500 · 19px · +.18em", use: "Header and footer, automatic", px: 19, css: { fontFamily: M, fontWeight: 500, letterSpacing: ".18em", textTransform: "uppercase" }, sample: <><span className="gold">No. 03</span> — The Night Watch · 03 / 10</> },
+  { name: "chrome", spec: "Plex Mono 500 · 19px · +.18em", use: "Header and footer, automatic", px: 19, css: { fontFamily: M, fontWeight: 500, letterSpacing: ".18em", textTransform: "uppercase" }, sample: <>The Night Watch · 03 / 10</> },
 ];
 const STRUCTURE: [number, string, string, string][] = [
   [0, "01", "Cover", "Hook on a tight detail crop"], [1, "02", "Plate", "Whole painting + museum label"],
@@ -84,7 +84,7 @@ export default function Brand() {
           </div>
           <ul className="rules">
             <li><b>Margins:</b> text stays 84px from each side, below the 120px header zone and above the 110px footer zone.</li>
-            <li><b>Chrome on every slide:</b> “No. 0X — Title” and “03 / 10” at the top; @art.alive.studio and progress dots at the bottom. It’s added automatically.</li>
+            <li><b>Chrome on every slide:</b> the painting’s title and “03 / 10” at the top (no series number, since the posting order can change); @art.alive.studio and progress dots at the bottom. It’s added automatically.</li>
             <li><b>Text over photos</b> sits at the bottom on a black shade so it stays readable. Never centre body copy.</li>
             <li><b>Square corners</b> everywhere. Circles only for markers, loupes and numbered badges. The CTA phone is the only rounded rectangle (46px).</li>
             <li><b>Texture:</b> film grain (14%) and a soft vignette over every slide.</li>

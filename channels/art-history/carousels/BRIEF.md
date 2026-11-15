@@ -10,7 +10,7 @@ One Instagram carousel per painting we make a video for. It tells the painting's
 
 ## Brand kit (don't edit it; read it fully first)
 - `_brand/brand.css`: tokens, type scale and slide components (cover, plate + museum label, detail, marker, loupe + leader, quote, fact, split, strip + legend, torn scrap, timeline, cta, paper variant).
-- `_brand/brand.js`: adds header ("No. 0X — TITLE  03/10"), footer (@art.alive.studio + progress dots), grain and vignette.
+- `_brand/brand.js`: adds header ("TITLE  03/10", no series number), footer (@art.alive.studio + progress dots), grain and vignette.
 - `_sample/slides.html`: a working example. Copy its structure.
 - Canvas is 1080×1350. Keep text inside the 84px side margins and clear of the header (top 120px) and footer (bottom 110px).
 - You may add a `<style>` block in your `slides.html` for one-off layouts (collages, rotated torn scraps, custom loupe positions, oversized numerals). Stay inside the system: the palette is ink, paper, gold and rare oxblood, with the three brand fonts only. Make it feel art-directed, not like a template: mix dark slides with one or two `paper` slides, vary the layouts and make the crops dramatic.
@@ -25,7 +25,7 @@ One Instagram carousel per painting we make a video for. It tells the painting's
 Copy voice: a warm, conspiratorial docent whispering a secret. Use short sentences and no lecture. Keep the body copy to **45 words or fewer per slide**, and headlines to 9 words or fewer. Use `<em>` in a headline to put one key word in gold italics.
 
 ## Files to deliver: `channels/art-history/carousels/<slug>/`
-- `slides.html`, with `<body data-no="0X" data-title="SHORT TITLE">`, linking `../_brand/brand.css` and, at the end, `../_brand/brand.js`
+- `slides.html`, with `<body data-title="SHORT TITLE">`, linking `../_brand/brand.css` and, at the end, `../_brand/brand.js`
 - `img/`: your crops and cut-ups (JPG, long side ≤ 2400px). Raw downloads go in `img/_raw/`.
 - `renders/01.jpg …` made with `node channels/art-history/carousels/_brand/render.mjs <slug>`, run from the repo root. Add `<n>` to re-render one slide.
 - `carousel.json`:
