@@ -10,6 +10,7 @@ on:
       - "channels/*/carousels/**"
       - "channels/*/stories/**"
       - "channels/*/brand/**"
+      - "channels/*/channel.json"
       - "assets/**/web/**"
       - ".github/workflows/hub-pages.yml"
   workflow_dispatch:
