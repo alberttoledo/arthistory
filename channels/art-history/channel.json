@@ -9,10 +9,13 @@
   "name": "Art History",
   "handle": "@art.alive.studio",
   "profile": {
-    "draft": true,
-    "name": "Art Alive Studio",
+    "name": "Art Alive · Art History",
     "category": "Art",
-    "bio": ["Step inside the world’s most famous paintings.", "The painter speaks. The painting moves. The story behind it."],
+    "bio": [
+      "Famous paintings, brought to life.",
+      "The painter talks. The painting moves.",
+      "Then we tell you the secret inside it."
+    ],
     "link": ""
   },
   "niche": "Hidden details and human stories inside famous artworks",
