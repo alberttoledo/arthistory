@@ -709,28 +709,21 @@ window.CAROUSELS = [
   "year": "c. 1495–98",
   "museum": "Refectory of Santa Maria delle Grazie (Cenacolo Vinciano), Milan",
   "videoFormat": "Step-inside-the-painting flythrough loop (9:16, 20s): along the table to Jesus, down into the wine glass, reflection loops to the start",
-  "hook": "There's a nail hole in his head.",
-  "caption": "There's a nail hole in his head.\n\nLeonardo built the whole room of The Last Supper around one point: Christ's right temple. Every beam and wall runs there, and restorers found a tiny nail hole on the spot. The wall itself barely survived. He skipped true fresco, so it was decaying in his lifetime. Friars cut a door through Jesus's feet. French troops stabled horses in the hall. A 1943 bomb brought the roof down around it.\n\nSwipe for the four groups of three, Judas in shadow, and who's really beside Jesus. Then watch the reel: we walk the table and dive into his wine.\n\nSave this for your Milan trip.",
+  "hook": "He painted it too slowly.",
+  "caption": "He painted it too slowly. We're still paying for it.\n\nLeonardo spent about three years on The Last Supper. A young friar remembered him staring at the wall for hours, then adding a stroke or two and leaving.\n\nFresco would never have allowed that. So he painted on a dry wall instead, and that choice is the reason it began to flake while he was still alive.\n\nSwipe to the last slide for the irony.\n\nWould you have rushed it?",
   "hashtags": [
-   "#leonardodavinci",
    "#thelastsupper",
+   "#leonardodavinci",
    "#arthistory",
    "#renaissance",
-   "#milan",
-   "#cenacolovinciano",
-   "#santamariadellegrazie",
-   "#perspective",
-   "#hiddendetails",
-   "#italianrenaissance",
-   "#davincicode",
-   "#arttok"
+   "#milano"
   ],
   "slides": [
    {
     "n": 1,
     "type": "cover",
-    "headline": "There's a nail hole in his head.",
-    "alt": "Close crop of Christ's face and shoulders in the Last Supper, flaking paint, a window of blue landscape behind him."
+    "headline": "He painted it too slowly.",
+    "alt": "Close crop of Christ's face in the Last Supper, flaking paint, a window of blue landscape behind him."
    },
    {
     "n": 2,
@@ -740,54 +733,54 @@ window.CAROUSELS = [
    },
    {
     "n": 3,
-    "type": "quote",
-    "headline": "One of you shall betray me.",
-    "alt": "Cream paper slide with Leonardo's red-chalk sketch of the apostles at table as a torn scrap, above the Gospel line in large italics."
+    "type": "collage",
+    "headline": "Hours of staring. Then one stroke.",
+    "alt": "Leonardo's red-chalk sketch of the apostles at table as a torn paper scrap on black, above the story of Bandello watching him work."
    },
    {
     "n": 4,
-    "type": "strip",
-    "headline": "Twelve men in fours of three.",
-    "alt": "Four stacked horizontal crops of the apostle groups, numbered 1 to 4, each with names and a one-line description."
+    "type": "fact",
+    "headline": "Fresco doesn't wait.",
+    "alt": "Cream paper slide comparing true fresco (fast, wet plaster) with Leonardo's method (slow, dry wall), ending: He chose time."
    },
    {
     "n": 5,
+    "type": "strip",
+    "headline": "One sentence. Twelve reactions.",
+    "alt": "Four stacked crops of the apostle groups, numbered 1 to 4, each with names and a one-line description."
+   },
+   {
+    "n": 6,
     "type": "detail",
     "headline": "The only face in shadow.",
     "alt": "Close crop of Judas in dark profile beside Peter and John, a gold ring around his fist holding a small bag, with Leonardo's red-chalk head of Judas pinned at right."
    },
    {
-    "n": 6,
+    "n": 7,
     "type": "loupe",
     "headline": "Every line runs to his head.",
-    "alt": "The upper mural with gold lines drawn along the ceiling beams and wall hangings, all converging on a small ring at Christ's head."
-   },
-   {
-    "n": 7,
-    "type": "split",
-    "headline": "A door ate his feet.",
-    "alt": "Side by side: the original today, with a plain doorway where Christ's feet were, and Giampietrino's early copy showing his sandalled feet under the table."
+    "alt": "The upper mural with gold lines along the ceiling beams and wall hangings, all converging on a small ring at Christ's head."
    },
    {
     "n": 8,
-    "type": "timeline",
-    "headline": "It should not still be here.",
-    "alt": "Cream paper timeline (1517, 1796, 1943, 1978–99) beside a torn photo of the bombed refectory in 1943 and a close-up of flaking paint."
+    "type": "detail",
+    "headline": "By 1517, it was already flaking.",
+    "alt": "Close crop of the apostle Philip pressing his hands to his chest, the paint visibly flaked away across his face and robe."
    },
    {
     "n": 9,
-    "type": "twist",
-    "headline": "That's not Mary Magdalene.",
-    "alt": "Close crop of the young, beardless John leaning toward Peter, with Christ's red sleeve at the right edge."
+    "type": "timeline",
+    "headline": "Then it got worse.",
+    "alt": "Cream paper timeline (1652, 1796, 1943, 1978–99) beside a torn scrap of Christ's sandalled feet from an early copy and a photo of the bombed refectory in 1943."
    },
    {
     "n": 10,
-    "type": "cta",
-    "headline": "Now pull up a chair.",
-    "alt": "Phone frame with the first frame of our film, Jesus at the table, plus a gold circular zoom on the glass of wine near his hand in the mural."
+    "type": "twist",
+    "headline": "What made it great is destroying it.",
+    "alt": "Christ at the centre of the table, hands spread, flaking paint across his robe, with the closing line about the irony."
    }
   ],
-  "notes": "Main image: 9600px post-restoration image from Commons (the door area is filled flat in that file). Nail hole: reported in Italian and secondary sources (arte.it etc.), not a museum page; copy says 'likely tied strings'. Vanishing point is described as Christ's right temple in some sources and 'right cheek'/head in others; the SVG lines are drawn by eye through real orthogonals (ceiling beams, hanging tops) and are illustrative. Salt cellar is only mentioned via the Giampietrino copy. 1796: French troops used the refectory as a stable (plus armoury per Wikipedia); stone-throwing anecdotes left out. 1517 decay: Wikipedia main/conservation articles, no primary source checked. The glass in the CTA loupe is the small tumbler by Christ's left hand. Royal Collection quote is from the RCT catalogue entry for RCIN 912547.",
+  "notes": "Arc: Leonardo's slowness is why he refused fresco, and the dry-wall technique is why it decayed. No film plug on the last slide; slide chrome is off (data-chrome=\"off\"). Bandello: late, memory-based anecdote from the preface to one of his novelle; he was the nephew of the prior Vincenzo Bandello. Copy paraphrases, no quote. 1517: Antonio de Beatis, travelling with Cardinal Luigi d'Aragona, wrote that it 'is beginning to decay' (quoted on the Cenacolo museum site); Leonardo died 1519. Nail hole: secondary sources, hedged 'likely'. Vanishing-point lines drawn by eye. 'A few minutes each': visits are timed (commonly 15 min). Images: philip.jpg, christ_wide.jpg cut from the 9600px Commons file; feet_copy.jpg cut from the Giampietrino copy.",
   "renders": [
    "08-leonardo-last-supper/renders/01.jpg",
    "08-leonardo-last-supper/renders/02.jpg",
@@ -800,6 +793,6 @@ window.CAROUSELS = [
    "08-leonardo-last-supper/renders/09.jpg",
    "08-leonardo-last-supper/renders/10.jpg"
   ],
-  "sources": "# Sources: No. 08, The Last Supper\n\n## Facts\n- Size 460 × 880 cm; c. 1495–98; tempera on a dry wall prepared with gesso, pitch and mastic; the moment after \"one of you will betray me\" (John 13); apostles in four groups of three (Bartholomew, James son of Alphaeus, Andrew / Judas, Peter, John / Thomas, James the Greater, Philip / Matthew, Jude Thaddeus, Simon); Peter holds a knife; Judas in shadow clutching a small bag; \"betraying the salt\" (hedged); Christ's head at the vanishing point; Vasari's \"muddle of blots\" (1556); 1796 French troops used the refectory as an armoury and stable; Giampietrino copy (c. 1520, Royal Academy) preserves Christ's feet and Judas's spilled salt and guided the 1978–99 restoration; The Da Vinci Code / Mary Magdalene vs John. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n- Oil and tempera on a dry wall; deterioration by 1517; door cut c. 1652 \"destroying the area in which Jesus's feet were depicted\"; French forces used the refectory as stables (1796); 1943 RAF bomb destroyed the refectory roof; painting protected by sandbags, mattresses and pillows; Pinin Brambilla Barcilon's 21-year restoration, finished 28 May 1999. https://en.wikipedia.org/wiki/Conservation-restoration_of_Leonardo_da_Vinci%27s_The_Last_Supper\n- Nail hole in Christ's head found during restoration, used for the perspective strings: arte.it, https://www.arte.it/leonardo/loc/ultima-cena-211 ; also https://discoveringdavinci.com/works/paintings/last-supper/composition-and-perspective.html (secondary sources, so hedged as \"likely\" in the copy)\n- Giampietrino and Boltraffio copy, Royal Academy of Arts, c. 1515–20, oil on canvas, 302 × 785 cm: https://www.royalacademy.org.uk/art-artists/work-of-art/the-last-supper and https://artsandculture.google.com/story/IQWBB2AzvHUmKQ\n- Head of Judas, red chalk on red prepared paper, c. 1495 or later, RCIN 912547. The catalogue says it \"registers mild surprise rather than evil intent.\" https://col.rct.uk/collection/912547/the-head-of-judas\n- Quote: \"One of you shall betray me.\" John 13:21, King James Version.\n\n## Images\n| File | Source | Licence |\n|---|---|---|\n| img/cover.jpg, full.jpg, persp.jpg, triad1–4.jpg, judas.jpg, john.jpg, door_orig.jpg, flake.jpg, glass_loupe.jpg (from _raw/lastsupper_9600.jpg, also saved as assets/lastsupper/lastsupper_full_9600.jpg) | \"The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg\", 9600 × 4800, https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg | Public domain |\n| img/door_copy.jpg (_raw/giampietrino_2100.jpg) | \"Giampietrino-Last-Supper-ca-1520.jpg\", https://commons.wikimedia.org/wiki/File:Giampietrino-Last-Supper-ca-1520.jpg | Public domain |\n| _raw/giampietrino_ra.jpg (unused) | https://commons.wikimedia.org/wiki/File:Giampietrino_(active_1500-1550)_-_The_Last_Supper_(copy_after_Leonardo_da_Vinci)_-_03-1230_-_Royal_Academy_of_Arts.jpg | Public domain |\n| img/study_venice.jpg | \"Leonardo da vinci, Study for the Last Supper.jpg\", red chalk, c. 1494–95, Gallerie dell'Accademia, Venice, https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Study_for_the_Last_Supper.jpg | Public domain |\n| img/judas_drawing.jpg | \"Leonardo da Vinci - RCIN 912547, The head of Judas c.1495 or later.jpg\", https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912547,_The_head_of_Judas_c.1495_or_later.jpg | Public domain |\n| _raw/stjames_jacobus.jpg (unused) | \"Jacobus Maior (da Vinci).jpg\", https://commons.wikimedia.org/wiki/File:Jacobus_Maior_(da_Vinci).jpg | Public domain |\n| img/bomb1943.jpg | \"Santa Maria delle Grazie (Milan) - bombardamento del 1943.jpg\", unknown photographer, https://commons.wikimedia.org/wiki/File:Santa_Maria_delle_Grazie_(Milan)_-_bombardamento_del_1943.jpg | Public domain (as tagged on Commons; 676 px only) |\n| img/first_frame.jpg | Our film's first frame: assets/lastsupper/lastsupper_first_frame_ai.png | Ours |\n"
+  "sources": "# Sources: No. 08, The Last Supper\n\n## Facts\n- Size 460 × 880 cm; c. 1495–98; tempera on a dry wall prepared with gesso, pitch and mastic; the moment after \"one of you will betray me\" (John 13); apostles in four groups of three (Bartholomew, James son of Alphaeus, Andrew / Judas, Peter, John / Thomas, James the Greater, Philip / Matthew, Jude Thaddeus, Simon); Peter holds a knife; Judas in shadow clutching a small bag; \"betraying the salt\" (hedged); Christ's head at the vanishing point; Vasari's \"muddle of blots\" (1556); 1796 French troops used the refectory as an armoury and stable; Giampietrino copy (c. 1520, Royal Academy) preserves Christ's feet and Judas's spilled salt and guided the 1978–99 restoration; The Da Vinci Code / Mary Magdalene vs John. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n- Oil and tempera on a dry wall; deterioration by 1517; door cut c. 1652 \"destroying the area in which Jesus's feet were depicted\"; French forces used the refectory as stables (1796); 1943 RAF bomb destroyed the refectory roof; painting protected by sandbags, mattresses and pillows; Pinin Brambilla Barcilon's 21-year restoration, finished 28 May 1999. https://en.wikipedia.org/wiki/Conservation-restoration_of_Leonardo_da_Vinci%27s_The_Last_Supper\n- Nail hole in Christ's head found during restoration, used for the perspective strings: arte.it, https://www.arte.it/leonardo/loc/ultima-cena-211 ; also https://discoveringdavinci.com/works/paintings/last-supper/composition-and-perspective.html (secondary sources, so hedged as \"likely\" in the copy)\n- Giampietrino and Boltraffio copy, Royal Academy of Arts, c. 1515–20, oil on canvas, 302 × 785 cm: https://www.royalacademy.org.uk/art-artists/work-of-art/the-last-supper and https://artsandculture.google.com/story/IQWBB2AzvHUmKQ\n- Head of Judas, red chalk on red prepared paper, c. 1495 or later, RCIN 912547. The catalogue says it \"registers mild surprise rather than evil intent.\" https://col.rct.uk/collection/912547/the-head-of-judas\n- Kicker on slide 5: \"One of you will betray me.\" paraphrase of John 13:21.\n- Bandello's account (Leonardo painting dawn to dusk without eating; other days only contemplating, then climbing up for a stroke or two): Matteo Bandello, preface to Novella I.58, written decades later from memory. Summaries: https://www.ebsco.com/research-starters/history/leonardo-da-vinci-paints-last-supper and Charles Nicholl, Leonardo da Vinci: The Flights of the Mind, https://erenow.org/biographies/leonardo-da-vinci-the-flights-of-the-mind/50.php . Bandello was the nephew of the prior, Vincenzo Bandello: https://en.wikipedia.org/wiki/Vincenzo_Bandello\n- 1517, Antonio de Beatis: \"is beginning to decay\": Cenacolo Vinciano museum, https://cenacolovinciano.org/en/museum/backstage/ ; context (visit with Cardinal Luigi d'Aragona, Dec 1517): Zöllner, https://archiv.ub.uni-heidelberg.de/artdok/4643/1/Zoellner_Leonardo_da_Vincis_Abendmahl_Zwischen_Kanonisierung_und_Kontextualisierung.pdf\n- Fresco vs secco: true fresco is painted into wet plaster in daily sections; Leonardo's tempera and oil on a dry, primed wall let him work slowly and revise, but didn't bond with the wall. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n\n## Images\n| File | Source | Licence |\n|---|---|---|\n| img/cover.jpg, full.jpg, persp.jpg, philip.jpg, christ_wide.jpg, hands.jpg (unused), triad1–4.jpg, judas.jpg, john.jpg, door_orig.jpg, flake.jpg, glass_loupe.jpg (from _raw/lastsupper_9600.jpg, also saved as assets/lastsupper/lastsupper_full_9600.jpg) | \"The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg\", 9600 × 4800, https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg | Public domain |\n| img/door_copy.jpg (unused now), img/feet_copy.jpg (Christ's feet), both from _raw/giampietrino_2100.jpg | \"Giampietrino-Last-Supper-ca-1520.jpg\", https://commons.wikimedia.org/wiki/File:Giampietrino-Last-Supper-ca-1520.jpg | Public domain |\n| _raw/giampietrino_ra.jpg (unused) | https://commons.wikimedia.org/wiki/File:Giampietrino_(active_1500-1550)_-_The_Last_Supper_(copy_after_Leonardo_da_Vinci)_-_03-1230_-_Royal_Academy_of_Arts.jpg | Public domain |\n| img/study_venice.jpg | \"Leonardo da vinci, Study for the Last Supper.jpg\", red chalk, c. 1494–95, Gallerie dell'Accademia, Venice, https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Study_for_the_Last_Supper.jpg | Public domain |\n| img/judas_drawing.jpg | \"Leonardo da Vinci - RCIN 912547, The head of Judas c.1495 or later.jpg\", https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912547,_The_head_of_Judas_c.1495_or_later.jpg | Public domain |\n| _raw/stjames_jacobus.jpg (unused) | \"Jacobus Maior (da Vinci).jpg\", https://commons.wikimedia.org/wiki/File:Jacobus_Maior_(da_Vinci).jpg | Public domain |\n| img/bomb1943.jpg | \"Santa Maria delle Grazie (Milan) - bombardamento del 1943.jpg\", unknown photographer, https://commons.wikimedia.org/wiki/File:Santa_Maria_delle_Grazie_(Milan)_-_bombardamento_del_1943.jpg | Public domain (as tagged on Commons; 676 px only) |\n| img/first_frame.jpg (unused now) | Our film's first frame: assets/lastsupper/lastsupper_first_frame_ai.png | Ours |\n"
  }
 ];

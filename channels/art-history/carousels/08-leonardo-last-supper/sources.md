@@ -6,16 +6,19 @@
 - Nail hole in Christ's head found during restoration, used for the perspective strings: arte.it, https://www.arte.it/leonardo/loc/ultima-cena-211 ; also https://discoveringdavinci.com/works/paintings/last-supper/composition-and-perspective.html (secondary sources, so hedged as "likely" in the copy)
 - Giampietrino and Boltraffio copy, Royal Academy of Arts, c. 1515–20, oil on canvas, 302 × 785 cm: https://www.royalacademy.org.uk/art-artists/work-of-art/the-last-supper and https://artsandculture.google.com/story/IQWBB2AzvHUmKQ
 - Head of Judas, red chalk on red prepared paper, c. 1495 or later, RCIN 912547. The catalogue says it "registers mild surprise rather than evil intent." https://col.rct.uk/collection/912547/the-head-of-judas
-- Quote: "One of you shall betray me." John 13:21, King James Version.
+- Kicker on slide 5: "One of you will betray me." paraphrase of John 13:21.
+- Bandello's account (Leonardo painting dawn to dusk without eating; other days only contemplating, then climbing up for a stroke or two): Matteo Bandello, preface to Novella I.58, written decades later from memory. Summaries: https://www.ebsco.com/research-starters/history/leonardo-da-vinci-paints-last-supper and Charles Nicholl, Leonardo da Vinci: The Flights of the Mind, https://erenow.org/biographies/leonardo-da-vinci-the-flights-of-the-mind/50.php . Bandello was the nephew of the prior, Vincenzo Bandello: https://en.wikipedia.org/wiki/Vincenzo_Bandello
+- 1517, Antonio de Beatis: "is beginning to decay": Cenacolo Vinciano museum, https://cenacolovinciano.org/en/museum/backstage/ ; context (visit with Cardinal Luigi d'Aragona, Dec 1517): Zöllner, https://archiv.ub.uni-heidelberg.de/artdok/4643/1/Zoellner_Leonardo_da_Vincis_Abendmahl_Zwischen_Kanonisierung_und_Kontextualisierung.pdf
+- Fresco vs secco: true fresco is painted into wet plaster in daily sections; Leonardo's tempera and oil on a dry, primed wall let him work slowly and revise, but didn't bond with the wall. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)
 
 ## Images
 | File | Source | Licence |
 |---|---|---|
-| img/cover.jpg, full.jpg, persp.jpg, triad1–4.jpg, judas.jpg, john.jpg, door_orig.jpg, flake.jpg, glass_loupe.jpg (from _raw/lastsupper_9600.jpg, also saved as assets/lastsupper/lastsupper_full_9600.jpg) | "The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg", 9600 × 4800, https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg | Public domain |
-| img/door_copy.jpg (_raw/giampietrino_2100.jpg) | "Giampietrino-Last-Supper-ca-1520.jpg", https://commons.wikimedia.org/wiki/File:Giampietrino-Last-Supper-ca-1520.jpg | Public domain |
+| img/cover.jpg, full.jpg, persp.jpg, philip.jpg, christ_wide.jpg, triad1–4.jpg, judas.jpg, john.jpg, door_orig.jpg, flake.jpg, glass_loupe.jpg (from _raw/lastsupper_9600.jpg, also saved as assets/lastsupper/lastsupper_full_9600.jpg) | "The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg", 9600 × 4800, https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg | Public domain |
+| img/door_copy.jpg (unused now), img/feet_copy.jpg (Christ's feet), both from _raw/giampietrino_2100.jpg | "Giampietrino-Last-Supper-ca-1520.jpg", https://commons.wikimedia.org/wiki/File:Giampietrino-Last-Supper-ca-1520.jpg | Public domain |
 | _raw/giampietrino_ra.jpg (unused) | https://commons.wikimedia.org/wiki/File:Giampietrino_(active_1500-1550)_-_The_Last_Supper_(copy_after_Leonardo_da_Vinci)_-_03-1230_-_Royal_Academy_of_Arts.jpg | Public domain |
 | img/study_venice.jpg | "Leonardo da vinci, Study for the Last Supper.jpg", red chalk, c. 1494–95, Gallerie dell'Accademia, Venice, https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Study_for_the_Last_Supper.jpg | Public domain |
 | img/judas_drawing.jpg | "Leonardo da Vinci - RCIN 912547, The head of Judas c.1495 or later.jpg", https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912547,_The_head_of_Judas_c.1495_or_later.jpg | Public domain |
 | _raw/stjames_jacobus.jpg (unused) | "Jacobus Maior (da Vinci).jpg", https://commons.wikimedia.org/wiki/File:Jacobus_Maior_(da_Vinci).jpg | Public domain |
 | img/bomb1943.jpg | "Santa Maria delle Grazie (Milan) - bombardamento del 1943.jpg", unknown photographer, https://commons.wikimedia.org/wiki/File:Santa_Maria_delle_Grazie_(Milan)_-_bombardamento_del_1943.jpg | Public domain (as tagged on Commons; 676 px only) |
-| img/first_frame.jpg | Our film's first frame: assets/lastsupper/lastsupper_first_frame_ai.png | Ours |
+| img/first_frame.jpg (unused now) | Our film's first frame: assets/lastsupper/lastsupper_first_frame_ai.png | Ours |
