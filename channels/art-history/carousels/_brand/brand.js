@@ -1,13 +1,16 @@
 // Adds chrome (header/footer), grain/vignette and solo-render mode to every slide.
 // <body data-title="The Night Watch" data-handle="@art.alive.studio">  (no series number on slides: posting order can change)
-// <body data-chrome="off"> drops the header and footer on every slide (Instagram already shows the handle and the dots).
+// <body data-chrome="off"> drops the header and footer on every slide (Instagram already shows the dots).
+// <body data-chrome="handle"> keeps only the handle, bottom-left.
 (function () {
   const b = document.body;
   const slides = [...document.querySelectorAll('.slide')];
-  const title = b.dataset.title || '', handle = b.dataset.handle || '@art.alive.studio', chromeOff = b.dataset.chrome === 'off';
+  const title = b.dataset.title || '', handle = b.dataset.handle || '@art.alive.studio', chromeOff = b.dataset.chrome === 'off', handleOnly = b.dataset.chrome === 'handle';
   slides.forEach((s, i) => {
     const n = String(i + 1).padStart(2, '0'), tot = String(slides.length).padStart(2, '0');
-    if (!chromeOff && !s.hasAttribute('data-nochrome')) {
+    if (handleOnly && !s.hasAttribute('data-nochrome')) {
+      const f = document.createElement('div'); f.className = 'foot'; f.innerHTML = `<span>${handle}</span>`; s.append(f);
+    } else if (!chromeOff && !handleOnly && !s.hasAttribute('data-nochrome')) {
       const c = document.createElement('div'); c.className = 'chrome';
       c.innerHTML = `<span>${title}</span><span>${n} / ${tot}</span>`;
       const f = document.createElement('div'); f.className = 'foot';
