@@ -50,6 +50,8 @@ Real hooks from the series:
 - Film grain (`grain-opacity`) and a vignette sit over every slide.
 - Square corners everywhere (`radius-none`). Circles are only for markers, loupes and badges (`radius-disc`); the CTA phone uses `radius-phone`.
 
+**Cover frame (tried, not in use):** `frames/cover-frame.png` (1080 × 1350, transparent centre). Add `data-frame="../../brand/frames/cover-frame.png"` to a slide to lay it on top; the text moves inside the moulding. We tested it on every cover on 16 Nov 2026 and decided against it for now.
+
 ## Profile picture
 
 Files: `profile/` (`profile.json` lists the rotation, first = the one up now).

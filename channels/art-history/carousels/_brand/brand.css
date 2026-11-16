@@ -198,3 +198,10 @@ body[data-solo] .slide.is-solo { display: block; }
 .copy + .copy { margin-top: 20px; }
 /* any slide with an image under the header: add class "shade-top" (DETAIL gets it automatically) */
 .s-detail .crop::before { content: ''; position: absolute; inset: 0 0 auto 0; height: 220px; z-index: 1; background: linear-gradient(rgba(13,11,9,.8), transparent); }
+
+/* FRAMED — a gilt frame PNG over the whole slide (data-frame); content moves inside the moulding */
+.slide-frame { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 60; pointer-events: none; }
+.slide.framed .block { left: 130px; right: 130px; }
+.slide.framed .block.bottom { bottom: 156px; }
+.slide.framed .foot { left: 130px; right: 130px; bottom: 106px; }
+.slide.framed .chrome { top: 108px; left: 130px; right: 130px; }

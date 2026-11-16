@@ -18,6 +18,8 @@
       s.append(c, f);
     }
     const fx = document.createElement('div'); fx.className = 'fx'; s.append(fx);
+    // <section class="slide" data-frame="../../brand/frames/cover-frame.png"> lays a gilt frame PNG (1080×1350, transparent centre) over the slide
+    if (s.dataset.frame) { const fr = document.createElement('img'); fr.className = 'slide-frame'; fr.src = s.dataset.frame; s.classList.add('framed'); s.append(fr); }
   });
   const q = new URLSearchParams(location.search).get('s');
   if (q) { b.dataset.solo = '1'; slides[+q - 1]?.classList.add('is-solo'); }
