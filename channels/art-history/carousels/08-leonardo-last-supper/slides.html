@@ -5,10 +5,9 @@
   .s-cover.shade-bottom::after { height: 820px; background: linear-gradient(transparent, rgba(13,11,9,.75) 40%, rgba(13,11,9,.95) 72%); }
   .s-cover .kicker, .s-cover .h-xl { text-shadow: 0 2px 24px rgba(0,0,0,.6); }
 
-  /* 02 plate: wide mural, so sit it higher and add a one-line intro */
-  .s-plate .frame { top: 300px; }
-  .plate-intro { position: absolute; left: var(--pad); right: var(--pad); top: 180px; z-index: 35; }
-  .plate-note { position: absolute; left: var(--pad); right: var(--pad); top: 846px; z-index: 35; max-width: 860px; }
+  /* 02 second hook: the whole wall up top, the hook underneath */
+  .s-hook2 .frame { top: 250px; }
+  .s-hook2 .block.bottom { bottom: 150px; }
 
   /* 03 the eyewitness: Leonardo's sketch as a torn scrap */
   .s-witness .torn { left: 110px; top: 110px; width: 820px; height: 600px; transform: rotate(-2deg); }
@@ -74,15 +73,13 @@
   </div>
 </section>
 
-<!-- 02 PLATE -->
-<section class="slide s-plate">
-  <div class="plate-intro"><div class="kicker">One wall · about three years</div></div>
+<!-- 02 SECOND HOOK: Instagram re-serves carousels from slide 2, so this one has to hook on its own -->
+<section class="slide s-plate s-hook2">
   <div class="frame" style="height:456px"><img src="img/full.jpg"></div>
-  <p class="copy plate-note">It fills the end wall of the friars' dining hall at Santa Maria delle Grazie. They ate their meals beneath it.</p>
-  <div class="label">
-    <div class="t">The Last Supper</div>
-    <div class="a">Leonardo da Vinci, c. 1495–98<br>Tempera and oil on dry plaster</div>
-    <div class="m">460 × 880 cm<br>Santa Maria<br>delle Grazie, Milan</div>
+  <div class="block bottom">
+    <div class="kicker">The Last Supper · Leonardo · Milan</div>
+    <h2 class="h-l">It started falling apart while he was <em>alive</em>.</h2>
+    <p class="lede">Blame the way he chose to paint it.</p>
   </div>
 </section>
 
