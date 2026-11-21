@@ -6,20 +6,76 @@
   "year": "1509–11",
   "museum": "Stanza della Segnatura, Vatican Museums",
   "videoFormat": "Step-inside-the-painting flythrough loop (9:16)",
-  "hook": "Ancient Athens. Famous faces.",
-  "caption": "Ancient Athens. Famous faces.\n\nRaphael was about 26 when he painted this wall in the Vatican, and he filled ancient Greece with the stars of his own Rome. Plato probably wears Leonardo's face. The brooding man on the steps is widely read as Michelangelo, and he isn't in Raphael's full-size drawing at all. Euclid is said to be Bramante, the Pope's architect. And far right, in a black beret, Raphael looks straight back at you.\n\nSwipe for the who's who, then watch the reel: we flew straight up the steps into the painting.\n\nSave this for your next Vatican visit.",
-  "hashtags": ["#raphael", "#schoolofathens", "#arthistory", "#renaissance", "#vaticanmuseums", "#michelangelo", "#leonardodavinci", "#plato", "#fresco", "#italianrenaissance", "#arttok", "#hiddendetails"],
-  "slides": [
-    {"n": 1, "type": "cover", "headline": "Ancient Athens. Famous faces.", "alt": "Close crop of Plato pointing up and Aristotle gesturing down at the centre of the School of Athens, surrounded by philosophers."},
-    {"n": 2, "type": "plate", "headline": "The School of Athens", "alt": "The whole fresco in its lunette: a vaulted classical hall filled with philosophers on marble steps."},
-    {"n": 3, "type": "fact", "headline": "26 years old.", "alt": "Big number 26 beside Raphael's Uffizi self-portrait, a young man in a black beret, on a cream paper slide."},
-    {"n": 4, "type": "split", "headline": "Plato wears Leonardo's face.", "alt": "Leonardo's red-chalk presumed self-portrait beside Raphael's bearded Plato pointing upward."},
-    {"n": 5, "type": "detail", "headline": "The brooder is Michelangelo.", "alt": "Heraclitus slumped against a marble block, chin on fist, writing, in heavy boots."},
-    {"n": 6, "type": "split", "headline": "He wasn't in the plan.", "alt": "Raphael's preparatory cartoon in Milan with an empty space on the steps, above the same area of the fresco where Heraclitus now sits."},
-    {"n": 7, "type": "detail", "headline": "Euclid is the Pope's architect.", "alt": "Euclid, bald and bent over a slate with a compass, surrounded by young students; a gold marker rings his head."},
-    {"n": 8, "type": "strip", "headline": "More regulars on the steps", "alt": "Four tall cut-up panels: Socrates gesturing, Pythagoras writing, Diogenes sprawled on the steps, and the figure in white."},
-    {"n": 9, "type": "loupe", "headline": "One man is looking at you.", "alt": "Small full fresco with a gold leader line to a large circular zoom of Raphael's self-portrait in a black beret at the far right edge."},
-    {"n": 10, "type": "cta", "headline": "Now step inside.", "alt": "Phone frame showing the first frame of our flythrough film: the vaulted hall with Plato and Aristotle on the steps."}
+  "hook": "Every genius in one room.",
+  "caption": "Every genius in one room. Can you name them?\n\nRaphael painted The School of Athens on a wall in the Vatican in 1509–11, and filled it with thinkers who lived centuries apart. Plato and Aristotle argue at the centre. Diogenes sprawls on the steps. Pythagoras and Euclid work out the numbers. And one young man in a black cap is looking straight back at you.\n\nSwipe for all eight, then find them on the map at the end.\n\nWhich one would you want to meet?",
+  "hashtags": [
+    "#schoolofathens",
+    "#raphael",
+    "#arthistory",
+    "#renaissance",
+    "#philosophy"
   ],
-  "notes": "Identifications (Leonardo/Plato, Michelangelo/Heraclitus, Bramante/Euclid) are traditional and hedged in copy; Raphael self-portrait is stated by the Vatican Museums. Hypatia explicitly framed as unknown. Heraclitus-late evidence (intonaco, absent from cartoon) per WGA and Wikipedia; worded 'suggests'. Age 26 is approximate (born 1483, wall begun c.1509). Cartoon panel is an approximate match of the same area, not pixel-registered."
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "headline": "Every genius in one room.",
+      "alt": "The vaulted hall of the School of Athens with the crowd of philosophers small on the steps below."
+    },
+    {
+      "n": 2,
+      "type": "who",
+      "headline": "One points up. One points down.",
+      "alt": "Plato pointing upward with his Timaeus beside Aristotle holding his palm over the ground, Ethics under his arm. Numbered 01 of 08."
+    },
+    {
+      "n": 3,
+      "type": "who",
+      "headline": "The man who rejected everything.",
+      "alt": "Diogenes sprawled alone across the marble steps in a blue robe, reading a sheet. Numbered 02."
+    },
+    {
+      "n": 4,
+      "type": "who",
+      "headline": "The man who heard the numbers.",
+      "alt": "Pythagoras writing in a book on his knee while a boy holds a slate of musical ratios. Numbered 03."
+    },
+    {
+      "n": 5,
+      "type": "who",
+      "headline": "The man drawing on the floor.",
+      "alt": "Euclid, bald, bending over a slate with a compass as students crowd round. Numbered 04."
+    },
+    {
+      "n": 6,
+      "type": "who",
+      "headline": "The loneliest man in the room.",
+      "alt": "Heraclitus sitting alone against a marble block, chin on his fist, writing. Numbered 05."
+    },
+    {
+      "n": 7,
+      "type": "who",
+      "headline": "Two men holding the world.",
+      "alt": "Bearded Zoroaster holding a starry sphere and crowned Ptolemy, seen from behind, holding a globe of the Earth. Numbered 06."
+    },
+    {
+      "n": 8,
+      "type": "who",
+      "headline": "The man who questioned everything.",
+      "alt": "Socrates in an olive robe counting on his fingers to a young listener. Numbered 07."
+    },
+    {
+      "n": 9,
+      "type": "who",
+      "headline": "The painter hid himself inside.",
+      "alt": "Raphael in a black cap at the far right, looking out at the viewer beside an older man in a white cap. Numbered 08."
+    },
+    {
+      "n": 10,
+      "type": "map",
+      "headline": "One wall. A world of ideas.",
+      "alt": "The whole fresco in a gold frame with eight numbered gold discs on the figures, and a key listing their names."
+    }
+  ],
+  "notes": "Who's-who style (new, 21 Nov 2026): one numbered figure per slide, full-bleed crops from the 17402 px Commons scan, numeral in the text block so it never covers a face, then a map numbering all eight. Slide 2 (Plato & Aristotle) doubles as the second hook. Old story version: archive/slides-story-v1.html (its images in img/archive/). Identifications are traditional; Euclid/Bramante and Heraclitus/Michelangelo hedged ('said to be', 'widely read as'); Zoroaster/Ptolemy hedged 'traditionally'. Raphael's self-portrait stated by the Vatican Museums. Map discs placed by eye on each figure's head."
 }

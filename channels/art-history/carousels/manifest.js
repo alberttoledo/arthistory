@@ -508,85 +508,78 @@ window.CAROUSELS = [
   "year": "1509–11",
   "museum": "Stanza della Segnatura, Vatican Museums",
   "videoFormat": "Step-inside-the-painting flythrough loop (9:16)",
-  "hook": "Ancient Athens. Famous faces.",
-  "caption": "Ancient Athens. Famous faces.\n\nRaphael was about 26 when he painted this wall in the Vatican, and he filled ancient Greece with the stars of his own Rome. Plato probably wears Leonardo's face. The brooding man on the steps is widely read as Michelangelo, and he isn't in Raphael's full-size drawing at all. Euclid is said to be Bramante, the Pope's architect. And far right, in a black beret, Raphael looks straight back at you.\n\nSwipe for the who's who, then watch the reel: we flew straight up the steps into the painting.\n\nSave this for your next Vatican visit.",
+  "hook": "Every genius in one room.",
+  "caption": "Every genius in one room. Can you name them?\n\nRaphael painted The School of Athens on a wall in the Vatican in 1509–11, and filled it with thinkers who lived centuries apart. Plato and Aristotle argue at the centre. Diogenes sprawls on the steps. Pythagoras and Euclid work out the numbers. And one young man in a black cap is looking straight back at you.\n\nSwipe for all eight, then find them on the map at the end.\n\nWhich one would you want to meet?",
   "hashtags": [
-   "#raphael",
    "#schoolofathens",
+   "#raphael",
    "#arthistory",
    "#renaissance",
-   "#vaticanmuseums",
-   "#michelangelo",
-   "#leonardodavinci",
-   "#plato",
-   "#fresco",
-   "#italianrenaissance",
-   "#arttok",
-   "#hiddendetails"
+   "#philosophy"
   ],
   "slides": [
    {
     "n": 1,
     "type": "cover",
-    "headline": "Ancient Athens. Famous faces.",
-    "alt": "Close crop of Plato pointing up and Aristotle gesturing down at the centre of the School of Athens, surrounded by philosophers."
+    "headline": "Every genius in one room.",
+    "alt": "The vaulted hall of the School of Athens with the crowd of philosophers small on the steps below."
    },
    {
     "n": 2,
-    "type": "plate",
-    "headline": "The School of Athens",
-    "alt": "The whole fresco in its lunette: a vaulted classical hall filled with philosophers on marble steps."
+    "type": "who",
+    "headline": "One points up. One points down.",
+    "alt": "Plato pointing upward with his Timaeus beside Aristotle holding his palm over the ground, Ethics under his arm. Numbered 01 of 08."
    },
    {
     "n": 3,
-    "type": "fact",
-    "headline": "26 years old.",
-    "alt": "Big number 26 beside Raphael's Uffizi self-portrait, a young man in a black beret, on a cream paper slide."
+    "type": "who",
+    "headline": "The man who rejected everything.",
+    "alt": "Diogenes sprawled alone across the marble steps in a blue robe, reading a sheet. Numbered 02."
    },
    {
     "n": 4,
-    "type": "split",
-    "headline": "Plato wears Leonardo's face.",
-    "alt": "Leonardo's red-chalk presumed self-portrait beside Raphael's bearded Plato pointing upward."
+    "type": "who",
+    "headline": "The man who heard the numbers.",
+    "alt": "Pythagoras writing in a book on his knee while a boy holds a slate of musical ratios. Numbered 03."
    },
    {
     "n": 5,
-    "type": "detail",
-    "headline": "The brooder is Michelangelo.",
-    "alt": "Heraclitus slumped against a marble block, chin on fist, writing, in heavy boots."
+    "type": "who",
+    "headline": "The man drawing on the floor.",
+    "alt": "Euclid, bald, bending over a slate with a compass as students crowd round. Numbered 04."
    },
    {
     "n": 6,
-    "type": "split",
-    "headline": "He wasn't in the plan.",
-    "alt": "Raphael's preparatory cartoon in Milan with an empty space on the steps, above the same area of the fresco where Heraclitus now sits."
+    "type": "who",
+    "headline": "The loneliest man in the room.",
+    "alt": "Heraclitus sitting alone against a marble block, chin on his fist, writing. Numbered 05."
    },
    {
     "n": 7,
-    "type": "detail",
-    "headline": "Euclid is the Pope's architect.",
-    "alt": "Euclid, bald and bent over a slate with a compass, surrounded by young students; a gold marker rings his head."
+    "type": "who",
+    "headline": "Two men holding the world.",
+    "alt": "Bearded Zoroaster holding a starry sphere and crowned Ptolemy, seen from behind, holding a globe of the Earth. Numbered 06."
    },
    {
     "n": 8,
-    "type": "strip",
-    "headline": "More regulars on the steps",
-    "alt": "Four tall cut-up panels: Socrates gesturing, Pythagoras writing, Diogenes sprawled on the steps, and the figure in white."
+    "type": "who",
+    "headline": "The man who questioned everything.",
+    "alt": "Socrates in an olive robe counting on his fingers to a young listener. Numbered 07."
    },
    {
     "n": 9,
-    "type": "loupe",
-    "headline": "One man is looking at you.",
-    "alt": "Small full fresco with a gold leader line to a large circular zoom of Raphael's self-portrait in a black beret at the far right edge."
+    "type": "who",
+    "headline": "The painter hid himself inside.",
+    "alt": "Raphael in a black cap at the far right, looking out at the viewer beside an older man in a white cap. Numbered 08."
    },
    {
     "n": 10,
-    "type": "cta",
-    "headline": "Now step inside.",
-    "alt": "Phone frame showing the first frame of our flythrough film: the vaulted hall with Plato and Aristotle on the steps."
+    "type": "map",
+    "headline": "One wall. A world of ideas.",
+    "alt": "The whole fresco in a gold frame with eight numbered gold discs on the figures, and a key listing their names."
    }
   ],
-  "notes": "Identifications (Leonardo/Plato, Michelangelo/Heraclitus, Bramante/Euclid) are traditional and hedged in copy; Raphael self-portrait is stated by the Vatican Museums. Hypatia explicitly framed as unknown. Heraclitus-late evidence (intonaco, absent from cartoon) per WGA and Wikipedia; worded 'suggests'. Age 26 is approximate (born 1483, wall begun c.1509). Cartoon panel is an approximate match of the same area, not pixel-registered.",
+  "notes": "Who's-who style (new, 21 Nov 2026): one numbered figure per slide, full-bleed crops from the 17402 px Commons scan, numeral in the text block so it never covers a face, then a map numbering all eight. Slide 2 (Plato & Aristotle) doubles as the second hook. Old story version: archive/slides-story-v1.html (its images in img/archive/). Identifications are traditional; Euclid/Bramante and Heraclitus/Michelangelo hedged ('said to be', 'widely read as'); Zoroaster/Ptolemy hedged 'traditionally'. Raphael's self-portrait stated by the Vatican Museums. Map discs placed by eye on each figure's head.",
   "renders": [
    "06-raphael-school-of-athens/renders/01.jpg",
    "06-raphael-school-of-athens/renders/02.jpg",
@@ -599,7 +592,7 @@ window.CAROUSELS = [
    "06-raphael-school-of-athens/renders/09.jpg",
    "06-raphael-school-of-athens/renders/10.jpg"
   ],
-  "sources": "# Sources — 06 The School of Athens (Raphael)\n\n## Facts\n- Dates 1509–11, fresco, c. 500 × 770 cm; Plato holds *Timaeus*, Aristotle *Ethics*; Leonardo probably as Plato; Michelangelo as Heraclitus; Bramante as Euclid; Raphael self-portrait beside Ptolemy; cartoon in the Pinacoteca Ambrosiana lacks Heraclitus; white-robed figure's identity unknown (Hypatia or Francesco Maria della Rovere often suggested); architecture inspired by Bramante / new St Peter's — https://en.wikipedia.org/wiki/The_School_of_Athens\n- Vatican Museums: Plato points upward holding *Timaeus*; Heraclitus leaning on a marble block is \"a portrait of Michelangelo\", who was then painting the nearby Sistine Chapel; Raphael's self-portrait is the figure on the extreme right in a black beret; architecture inspired by Bramante's project for St Peter's — https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html\n- Web Gallery of Art: \"Leonardo is ... probably shown as Plato\"; \"Bramante is shown as Euclid\"; intonaco shows Heraclitus \"was the last figure painted when the fresco was completed, in 1511\"; Raphael at extreme right with a dark hat beside his friend Sodoma — https://www.wga.hu/html/r/raphael/4stanze/1segnatu/1/athens.html\n- Heraclitus/Michelangelo as a later homage, discussed as a much-loved but debated story — https://dornsife.usc.edu/decameronline/2023/08/04/our-stories-day-3/\n- Raphael born 1483 (Urbino); age \"about 26\" at the start of the fresco is an approximation — https://en.wikipedia.org/wiki/Raphael\n- No quote slides used.\n\n## Images\n| File | Source | Licence |\n|---|---|---|\n| `img/cover.jpg`, `full.jpg`, `plato.jpg`, `heraclitus.jpg`, `fresco_gap.jpg`, `euclid.jpg`, `strip_*.jpg`, `raphael_loupe.jpg` | Crops from our scan `assets/sources/school_of_athens_3820.jpg` (Raphael, fresco, 1509–11) | Public domain (2D reproduction of PD work) |\n| `img/cartoon_gap.jpg` (raw: `img/_raw/cartoon.jpg`) | Raphael, cartoon for the School of Athens, Pinacoteca Ambrosiana — https://commons.wikimedia.org/wiki/File:Ambrosiana-Raffaello-Sanzio-La-Scuola-di-Atene-cartone-prepa.jpg | Public domain |\n| `img/leonardo.jpg` (raw: `img/_raw/leonardo.jpg`) | Leonardo da Vinci, presumed self-portrait, red chalk, Biblioteca Reale, Turin — https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg | Public domain |\n| `img/raphael_uffizi.jpg` (raw: `img/_raw/raphael_uffizi.jpg`) | Raphael, Self-portrait, c. 1504–06, Uffizi — https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg | Public domain |\n| `img/first_frame.jpg` | Our film's AI first frame `assets/athens/athens_first_frame_ai_1080.png` | Own asset |\n"
+  "sources": "# Sources — 06 The School of Athens (Raphael)\n\n## Facts\n- Dates 1509–11, fresco, c. 500 × 770 cm; Plato holds *Timaeus*, Aristotle *Ethics*; Leonardo probably as Plato; Michelangelo as Heraclitus; Bramante as Euclid; Raphael self-portrait beside Ptolemy; cartoon in the Pinacoteca Ambrosiana lacks Heraclitus; white-robed figure's identity unknown (Hypatia or Francesco Maria della Rovere often suggested); architecture inspired by Bramante / new St Peter's — https://en.wikipedia.org/wiki/The_School_of_Athens\n- Vatican Museums: Plato points upward holding *Timaeus*; Heraclitus leaning on a marble block is \"a portrait of Michelangelo\", who was then painting the nearby Sistine Chapel; Raphael's self-portrait is the figure on the extreme right in a black beret; architecture inspired by Bramante's project for St Peter's — https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html\n- Web Gallery of Art: \"Leonardo is ... probably shown as Plato\"; \"Bramante is shown as Euclid\"; intonaco shows Heraclitus \"was the last figure painted when the fresco was completed, in 1511\"; Raphael at extreme right with a dark hat beside his friend Sodoma — https://www.wga.hu/html/r/raphael/4stanze/1segnatu/1/athens.html\n- Heraclitus/Michelangelo as a later homage, discussed as a much-loved but debated story — https://dornsife.usc.edu/decameronline/2023/08/04/our-stories-day-3/\n- Raphael born 1483 (Urbino); age \"about 26\" at the start of the fresco is an approximation — https://en.wikipedia.org/wiki/Raphael\n- No quote slides used.\n\n## Facts for the who's-who version (Nov 2026)\n- Plato holds the Timaeus and points up; Aristotle holds the Ethics, palm toward the earth: https://en.wikipedia.org/wiki/The_School_of_Athens\n- Diogenes on the steps; lived in a large jar (pithos) in Athens: https://en.wikipedia.org/wiki/Diogenes\n- Pythagoras writing, with a boy holding a slate of harmonic ratios; Euclid (or Archimedes) with compass, said to be Bramante; Heraclitus as Michelangelo; Zoroaster with the celestial sphere and Ptolemy with the terrestrial globe; Socrates counting arguments on his fingers; Raphael's self-portrait at far right: https://en.wikipedia.org/wiki/The_School_of_Athens and https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html\n- Socrates wrote nothing; known through Plato and Xenophon: https://en.wikipedia.org/wiki/Socrates\n\n## Images (who's-who version)\n| File | Source | Licence |\n|---|---|---|\n| `img/who_*.jpg` (raw: `img/_raw/soa_17402.jpg`, git-ignored) | \"The School of Athens by Raffaello Sanzio da Urbino.jpg\", 17402 × 12132, https://commons.wikimedia.org/wiki/File:The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino.jpg | Public domain |\n\n## Images (old story version, now in img/archive/)\n\n| File | Source | Licence |\n|---|---|---|\n| `img/archive/cover.jpg`, `full.jpg`, `plato.jpg`, `heraclitus.jpg`, `fresco_gap.jpg`, `euclid.jpg`, `strip_*.jpg`, `raphael_loupe.jpg` | Crops from our scan `assets/sources/school_of_athens_3820.jpg` (Raphael, fresco, 1509–11) | Public domain (2D reproduction of PD work) |\n| `img/archive/cartoon_gap.jpg` (raw: `img/archive/_raw/cartoon.jpg`) | Raphael, cartoon for the School of Athens, Pinacoteca Ambrosiana — https://commons.wikimedia.org/wiki/File:Ambrosiana-Raffaello-Sanzio-La-Scuola-di-Atene-cartone-prepa.jpg | Public domain |\n| `img/archive/leonardo.jpg` (raw: `img/archive/_raw/leonardo.jpg`) | Leonardo da Vinci, presumed self-portrait, red chalk, Biblioteca Reale, Turin — https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg | Public domain |\n| `img/archive/raphael_uffizi.jpg` (raw: `img/archive/_raw/raphael_uffizi.jpg`) | Raphael, Self-portrait, c. 1504–06, Uffizi — https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg | Public domain |\n| `img/archive/first_frame.jpg` | Our film's AI first frame `assets/athens/athens_first_frame_ai_1080.png` | Own asset |\n"
  },
  {
   "slug": "07-degas-rehearsal",
@@ -727,9 +720,9 @@ window.CAROUSELS = [
    },
    {
     "n": 2,
-    "type": "plate",
-    "headline": "The Last Supper",
-    "alt": "The whole mural in a gold frame: thirteen figures behind a long white table in a coffered hall, a bricked-up doorway cut into the bottom centre."
+    "type": "hook",
+    "headline": "It started falling apart while he was alive.",
+    "alt": "The whole mural in a gold frame: thirteen figures behind a long white table, a bricked-up doorway cut into the bottom centre, above the line: It started falling apart while he was alive. Blame the way he chose to paint it."
    },
    {
     "n": 3,
@@ -780,7 +773,7 @@ window.CAROUSELS = [
     "alt": "Christ at the centre of the table, hands spread, flaking paint across his robe, with the closing line about the irony."
    }
   ],
-  "notes": "Arc: Leonardo's slowness is why he refused fresco, and the dry-wall technique is why it decayed. No film plug on the last slide; slide chrome is off (data-chrome=\"off\"). Bandello: late, memory-based anecdote from the preface to one of his novelle; he was the nephew of the prior Vincenzo Bandello. Copy paraphrases, no quote. 1517: Antonio de Beatis, travelling with Cardinal Luigi d'Aragona, wrote that it 'is beginning to decay' (quoted on the Cenacolo museum site); Leonardo died 1519. Nail hole: secondary sources, hedged 'likely'. Vanishing-point lines drawn by eye. 'A few minutes each': visits are timed (commonly 15 min). Images: philip.jpg, christ_wide.jpg cut from the 9600px Commons file; feet_copy.jpg cut from the Giampietrino copy.",
+  "notes": "Slide 2 is a second hook (Instagram re-shows carousels starting at slide 2), so it stands alone: whole painting + its own hook. Arc: Leonardo's slowness is why he refused fresco, and the dry-wall technique is why it decayed. No film plug on the last slide; only the handle is on the slides (data-chrome=\"handle\"), no Swipe on the cover. Bandello: late, memory-based anecdote from the preface to one of his novelle; he was the nephew of the prior Vincenzo Bandello. Copy paraphrases, no quote. 1517: Antonio de Beatis, travelling with Cardinal Luigi d'Aragona, wrote that it 'is beginning to decay' (quoted on the Cenacolo museum site); Leonardo died 1519. Nail hole: secondary sources, hedged 'likely'. Vanishing-point lines drawn by eye. 'A few minutes each': visits are timed (commonly 15 min). Images: philip.jpg, christ_wide.jpg cut from the 9600px Commons file; feet_copy.jpg cut from the Giampietrino copy.",
   "renders": [
    "08-leonardo-last-supper/renders/01.jpg",
    "08-leonardo-last-supper/renders/02.jpg",
@@ -793,6 +786,6 @@ window.CAROUSELS = [
    "08-leonardo-last-supper/renders/09.jpg",
    "08-leonardo-last-supper/renders/10.jpg"
   ],
-  "sources": "# Sources: No. 08, The Last Supper\n\n## Facts\n- Size 460 × 880 cm; c. 1495–98; tempera on a dry wall prepared with gesso, pitch and mastic; the moment after \"one of you will betray me\" (John 13); apostles in four groups of three (Bartholomew, James son of Alphaeus, Andrew / Judas, Peter, John / Thomas, James the Greater, Philip / Matthew, Jude Thaddeus, Simon); Peter holds a knife; Judas in shadow clutching a small bag; \"betraying the salt\" (hedged); Christ's head at the vanishing point; Vasari's \"muddle of blots\" (1556); 1796 French troops used the refectory as an armoury and stable; Giampietrino copy (c. 1520, Royal Academy) preserves Christ's feet and Judas's spilled salt and guided the 1978–99 restoration; The Da Vinci Code / Mary Magdalene vs John. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n- Oil and tempera on a dry wall; deterioration by 1517; door cut c. 1652 \"destroying the area in which Jesus's feet were depicted\"; French forces used the refectory as stables (1796); 1943 RAF bomb destroyed the refectory roof; painting protected by sandbags, mattresses and pillows; Pinin Brambilla Barcilon's 21-year restoration, finished 28 May 1999. https://en.wikipedia.org/wiki/Conservation-restoration_of_Leonardo_da_Vinci%27s_The_Last_Supper\n- Nail hole in Christ's head found during restoration, used for the perspective strings: arte.it, https://www.arte.it/leonardo/loc/ultima-cena-211 ; also https://discoveringdavinci.com/works/paintings/last-supper/composition-and-perspective.html (secondary sources, so hedged as \"likely\" in the copy)\n- Giampietrino and Boltraffio copy, Royal Academy of Arts, c. 1515–20, oil on canvas, 302 × 785 cm: https://www.royalacademy.org.uk/art-artists/work-of-art/the-last-supper and https://artsandculture.google.com/story/IQWBB2AzvHUmKQ\n- Head of Judas, red chalk on red prepared paper, c. 1495 or later, RCIN 912547. The catalogue says it \"registers mild surprise rather than evil intent.\" https://col.rct.uk/collection/912547/the-head-of-judas\n- Kicker on slide 5: \"One of you will betray me.\" paraphrase of John 13:21.\n- Bandello's account (Leonardo painting dawn to dusk without eating; other days only contemplating, then climbing up for a stroke or two): Matteo Bandello, preface to Novella I.58, written decades later from memory. Summaries: https://www.ebsco.com/research-starters/history/leonardo-da-vinci-paints-last-supper and Charles Nicholl, Leonardo da Vinci: The Flights of the Mind, https://erenow.org/biographies/leonardo-da-vinci-the-flights-of-the-mind/50.php . Bandello was the nephew of the prior, Vincenzo Bandello: https://en.wikipedia.org/wiki/Vincenzo_Bandello\n- 1517, Antonio de Beatis: \"is beginning to decay\": Cenacolo Vinciano museum, https://cenacolovinciano.org/en/museum/backstage/ ; context (visit with Cardinal Luigi d'Aragona, Dec 1517): Zöllner, https://archiv.ub.uni-heidelberg.de/artdok/4643/1/Zoellner_Leonardo_da_Vincis_Abendmahl_Zwischen_Kanonisierung_und_Kontextualisierung.pdf\n- Fresco vs secco: true fresco is painted into wet plaster in daily sections; Leonardo's tempera and oil on a dry, primed wall let him work slowly and revise, but didn't bond with the wall. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n\n## Images\n| File | Source | Licence |\n|---|---|---|\n| img/cover.jpg, full.jpg, persp.jpg, philip.jpg, christ_wide.jpg, hands.jpg (unused), triad1–4.jpg, judas.jpg, john.jpg, door_orig.jpg, flake.jpg, glass_loupe.jpg (from _raw/lastsupper_9600.jpg, also saved as assets/lastsupper/lastsupper_full_9600.jpg) | \"The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg\", 9600 × 4800, https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg | Public domain |\n| img/door_copy.jpg (unused now), img/feet_copy.jpg (Christ's feet), both from _raw/giampietrino_2100.jpg | \"Giampietrino-Last-Supper-ca-1520.jpg\", https://commons.wikimedia.org/wiki/File:Giampietrino-Last-Supper-ca-1520.jpg | Public domain |\n| _raw/giampietrino_ra.jpg (unused) | https://commons.wikimedia.org/wiki/File:Giampietrino_(active_1500-1550)_-_The_Last_Supper_(copy_after_Leonardo_da_Vinci)_-_03-1230_-_Royal_Academy_of_Arts.jpg | Public domain |\n| img/study_venice.jpg | \"Leonardo da vinci, Study for the Last Supper.jpg\", red chalk, c. 1494–95, Gallerie dell'Accademia, Venice, https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Study_for_the_Last_Supper.jpg | Public domain |\n| img/judas_drawing.jpg | \"Leonardo da Vinci - RCIN 912547, The head of Judas c.1495 or later.jpg\", https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912547,_The_head_of_Judas_c.1495_or_later.jpg | Public domain |\n| _raw/stjames_jacobus.jpg (unused) | \"Jacobus Maior (da Vinci).jpg\", https://commons.wikimedia.org/wiki/File:Jacobus_Maior_(da_Vinci).jpg | Public domain |\n| img/bomb1943.jpg | \"Santa Maria delle Grazie (Milan) - bombardamento del 1943.jpg\", unknown photographer, https://commons.wikimedia.org/wiki/File:Santa_Maria_delle_Grazie_(Milan)_-_bombardamento_del_1943.jpg | Public domain (as tagged on Commons; 676 px only) |\n| img/first_frame.jpg (unused now) | Our film's first frame: assets/lastsupper/lastsupper_first_frame_ai.png | Ours |\n"
+  "sources": "# Sources: No. 08, The Last Supper\n\n## Facts\n- Size 460 × 880 cm; c. 1495–98; tempera on a dry wall prepared with gesso, pitch and mastic; the moment after \"one of you will betray me\" (John 13); apostles in four groups of three (Bartholomew, James son of Alphaeus, Andrew / Judas, Peter, John / Thomas, James the Greater, Philip / Matthew, Jude Thaddeus, Simon); Peter holds a knife; Judas in shadow clutching a small bag; \"betraying the salt\" (hedged); Christ's head at the vanishing point; Vasari's \"muddle of blots\" (1556); 1796 French troops used the refectory as an armoury and stable; Giampietrino copy (c. 1520, Royal Academy) preserves Christ's feet and Judas's spilled salt and guided the 1978–99 restoration; The Da Vinci Code / Mary Magdalene vs John. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n- Oil and tempera on a dry wall; deterioration by 1517; door cut c. 1652 \"destroying the area in which Jesus's feet were depicted\"; French forces used the refectory as stables (1796); 1943 RAF bomb destroyed the refectory roof; painting protected by sandbags, mattresses and pillows; Pinin Brambilla Barcilon's 21-year restoration, finished 28 May 1999. https://en.wikipedia.org/wiki/Conservation-restoration_of_Leonardo_da_Vinci%27s_The_Last_Supper\n- Nail hole in Christ's head found during restoration, used for the perspective strings: arte.it, https://www.arte.it/leonardo/loc/ultima-cena-211 ; also https://discoveringdavinci.com/works/paintings/last-supper/composition-and-perspective.html (secondary sources, so hedged as \"likely\" in the copy)\n- Giampietrino and Boltraffio copy, Royal Academy of Arts, c. 1515–20, oil on canvas, 302 × 785 cm: https://www.royalacademy.org.uk/art-artists/work-of-art/the-last-supper and https://artsandculture.google.com/story/IQWBB2AzvHUmKQ\n- Head of Judas, red chalk on red prepared paper, c. 1495 or later, RCIN 912547. The catalogue says it \"registers mild surprise rather than evil intent.\" https://col.rct.uk/collection/912547/the-head-of-judas\n- Kicker on slide 5: \"One of you will betray me.\" paraphrase of John 13:21.\n- Bandello's account (Leonardo painting dawn to dusk without eating; other days only contemplating, then climbing up for a stroke or two): Matteo Bandello, preface to Novella I.58, written decades later from memory. Summaries: https://www.ebsco.com/research-starters/history/leonardo-da-vinci-paints-last-supper and Charles Nicholl, Leonardo da Vinci: The Flights of the Mind, https://erenow.org/biographies/leonardo-da-vinci-the-flights-of-the-mind/50.php . Bandello was the nephew of the prior, Vincenzo Bandello: https://en.wikipedia.org/wiki/Vincenzo_Bandello\n- 1517, Antonio de Beatis: \"is beginning to decay\": Cenacolo Vinciano museum, https://cenacolovinciano.org/en/museum/backstage/ ; context (visit with Cardinal Luigi d'Aragona, Dec 1517): Zöllner, https://archiv.ub.uni-heidelberg.de/artdok/4643/1/Zoellner_Leonardo_da_Vincis_Abendmahl_Zwischen_Kanonisierung_und_Kontextualisierung.pdf\n- Fresco vs secco: true fresco is painted into wet plaster in daily sections; Leonardo's tempera and oil on a dry, primed wall let him work slowly and revise, but didn't bond with the wall. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n\n## Images\n| File | Source | Licence |\n|---|---|---|\n| img/cover.jpg, full.jpg, persp.jpg, philip.jpg, christ_wide.jpg, triad1–4.jpg, judas.jpg, john.jpg, door_orig.jpg, flake.jpg, glass_loupe.jpg (from _raw/lastsupper_9600.jpg, also saved as assets/lastsupper/lastsupper_full_9600.jpg) | \"The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg\", 9600 × 4800, https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg | Public domain |\n| img/door_copy.jpg (unused now), img/feet_copy.jpg (Christ's feet), both from _raw/giampietrino_2100.jpg | \"Giampietrino-Last-Supper-ca-1520.jpg\", https://commons.wikimedia.org/wiki/File:Giampietrino-Last-Supper-ca-1520.jpg | Public domain |\n| _raw/giampietrino_ra.jpg (unused) | https://commons.wikimedia.org/wiki/File:Giampietrino_(active_1500-1550)_-_The_Last_Supper_(copy_after_Leonardo_da_Vinci)_-_03-1230_-_Royal_Academy_of_Arts.jpg | Public domain |\n| img/study_venice.jpg | \"Leonardo da vinci, Study for the Last Supper.jpg\", red chalk, c. 1494–95, Gallerie dell'Accademia, Venice, https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Study_for_the_Last_Supper.jpg | Public domain |\n| img/judas_drawing.jpg | \"Leonardo da Vinci - RCIN 912547, The head of Judas c.1495 or later.jpg\", https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912547,_The_head_of_Judas_c.1495_or_later.jpg | Public domain |\n| _raw/stjames_jacobus.jpg (unused) | \"Jacobus Maior (da Vinci).jpg\", https://commons.wikimedia.org/wiki/File:Jacobus_Maior_(da_Vinci).jpg | Public domain |\n| img/bomb1943.jpg | \"Santa Maria delle Grazie (Milan) - bombardamento del 1943.jpg\", unknown photographer, https://commons.wikimedia.org/wiki/File:Santa_Maria_delle_Grazie_(Milan)_-_bombardamento_del_1943.jpg | Public domain (as tagged on Commons; 676 px only) |\n| img/first_frame.jpg (unused now) | Our film's first frame: assets/lastsupper/lastsupper_first_frame_ai.png | Ours |\n"
  }
 ];

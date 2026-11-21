@@ -1,149 +1,142 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
 <style>
-  /* 03 — fact on paper with a torn self-portrait */
-  .s-26 .num { position: absolute; left: var(--pad); top: 200px; z-index: 35; font-size: 400px; }
-  .s-26 .unit { position: absolute; left: calc(var(--pad) + 10px); top: 560px; z-index: 35; }
-  .s-26 .torn { right: 96px; top: 176px; width: 420px; height: 580px; transform: rotate(3deg); }
-  .s-26 .block { top: 790px; }
-  /* 04 — split, a little shorter to leave room for copy */
-  .s-twins .split { height: 640px; }
-  /* 06 — cartoon vs fresco, stacked */
-  .stack { position: absolute; left: var(--pad); right: var(--pad); top: 150px; display: grid; gap: 22px; }
-  .stack figure { position: relative; height: 362px; overflow: hidden; box-shadow: 0 20px 50px rgba(70,50,20,.35); }
-  .stack img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  .stack figcaption { position: absolute; left: 0; bottom: 0; padding: 12px 16px; background: var(--ink); font: 500 17px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
-  .stack .ring { position: absolute; border: 3px dashed var(--oxblood); border-radius: 50%; }
-  /* 08 — strip */
-  .s-who .strip { height: 640px; }
-  .s-who .legend li { font-size: 28px; }
-  /* 09 — loupe */
-  .mini { position: absolute; left: var(--pad); top: 168px; width: 480px; height: 372px; z-index: 34; }
-  .mini img { width: 100%; height: 100%; object-fit: cover; display: block; }
-  /* 01 — deeper shade so type holds over the bright steps */
-  .s-cover.shade-bottom::after { height: 900px; background: linear-gradient(transparent, rgba(13,11,9,.78) 38%, rgba(13,11,9,.95) 70%); }
+  /* "Who's who" style: one numbered figure per slide, full-bleed crop, then a map that numbers them all. */
+  .s-cover .bleed { object-position: 50% 40%; }
+  .s-cover.shade-bottom::after { height: 760px; background: linear-gradient(transparent, rgba(13,11,9,.78) 42%, rgba(13,11,9,.96) 72%); }
   .s-cover .kicker, .s-cover .h-xl { text-shadow: 0 2px 24px rgba(0,0,0,.6); }
-</style>
-</head>
-<body data-no="06" data-title="The School of Athens">
+
+  /* the who card */
+  .who .bleed { object-position: 50% 30%; }
+  .who.shade-bottom::after { height: 700px; background: linear-gradient(transparent, rgba(13,11,9,.8) 40%, rgba(13,11,9,.96) 70%); }
+    .who .no { display: flex; align-items: baseline; gap: 14px; margin-bottom: 22px; }
+  .who .no b { font: italic 500 120px/.8 var(--display); color: var(--gold); text-shadow: 0 4px 30px rgba(0,0,0,.55); }
+  .who .no span { font: 500 20px/1 var(--mono); letter-spacing: .2em; color: var(--paper); opacity: .8; }
+  .who .who-name { font: 500 22px/1.3 var(--mono); letter-spacing: .22em; text-transform: uppercase; color: var(--gold); }
+  .who .h-m { margin-top: 18px; }
+
+  /* the map */
+  .s-map .frame { position: absolute; left: var(--pad); right: var(--pad); top: 110px; height: 661px; }
+  .disc { position: absolute; z-index: 37; width: 38px; height: 38px; margin: -19px 0 0 -19px; border-radius: 50%; background: var(--gold); color: var(--ink); font: 600 18px/38px var(--mono); text-align: center; box-shadow: 0 0 0 3px rgba(13,11,9,.6), 0 6px 16px rgba(0,0,0,.5); }
+  .key { grid-auto-flow: column; grid-template-rows: repeat(4, auto); position: absolute; left: var(--pad); right: var(--pad); top: 832px; z-index: 35; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 40px; list-style: none; }
+  .key li { font: 400 25px/1.3 var(--body); display: flex; gap: 14px; align-items: center; }
+  .key li i { font: 600 15px/28px var(--mono); font-style: normal; width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--gold); color: var(--gold); text-align: center; flex: none; }
+  .s-map .block.bottom { bottom: 120px; }
+</style></head>
+<body data-title="The School of Athens" data-chrome="handle">
 
 <!-- 01 COVER -->
-<section class="slide s-cover shade-top shade-bottom">
-  <img class="bleed" src="img/cover.jpg" style="object-position:50% 0%">
+<section class="slide s-cover shade-bottom">
+  <img class="bleed" src="img/who_cover.jpg">
   <div class="block bottom">
-    <div class="kicker">Raphael · 1509–11</div>
-    <h1 class="h-xl">Ancient Athens. <em>Famous</em> faces.</h1>
-    <p class="lede">Raphael hid Rome's stars among the sages.</p>
-    <div class="rule"></div><span class="swipe">Swipe</span>
+    <div class="kicker">Raphael · Vatican · 1509–11</div>
+    <h1 class="h-xl">Every genius in one <em>room</em>.</h1>
+    <p class="lede">Raphael painted history's greatest minds together. Can you name them?</p>
   </div>
 </section>
 
-<!-- 02 PLATE -->
-<section class="slide s-plate">
-  <div class="frame" style="height:708px"><img src="img/full.jpg"></div>
-  <div class="label">
-    <div class="t">The School of Athens</div>
-    <div class="a">Raphael (Raffaello Sanzio)<br>Fresco, 1509–11</div>
-    <div class="m">c. 500 × 770 cm<br>Stanza della Segnatura, Vatican</div>
-  </div>
-</section>
-
-<!-- 03 FACT (paper) -->
-<section class="slide paper s-fact s-26">
-  <div class="num">26</div>
-  <div class="unit">years old.</div>
-  <div class="torn"><img src="img/raphael_uffizi.jpg" style="object-position:50% 20%"><span class="tag">Raphael, self-portrait · c. 1506</span></div>
-  <div class="block">
-    <div class="rule" style="margin:0 0 30px;background:var(--oxblood)"></div><div class="kicker" style="color:var(--oxblood)">The new boy in Rome</div>
-    <p class="copy" style="margin-top:22px">That's roughly how old Raphael was when Pope Julius II handed him the walls of a private room in the Vatican. Nearby, <b>Michelangelo</b> was up a scaffold, painting the Sistine ceiling.</p>
-  </div>
-</section>
-
-<!-- 04 SPLIT Plato / Leonardo -->
-<section class="slide s-twins">
-  <div class="split">
-    <figure><img src="img/leonardo.jpg"><figcaption>Leonardo · red chalk</figcaption></figure>
-    <figure><img src="img/plato.jpg" style="object-position:50% 20%"><figcaption>Plato · 1509–11</figcaption></figure>
-  </div>
+<!-- 02 PLATO + ARISTOTLE (the second hook) -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_plato.jpg">
   <div class="block bottom">
-    <div class="kicker">The centre</div>
-    <h2 class="h-m">Plato wears <em>Leonardo's</em> face.</h2>
-    <p class="copy">Plato points up, to ideas. Aristotle's palm presses down, to this world. Historians think Raphael gave Plato the old master's beard.</p>
+    <div class="no"><b>01</b><span>/ 08</span></div>
+    <div class="who-name">Plato &amp; Aristotle</div>
+    <h2 class="h-m">One points up. One points <em>down</em>.</h2>
+    <p class="copy">Plato aims at the heavens: ideas come first. Aristotle holds his palm over the earth: start with what you can see. Their whole argument, in two hands.</p>
   </div>
 </section>
 
-<!-- 05 DETAIL Heraclitus -->
-<section class="slide s-detail">
-  <div class="crop"><img src="img/heraclitus.jpg" style="object-position:50% 20%"></div>
-  <div class="block">
-    <div class="kicker">Detail · the loner</div>
-    <h2 class="h-m">The brooder is <em>Michelangelo</em>.</h2>
-    <p class="copy">Heraclitus sits apart, chin on fist, in stonecutter's boots. He is widely read as Raphael's portrait of his great rival.</p>
-  </div>
-</section>
-
-<!-- 06 CARTOON vs FRESCO (paper) -->
-<section class="slide paper">
-  <div class="stack">
-    <figure><img src="img/cartoon_gap.jpg"><figcaption>The cartoon · Ambrosiana, Milan</figcaption>
-      <div class="ring" style="left:250px;top:120px;width:300px;height:220px"></div></figure>
-    <figure><img src="img/fresco_gap.jpg"><figcaption>The fresco · Vatican</figcaption></figure>
-  </div>
+<!-- 03 DIOGENES -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_diogenes.jpg" style="object-position:40% 30%">
   <div class="block bottom">
-    <h2 class="h-m">He wasn't in the <em>plan</em>.</h2>
-    <p class="copy">Raphael's full-size drawing has an empty step. The plaster suggests Heraclitus was the last figure painted, in 1511. Many think it was a tribute after seeing the Sistine ceiling.</p>
+    <div class="no"><b>02</b><span>/ 08</span></div>
+    <div class="who-name">Diogenes</div>
+    <h2 class="h-m">The man who rejected <em>everything</em>.</h2>
+    <p class="copy">He lived in a clay jar and mocked wealth and power. Raphael gives him the steps to himself, sprawled out like he owns them.</p>
   </div>
 </section>
 
-<!-- 07 DETAIL Euclid / Bramante -->
-<section class="slide s-detail">
-  <div class="crop"><img src="img/euclid.jpg"><div class="marker" style="left:520px;top:282px;width:210px;height:210px"><b>1</b></div></div>
-  <div class="block">
-    <div class="kicker">Detail · the architect</div>
-    <h2 class="h-m">Euclid is the Pope's <em>architect</em>.</h2>
-    <p class="copy">Bent over a slate with a compass: Bramante, says tradition. He was designing the new St Peter's, and the vaulted hall above echoes it.</p>
-  </div>
-</section>
-
-<!-- 08 STRIP who's who -->
-<section class="slide s-who">
-  <div class="strip">
-    <figure><img src="img/strip_socrates.jpg"><figcaption>1</figcaption></figure>
-    <figure><img src="img/strip_pythagoras.jpg"><figcaption>2</figcaption></figure>
-    <figure><img src="img/strip_diogenes.jpg"><figcaption>3</figcaption></figure>
-    <figure><img src="img/strip_woman.jpg"><figcaption>4</figcaption></figure>
-  </div>
+<!-- 04 PYTHAGORAS -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_pythagoras.jpg">
   <div class="block bottom">
-    <h2 class="h-s" style="margin-bottom:26px">More <em>regulars</em> on the steps</h2>
-    <ol class="legend">
-      <li>Socrates, counting arguments on his fingers</li>
-      <li>Pythagoras, writing in a book</li>
-      <li>Diogenes, sprawled across the steps</li>
-      <li>The figure in white. Hypatia? No one knows.</li>
-    </ol>
+    <div class="no"><b>03</b><span>/ 08</span></div>
+    <div class="who-name">Pythagoras</div>
+    <h2 class="h-m">The man who heard the <em>numbers</em>.</h2>
+    <p class="copy">He writes in his book while a boy holds up a slate of musical ratios. He believed the whole universe ran on number and harmony.</p>
   </div>
 </section>
 
-<!-- 09 LOUPE Raphael -->
-<section class="slide">
-  <div class="mini hair"><img src="img/full.jpg"></div>
-  <div class="marker" style="left:500px;top:350px;width:34px;height:34px"></div>
-  <div class="leader" style="left:517px;top:367px;width:363px;transform:rotate(48.8deg)"></div>
-  <div class="loupe" style="left:516px;top:400px;width:480px;height:480px"><img src="img/raphael_loupe.jpg"></div>
+<!-- 05 EUCLID -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_euclid.jpg">
   <div class="block bottom">
-    <div class="kicker">Look again</div>
-    <h2 class="h-m">One man is <em>looking</em> at you.</h2>
-    <p class="copy">Far right, black beret, eyes on ours. It's Raphael himself, standing beside a fellow painter. He signed this wall with his face.</p>
+    <div class="no"><b>04</b><span>/ 08</span></div>
+    <div class="who-name">Euclid</div>
+    <h2 class="h-m">The man drawing on the <em>floor</em>.</h2>
+    <p class="copy">Bent over a slate with a compass, students crowding in. His face is said to be Bramante's, the Pope's architect.</p>
   </div>
 </section>
 
-<!-- 10 CTA -->
-<section class="slide s-cta">
-  <div class="phone"><img src="img/first_frame.jpg"><div class="play"></div></div>
-  <div class="block" style="top:330px;right:560px">
-    <div class="kicker">The film</div>
-    <h2 class="h-l">Now step <em>inside</em>.</h2>
-    <p class="copy" style="margin-top:24px">Walk up the steps, past Plato and Aristotle. Watch the film on our page.</p>
-    <div class="actions"><span>Save</span><span>Share</span></div>
+<!-- 06 HERACLITUS -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_heraclitus.jpg">
+  <div class="block bottom">
+    <div class="no"><b>05</b><span>/ 08</span></div>
+    <div class="who-name">Heraclitus</div>
+    <h2 class="h-m">The loneliest man in the <em>room</em>.</h2>
+    <p class="copy">Alone, chin on fist, lost in thought. His face is widely read as Michelangelo's, who was painting the Sistine ceiling nearby at the same time.</p>
+  </div>
+</section>
+
+<!-- 07 ZOROASTER + PTOLEMY -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_globes.jpg">
+  <div class="block bottom">
+    <div class="no"><b>06</b><span>/ 08</span></div>
+    <div class="who-name">Zoroaster &amp; Ptolemy</div>
+    <h2 class="h-m">Two men holding the <em>world</em>.</h2>
+    <p class="copy">Traditionally, the bearded Zoroaster holds the heavens, a sphere of stars. Ptolemy, crowned and turned away, holds the Earth.</p>
+  </div>
+</section>
+
+<!-- 08 SOCRATES -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_socrates.jpg">
+  <div class="block bottom">
+    <div class="no"><b>07</b><span>/ 08</span></div>
+    <div class="who-name">Socrates</div>
+    <h2 class="h-m">The man who questioned <em>everything</em>.</h2>
+    <p class="copy">He ticks off his points on his fingers. He never wrote a word down. Everything we know of him comes from students like Plato.</p>
+  </div>
+</section>
+
+<!-- 09 RAPHAEL -->
+<section class="slide who shade-bottom">
+  <img class="bleed" src="img/who_raphael.jpg" style="object-position:60% 20%">
+  <div class="block bottom">
+    <div class="no"><b>08</b><span>/ 08</span></div>
+    <div class="who-name">Raphael</div>
+    <h2 class="h-m">The painter hid himself <em>inside</em>.</h2>
+    <p class="copy">The young man in the black cap is Raphael, in his twenties, among the philosophers. He's looking straight back at you.</p>
+  </div>
+</section>
+
+<!-- 10 THE MAP -->
+<section class="slide s-map">
+  <div class="frame"><img src="img/who_map.jpg">
+    <i class="disc" style="left:472px;top:365px">1</i><i class="disc" style="left:528px;top:479px">2</i>
+    <i class="disc" style="left:205px;top:505px">3</i><i class="disc" style="left:762px;top:524px">4</i>
+    <i class="disc" style="left:386px;top:508px">5</i><i class="disc" style="left:820px;top:450px">6</i>
+    <i class="disc" style="left:315px;top:357px">7</i><i class="disc" style="left:870px;top:404px">8</i>
+  </div>
+  <ol class="key">
+    <li><i>1</i>Plato &amp; Aristotle</li><li><i>2</i>Diogenes</li><li><i>3</i>Pythagoras</li><li><i>4</i>Euclid</li>
+    <li><i>5</i>Heraclitus</li><li><i>6</i>Zoroaster &amp; Ptolemy</li><li><i>7</i>Socrates</li><li><i>8</i>Raphael</li>
+  </ol>
+  <div class="block bottom">
+    <h2 class="h-m">One wall. A world of <em>ideas</em>.</h2>
+    <p class="copy">500 years on, people still argue who's who. Which one would you want to meet?</p>
   </div>
 </section>
 
