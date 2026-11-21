@@ -23,7 +23,7 @@ export default async function ProfilePage({ params }: { params: Promise<{ channe
       const base = { key: `${s.slug}-${role}`, no: s.no, title: s.title, role: ROLE_LABEL[role], href: storyHref(s) };
       if (role === "carousel") {
         const c = piece?.carousel ? getCarousel(piece.carousel) : undefined;
-        if (c?.renders.length) tiles.push({ ...base, kind: "carousel", poster: asset(c.renders[0]), slides: c.renders.map(asset), caption: c.caption, hashtags: c.hashtags });
+        if (c?.renders.length) tiles.push({ ...base, kind: "carousel", poster: asset(c.renders[0]), slides: c.renders.map(asset), caption: c.caption, slideCaptions: c.slides.map((s) => s.caption), hashtags: c.hashtags });
         else tiles.push({ ...base, kind: "missing" });
         continue;
       }

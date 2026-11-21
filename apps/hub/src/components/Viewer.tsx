@@ -72,7 +72,7 @@ export function Viewer({ c, children }: { c: Carousel; children: React.ReactNode
           <div className="count">{cur + 1} / {n}</div>
         </div>
         <div className="pips">{c.renders.map((r, i) => <i key={r} className={i === cur ? "on" : ""} />)}</div>
-        <div className="cap"><b>arthistory</b> {c.caption}</div>
+        <div className="cap"><b>arthistory</b> {c.slides[cur]?.caption || c.caption}</div>
       </div>
 
       <div className="info">

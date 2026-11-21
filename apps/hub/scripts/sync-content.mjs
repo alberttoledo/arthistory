@@ -47,14 +47,18 @@ for (const slug of fs.readdirSync(src).sort()) {
     entries.push({ name: `${slug}/${slug}-${String(i + 1).padStart(2, "0")}.jpg`, data });
   });
   const tags = (meta.hashtags || []).map((h) => "#" + String(h).replace(/^#/, "")).join(" ");
-  entries.push({ name: `${slug}/caption.txt`, data: Buffer.from(`${meta.caption || ""}\n\n${tags}\n`) });
+  const perSlide = (meta.slides ?? []).filter((s) => s.caption);
+  const capText = perSlide.length
+    ? perSlide.map((s) => `--- Slide ${s.n} ---\n${s.caption}`).join("\n\n") + `\n\n${tags}\n`
+    : `${meta.caption || ""}\n\n${tags}\n`;
+  entries.push({ name: `${slug}/caption.txt`, data: Buffer.from(capText) });
   fs.writeFileSync(path.join(pub, `${slug}.zip`), zip(entries));
   const sources = fs.existsSync(path.join(dir, "sources.md")) ? fs.readFileSync(path.join(dir, "sources.md"), "utf8") : "";
   out.push({
     slug, no: String(meta.no ?? ""), title: meta.title ?? slug, artist: meta.artist ?? "", year: String(meta.year ?? ""),
     museum: meta.museum ?? "", videoFormat: meta.videoFormat ?? "", hook: meta.hook ?? "", caption: meta.caption ?? "",
     hashtags: meta.hashtags ?? [], notes: meta.notes ?? "",
-    slides: (meta.slides ?? []).map((s) => ({ n: s.n, type: s.type ?? "", headline: s.headline ?? "", alt: s.alt ?? "" })),
+    slides: (meta.slides ?? []).map((s) => ({ n: s.n, type: s.type ?? "", headline: s.headline ?? "", alt: s.alt ?? "", caption: s.caption ?? "" })),
     renders: files.map((f) => `carousels/${slug}/${f}`), zip: `carousels/${slug}.zip`, sources,
   });
 }

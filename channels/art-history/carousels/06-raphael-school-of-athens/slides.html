@@ -1,9 +1,12 @@
 <!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
 <style>
   /* "Who's who" style: one numbered figure per slide, full-bleed crop, then a map that numbers them all. */
-  .s-cover .bleed { object-position: 50% 40%; }
-  .s-cover.shade-bottom::after { height: 880px; background: linear-gradient(transparent, rgba(13,11,9,.78) 42%, rgba(13,11,9,.96) 72%); }
+  /* cover: the whole crowd sits above the text, image fades into black */
+  .s-cover .bleed { inset: 0 0 auto 0; height: 790px; object-position: 50% 50%; -webkit-mask-image: linear-gradient(#000 84%, transparent); mask-image: linear-gradient(#000 84%, transparent); }
+
   .s-cover .kicker, .s-cover .h-xl { text-shadow: 0 2px 24px rgba(0,0,0,.6); }
+
+  .y { color: var(--gold); }
 
   /* the who card */
   .who .bleed { object-position: 50% 30%; }
@@ -12,12 +15,14 @@
   .who .no b { font: italic 500 120px/.8 var(--display); color: var(--gold); text-shadow: 0 4px 30px rgba(0,0,0,.55); }
   .who .no span { font: 500 20px/1 var(--mono); letter-spacing: .2em; color: var(--paper); opacity: .8; }
   .who .who-name { font: 500 22px/1.3 var(--mono); letter-spacing: .22em; text-transform: uppercase; color: var(--gold); }
-  .who .h-m { margin-top: 18px; }
+  .who .h-m { margin-top: 0; }
+  .who .h-m em { color: var(--gold); }
+  .who-big { font: 500 96px/.95 var(--display); letter-spacing: -.015em; }
 
   /* the map */
-  .s-map .frame { position: absolute; left: var(--pad); right: var(--pad); top: 110px; height: 661px; }
+  .s-map .frame { position: absolute; left: var(--pad); right: var(--pad); top: 230px; height: 661px; }
   .disc { position: absolute; z-index: 37; width: 38px; height: 38px; margin: -19px 0 0 -19px; border-radius: 50%; background: var(--gold); color: var(--ink); font: 600 18px/38px var(--mono); text-align: center; box-shadow: 0 0 0 3px rgba(13,11,9,.6), 0 6px 16px rgba(0,0,0,.5); }
-  .key { grid-auto-flow: column; grid-template-rows: repeat(4, auto); position: absolute; left: var(--pad); right: var(--pad); top: 832px; z-index: 35; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 40px; list-style: none; }
+  .key { grid-auto-flow: column; grid-template-rows: repeat(4, auto); position: absolute; left: var(--pad); right: var(--pad); top: 952px; z-index: 35; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 40px; list-style: none; }
   .key li { font: 400 25px/1.3 var(--body); display: flex; gap: 14px; align-items: center; }
   .key li i { font: 600 15px/28px var(--mono); font-style: normal; width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--gold); color: var(--gold); text-align: center; flex: none; }
   .s-map .block.bottom { bottom: 120px; }
@@ -30,7 +35,7 @@
   <div class="block bottom">
     <div class="kicker">The greatest gathering in history</div>
     <h1 class="h-xl">Every genius in one <em>room</em>.</h1>
-    <p class="lede"><i>What if the greatest minds in history had all walked into the same room?</i> Raphael painted them together. But can you recognize them?</p>
+    <p class="lede"><i>What if the greatest minds in history had all walked into the same room?</i> <span class="y">Raphael</span> painted them together. <span class="y">But can you recognize them?</span></p>
   </div>
 </section>
 
@@ -39,9 +44,8 @@
   <img class="bleed" src="img/who_plato.jpg">
   <div class="block bottom">
     <div class="no"><b>01</b><span>/ 08</span></div>
-    <div class="who-name">Plato &amp; Aristotle</div>
-    <h2 class="h-m">One points up. One points <em>down</em>.</h2>
-    <p class="copy">Plato aims at the heavens: ideas come first. Aristotle holds his palm over the earth: start with what you can see. Their whole argument, in two hands.</p>
+    <h2 class="h-m"><em>Plato and Aristotle</em>, you all know. But what about the rest?</h2>
+    <p class="copy">Seven more famous minds are hiding in here. And slide 9 holds a surprise.</p>
   </div>
 </section>
 
@@ -50,9 +54,7 @@
   <img class="bleed" src="img/who_diogenes.jpg" style="object-position:40% 30%">
   <div class="block bottom">
     <div class="no"><b>02</b><span>/ 08</span></div>
-    <div class="who-name">Diogenes</div>
-    <h2 class="h-m">The man who rejected <em>everything</em>.</h2>
-    <p class="copy">He lived in a clay jar and mocked wealth and power. Raphael gives him the steps to himself, sprawled out like he owns them.</p>
+    <h2 class="who-big">Diogenes</h2>
   </div>
 </section>
 
@@ -61,9 +63,7 @@
   <img class="bleed" src="img/who_pythagoras.jpg">
   <div class="block bottom">
     <div class="no"><b>03</b><span>/ 08</span></div>
-    <div class="who-name">Pythagoras</div>
-    <h2 class="h-m">The man who heard the <em>numbers</em>.</h2>
-    <p class="copy">He writes in his book while a boy holds up a slate of musical ratios. He believed the whole universe ran on number and harmony.</p>
+    <h2 class="who-big">Pythagoras</h2>
   </div>
 </section>
 
@@ -72,9 +72,7 @@
   <img class="bleed" src="img/who_euclid.jpg">
   <div class="block bottom">
     <div class="no"><b>04</b><span>/ 08</span></div>
-    <div class="who-name">Euclid</div>
-    <h2 class="h-m">The man drawing on the <em>floor</em>.</h2>
-    <p class="copy">Bent over a slate with a compass, students crowding in. His face is said to be Bramante's, the Pope's architect.</p>
+    <h2 class="who-big">Euclid</h2>
   </div>
 </section>
 
@@ -83,9 +81,7 @@
   <img class="bleed" src="img/who_heraclitus.jpg">
   <div class="block bottom">
     <div class="no"><b>05</b><span>/ 08</span></div>
-    <div class="who-name">Heraclitus</div>
-    <h2 class="h-m">The loneliest man in the <em>room</em>.</h2>
-    <p class="copy">Alone, chin on fist, lost in thought. His face is widely read as Michelangelo's, who was painting the Sistine ceiling nearby at the same time.</p>
+    <h2 class="who-big">Heraclitus</h2>
   </div>
 </section>
 
@@ -94,9 +90,7 @@
   <img class="bleed" src="img/who_globes.jpg">
   <div class="block bottom">
     <div class="no"><b>06</b><span>/ 08</span></div>
-    <div class="who-name">Zoroaster &amp; Ptolemy</div>
-    <h2 class="h-m">Two men holding the <em>world</em>.</h2>
-    <p class="copy">Traditionally, the bearded Zoroaster holds the heavens, a sphere of stars. Ptolemy, crowned and turned away, holds the Earth.</p>
+    <h2 class="who-big">Zoroaster &amp; Ptolemy</h2>
   </div>
 </section>
 
@@ -105,9 +99,7 @@
   <img class="bleed" src="img/who_socrates.jpg">
   <div class="block bottom">
     <div class="no"><b>07</b><span>/ 08</span></div>
-    <div class="who-name">Socrates</div>
-    <h2 class="h-m">The man who questioned <em>everything</em>.</h2>
-    <p class="copy">He ticks off his points on his fingers. He never wrote a word down. Everything we know of him comes from students like Plato.</p>
+    <h2 class="who-big">Socrates</h2>
   </div>
 </section>
 
@@ -116,9 +108,7 @@
   <img class="bleed" src="img/who_raphael.jpg" style="object-position:60% 20%">
   <div class="block bottom">
     <div class="no"><b>08</b><span>/ 08</span></div>
-    <div class="who-name">Raphael</div>
-    <h2 class="h-m">The painter hid himself <em>inside</em>.</h2>
-    <p class="copy">The young man in the black cap is Raphael, in his twenties, among the philosophers. He's looking straight back at you.</p>
+    <h2 class="who-big">Raphael</h2>
   </div>
 </section>
 
@@ -134,10 +124,6 @@
     <li><i>1</i>Plato &amp; Aristotle</li><li><i>2</i>Diogenes</li><li><i>3</i>Pythagoras</li><li><i>4</i>Euclid</li>
     <li><i>5</i>Heraclitus</li><li><i>6</i>Zoroaster &amp; Ptolemy</li><li><i>7</i>Socrates</li><li><i>8</i>Raphael</li>
   </ol>
-  <div class="block bottom">
-    <h2 class="h-m">One wall. A world of <em>ideas</em>.</h2>
-    <p class="copy">500 years on, people still argue who's who. Which one would you want to meet?</p>
-  </div>
 </section>
 
 <script src="../_brand/brand.js"></script></body></html>

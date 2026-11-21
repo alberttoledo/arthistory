@@ -7,7 +7,7 @@
   "museum": "Stanza della Segnatura, Vatican Museums",
   "videoFormat": "Step-inside-the-painting flythrough loop (9:16)",
   "hook": "Every genius in one room.",
-  "caption": "Every genius in one room.\n\nWhat if the greatest minds in history had all walked into the same room? Raphael painted them together. But can you recognize them?\n\nRaphael painted The School of Athens on a wall in the Vatican in 1509–11, and filled it with thinkers who lived centuries apart. Plato and Aristotle argue at the centre. Diogenes sprawls on the steps. Pythagoras and Euclid work out the numbers. And one young man in a black cap is looking straight back at you.\n\nSwipe for all eight, then find them on the map at the end.\n\nWhich one would you want to meet?",
+  "caption": "THE GREATEST GATHERING IN HISTORY\n\nWhat if the greatest minds in history had all walked into the same room?\n\nRaphael painted them together. But can you recognize them?",
   "hashtags": [
     "#schoolofathens",
     "#raphael",
@@ -20,62 +20,72 @@
       "n": 1,
       "type": "cover",
       "headline": "Every genius in one room.",
-      "alt": "The vaulted hall of the School of Athens with the crowd of philosophers small on the steps below."
+      "alt": "The vaulted hall of the School of Athens with the crowd of philosophers small on the steps below.",
+      "caption": "THE GREATEST GATHERING IN HISTORY\n\nWhat if the greatest minds in history had all walked into the same room?\n\nRaphael painted them together. But can you recognize them?"
     },
     {
       "n": 2,
       "type": "who",
-      "headline": "One points up. One points down.",
-      "alt": "Plato pointing upward with his Timaeus beside Aristotle holding his palm over the ground, Ethics under his arm. Numbered 01 of 08."
+      "headline": "Plato and Aristotle, you all know. But what about the rest?",
+      "alt": "Plato pointing upward with his Timaeus beside Aristotle holding his palm over the ground, Ethics under his arm. Numbered 01 of 08.",
+      "caption": "TWO MEN. TWO WORLDS.\n\nOne points to the heavens. The other, to the earth.\n\nPlato and Aristotle. Two different ways of understanding the universe."
     },
     {
       "n": 3,
       "type": "who",
-      "headline": "The man who rejected everything.",
-      "alt": "Diogenes sprawled alone across the marble steps in a blue robe, reading a sheet. Numbered 02."
+      "headline": "Diogenes",
+      "alt": "Diogenes sprawled alone across the marble steps in a blue robe, reading a sheet. Numbered 02.",
+      "caption": "THE MAN WHO REJECTED EVERYTHING\n\nDiogenes. The philosopher who challenged wealth, power and social conventions."
     },
     {
       "n": 4,
       "type": "who",
-      "headline": "The man who heard the numbers.",
-      "alt": "Pythagoras writing in a book on his knee while a boy holds a slate of musical ratios. Numbered 03."
+      "headline": "Pythagoras",
+      "alt": "Pythagoras writing in a book on his knee while a boy holds a slate of musical ratios. Numbered 03.",
+      "caption": "THE MATHEMATICIAN\n\nPythagoras. The man who saw the universe through numbers and mathematical harmony."
     },
     {
       "n": 5,
       "type": "who",
-      "headline": "The man drawing on the floor.",
-      "alt": "Euclid, bald, bending over a slate with a compass as students crowd round. Numbered 04."
+      "headline": "Euclid",
+      "alt": "Euclid, bald, bending over a slate with a compass as students crowd round. Numbered 04.",
+      "caption": "THE MAN DRAWING ON THE FLOOR\n\nEuclid. Geometry was his language, and the compass in his hand gives him away."
     },
     {
       "n": 6,
       "type": "who",
-      "headline": "The loneliest man in the room.",
-      "alt": "Heraclitus sitting alone against a marble block, chin on his fist, writing. Numbered 05."
+      "headline": "Heraclitus",
+      "alt": "Heraclitus sitting alone against a marble block, chin on his fist, writing. Numbered 05.",
+      "caption": "THE LONELY THINKER\n\nHeraclitus. Seated alone, absorbed in thought. His face is believed to be modeled after Michelangelo."
     },
     {
       "n": 7,
       "type": "who",
-      "headline": "Two men holding the world.",
-      "alt": "Bearded Zoroaster holding a starry sphere and crowned Ptolemy, seen from behind, holding a globe of the Earth. Numbered 06."
+      "headline": "Zoroaster & Ptolemy",
+      "alt": "Bearded Zoroaster holding a starry sphere and crowned Ptolemy, seen from behind, holding a globe of the Earth. Numbered 06.",
+      "caption": "THE TWO MEN HOLDING THE GLOBES\n\nPtolemy and Zoroaster. One holds the terrestrial globe, the other the celestial sphere."
     },
     {
       "n": 8,
       "type": "who",
-      "headline": "The man who questioned everything.",
-      "alt": "Socrates in an olive robe counting on his fingers to a young listener. Numbered 07."
+      "headline": "Socrates",
+      "alt": "Socrates in an olive robe counting on his fingers to a young listener. Numbered 07.",
+      "caption": "THE QUESTIONER\n\nSocrates. Surrounded by listeners, doing what he did best: questioning everything."
     },
     {
       "n": 9,
       "type": "who",
-      "headline": "The painter hid himself inside.",
-      "alt": "Raphael in a black cap at the far right, looking out at the viewer beside an older man in a white cap. Numbered 08."
+      "headline": "Raphael",
+      "alt": "Raphael in a black cap at the far right, looking out at the viewer beside an older man in a white cap. Numbered 08.",
+      "caption": "THE ARTIST HIDING IN HIS OWN PAINTING\n\nRaphael included himself among the philosophers. Can you find him?"
     },
     {
       "n": 10,
       "type": "map",
-      "headline": "One wall. A world of ideas.",
-      "alt": "The whole fresco in a gold frame with eight numbered gold discs on the figures, and a key listing their names."
+      "headline": "The School of Athens, mapped",
+      "alt": "The whole fresco in a gold frame with eight numbered gold discs on the figures, and a key listing their names.",
+      "caption": "ONE PAINTING. AN ENTIRE WORLD OF IDEAS.\n\nMore than 500 years later, we're still discovering the people, ideas and stories hidden inside this masterpiece.\n\nWhich philosopher would you have wanted to meet?"
     }
   ],
-  "notes": "Who's-who style (new, 21 Nov 2026): one numbered figure per slide, full-bleed crops from the 17402 px Commons scan, numeral in the text block so it never covers a face, then a map numbering all eight. Slide 2 (Plato & Aristotle) doubles as the second hook. Old story version: archive/slides-story-v1.html (its images in img/archive/). Identifications are traditional; Euclid/Bramante and Heraclitus/Michelangelo hedged ('said to be', 'widely read as'); Zoroaster/Ptolemy hedged 'traditionally'. Raphael's self-portrait stated by the Vatican Museums. Map discs placed by eye on each figure's head."
+  "notes": "Captions are per slide (slides[].caption, the owner's text, verbatim); top-level caption = slide 1's. Slides 3-10 carry only the number and name. Who's-who style (new, 21 Nov 2026): one numbered figure per slide, full-bleed crops from the 17402 px Commons scan, numeral in the text block so it never covers a face, then a map numbering all eight. Slide 2 (Plato & Aristotle) doubles as the second hook. Old story version: archive/slides-story-v1.html (its images in img/archive/). Identifications are traditional; Euclid/Bramante and Heraclitus/Michelangelo hedged ('said to be', 'widely read as'); Zoroaster/Ptolemy hedged 'traditionally'. Raphael's self-portrait stated by the Vatican Museums. Map discs placed by eye on each figure's head."
 }

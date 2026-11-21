@@ -18,7 +18,12 @@ export default async function CarouselPage({ params }: { params: Promise<{ slug:
     <div className="viewer">
       <Link className="back mono" href="/">← All carousels</Link>
       <Viewer c={c}>
-        <div className="section"><h3 className="mono">Caption <CopyButton text={c.caption} /></h3><div className="caption">{c.caption}</div></div>
+        {c.slides.some((s) => s.caption)
+          ? <div className="section"><h3 className="mono">Captions, one per slide</h3>
+              {c.slides.filter((s) => s.caption).map((s) => (
+                <div key={s.n} className="slidecap"><h4 className="mono small">Slide {String(s.n).padStart(2, "0")} <CopyButton text={s.caption} /></h4><div className="caption">{s.caption}</div></div>))}
+            </div>
+          : <div className="section"><h3 className="mono">Caption <CopyButton text={c.caption} /></h3><div className="caption">{c.caption}</div></div>}
         <div className="section"><h3 className="mono">Hashtags <CopyButton text={tagLine(c)} /></h3><div className="tags">{tagLine(c)}</div></div>
         {c.slides.length > 0 && (
           <div className="section"><h3 className="mono">Running order</h3>

@@ -353,3 +353,8 @@ details summary { cursor: pointer; color: var(--muted); }
 .pf-reel video { cursor: pointer; }
 .pf-page > * { min-width: 0; }
 .pf-intro code { overflow-wrap: anywhere; }
+
+/* per-slide captions */
+.slidecap { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.slidecap h4 { margin: 0 0 6px; display: flex; align-items: center; gap: 10px; color: var(--gold); }
+.pf-caption p, .phone .cap { white-space: pre-line; }

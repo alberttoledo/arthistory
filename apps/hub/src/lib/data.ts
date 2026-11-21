@@ -4,7 +4,7 @@ import hubData from "@/data/hub.json";
 import profileData from "@/data/profile.json";
 import { StorySchema, type Story } from "./schema";
 
-export type Slide = { n: number; type: string; headline: string; alt: string };
+export type Slide = { n: number; type: string; headline: string; alt: string; caption: string };
 export type Carousel = {
   slug: string; no: string; title: string; artist: string; year: string; museum: string;
   videoFormat: string; hook: string; caption: string; hashtags: string[]; notes: string;

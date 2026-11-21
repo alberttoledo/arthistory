@@ -5,7 +5,7 @@ import type { ChannelProfile } from "@/lib/data";
 
 type Base = { key: string; no: string; title: string; role: string; href: string };
 export type Tile =
-  | (Base & { kind: "carousel"; poster: string; slides: string[]; caption: string; hashtags: string[] })
+  | (Base & { kind: "carousel"; poster: string; slides: string[]; caption: string; slideCaptions?: string[]; hashtags: string[] })
   | (Base & { kind: "reel"; video: string; poster?: string })
   | (Base & { kind: "missing" });
 
@@ -51,6 +51,7 @@ function Post({ t, handle, avatar, onBack }: { t: Exclude<Tile, { kind: "missing
 
   const n = t.slides.length;
   const tags = t.hashtags.map((h) => "#" + h.replace(/^#/, "")).join(" ");
+  const caption = t.slideCaptions?.[cur] || t.caption;
   return (
     <div className="pf-post">
       <div className="pf-bar"><button className="pf-icon" onClick={onBack} aria-label="Back to profile">{I.back}</button><span className="pf-bar-title">Posts</span><span className="pf-icon" /></div>
@@ -65,8 +66,8 @@ function Post({ t, handle, avatar, onBack }: { t: Exclude<Tile, { kind: "missing
         <span className="pf-dots">{t.slides.map((s, i) => <i key={s} className={i === cur ? "on" : ""} />)}</span><span className="pf-icon">{I.save}</span></div>
       <div className="pf-caption">
         {more
-          ? <p><b>{handle}</b> {t.caption}<br /><br /><span className="pf-tags">{tags}</span></p>
-          : <p><b>{handle}</b> {t.caption.split("\n")[0]}… <button onClick={() => setMore(true)}>more</button></p>}
+          ? <p><b>{handle}</b> {caption}<br /><br /><span className="pf-tags">{tags}</span></p>
+          : <p><b>{handle}</b> {caption.split("\n")[0]}… <button onClick={() => setMore(true)}>more</button></p>}
       </div>
     </div>
   );
