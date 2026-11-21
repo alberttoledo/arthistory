@@ -45,7 +45,7 @@ Real hooks from the series:
 
 - Canvas: `canvas-width` × `canvas-height` (1080 × 1350, Instagram 4:5).
 - Safe zones: text stays inside `margin-outer` (84px) on both sides, below `safe-top` (120px) and above `safe-bottom` (110px). Only the chrome lives in the top and bottom zones.
-- **Chrome on every slide:** top-left the painting's "TITLE" (no series number, since posting order can change), top-right "03 / 10"; bottom-left "@ART.ALIVE.STUDIO", bottom-right progress dots with the current one as a gilt pill. `brand.js` adds it automatically. For a quieter slide, put `data-chrome="handle"` on `<body>` to keep only the handle, set lowercase in the body serif (The Last Supper and The School of Athens do this), or `data-chrome="off"` to drop it all.
+- **Chrome on every slide:** only the handle, bottom-left, lowercase `@art.alive.studio` in the book serif (`data-chrome="handle"` on `<body>`). No title, counter or dots: Instagram already shows the dots. `data-chrome="off"` drops it too.
 - Text blocks sit at the bottom of a slide over a dark shade, or at the top on paper slides. Never centre body copy.
 - Film grain (`grain-opacity`) and a vignette sit over every slide.
 - Square corners everywhere (`radius-none`). Circles are only for markers, loupes and badges (`radius-disc`); the CTA phone uses `radius-phone`.
@@ -64,7 +64,7 @@ Files: `profile/` (`profile.json` lists the rotation, first = the one up now).
 
 ## The 10-slide story
 
-1. **Cover**: a dramatic full-bleed detail crop, hook in `hero`, lede, short gilt rule, "SWIPE".
+1. **Cover**: a dramatic full-bleed detail crop, hook in `hero` and lede. No "Swipe" cue.
 2. **Plate**: the whole painting in the gilt frame with a museum label (title, artist, date, medium, size, collection).
 3–8. **Story**: one idea per slide. Every carousel uses at least one **Loupe**, one **Strip** or cut-up collage, and one quote, fact or **Timeline**.
 9. **Look again**: the twist or payoff.
@@ -82,7 +82,7 @@ Vary the layouts: don't repeat a slide type back to back, and mix one or two pap
 
 ## Iconography
 
-There are no icons. The graphic vocabulary is: numbered gilt discs (`on-gilt` numerals), thin gilt rings over details, leader lines with dots on both ends, the gilt frame outline, and the timeline spine in `gilt-dim`. Arrows are a gilt line after "SWIPE".
+There are no icons. The graphic vocabulary is: numbered gilt discs (`on-gilt` numerals), thin gilt rings over details, leader lines with dots on both ends, the gilt frame outline, and the timeline spine in `gilt-dim`.
 
 ## Making a carousel
 

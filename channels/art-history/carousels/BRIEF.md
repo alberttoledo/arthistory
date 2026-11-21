@@ -16,7 +16,7 @@ One Instagram carousel per painting we make a video for. It tells the painting's
 - You may add a `<style>` block in your `slides.html` for one-off layouts (collages, rotated torn scraps, custom loupe positions, oversized numerals). Stay inside the system: the palette is ink, paper, gold and rare oxblood, with the three brand fonts only. Make it feel art-directed, not like a template: mix dark slides with one or two `paper` slides, vary the layouts and make the crops dramatic.
 
 ## Story shape (8–10 slides)
-1. **Cover:** a dramatic full-bleed detail crop plus a hook headline of 4–8 words (curiosity, not a summary). Add a "Swipe" cue.
+1. **Cover:** a dramatic full-bleed detail crop plus a hook headline of 4–8 words (curiosity, not a summary). No "Swipe" cue.
 2. **Plate:** the whole painting in the gilt frame with the museum label (title, artist, year, medium, size, collection).
 3–8. **The story,** one idea per slide: who, when, why, the people in it and the hidden details. Use at least one **loupe** (a small full painting with a gold ring and a leader line to a big circular zoom), one **strip** or cut-up collage, and one quote, fact or timeline. Show the evidence, then say what it means.
 9. **Twist or "look again":** the payoff.
@@ -25,7 +25,7 @@ One Instagram carousel per painting we make a video for. It tells the painting's
 Copy voice: a warm, conspiratorial docent whispering a secret. Use short sentences and no lecture. Keep the body copy to **45 words or fewer per slide**, and headlines to 9 words or fewer. Use `<em>` in a headline to put one key word in gold italics.
 
 ## Files to deliver: `channels/art-history/carousels/<slug>/`
-- `slides.html`, with `<body data-title="SHORT TITLE">`, linking `../_brand/brand.css` and, at the end, `../_brand/brand.js`
+- `slides.html`, with `<body data-title="SHORT TITLE" data-chrome="handle">` (only the handle on slides, in the book serif), linking `../_brand/brand.css` and, at the end, `../_brand/brand.js`
 - `img/`: your crops and cut-ups (JPG, long side ≤ 2400px). Raw downloads go in `img/_raw/`.
 - `renders/01.jpg …` made with `node channels/art-history/carousels/_brand/render.mjs <slug>`, run from the repo root. Add `<n>` to re-render one slide.
 - `carousel.json`:
