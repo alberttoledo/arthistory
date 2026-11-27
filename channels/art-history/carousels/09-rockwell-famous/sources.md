@@ -1,29 +1,29 @@
-# Sources: Norman Rockwell, the famous ones
+# Sources: Norman Rockwell, the fun ones
 
 ## Images
-All painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org). They are copyrighted works (© the Norman Rockwell Family Agency / Curtis Licensing, depending on the work), used at the account owner's direction, not public domain.
+All painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org), cropped to fill 1080×1350. They are copyrighted works, used at the account owner's direction, not public domain.
 
 | Slide | Work | Render URL |
 |---|---|---|
-| 2 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |
-| 3 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |
-| 4 | Freedom of Speech, 1943 | https://prints.nrm.org/vitruvius/render/1200/260937.jpg |
-| 5 | Saying Grace, 1951 | https://prints.nrm.org/vitruvius/render/1200/261014.jpg |
-| 6 | Girl at the Mirror, 1954 | https://prints.nrm.org/vitruvius/render/1200/261027.jpg |
-| 7 | Breaking Home Ties, 1954 | https://prints.nrm.org/vitruvius/render/1200/261030.jpg |
-| 8 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |
+| 2 | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |
+| 3 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |
+| 4 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |
+| 5 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |
+| 6 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |
+| 7 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |
+| 8 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |
 | 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |
-| 10 | The Problem We All Live With, 1964 | https://prints.nrm.org/vitruvius/render/1200/274852.jpg |
-
-The public-domain NARA scans of the Four Freedoms posters are in `img/_raw/want.jpg` and `speech.jpg` (Wikimedia Commons, NARA 513539 and 513536). They weren't used because they are washed-out poster prints.
+| 10 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |
+| 11 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |
+| 12 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |
+| 13 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |
 
 ## Facts in the caption (to double-check before posting)
-- Four Freedoms inspired by FDR's January 1941 State of the Union: https://www.nrm.org (Four Freedoms pages); https://en.wikipedia.org/wiki/Four_Freedoms_(paintings)
-- Rosie's pose comes from Michelangelo's Isaiah: Crystal Bridges, https://crystalbridges.org/artworks/2007-178 ; Smarthistory
-- Freedom of Speech was based on an Arlington, Vermont town meeting: https://en.wikipedia.org/wiki/Freedom_of_Speech_(painting)
-- Saying Grace sold for $46M at Sotheby's in December 2013: https://en.wikipedia.org/wiki/Saying_Grace_(Rockwell)
-- Girl at the Mirror has a movie-star photo (Jane Russell) in her lap: NRM
-- Breaking Home Ties: Don Trachte hid the original behind a false wall, and a copy hung at the NRM; found in 2006: https://en.wikipedia.org/wiki/Breaking_Home_Ties
-- The Runaway: trooper Richard Clemens and boy Eddie Locke, Stockbridge neighbours: https://en.wikipedia.org/wiki/The_Runaway_(painting)
-- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh self-portraits: https://en.wikipedia.org/wiki/Triple_Self-Portrait
-- The Problem We All Live With: Ruby Bridges, age 6, New Orleans, November 1960; Look magazine, 1964: https://en.wikipedia.org/wiki/The_Problem_We_All_Live_With
+- The Connoisseur: Rockwell made the abstract canvas himself in Pollock's drip style. https://en.wikipedia.org/wiki/The_Connoisseur_(Rockwell)
+- Rosie's pose comes from Michelangelo's Isaiah. https://crystalbridges.org/artworks/2007-178
+- Art Critic: models were his son Jarvis and his wife Mary. https://www.nrm.org (Art Critic, 1955)
+- The Runaway: trooper Richard Clemens and boy Eddie Locke. https://en.wikipedia.org/wiki/The_Runaway_(painting)
+- Tattoo Artist: the sailor's arm has a list of crossed-out women's names. https://www.brooklynmuseum.org (Tattoo Artist, 1944)
+- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh. https://en.wikipedia.org/wiki/Triple_Self-Portrait
+- Game Called Because of Rain (Tough Call): umpires Beans Reardon, Lou Jorda and Larry Goetz at Ebbets Field; National Baseball Hall of Fame. https://baseballhall.org
+- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech. https://en.wikipedia.org/wiki/Freedom_from_Want_(painting)

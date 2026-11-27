@@ -801,73 +801,73 @@ window.CAROUSELS = [
  {
   "slug": "09-rockwell-famous",
   "no": "09",
-  "title": "Norman Rockwell: the famous ones",
+  "title": "Norman Rockwell: the fun ones",
   "artist": "Norman Rockwell",
-  "year": "1943–1964",
-  "museum": "Various (Norman Rockwell Museum, Crystal Bridges and private collections)",
+  "year": "1929–1962",
+  "museum": "Various (Norman Rockwell Museum, Crystal Bridges, the Baseball Hall of Fame and private collections)",
   "videoFormat": "None: a gallery carousel following the Freedom from Want reel",
   "hook": "You know these paintings.",
-  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms, painted after FDR's 1941 speech.\n2. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n3. Freedom of Speech (1943). A real Vermont town meeting, where one man stood up to disagree.\n4. Saying Grace (1951). It sold for $46 million in 2013, a record for Rockwell.\n5. Girl at the Mirror (1954). There's a movie star's photo in her lap.\n6. Breaking Home Ties (1954). A copy hung in a museum for decades. The original was hidden behind a wall.\n7. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. The Problem We All Live With (1964). Six-year-old Ruby Bridges walking to school in New Orleans, 1960.\n\nWhich one did you recognise first? Save this for later.",
+  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. The Shiner (1953). Black eye, outside the principal's office, and absolutely no regrets.\n2. The Connoisseur (1962). That splatter painting? Rockwell made it himself, dripping paint like Jackson Pollock.\n3. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n4. Art Critic (1955). The student is his son Jarvis. The lady in the painting is his wife, Mary.\n5. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n6. Tattoo Artist (1944). Read the sailor's arm: a list of girlfriends' names, every one crossed out but the newest.\n7. Soda Jerk (1953). One soda jerk, three girls, one very unimpressed dog.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. Doctor and the Doll (1929). A real check-up, for a patient made of porcelain.\n10. Game Called Because of Rain (1949). Three real umpires at Ebbets Field. It now hangs in the Baseball Hall of Fame.\n11. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms.\n12. New Television Set (1949). A brand-new TV antenna on a very old house.\n\nWhich one made you smile first? Save this for later.",
   "hashtags": [
    "#normanrockwell",
    "#arthistory",
    "#americanart",
    "#rosietheriveter",
-   "#freedomfromwant",
-   "#rubybridges",
    "#saturdayeveningpost",
    "#illustration",
    "#painting",
-   "#artlovers"
+   "#vintageart",
+   "#artlovers",
+   "#americana"
   ],
   "slides": [
    {
     "n": 1,
     "type": "cover",
     "headline": "You know these paintings.",
-    "alt": "A mosaic of six Rockwell paintings under the headline: You know these paintings. Do you know who painted them?"
+    "alt": "A mosaic of nine Rockwell paintings under the headline: You know these paintings. Do you know who painted them?"
    },
    {
     "n": 2,
     "type": "painting",
     "headline": "",
-    "alt": "Freedom from Want, 1943"
+    "alt": "The Shiner, 1953"
    },
    {
     "n": 3,
     "type": "painting",
     "headline": "",
-    "alt": "Rosie the Riveter, 1943"
+    "alt": "The Connoisseur, 1962"
    },
    {
     "n": 4,
     "type": "painting",
     "headline": "",
-    "alt": "Freedom of Speech, 1943"
+    "alt": "Rosie the Riveter, 1943"
    },
    {
     "n": 5,
     "type": "painting",
     "headline": "",
-    "alt": "Saying Grace, 1951"
+    "alt": "Art Critic, 1955"
    },
    {
     "n": 6,
     "type": "painting",
     "headline": "",
-    "alt": "Girl at the Mirror, 1954"
+    "alt": "The Runaway, 1958"
    },
    {
     "n": 7,
     "type": "painting",
     "headline": "",
-    "alt": "Breaking Home Ties, 1954"
+    "alt": "Tattoo Artist, 1944"
    },
    {
     "n": 8,
     "type": "painting",
     "headline": "",
-    "alt": "The Runaway, 1958"
+    "alt": "Soda Jerk, 1953"
    },
    {
     "n": 9,
@@ -879,10 +879,28 @@ window.CAROUSELS = [
     "n": 10,
     "type": "painting",
     "headline": "",
-    "alt": "The Problem We All Live With, 1964"
+    "alt": "Doctor and the Doll, 1929"
+   },
+   {
+    "n": 11,
+    "type": "painting",
+    "headline": "",
+    "alt": "Game Called Because of Rain, 1949"
+   },
+   {
+    "n": 12,
+    "type": "painting",
+    "headline": "",
+    "alt": "Freedom from Want, 1943"
+   },
+   {
+    "n": 13,
+    "type": "painting",
+    "headline": "",
+    "alt": "New Television Set, 1949"
    }
   ],
-  "notes": "Painting slides carry no text by request; all information is in the caption. Images are NRM custom-print renders (1200px, copyrighted works, used at the user's direction). The cover's Ruby Bridges tile is cropped below the slur written on the wall in the painting; the full painting on slide 10 shows it as Rockwell painted it.",
+  "notes": "Full-bleed paintings, no frame and no text, by request; all information is in the caption. Images are NRM custom-print renders (1200px, copyrighted works, used at the user's direction), cropped to 4:5.",
   "renders": [
    "09-rockwell-famous/renders/01.jpg",
    "09-rockwell-famous/renders/02.jpg",
@@ -893,8 +911,11 @@ window.CAROUSELS = [
    "09-rockwell-famous/renders/07.jpg",
    "09-rockwell-famous/renders/08.jpg",
    "09-rockwell-famous/renders/09.jpg",
-   "09-rockwell-famous/renders/10.jpg"
+   "09-rockwell-famous/renders/10.jpg",
+   "09-rockwell-famous/renders/11.jpg",
+   "09-rockwell-famous/renders/12.jpg",
+   "09-rockwell-famous/renders/13.jpg"
   ],
-  "sources": "# Sources: Norman Rockwell, the famous ones\n\n## Images\nAll painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org). They are copyrighted works (© the Norman Rockwell Family Agency / Curtis Licensing, depending on the work), used at the account owner's direction, not public domain.\n\n| Slide | Work | Render URL |\n|---|---|---|\n| 2 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |\n| 3 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |\n| 4 | Freedom of Speech, 1943 | https://prints.nrm.org/vitruvius/render/1200/260937.jpg |\n| 5 | Saying Grace, 1951 | https://prints.nrm.org/vitruvius/render/1200/261014.jpg |\n| 6 | Girl at the Mirror, 1954 | https://prints.nrm.org/vitruvius/render/1200/261027.jpg |\n| 7 | Breaking Home Ties, 1954 | https://prints.nrm.org/vitruvius/render/1200/261030.jpg |\n| 8 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |\n| 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |\n| 10 | The Problem We All Live With, 1964 | https://prints.nrm.org/vitruvius/render/1200/274852.jpg |\n\nThe public-domain NARA scans of the Four Freedoms posters are in `img/_raw/want.jpg` and `speech.jpg` (Wikimedia Commons, NARA 513539 and 513536). They weren't used because they are washed-out poster prints.\n\n## Facts in the caption (to double-check before posting)\n- Four Freedoms inspired by FDR's January 1941 State of the Union: https://www.nrm.org (Four Freedoms pages); https://en.wikipedia.org/wiki/Four_Freedoms_(paintings)\n- Rosie's pose comes from Michelangelo's Isaiah: Crystal Bridges, https://crystalbridges.org/artworks/2007-178 ; Smarthistory\n- Freedom of Speech was based on an Arlington, Vermont town meeting: https://en.wikipedia.org/wiki/Freedom_of_Speech_(painting)\n- Saying Grace sold for $46M at Sotheby's in December 2013: https://en.wikipedia.org/wiki/Saying_Grace_(Rockwell)\n- Girl at the Mirror has a movie-star photo (Jane Russell) in her lap: NRM\n- Breaking Home Ties: Don Trachte hid the original behind a false wall, and a copy hung at the NRM; found in 2006: https://en.wikipedia.org/wiki/Breaking_Home_Ties\n- The Runaway: trooper Richard Clemens and boy Eddie Locke, Stockbridge neighbours: https://en.wikipedia.org/wiki/The_Runaway_(painting)\n- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh self-portraits: https://en.wikipedia.org/wiki/Triple_Self-Portrait\n- The Problem We All Live With: Ruby Bridges, age 6, New Orleans, November 1960; Look magazine, 1964: https://en.wikipedia.org/wiki/The_Problem_We_All_Live_With\n"
+  "sources": "# Sources: Norman Rockwell, the fun ones\n\n## Images\nAll painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org), cropped to fill 1080×1350. They are copyrighted works, used at the account owner's direction, not public domain.\n\n| Slide | Work | Render URL |\n|---|---|---|\n| 2 | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |\n| 3 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |\n| 4 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |\n| 5 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |\n| 6 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |\n| 7 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |\n| 8 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |\n| 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |\n| 10 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |\n| 11 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |\n| 12 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |\n| 13 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |\n\n## Facts in the caption (to double-check before posting)\n- The Connoisseur: Rockwell made the abstract canvas himself in Pollock's drip style. https://en.wikipedia.org/wiki/The_Connoisseur_(Rockwell)\n- Rosie's pose comes from Michelangelo's Isaiah. https://crystalbridges.org/artworks/2007-178\n- Art Critic: models were his son Jarvis and his wife Mary. https://www.nrm.org (Art Critic, 1955)\n- The Runaway: trooper Richard Clemens and boy Eddie Locke. https://en.wikipedia.org/wiki/The_Runaway_(painting)\n- Tattoo Artist: the sailor's arm has a list of crossed-out women's names. https://www.brooklynmuseum.org (Tattoo Artist, 1944)\n- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh. https://en.wikipedia.org/wiki/Triple_Self-Portrait\n- Game Called Because of Rain (Tough Call): umpires Beans Reardon, Lou Jorda and Larry Goetz at Ebbets Field; National Baseball Hall of Fame. https://baseballhall.org\n- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech. https://en.wikipedia.org/wiki/Freedom_from_Want_(painting)\n"
  }
 ];
