@@ -801,100 +801,100 @@ window.CAROUSELS = [
  {
   "slug": "09-rockwell-famous",
   "no": "09",
-  "title": "Norman Rockwell: the fun ones",
+  "title": "Norman Rockwell: a picked set",
   "artist": "Norman Rockwell",
-  "year": "1929–1962",
-  "museum": "Various (Norman Rockwell Museum, Crystal Bridges, the Baseball Hall of Fame and private collections)",
+  "year": "1917–1951",
+  "museum": "Various",
   "videoFormat": "None: a gallery carousel following the Freedom from Want reel",
   "hook": "You know these paintings.",
-  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. The Shiner (1953, on the cover). Black eye, outside the principal's office, and absolutely no regrets.\n2. The Connoisseur (1962). That splatter painting? Rockwell made it himself, dripping paint like Jackson Pollock.\n3. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n4. Art Critic (1955). The student is his son Jarvis. The lady in the painting is his wife, Mary.\n5. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n6. Tattoo Artist (1944). Read the sailor's arm: a list of girlfriends' names, every one crossed out but the newest.\n7. Soda Jerk (1953). One soda jerk, three girls, one very unimpressed dog.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. Doctor and the Doll (1929). A real check-up, for a patient made of porcelain.\n10. Game Called Because of Rain (1949). Three real umpires at Ebbets Field. It now hangs in the Baseball Hall of Fame.\n11. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms.\n12. New Television Set (1949). A brand-new TV antenna on a very old house.\n\nWhich one made you smile first? Save this for later.",
+  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. Kids at the Window (1951) on the cover. Everyone's waving. Dad just pulled up with a new car (it was painted as a Plymouth ad).\n2. They Remembered Me (1917). A World War I soldier, grinning over his parcels from home.\n3. Christmas Trio (1923). Carollers giving it everything on a December 1923 Post cover.\n4. Parade (1924). Tiny lantern bearers, one very proud marcher.\n5. Boy and Girl Gazing at the Moon (1926). Also known as Puppy Love. Watch the dog.\n6. Pipe and Bowl Sign Painter (1926). An old-time painter touching up a tavern sign of a man who looks a lot like him.\n7. Running with Pie (1928). A hobo, a stolen pie and a dog right behind him.\n8. Kiss (1931). A stolen kiss on a footbridge, buckets and all.\n9. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms.\n10. Christmas at Union Station, Chicago (1944). Hundreds of travellers rushing home for the holidays. Try to find Santa.\n11. New Television Antenna (1949). A brand-new TV antenna on a very old house.\n12. Fishing. Grandpa did the fishing. Guess who's holding the catch.\n\nWhich one is your favourite? Save this for later.",
   "hashtags": [
    "#normanrockwell",
    "#arthistory",
    "#americanart",
-   "#rosietheriveter",
    "#saturdayeveningpost",
    "#illustration",
-   "#painting",
    "#vintageart",
-   "#artlovers",
-   "#americana"
+   "#christmasart",
+   "#americana",
+   "#painting",
+   "#artlovers"
   ],
   "slides": [
    {
     "n": 1,
     "type": "cover",
     "headline": "You know these paintings.",
-    "alt": "The Shiner (1953): a grinning girl with a black eye on a bench outside the principal's office, under the headline: You know these paintings. Do you know who painted them?"
+    "alt": "Kids at the Window (1951): a family with a beagle crowding a wreathed window, waving, under the headline: You know these paintings. Do you know who painted them?"
    },
    {
     "n": 2,
     "type": "painting",
     "headline": "",
-    "alt": "The Connoisseur, 1962"
+    "alt": "They Remembered Me, 1917"
    },
    {
     "n": 3,
     "type": "painting",
     "headline": "",
-    "alt": "Rosie the Riveter, 1943"
+    "alt": "Christmas Trio, 1923"
    },
    {
     "n": 4,
     "type": "painting",
     "headline": "",
-    "alt": "Art Critic, 1955"
+    "alt": "Parade, 1924"
    },
    {
     "n": 5,
     "type": "painting",
     "headline": "",
-    "alt": "The Runaway, 1958"
+    "alt": "Boy and Girl Gazing at the Moon, 1926"
    },
    {
     "n": 6,
     "type": "painting",
     "headline": "",
-    "alt": "Tattoo Artist, 1944"
+    "alt": "Pipe and Bowl Sign Painter, 1926"
    },
    {
     "n": 7,
     "type": "painting",
     "headline": "",
-    "alt": "Soda Jerk, 1953"
+    "alt": "Running with Pie, 1928"
    },
    {
     "n": 8,
     "type": "painting",
     "headline": "",
-    "alt": "Triple Self-Portrait, 1960"
+    "alt": "Kiss, 1931"
    },
    {
     "n": 9,
     "type": "painting",
     "headline": "",
-    "alt": "Doctor and the Doll, 1929"
+    "alt": "Freedom from Want, 1943"
    },
    {
     "n": 10,
     "type": "painting",
     "headline": "",
-    "alt": "Game Called Because of Rain, 1949"
+    "alt": "Christmas at Union Station, Chicago, 1944"
    },
    {
     "n": 11,
     "type": "painting",
     "headline": "",
-    "alt": "Freedom from Want, 1943"
+    "alt": "New Television Antenna, 1949"
    },
    {
     "n": 12,
     "type": "painting",
     "headline": "",
-    "alt": "New Television Set, 1949"
+    "alt": "Fishing"
    }
   ],
-  "notes": "Full-bleed paintings, no frame and no text, by request; all information is in the caption. Images are NRM custom-print renders (1200px, copyrighted works, used at the user's direction), cropped to 4:5.",
+  "notes": "User-picked set from WikiArt. Full-bleed paintings, no frame, no text; all information is in the caption. Running with Pie and Kiss are vignettes on cream, so the cream shows at the edges. Fishing only exists at 457×600 on WikiArt and is upscaled 2×, so it is a little soft.",
   "renders": [
    "09-rockwell-famous/renders/01.jpg",
    "09-rockwell-famous/renders/02.jpg",
@@ -909,6 +909,6 @@ window.CAROUSELS = [
    "09-rockwell-famous/renders/11.jpg",
    "09-rockwell-famous/renders/12.jpg"
   ],
-  "sources": "# Sources: Norman Rockwell, the fun ones\n\n## Images\nAll painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org), cropped to fill 1080×1350. They are copyrighted works, used at the account owner's direction, not public domain.\n\n| Slide | Work | Render URL |\n|---|---|---|\n| 1 (cover) | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |\n| 3 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |\n| 4 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |\n| 5 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |\n| 6 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |\n| 7 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |\n| 8 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |\n| 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |\n| 10 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |\n| 11 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |\n| 12 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |\n| 13 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |\n\n## Facts in the caption (to double-check before posting)\n- The Connoisseur: Rockwell made the abstract canvas himself in Pollock's drip style. https://en.wikipedia.org/wiki/The_Connoisseur_(Rockwell)\n- Rosie's pose comes from Michelangelo's Isaiah. https://crystalbridges.org/artworks/2007-178\n- Art Critic: models were his son Jarvis and his wife Mary. https://www.nrm.org (Art Critic, 1955)\n- The Runaway: trooper Richard Clemens and boy Eddie Locke. https://en.wikipedia.org/wiki/The_Runaway_(painting)\n- Tattoo Artist: the sailor's arm has a list of crossed-out women's names. https://www.brooklynmuseum.org (Tattoo Artist, 1944)\n- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh. https://en.wikipedia.org/wiki/Triple_Self-Portrait\n- Game Called Because of Rain (Tough Call): umpires Beans Reardon, Lou Jorda and Larry Goetz at Ebbets Field; National Baseball Hall of Fame. https://baseballhall.org\n- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech. https://en.wikipedia.org/wiki/Freedom_from_Want_(painting)\n"
+  "sources": "# Sources: Norman Rockwell, a picked set\n\nThe paintings were chosen by the account owner from WikiArt's Norman Rockwell page (https://www.wikiart.org/en/norman-rockwell). Images come from WikiArt, or from the Norman Rockwell Museum custom-prints site (prints.nrm.org) where its copy was better. These are copyrighted works, apart from pre-1931 published covers, which are public domain in the US. They are used at the account owner's direction.\n\n| Slide | Work | Image |\n|---|---|---|\n| 1 (cover) | Kids at the Window (\"Oh boy, it's Pop with a new Plymouth\"), 1951 | https://uploads0.wikiart.org/images/norman-rockwell/oh-boy-it-s-pop-with-a-new-plymouth-1951.jpg |\n| 2 | They Remembered Me, 1917 | https://uploads1.wikiart.org/images/norman-rockwell/they-remembered-me-1917.jpg |\n| 3 | Christmas Trio, 1923 | https://uploads1.wikiart.org/images/norman-rockwell/christmas-trio.jpg |\n| 4 | Parade, 1924 | https://uploads7.wikiart.org/images/norman-rockwell/parade-1924.jpg |\n| 5 | Boy and Girl Gazing at the Moon (Sunset / Puppy Love), 1926 | https://prints.nrm.org/vitruvius/render/1200/260792.jpg |\n| 6 | Pipe and Bowl Sign Painter (Colonial Sign Painter), 1926 | https://uploads0.wikiart.org/images/norman-rockwell/pipe-and-bowl-sign-painter-1926.jpg |\n| 7 | Running with Pie (Fleeing Hobo), 1928 | https://prints.nrm.org/vitruvius/render/1200/260815.jpg |\n| 8 | Kiss (Milkmaid), 1931 | https://prints.nrm.org/vitruvius/render/1200/260842.jpg |\n| 9 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |\n| 10 | Union Station, Chicago, Christmas, 1944 | https://prints.nrm.org/vitruvius/render/1200/260959.jpg |\n| 11 | New Television Antenna (New Television Set), 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |\n| 12 | Fishing (undated on WikiArt) | https://uploads3.wikiart.org/images/norman-rockwell/fishing.jpg (457×600, upscaled 2×) |\n\n## Facts in the caption (to double-check before posting)\n- Kids at the Window was a 1951 Plymouth advertisement: WikiArt title \"Oh boy, it's Pop with a new Plymouth\".\n- Christmas Trio: Saturday Evening Post cover, December 8, 1923 (date on the NRM copy's masthead).\n- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech.\n- Union Station, Chicago: Post cover, December 23, 1944 (masthead date).\n"
  }
 ];

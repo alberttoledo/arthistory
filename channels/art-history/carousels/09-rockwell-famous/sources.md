@@ -1,29 +1,24 @@
-# Sources: Norman Rockwell, the fun ones
+# Sources: Norman Rockwell, a picked set
 
-## Images
-All painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org), cropped to fill 1080×1350. They are copyrighted works, used at the account owner's direction, not public domain.
+The paintings were chosen by the account owner from WikiArt's Norman Rockwell page (https://www.wikiart.org/en/norman-rockwell). Images come from WikiArt, or from the Norman Rockwell Museum custom-prints site (prints.nrm.org) where its copy was better. These are copyrighted works, apart from pre-1931 published covers, which are public domain in the US. They are used at the account owner's direction.
 
-| Slide | Work | Render URL |
+| Slide | Work | Image |
 |---|---|---|
-| 1 (cover) | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |
-| 2 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |
-| 3 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |
-| 4 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |
-| 5 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |
-| 6 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |
-| 7 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |
-| 8 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |
-| 9 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |
-| 10 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |
-| 11 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |
-| 12 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |
+| 1 (cover) | Kids at the Window ("Oh boy, it's Pop with a new Plymouth"), 1951 | https://uploads0.wikiart.org/images/norman-rockwell/oh-boy-it-s-pop-with-a-new-plymouth-1951.jpg |
+| 2 | They Remembered Me, 1917 | https://uploads1.wikiart.org/images/norman-rockwell/they-remembered-me-1917.jpg |
+| 3 | Christmas Trio, 1923 | https://uploads1.wikiart.org/images/norman-rockwell/christmas-trio.jpg |
+| 4 | Parade, 1924 | https://uploads7.wikiart.org/images/norman-rockwell/parade-1924.jpg |
+| 5 | Boy and Girl Gazing at the Moon (Sunset / Puppy Love), 1926 | https://prints.nrm.org/vitruvius/render/1200/260792.jpg |
+| 6 | Pipe and Bowl Sign Painter (Colonial Sign Painter), 1926 | https://uploads0.wikiart.org/images/norman-rockwell/pipe-and-bowl-sign-painter-1926.jpg |
+| 7 | Running with Pie (Fleeing Hobo), 1928 | https://prints.nrm.org/vitruvius/render/1200/260815.jpg |
+| 8 | Kiss (Milkmaid), 1931 | https://prints.nrm.org/vitruvius/render/1200/260842.jpg |
+| 9 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |
+| 10 | Union Station, Chicago, Christmas, 1944 | https://prints.nrm.org/vitruvius/render/1200/260959.jpg |
+| 11 | New Television Antenna (New Television Set), 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |
+| 12 | Fishing (undated on WikiArt) | https://uploads3.wikiart.org/images/norman-rockwell/fishing.jpg (457×600, upscaled 2×) |
 
 ## Facts in the caption (to double-check before posting)
-- The Connoisseur: Rockwell made the abstract canvas himself in Pollock's drip style. https://en.wikipedia.org/wiki/The_Connoisseur_(Rockwell)
-- Rosie's pose comes from Michelangelo's Isaiah. https://crystalbridges.org/artworks/2007-178
-- Art Critic: models were his son Jarvis and his wife Mary. https://www.nrm.org (Art Critic, 1955)
-- The Runaway: trooper Richard Clemens and boy Eddie Locke. https://en.wikipedia.org/wiki/The_Runaway_(painting)
-- Tattoo Artist: the sailor's arm has a list of crossed-out women's names. https://www.brooklynmuseum.org (Tattoo Artist, 1944)
-- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh. https://en.wikipedia.org/wiki/Triple_Self-Portrait
-- Game Called Because of Rain (Tough Call): umpires Beans Reardon, Lou Jorda and Larry Goetz at Ebbets Field; National Baseball Hall of Fame. https://baseballhall.org
-- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech. https://en.wikipedia.org/wiki/Freedom_from_Want_(painting)
+- Kids at the Window was a 1951 Plymouth advertisement: WikiArt title "Oh boy, it's Pop with a new Plymouth".
+- Christmas Trio: Saturday Evening Post cover, December 8, 1923 (date on the NRM copy's masthead).
+- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech.
+- Union Station, Chicago: Post cover, December 23, 1944 (masthead date).
