@@ -6,17 +6,17 @@ All painting images are 1200px renders from the Norman Rockwell Museum custom-pr
 | Slide | Work | Render URL |
 |---|---|---|
 | 1 (cover) | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |
-| 3 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |
-| 4 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |
-| 5 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |
-| 6 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |
-| 7 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |
-| 8 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |
-| 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |
-| 10 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |
-| 11 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |
-| 12 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |
-| 13 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |
+| 2 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |
+| 3 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |
+| 4 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |
+| 5 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |
+| 6 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |
+| 7 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |
+| 8 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |
+| 9 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |
+| 10 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |
+| 11 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |
+| 12 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |
 
 ## Facts in the caption (to double-check before posting)
 - The Connoisseur: Rockwell made the abstract canvas himself in Pollock's drip style. https://en.wikipedia.org/wiki/The_Connoisseur_(Rockwell)
