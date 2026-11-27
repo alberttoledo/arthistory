@@ -5,7 +5,7 @@ All painting images are 1200px renders from the Norman Rockwell Museum custom-pr
 
 | Slide | Work | Render URL |
 |---|---|---|
-| 2 | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |
+| 1 (cover) | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |
 | 3 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |
 | 4 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |
 | 5 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |

@@ -7,7 +7,7 @@
   "museum": "Various (Norman Rockwell Museum, Crystal Bridges, the Baseball Hall of Fame and private collections)",
   "videoFormat": "None: a gallery carousel following the Freedom from Want reel",
   "hook": "You know these paintings.",
-  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. The Shiner (1953). Black eye, outside the principal's office, and absolutely no regrets.\n2. The Connoisseur (1962). That splatter painting? Rockwell made it himself, dripping paint like Jackson Pollock.\n3. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n4. Art Critic (1955). The student is his son Jarvis. The lady in the painting is his wife, Mary.\n5. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n6. Tattoo Artist (1944). Read the sailor's arm: a list of girlfriends' names, every one crossed out but the newest.\n7. Soda Jerk (1953). One soda jerk, three girls, one very unimpressed dog.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. Doctor and the Doll (1929). A real check-up, for a patient made of porcelain.\n10. Game Called Because of Rain (1949). Three real umpires at Ebbets Field. It now hangs in the Baseball Hall of Fame.\n11. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms.\n12. New Television Set (1949). A brand-new TV antenna on a very old house.\n\nWhich one made you smile first? Save this for later.",
+  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. The Shiner (1953, on the cover). Black eye, outside the principal's office, and absolutely no regrets.\n2. The Connoisseur (1962). That splatter painting? Rockwell made it himself, dripping paint like Jackson Pollock.\n3. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n4. Art Critic (1955). The student is his son Jarvis. The lady in the painting is his wife, Mary.\n5. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n6. Tattoo Artist (1944). Read the sailor's arm: a list of girlfriends' names, every one crossed out but the newest.\n7. Soda Jerk (1953). One soda jerk, three girls, one very unimpressed dog.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. Doctor and the Doll (1929). A real check-up, for a patient made of porcelain.\n10. Game Called Because of Rain (1949). Three real umpires at Ebbets Field. It now hangs in the Baseball Hall of Fame.\n11. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms.\n12. New Television Set (1949). A brand-new TV antenna on a very old house.\n\nWhich one made you smile first? Save this for later.",
   "hashtags": [
     "#normanrockwell",
     "#arthistory",
@@ -25,76 +25,70 @@
       "n": 1,
       "type": "cover",
       "headline": "You know these paintings.",
-      "alt": "A mosaic of nine Rockwell paintings under the headline: You know these paintings. Do you know who painted them?"
+      "alt": "The Shiner (1953): a grinning girl with a black eye on a bench outside the principal's office, under the headline: You know these paintings. Do you know who painted them?"
     },
     {
       "n": 2,
       "type": "painting",
       "headline": "",
-      "alt": "The Shiner, 1953"
+      "alt": "The Connoisseur, 1962"
     },
     {
       "n": 3,
       "type": "painting",
       "headline": "",
-      "alt": "The Connoisseur, 1962"
+      "alt": "Rosie the Riveter, 1943"
     },
     {
       "n": 4,
       "type": "painting",
       "headline": "",
-      "alt": "Rosie the Riveter, 1943"
+      "alt": "Art Critic, 1955"
     },
     {
       "n": 5,
       "type": "painting",
       "headline": "",
-      "alt": "Art Critic, 1955"
+      "alt": "The Runaway, 1958"
     },
     {
       "n": 6,
       "type": "painting",
       "headline": "",
-      "alt": "The Runaway, 1958"
+      "alt": "Tattoo Artist, 1944"
     },
     {
       "n": 7,
       "type": "painting",
       "headline": "",
-      "alt": "Tattoo Artist, 1944"
+      "alt": "Soda Jerk, 1953"
     },
     {
       "n": 8,
       "type": "painting",
       "headline": "",
-      "alt": "Soda Jerk, 1953"
+      "alt": "Triple Self-Portrait, 1960"
     },
     {
       "n": 9,
       "type": "painting",
       "headline": "",
-      "alt": "Triple Self-Portrait, 1960"
+      "alt": "Doctor and the Doll, 1929"
     },
     {
       "n": 10,
       "type": "painting",
       "headline": "",
-      "alt": "Doctor and the Doll, 1929"
+      "alt": "Game Called Because of Rain, 1949"
     },
     {
       "n": 11,
       "type": "painting",
       "headline": "",
-      "alt": "Game Called Because of Rain, 1949"
-    },
-    {
-      "n": 12,
-      "type": "painting",
-      "headline": "",
       "alt": "Freedom from Want, 1943"
     },
     {
-      "n": 13,
+      "n": 12,
       "type": "painting",
       "headline": "",
       "alt": "New Television Set, 1949"

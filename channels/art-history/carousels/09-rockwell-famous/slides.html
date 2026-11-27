@@ -10,13 +10,14 @@
   .s-bleed .bleed { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
   .s-bleed .fx { display:none; }
   .s-bleed .foot { text-shadow:0 1px 3px rgba(0,0,0,.8), 0 0 14px rgba(0,0,0,.5); }
+  .s-single .bleed { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:50% 0%; transform:scale(1.12); transform-origin:50% 8%; }
+  .s-single.shade-bottom::after { height:620px; background:linear-gradient(transparent, rgba(13,11,9,.7) 35%, rgba(13,11,9,.94) 72%); }
 </style></head>
 <body data-title="Rockwell" data-chrome="handle">
-<section class="slide s-cover s-mosaic shade-bottom">
-  <div class="mosaic"><img src="img/shiner.jpg"><img src="img/rosie.jpg"><img src="img/connoisseur.jpg"><img src="img/critic.jpg"><img src="img/triple.jpg"><img src="img/soda.jpg"><img src="img/runaway.jpg"><img src="img/tattoo.jpg"><img src="img/want.jpg"></div>
+<section class="slide s-cover s-mosaic s-single shade-bottom">
+  <img class="bleed" src="img/shiner.jpg">
   <div class="block bottom"><h1 class="h-xl">You know <em>these</em> paintings.</h1><p class="lede">Do you know who painted them?</p></div>
 </section>
-<section class="slide s-bleed"><img class="bleed" src="img/shiner.jpg" style="object-position:50% 50%"></section>
 <section class="slide s-bleed"><img class="bleed" src="img/connoisseur.jpg" style="object-position:50% 50%"></section>
 <section class="slide s-bleed"><img class="bleed" src="img/rosie.jpg" style="object-position:50% 40%"></section>
 <section class="slide s-bleed"><img class="bleed" src="img/critic.jpg" style="object-position:80% 50%"></section>

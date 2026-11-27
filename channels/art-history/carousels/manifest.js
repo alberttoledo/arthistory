@@ -807,7 +807,7 @@ window.CAROUSELS = [
   "museum": "Various (Norman Rockwell Museum, Crystal Bridges, the Baseball Hall of Fame and private collections)",
   "videoFormat": "None: a gallery carousel following the Freedom from Want reel",
   "hook": "You know these paintings.",
-  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. The Shiner (1953). Black eye, outside the principal's office, and absolutely no regrets.\n2. The Connoisseur (1962). That splatter painting? Rockwell made it himself, dripping paint like Jackson Pollock.\n3. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n4. Art Critic (1955). The student is his son Jarvis. The lady in the painting is his wife, Mary.\n5. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n6. Tattoo Artist (1944). Read the sailor's arm: a list of girlfriends' names, every one crossed out but the newest.\n7. Soda Jerk (1953). One soda jerk, three girls, one very unimpressed dog.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. Doctor and the Doll (1929). A real check-up, for a patient made of porcelain.\n10. Game Called Because of Rain (1949). Three real umpires at Ebbets Field. It now hangs in the Baseball Hall of Fame.\n11. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms.\n12. New Television Set (1949). A brand-new TV antenna on a very old house.\n\nWhich one made you smile first? Save this for later.",
+  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. The Shiner (1953, on the cover). Black eye, outside the principal's office, and absolutely no regrets.\n2. The Connoisseur (1962). That splatter painting? Rockwell made it himself, dripping paint like Jackson Pollock.\n3. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n4. Art Critic (1955). The student is his son Jarvis. The lady in the painting is his wife, Mary.\n5. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n6. Tattoo Artist (1944). Read the sailor's arm: a list of girlfriends' names, every one crossed out but the newest.\n7. Soda Jerk (1953). One soda jerk, three girls, one very unimpressed dog.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. Doctor and the Doll (1929). A real check-up, for a patient made of porcelain.\n10. Game Called Because of Rain (1949). Three real umpires at Ebbets Field. It now hangs in the Baseball Hall of Fame.\n11. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms.\n12. New Television Set (1949). A brand-new TV antenna on a very old house.\n\nWhich one made you smile first? Save this for later.",
   "hashtags": [
    "#normanrockwell",
    "#arthistory",
@@ -825,76 +825,70 @@ window.CAROUSELS = [
     "n": 1,
     "type": "cover",
     "headline": "You know these paintings.",
-    "alt": "A mosaic of nine Rockwell paintings under the headline: You know these paintings. Do you know who painted them?"
+    "alt": "The Shiner (1953): a grinning girl with a black eye on a bench outside the principal's office, under the headline: You know these paintings. Do you know who painted them?"
    },
    {
     "n": 2,
     "type": "painting",
     "headline": "",
-    "alt": "The Shiner, 1953"
+    "alt": "The Connoisseur, 1962"
    },
    {
     "n": 3,
     "type": "painting",
     "headline": "",
-    "alt": "The Connoisseur, 1962"
+    "alt": "Rosie the Riveter, 1943"
    },
    {
     "n": 4,
     "type": "painting",
     "headline": "",
-    "alt": "Rosie the Riveter, 1943"
+    "alt": "Art Critic, 1955"
    },
    {
     "n": 5,
     "type": "painting",
     "headline": "",
-    "alt": "Art Critic, 1955"
+    "alt": "The Runaway, 1958"
    },
    {
     "n": 6,
     "type": "painting",
     "headline": "",
-    "alt": "The Runaway, 1958"
+    "alt": "Tattoo Artist, 1944"
    },
    {
     "n": 7,
     "type": "painting",
     "headline": "",
-    "alt": "Tattoo Artist, 1944"
+    "alt": "Soda Jerk, 1953"
    },
    {
     "n": 8,
     "type": "painting",
     "headline": "",
-    "alt": "Soda Jerk, 1953"
+    "alt": "Triple Self-Portrait, 1960"
    },
    {
     "n": 9,
     "type": "painting",
     "headline": "",
-    "alt": "Triple Self-Portrait, 1960"
+    "alt": "Doctor and the Doll, 1929"
    },
    {
     "n": 10,
     "type": "painting",
     "headline": "",
-    "alt": "Doctor and the Doll, 1929"
+    "alt": "Game Called Because of Rain, 1949"
    },
    {
     "n": 11,
     "type": "painting",
     "headline": "",
-    "alt": "Game Called Because of Rain, 1949"
-   },
-   {
-    "n": 12,
-    "type": "painting",
-    "headline": "",
     "alt": "Freedom from Want, 1943"
    },
    {
-    "n": 13,
+    "n": 12,
     "type": "painting",
     "headline": "",
     "alt": "New Television Set, 1949"
@@ -913,9 +907,8 @@ window.CAROUSELS = [
    "09-rockwell-famous/renders/09.jpg",
    "09-rockwell-famous/renders/10.jpg",
    "09-rockwell-famous/renders/11.jpg",
-   "09-rockwell-famous/renders/12.jpg",
-   "09-rockwell-famous/renders/13.jpg"
+   "09-rockwell-famous/renders/12.jpg"
   ],
-  "sources": "# Sources: Norman Rockwell, the fun ones\n\n## Images\nAll painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org), cropped to fill 1080×1350. They are copyrighted works, used at the account owner's direction, not public domain.\n\n| Slide | Work | Render URL |\n|---|---|---|\n| 2 | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |\n| 3 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |\n| 4 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |\n| 5 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |\n| 6 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |\n| 7 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |\n| 8 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |\n| 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |\n| 10 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |\n| 11 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |\n| 12 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |\n| 13 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |\n\n## Facts in the caption (to double-check before posting)\n- The Connoisseur: Rockwell made the abstract canvas himself in Pollock's drip style. https://en.wikipedia.org/wiki/The_Connoisseur_(Rockwell)\n- Rosie's pose comes from Michelangelo's Isaiah. https://crystalbridges.org/artworks/2007-178\n- Art Critic: models were his son Jarvis and his wife Mary. https://www.nrm.org (Art Critic, 1955)\n- The Runaway: trooper Richard Clemens and boy Eddie Locke. https://en.wikipedia.org/wiki/The_Runaway_(painting)\n- Tattoo Artist: the sailor's arm has a list of crossed-out women's names. https://www.brooklynmuseum.org (Tattoo Artist, 1944)\n- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh. https://en.wikipedia.org/wiki/Triple_Self-Portrait\n- Game Called Because of Rain (Tough Call): umpires Beans Reardon, Lou Jorda and Larry Goetz at Ebbets Field; National Baseball Hall of Fame. https://baseballhall.org\n- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech. https://en.wikipedia.org/wiki/Freedom_from_Want_(painting)\n"
+  "sources": "# Sources: Norman Rockwell, the fun ones\n\n## Images\nAll painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org), cropped to fill 1080×1350. They are copyrighted works, used at the account owner's direction, not public domain.\n\n| Slide | Work | Render URL |\n|---|---|---|\n| 1 (cover) | The Shiner, 1953 | https://prints.nrm.org/vitruvius/render/1200/261023.jpg |\n| 3 | The Connoisseur, 1962 | https://prints.nrm.org/vitruvius/render/1200/261064.jpg |\n| 4 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |\n| 5 | Art Critic, 1955 | https://prints.nrm.org/vitruvius/render/1200/261032.jpg |\n| 6 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |\n| 7 | Tattoo Artist, 1944 | https://prints.nrm.org/vitruvius/render/1200/260950.jpg |\n| 8 | Soda Jerk, 1953 | https://prints.nrm.org/vitruvius/render/1200/261024.jpg |\n| 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |\n| 10 | Doctor and the Doll, 1929 | https://prints.nrm.org/vitruvius/render/1200/260820.jpg |\n| 11 | Game Called Because of Rain, 1949 | https://prints.nrm.org/vitruvius/render/1200/261004.jpg |\n| 12 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |\n| 13 | New Television Set, 1949 | https://prints.nrm.org/vitruvius/render/1200/261007.jpg |\n\n## Facts in the caption (to double-check before posting)\n- The Connoisseur: Rockwell made the abstract canvas himself in Pollock's drip style. https://en.wikipedia.org/wiki/The_Connoisseur_(Rockwell)\n- Rosie's pose comes from Michelangelo's Isaiah. https://crystalbridges.org/artworks/2007-178\n- Art Critic: models were his son Jarvis and his wife Mary. https://www.nrm.org (Art Critic, 1955)\n- The Runaway: trooper Richard Clemens and boy Eddie Locke. https://en.wikipedia.org/wiki/The_Runaway_(painting)\n- Tattoo Artist: the sailor's arm has a list of crossed-out women's names. https://www.brooklynmuseum.org (Tattoo Artist, 1944)\n- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh. https://en.wikipedia.org/wiki/Triple_Self-Portrait\n- Game Called Because of Rain (Tough Call): umpires Beans Reardon, Lou Jorda and Larry Goetz at Ebbets Field; National Baseball Hall of Fame. https://baseballhall.org\n- Freedom from Want: one of the Four Freedoms, after FDR's 1941 speech. https://en.wikipedia.org/wiki/Freedom_from_Want_(painting)\n"
  }
 ];
