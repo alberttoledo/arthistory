@@ -1,0 +1,127 @@
+{
+  "slug": "09-rockwell-freedom-from-want",
+  "no": "09",
+  "title": "Freedom from Want",
+  "artist": "Norman Rockwell",
+  "year": "1943",
+  "museum": "Norman Rockwell Museum, Stockbridge, Massachusetts",
+  "mediaDir": "assets/rockwell/web",
+  "rollout": {
+    "teaser": "teaser",
+    "film": "film",
+    "carousel": "carousel"
+  },
+  "pieces": [
+    {
+      "id": "teaser",
+      "role": "teaser",
+      "title": "Rockwell talking portrait",
+      "takes": [
+        {
+          "id": "raw-a",
+          "file": "assets/rockwell/teaser/takes/teaser_raw.mp4",
+          "label": "Talking portrait, raw Seedance output (480p)",
+          "width": 480,
+          "height": 854,
+          "seconds": 12.1,
+          "tool": "Seedance 2.5 on Higgsfield",
+          "refs": [
+            "assets/rockwell/teaser/first_frame_9x16.png"
+          ],
+          "note": "The signature from the first frame came through; removed locally in teaser_clean."
+        },
+        {
+          "id": "raw-b",
+          "file": "assets/rockwell/teaser/takes/teaser_raw_b.mp4",
+          "label": "Talking portrait, raw take B (720p)",
+          "width": 720,
+          "height": 1280,
+          "seconds": 12.1,
+          "tool": "Seedance 2.5 on Higgsfield",
+          "refs": [
+            "assets/rockwell/teaser/first_frame_9x16.png"
+          ]
+        },
+        {
+          "id": "final-1080",
+          "file": "assets/rockwell/teaser/teaser.mp4",
+          "label": "Final 1080p, signature removed",
+          "width": 1080,
+          "height": 1920,
+          "seconds": 12.0,
+          "process": "Local signature removal (tracked texture fill)",
+          "tool": "ffmpeg + sharp"
+        },
+        {
+          "id": "captioned",
+          "file": "assets/rockwell/teaser/renders/teaser_captioned.mp4",
+          "label": "Captioned edit, 1080p",
+          "width": 1080,
+          "height": 1920,
+          "seconds": 12.0,
+          "derivedFrom": "final-1080",
+          "process": "Remotion captions (assets/rockwell/teaser/captions.json)",
+          "tool": "Remotion",
+          "final": true,
+          "confirmed": true,
+          "note": "Lines: “Every November, you share my Thanksgiving painting.” / “I never painted Thanksgiving. Tomorrow, step in and learn what I actually painted.” Prompts in assets/rockwell/teaser/prompts.md."
+        }
+      ],
+      "stills": [
+        "assets/rockwell/teaser/source_sketch.png",
+        "assets/rockwell/teaser/first_frame_9x16.png"
+      ]
+    },
+    {
+      "id": "film",
+      "role": "film",
+      "kind": "story-film",
+      "title": "B-roll film: Thanksgiving, alive (21 s)",
+      "takes": [
+        {
+          "id": "final",
+          "file": "assets/rockwell/film/export/final.mp4",
+          "label": "Final Edits export, 1440×2560",
+          "width": 1440,
+          "height": 2560,
+          "seconds": 21.2,
+          "tool": "Seedance 2.5 on Higgsfield, cut in Meta Edits",
+          "process": "Edited in Meta Edits: music “Vintage November”, light-yellow captions, dissolve into the painting",
+          "final": true,
+          "confirmed": true,
+          "note": "Shot prompts in assets/rockwell/film/prompts.md. Reel cover: assets/rockwell/film/cover/cover_1080x1920.jpg."
+        }
+      ],
+      "stills": [
+        "assets/rockwell/film/cover/cover_1080x1920.jpg",
+        "assets/rockwell/film/stills/shot01.png",
+        "assets/rockwell/film/stills/shot04.png",
+        "assets/rockwell/film/stills/shot09.png",
+        "assets/rockwell/film/stills/painting_9x16.png"
+      ]
+    },
+    {
+      "id": "carousel",
+      "role": "carousel",
+      "title": "Carousel: Rockwell's most famous paintings",
+      "carousel": "09-rockwell-famous",
+      "status": "final"
+    }
+  ],
+  "posts": [
+    {
+      "piece": "teaser",
+      "platform": "instagram",
+      "at": "2026-11-25",
+      "status": "planned",
+      "note": "Teaser, the day before Thanksgiving."
+    },
+    {
+      "piece": "film",
+      "platform": "instagram",
+      "at": "2026-11-26",
+      "status": "planned",
+      "note": "Thanksgiving. Location tag: Norman Rockwell Museum."
+    }
+  ]
+}

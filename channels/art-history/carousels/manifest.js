@@ -509,7 +509,7 @@ window.CAROUSELS = [
   "museum": "Stanza della Segnatura, Vatican Museums",
   "videoFormat": "Step-inside-the-painting flythrough loop (9:16)",
   "hook": "Every genius in one room.",
-  "caption": "Every genius in one room. Can you name them?\n\nRaphael painted The School of Athens on a wall in the Vatican in 1509–11, and filled it with thinkers who lived centuries apart. Plato and Aristotle argue at the centre. Diogenes sprawls on the steps. Pythagoras and Euclid work out the numbers. And one young man in a black cap is looking straight back at you.\n\nSwipe for all eight, then find them on the map at the end.\n\nWhich one would you want to meet?",
+  "caption": "THE GREATEST GATHERING IN HISTORY\n\nWhat if the greatest minds in history had all walked into the same room?\n\nRaphael painted them together. Can you recognize them all?",
   "hashtags": [
    "#schoolofathens",
    "#raphael",
@@ -522,64 +522,74 @@ window.CAROUSELS = [
     "n": 1,
     "type": "cover",
     "headline": "Every genius in one room.",
-    "alt": "The vaulted hall of the School of Athens with the crowd of philosophers small on the steps below."
+    "alt": "The vaulted hall of the School of Athens with the crowd of philosophers small on the steps below.",
+    "caption": "THE GREATEST GATHERING IN HISTORY\n\nWhat if the greatest minds in history had all walked into the same room?\n\nRaphael painted them together. Can you recognize them all?"
    },
    {
     "n": 2,
     "type": "who",
-    "headline": "One points up. One points down.",
-    "alt": "Plato pointing upward with his Timaeus beside Aristotle holding his palm over the ground, Ethics under his arm. Numbered 01 of 08."
+    "headline": "Plato and Aristotle, you all know. But what about the rest?",
+    "alt": "Plato pointing upward with his Timaeus beside Aristotle holding his palm over the ground, Ethics under his arm.",
+    "caption": "TWO MEN. TWO WORLDS.\n\nOne points to the heavens. The other, to the earth.\n\nPlato and Aristotle. Two different ways of understanding the universe."
    },
    {
     "n": 3,
     "type": "who",
-    "headline": "The man who rejected everything.",
-    "alt": "Diogenes sprawled alone across the marble steps in a blue robe, reading a sheet. Numbered 02."
+    "headline": "Diogenes",
+    "alt": "Diogenes sprawled alone across the marble steps in a blue robe, reading a sheet.",
+    "caption": "THE MAN WHO REJECTED EVERYTHING\n\nDiogenes. The philosopher who challenged wealth, power and social conventions."
    },
    {
     "n": 4,
     "type": "who",
-    "headline": "The man who heard the numbers.",
-    "alt": "Pythagoras writing in a book on his knee while a boy holds a slate of musical ratios. Numbered 03."
+    "headline": "Pythagoras",
+    "alt": "Pythagoras writing in a book on his knee while a boy holds a slate of musical ratios.",
+    "caption": "THE MATHEMATICIAN\n\nPythagoras. The man who saw the universe through numbers and mathematical harmony."
    },
    {
     "n": 5,
     "type": "who",
-    "headline": "The man drawing on the floor.",
-    "alt": "Euclid, bald, bending over a slate with a compass as students crowd round. Numbered 04."
+    "headline": "Euclid",
+    "alt": "Euclid, bald, bending over a slate with a compass as students crowd round.",
+    "caption": "THE MAN DRAWING ON THE FLOOR\n\nEuclid. Geometry was his language, and the compass in his hand gives him away."
    },
    {
     "n": 6,
     "type": "who",
-    "headline": "The loneliest man in the room.",
-    "alt": "Heraclitus sitting alone against a marble block, chin on his fist, writing. Numbered 05."
+    "headline": "Heraclitus",
+    "alt": "Heraclitus sitting alone against a marble block, chin on his fist, writing.",
+    "caption": "THE LONELY THINKER\n\nHeraclitus. Seated alone, absorbed in thought. His face is believed to be modeled after Michelangelo."
    },
    {
     "n": 7,
     "type": "who",
-    "headline": "Two men holding the world.",
-    "alt": "Bearded Zoroaster holding a starry sphere and crowned Ptolemy, seen from behind, holding a globe of the Earth. Numbered 06."
+    "headline": "Zoroaster & Ptolemy",
+    "alt": "Bearded Zoroaster holding a starry sphere and crowned Ptolemy, seen from behind, holding a globe of the Earth.",
+    "caption": "THE TWO MEN HOLDING THE GLOBES\n\nPtolemy and Zoroaster. One holds the terrestrial globe, the other the celestial sphere."
    },
    {
     "n": 8,
     "type": "who",
-    "headline": "The man who questioned everything.",
-    "alt": "Socrates in an olive robe counting on his fingers to a young listener. Numbered 07."
+    "headline": "Socrates",
+    "alt": "Socrates in an olive robe counting on his fingers to a young listener.",
+    "caption": "THE QUESTIONER\n\nSocrates. Surrounded by listeners, doing what he did best: questioning everything."
    },
    {
     "n": 9,
     "type": "who",
-    "headline": "The painter hid himself inside.",
-    "alt": "Raphael in a black cap at the far right, looking out at the viewer beside an older man in a white cap. Numbered 08."
+    "headline": "Raphael",
+    "alt": "Raphael in a black cap at the far right, looking out at the viewer beside an older man in a white cap.",
+    "caption": "THE ARTIST HIDING IN HIS OWN PAINTING\n\nRaphael included himself among the philosophers. Can you find him?"
    },
    {
     "n": 10,
     "type": "map",
-    "headline": "One wall. A world of ideas.",
-    "alt": "The whole fresco in a gold frame with eight numbered gold discs on the figures, and a key listing their names."
+    "headline": "The School of Athens, mapped",
+    "alt": "The whole fresco in a gold frame with eight numbered gold discs on the figures, and a key listing their names.",
+    "caption": "ONE PAINTING. AN ENTIRE WORLD OF IDEAS.\n\nMore than 500 years later, we're still discovering the people, ideas and stories hidden inside this masterpiece.\n\nWhich philosopher would you have wanted to meet?"
    }
   ],
-  "notes": "Who's-who style (new, 21 Nov 2026): one numbered figure per slide, full-bleed crops from the 17402 px Commons scan, numeral in the text block so it never covers a face, then a map numbering all eight. Slide 2 (Plato & Aristotle) doubles as the second hook. Old story version: archive/slides-story-v1.html (its images in img/archive/). Identifications are traditional; Euclid/Bramante and Heraclitus/Michelangelo hedged ('said to be', 'widely read as'); Zoroaster/Ptolemy hedged 'traditionally'. Raphael's self-portrait stated by the Vatican Museums. Map discs placed by eye on each figure's head.",
+  "notes": "Captions are per slide (slides[].caption, the owner's text, verbatim); top-level caption = slide 1's. Slides 3-10 carry only the number and name. Who's-who style (new, 21 Nov 2026): one figure per slide (no slide numbers), full-bleed crops from the 17402 px Commons scan, numeral in the text block so it never covers a face, then a map numbering all eight. Slide 2 (Plato & Aristotle) doubles as the second hook. Old story version: archive/slides-story-v1.html (its images in img/archive/). Identifications are traditional; Euclid/Bramante and Heraclitus/Michelangelo hedged ('said to be', 'widely read as'); Zoroaster/Ptolemy hedged 'traditionally'. Raphael's self-portrait stated by the Vatican Museums. Map discs placed by eye on each figure's head.",
   "renders": [
    "06-raphael-school-of-athens/renders/01.jpg",
    "06-raphael-school-of-athens/renders/02.jpg",
@@ -787,5 +797,104 @@ window.CAROUSELS = [
    "08-leonardo-last-supper/renders/10.jpg"
   ],
   "sources": "# Sources: No. 08, The Last Supper\n\n## Facts\n- Size 460 × 880 cm; c. 1495–98; tempera on a dry wall prepared with gesso, pitch and mastic; the moment after \"one of you will betray me\" (John 13); apostles in four groups of three (Bartholomew, James son of Alphaeus, Andrew / Judas, Peter, John / Thomas, James the Greater, Philip / Matthew, Jude Thaddeus, Simon); Peter holds a knife; Judas in shadow clutching a small bag; \"betraying the salt\" (hedged); Christ's head at the vanishing point; Vasari's \"muddle of blots\" (1556); 1796 French troops used the refectory as an armoury and stable; Giampietrino copy (c. 1520, Royal Academy) preserves Christ's feet and Judas's spilled salt and guided the 1978–99 restoration; The Da Vinci Code / Mary Magdalene vs John. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n- Oil and tempera on a dry wall; deterioration by 1517; door cut c. 1652 \"destroying the area in which Jesus's feet were depicted\"; French forces used the refectory as stables (1796); 1943 RAF bomb destroyed the refectory roof; painting protected by sandbags, mattresses and pillows; Pinin Brambilla Barcilon's 21-year restoration, finished 28 May 1999. https://en.wikipedia.org/wiki/Conservation-restoration_of_Leonardo_da_Vinci%27s_The_Last_Supper\n- Nail hole in Christ's head found during restoration, used for the perspective strings: arte.it, https://www.arte.it/leonardo/loc/ultima-cena-211 ; also https://discoveringdavinci.com/works/paintings/last-supper/composition-and-perspective.html (secondary sources, so hedged as \"likely\" in the copy)\n- Giampietrino and Boltraffio copy, Royal Academy of Arts, c. 1515–20, oil on canvas, 302 × 785 cm: https://www.royalacademy.org.uk/art-artists/work-of-art/the-last-supper and https://artsandculture.google.com/story/IQWBB2AzvHUmKQ\n- Head of Judas, red chalk on red prepared paper, c. 1495 or later, RCIN 912547. The catalogue says it \"registers mild surprise rather than evil intent.\" https://col.rct.uk/collection/912547/the-head-of-judas\n- Kicker on slide 5: \"One of you will betray me.\" paraphrase of John 13:21.\n- Bandello's account (Leonardo painting dawn to dusk without eating; other days only contemplating, then climbing up for a stroke or two): Matteo Bandello, preface to Novella I.58, written decades later from memory. Summaries: https://www.ebsco.com/research-starters/history/leonardo-da-vinci-paints-last-supper and Charles Nicholl, Leonardo da Vinci: The Flights of the Mind, https://erenow.org/biographies/leonardo-da-vinci-the-flights-of-the-mind/50.php . Bandello was the nephew of the prior, Vincenzo Bandello: https://en.wikipedia.org/wiki/Vincenzo_Bandello\n- 1517, Antonio de Beatis: \"is beginning to decay\": Cenacolo Vinciano museum, https://cenacolovinciano.org/en/museum/backstage/ ; context (visit with Cardinal Luigi d'Aragona, Dec 1517): Zöllner, https://archiv.ub.uni-heidelberg.de/artdok/4643/1/Zoellner_Leonardo_da_Vincis_Abendmahl_Zwischen_Kanonisierung_und_Kontextualisierung.pdf\n- Fresco vs secco: true fresco is painted into wet plaster in daily sections; Leonardo's tempera and oil on a dry, primed wall let him work slowly and revise, but didn't bond with the wall. https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)\n\n## Images\n| File | Source | Licence |\n|---|---|---|\n| img/cover.jpg, full.jpg, persp.jpg, philip.jpg, christ_wide.jpg, triad1–4.jpg, judas.jpg, john.jpg, door_orig.jpg, flake.jpg, glass_loupe.jpg (from _raw/lastsupper_9600.jpg, also saved as assets/lastsupper/lastsupper_full_9600.jpg) | \"The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg\", 9600 × 4800, https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg | Public domain |\n| img/door_copy.jpg (unused now), img/feet_copy.jpg (Christ's feet), both from _raw/giampietrino_2100.jpg | \"Giampietrino-Last-Supper-ca-1520.jpg\", https://commons.wikimedia.org/wiki/File:Giampietrino-Last-Supper-ca-1520.jpg | Public domain |\n| _raw/giampietrino_ra.jpg (unused) | https://commons.wikimedia.org/wiki/File:Giampietrino_(active_1500-1550)_-_The_Last_Supper_(copy_after_Leonardo_da_Vinci)_-_03-1230_-_Royal_Academy_of_Arts.jpg | Public domain |\n| img/study_venice.jpg | \"Leonardo da vinci, Study for the Last Supper.jpg\", red chalk, c. 1494–95, Gallerie dell'Accademia, Venice, https://commons.wikimedia.org/wiki/File:Leonardo_da_vinci,_Study_for_the_Last_Supper.jpg | Public domain |\n| img/judas_drawing.jpg | \"Leonardo da Vinci - RCIN 912547, The head of Judas c.1495 or later.jpg\", https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_RCIN_912547,_The_head_of_Judas_c.1495_or_later.jpg | Public domain |\n| _raw/stjames_jacobus.jpg (unused) | \"Jacobus Maior (da Vinci).jpg\", https://commons.wikimedia.org/wiki/File:Jacobus_Maior_(da_Vinci).jpg | Public domain |\n| img/bomb1943.jpg | \"Santa Maria delle Grazie (Milan) - bombardamento del 1943.jpg\", unknown photographer, https://commons.wikimedia.org/wiki/File:Santa_Maria_delle_Grazie_(Milan)_-_bombardamento_del_1943.jpg | Public domain (as tagged on Commons; 676 px only) |\n| img/first_frame.jpg (unused now) | Our film's first frame: assets/lastsupper/lastsupper_first_frame_ai.png | Ours |\n"
+ },
+ {
+  "slug": "09-rockwell-famous",
+  "no": "09",
+  "title": "Norman Rockwell: the famous ones",
+  "artist": "Norman Rockwell",
+  "year": "1943–1964",
+  "museum": "Various (Norman Rockwell Museum, Crystal Bridges and private collections)",
+  "videoFormat": "None: a gallery carousel following the Freedom from Want reel",
+  "hook": "You know these paintings.",
+  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms, painted after FDR's 1941 speech.\n2. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n3. Freedom of Speech (1943). A real Vermont town meeting, where one man stood up to disagree.\n4. Saying Grace (1951). It sold for $46 million in 2013, a record for Rockwell.\n5. Girl at the Mirror (1954). There's a movie star's photo in her lap.\n6. Breaking Home Ties (1954). A copy hung in a museum for decades. The original was hidden behind a wall.\n7. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. The Problem We All Live With (1964). Six-year-old Ruby Bridges walking to school in New Orleans, 1960.\n\nWhich one did you recognise first? Save this for later.",
+  "hashtags": [
+   "#normanrockwell",
+   "#arthistory",
+   "#americanart",
+   "#rosietheriveter",
+   "#freedomfromwant",
+   "#rubybridges",
+   "#saturdayeveningpost",
+   "#illustration",
+   "#painting",
+   "#artlovers"
+  ],
+  "slides": [
+   {
+    "n": 1,
+    "type": "cover",
+    "headline": "You know these paintings.",
+    "alt": "A mosaic of six Rockwell paintings under the headline: You know these paintings. Do you know who painted them?"
+   },
+   {
+    "n": 2,
+    "type": "painting",
+    "headline": "",
+    "alt": "Freedom from Want, 1943"
+   },
+   {
+    "n": 3,
+    "type": "painting",
+    "headline": "",
+    "alt": "Rosie the Riveter, 1943"
+   },
+   {
+    "n": 4,
+    "type": "painting",
+    "headline": "",
+    "alt": "Freedom of Speech, 1943"
+   },
+   {
+    "n": 5,
+    "type": "painting",
+    "headline": "",
+    "alt": "Saying Grace, 1951"
+   },
+   {
+    "n": 6,
+    "type": "painting",
+    "headline": "",
+    "alt": "Girl at the Mirror, 1954"
+   },
+   {
+    "n": 7,
+    "type": "painting",
+    "headline": "",
+    "alt": "Breaking Home Ties, 1954"
+   },
+   {
+    "n": 8,
+    "type": "painting",
+    "headline": "",
+    "alt": "The Runaway, 1958"
+   },
+   {
+    "n": 9,
+    "type": "painting",
+    "headline": "",
+    "alt": "Triple Self-Portrait, 1960"
+   },
+   {
+    "n": 10,
+    "type": "painting",
+    "headline": "",
+    "alt": "The Problem We All Live With, 1964"
+   }
+  ],
+  "notes": "Painting slides carry no text by request; all information is in the caption. Images are NRM custom-print renders (1200px, copyrighted works, used at the user's direction). The cover's Ruby Bridges tile is cropped below the slur written on the wall in the painting; the full painting on slide 10 shows it as Rockwell painted it.",
+  "renders": [
+   "09-rockwell-famous/renders/01.jpg",
+   "09-rockwell-famous/renders/02.jpg",
+   "09-rockwell-famous/renders/03.jpg",
+   "09-rockwell-famous/renders/04.jpg",
+   "09-rockwell-famous/renders/05.jpg",
+   "09-rockwell-famous/renders/06.jpg",
+   "09-rockwell-famous/renders/07.jpg",
+   "09-rockwell-famous/renders/08.jpg",
+   "09-rockwell-famous/renders/09.jpg",
+   "09-rockwell-famous/renders/10.jpg"
+  ],
+  "sources": "# Sources: Norman Rockwell, the famous ones\n\n## Images\nAll painting images are 1200px renders from the Norman Rockwell Museum custom-prints site (prints.nrm.org). They are copyrighted works (© the Norman Rockwell Family Agency / Curtis Licensing, depending on the work), used at the account owner's direction, not public domain.\n\n| Slide | Work | Render URL |\n|---|---|---|\n| 2 | Freedom from Want, 1943 | https://prints.nrm.org/vitruvius/render/1200/260939.jpg |\n| 3 | Rosie the Riveter, 1943 | https://prints.nrm.org/vitruvius/render/1200/260943.jpg |\n| 4 | Freedom of Speech, 1943 | https://prints.nrm.org/vitruvius/render/1200/260937.jpg |\n| 5 | Saying Grace, 1951 | https://prints.nrm.org/vitruvius/render/1200/261014.jpg |\n| 6 | Girl at the Mirror, 1954 | https://prints.nrm.org/vitruvius/render/1200/261027.jpg |\n| 7 | Breaking Home Ties, 1954 | https://prints.nrm.org/vitruvius/render/1200/261030.jpg |\n| 8 | The Runaway, 1958 | https://prints.nrm.org/vitruvius/render/1200/261048.jpg |\n| 9 | Triple Self-Portrait, 1960 | https://prints.nrm.org/vitruvius/render/1200/261054.jpg |\n| 10 | The Problem We All Live With, 1964 | https://prints.nrm.org/vitruvius/render/1200/274852.jpg |\n\nThe public-domain NARA scans of the Four Freedoms posters are in `img/_raw/want.jpg` and `speech.jpg` (Wikimedia Commons, NARA 513539 and 513536). They weren't used because they are washed-out poster prints.\n\n## Facts in the caption (to double-check before posting)\n- Four Freedoms inspired by FDR's January 1941 State of the Union: https://www.nrm.org (Four Freedoms pages); https://en.wikipedia.org/wiki/Four_Freedoms_(paintings)\n- Rosie's pose comes from Michelangelo's Isaiah: Crystal Bridges, https://crystalbridges.org/artworks/2007-178 ; Smarthistory\n- Freedom of Speech was based on an Arlington, Vermont town meeting: https://en.wikipedia.org/wiki/Freedom_of_Speech_(painting)\n- Saying Grace sold for $46M at Sotheby's in December 2013: https://en.wikipedia.org/wiki/Saying_Grace_(Rockwell)\n- Girl at the Mirror has a movie-star photo (Jane Russell) in her lap: NRM\n- Breaking Home Ties: Don Trachte hid the original behind a false wall, and a copy hung at the NRM; found in 2006: https://en.wikipedia.org/wiki/Breaking_Home_Ties\n- The Runaway: trooper Richard Clemens and boy Eddie Locke, Stockbridge neighbours: https://en.wikipedia.org/wiki/The_Runaway_(painting)\n- Triple Self-Portrait pins up Dürer, Rembrandt, Picasso and Van Gogh self-portraits: https://en.wikipedia.org/wiki/Triple_Self-Portrait\n- The Problem We All Live With: Ruby Bridges, age 6, New Orleans, November 1960; Look magazine, 1964: https://en.wikipedia.org/wiki/The_Problem_We_All_Live_With\n"
  }
 ];

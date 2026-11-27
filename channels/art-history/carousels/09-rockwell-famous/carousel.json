@@ -1,0 +1,86 @@
+{
+  "slug": "09-rockwell-famous",
+  "no": "09",
+  "title": "Norman Rockwell: the famous ones",
+  "artist": "Norman Rockwell",
+  "year": "1943–1964",
+  "museum": "Various (Norman Rockwell Museum, Crystal Bridges and private collections)",
+  "videoFormat": "None: a gallery carousel following the Freedom from Want reel",
+  "hook": "You know these paintings.",
+  "caption": "You know these paintings. Most people don't know his name: Norman Rockwell.\n\n1. Freedom from Want (1943). The Thanksgiving painting that wasn't about Thanksgiving. It was one of his Four Freedoms, painted after FDR's 1941 speech.\n2. Rosie the Riveter (1943). Her pose is borrowed from Michelangelo's prophet Isaiah on the Sistine Chapel ceiling.\n3. Freedom of Speech (1943). A real Vermont town meeting, where one man stood up to disagree.\n4. Saying Grace (1951). It sold for $46 million in 2013, a record for Rockwell.\n5. Girl at the Mirror (1954). There's a movie star's photo in her lap.\n6. Breaking Home Ties (1954). A copy hung in a museum for decades. The original was hidden behind a wall.\n7. The Runaway (1958). The trooper and the boy were real neighbours who posed for him.\n8. Triple Self-Portrait (1960). Pinned to his canvas: Dürer, Rembrandt, Picasso and Van Gogh.\n9. The Problem We All Live With (1964). Six-year-old Ruby Bridges walking to school in New Orleans, 1960.\n\nWhich one did you recognise first? Save this for later.",
+  "hashtags": [
+    "#normanrockwell",
+    "#arthistory",
+    "#americanart",
+    "#rosietheriveter",
+    "#freedomfromwant",
+    "#rubybridges",
+    "#saturdayeveningpost",
+    "#illustration",
+    "#painting",
+    "#artlovers"
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "type": "cover",
+      "headline": "You know these paintings.",
+      "alt": "A mosaic of six Rockwell paintings under the headline: You know these paintings. Do you know who painted them?"
+    },
+    {
+      "n": 2,
+      "type": "painting",
+      "headline": "",
+      "alt": "Freedom from Want, 1943"
+    },
+    {
+      "n": 3,
+      "type": "painting",
+      "headline": "",
+      "alt": "Rosie the Riveter, 1943"
+    },
+    {
+      "n": 4,
+      "type": "painting",
+      "headline": "",
+      "alt": "Freedom of Speech, 1943"
+    },
+    {
+      "n": 5,
+      "type": "painting",
+      "headline": "",
+      "alt": "Saying Grace, 1951"
+    },
+    {
+      "n": 6,
+      "type": "painting",
+      "headline": "",
+      "alt": "Girl at the Mirror, 1954"
+    },
+    {
+      "n": 7,
+      "type": "painting",
+      "headline": "",
+      "alt": "Breaking Home Ties, 1954"
+    },
+    {
+      "n": 8,
+      "type": "painting",
+      "headline": "",
+      "alt": "The Runaway, 1958"
+    },
+    {
+      "n": 9,
+      "type": "painting",
+      "headline": "",
+      "alt": "Triple Self-Portrait, 1960"
+    },
+    {
+      "n": 10,
+      "type": "painting",
+      "headline": "",
+      "alt": "The Problem We All Live With, 1964"
+    }
+  ],
+  "notes": "Painting slides carry no text by request; all information is in the caption. Images are NRM custom-print renders (1200px, copyrighted works, used at the user's direction). The cover's Ruby Bridges tile is cropped below the slur written on the wall in the painting; the full painting on slide 10 shows it as Rockwell painted it."
+}

@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../_brand/brand.css">
+<style>
+  /* Rockwell's most famous works: a title cover, then one painting per slide, no text. Everything else lives in the caption. */
+  .mosaic { position:absolute; inset:-6px; display:grid; grid-template-columns:repeat(3,1fr); grid-template-rows:repeat(3,1fr); gap:6px; background:var(--ink); }
+  .mosaic img { width:100%; height:100%; object-fit:cover; object-position:50% 30%; display:block; }
+  .s-mosaic.shade-bottom::after { height:780px; background:linear-gradient(transparent, rgba(13,11,9,.78) 38%, rgba(13,11,9,.96) 70%); }
+  .s-mosaic .block.bottom { bottom:150px; }
+  .s-mosaic .h-xl { font-size:150px; margin:0 0 26px; text-shadow:0 2px 24px rgba(0,0,0,.6); }
+  .s-mosaic .lede { font-size:44px; }
+  .s-work .stage { position:absolute; left:var(--pad); right:var(--pad); top:140px; bottom:140px; display:flex; align-items:center; justify-content:center; }
+  .s-work .pf { outline:2px solid var(--gold); outline-offset:14px; box-shadow:0 40px 90px rgba(0,0,0,.65); line-height:0; }
+  .s-work .pf img { display:block; max-width:900px; max-height:1050px; }
+</style></head>
+<body data-title="Rockwell" data-chrome="handle">
+<section class="slide s-cover s-mosaic shade-bottom">
+  <div class="mosaic"><img src="img/want.jpg"><img src="img/rosie.jpg"><img src="img/problem_tile.jpg"><img src="img/grace.jpg"><img src="img/triple.jpg"><img src="img/mirror.jpg"><img src="img/runaway.jpg"><img src="img/speech.jpg"><img src="img/hometies.jpg"></div>
+  <div class="block bottom"><h1 class="h-xl">You know <em>these</em> paintings.</h1><p class="lede">Do you know who painted them?</p></div>
+</section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/want.jpg" alt="Freedom from Want, 1943"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/rosie.jpg" alt="Rosie the Riveter, 1943"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/speech.jpg" alt="Freedom of Speech, 1943"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/grace.jpg" alt="Saying Grace, 1951"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/mirror.jpg" alt="Girl at the Mirror, 1954"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/hometies.jpg" alt="Breaking Home Ties, 1954"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/runaway.jpg" alt="The Runaway, 1958"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/triple.jpg" alt="Triple Self-Portrait, 1960"></div></div></section>
+<section class="slide s-work"><div class="stage"><div class="pf"><img src="img/problem.jpg" alt="The Problem We All Live With, 1964"></div></div></section>
+<script src="../_brand/brand.js"></script></body></html>
